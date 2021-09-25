@@ -1,29 +1,26 @@
-We stored these documents in the below link
+Bed Leveling Sensor: PL-08N, ZL sensor, Bltouch wiring and debug guide
+Purchase link:
+PL-08N: https://www.aliexpress.com/item/4000596309710.html
+ZL-Sensor: https://www.aliexpress.com/item/1005002865311470.html
+3D Touch: https://www.aliexpress.com/item/1005001464420529.html
 
-User guide:
-Z5X>>https://www.jianguoyun.com/p/DeOaW8IQyoP1BxjIxsUD
+Direct Drive Extruder: By using the Direct Drive Extruder, the printer can print flexible filament (e.g. TPU filament) and get better printing quality.
+Purchase link: https://www.aliexpress.com/item/1005002847644867.html
 
-Z6>>>https://www.jianguoyun.com/p/DS84n7sQyoP1BxjLxsUD
+FROD: Filament RunOut Sensor use a mechanical switch to check for the presence of filament in the feeder. If the filament runs out, the 3d printer will pause print and wait until you replace a new spool of filament.
+Purchase link: https://www.aliexpress.com/item/4001309957376.html
 
-Z8T>> https://www.jianguoyun.com/p/DVLOaWYQyoP1BxiZpswD
+HOTEND: ZONESTAR has been promoting the development of color FDM 3d printing technology, we have introduced different types of hot ends to meet the needs of multi-color printing.
+R3 3-IN-3-OUT HOTEND: https://www.aliexpress.com/item/1005001275429959.html
+M2P1  3-IN-2-OUT Mixing Color Hotend: https://www.aliexpress.com/item/1005001275429959.html
+M3  3-IN-1-OUT Mixing Color Hotend: https://www.aliexpress.com/item/1005001275429959.html
+M4  4-IN-1-OUT Mixing Color Hotend: https://www.aliexpress.com/item/1005002124027691.html
+E4 4-IN-1-OUT Non-Mixing Color Hotend: https://www.aliexpress.com/item/1005002951777699.html
 
-Z9M3>https://www.jianguoyun.com/p/DWveP4MQyoP1Bxjhx80D
+Laser Engraving:
 
-Z9M4>https://www.jianguoyun.com/p/DQAlMeYQyoP1Bxjsx80D
+Motor Drive Module:
 
-Z9V5>https://www.jianguoyun.com/p/DSZhGDAQyoP1BxjohN0D 
+TFT-LCD:
 
-Upgrade kit ( Laser and TFT-LCD etc.) >>https://www.jianguoyun.com/p/DcF6oNAQyoP1BxiJhtsD directory: ZONESTAR Upgrade Kit
-
-Operation guide:
-https://www.jianguoyun.com/p/DXlK2D0QyoP1BxiEmsgD
-
-troubleshootings:
-https://www.jianguoyun.com/p/DXlK2D0QyoP1BxiEmsgD
-
-Test 3d file:
-https://www.jianguoyun.com/p/DZaxOegQyoP1BxijpMwD 
-
-Firmware(for Discontinued products):
-https://www.jianguoyun.com/p/DankHcIQyoP1BxiYt7wD 
-
+WiFi:
