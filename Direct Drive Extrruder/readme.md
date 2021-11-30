@@ -1,8 +1,6 @@
 #1. Installation
-'''  
 **Step 1**. Take down the orignal hotend from the x carrier.  
 **Step 2**. Install the direct drive extruder (DDE ) to the same position of the carrier.  
-'''  
 ![DDE_Installation](DDE_Installation.jpg)
 #2. Wiring
 ![Wiring](DDE_Wiring.jpg)
@@ -17,5 +15,7 @@
 ## To fix HOME X issue for Z9V5-MK1 and Z9V5-MK2
 ![](Install_Z9V5.jpg)
 ## How to open the control box
-'''Losen these four screws to open the control box and then you can find the wire for extrude motors:'''    
+'''
+Losen these four screws to open the control box and then you can find the wire for extrude motors:
+'''    
 ![](OpenZ9V5Box.jpg)
