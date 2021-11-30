@@ -1,0 +1,21 @@
+#1. Installation
+'''  
+**Step 1**. Take down the orignal hotend from the x carrier.  
+**Step 2**. Install the direct drive extruder (DDE ) to the same position of the carrier.  
+'''  
+![DDE_Installation](DDE_Installation.jpg)
+#2. Wiring
+![Wiring](DDE_Wiring.jpg)
+**if the stepper motor working direction is reserved, you can change change the stepping motor direction by modified the wire**  
+![DDE_Installation](Change_motor_working_direction.jpg)  
+#3. Set the steps/mm parameter
+**You may need to change the steps/mm parameter of the extruder, there are two method to set the steps/mm parameter**  
+![](Set_steps_per_mm.jpg)
+#4. Reference
+## How to install bed leveling sensor
+![](Install_Bed_leveling_Sensor.jpg)
+## To fix HOME X issue for Z9V5-MK1 and Z9V5-MK2
+![](Install_Z9V5.jpg)
+## How to open the control box
+'''Losen these four screws to open the control box and then you can find the wire for extrude motors:'''    
+![](OpenZ9V5Box.jpg)
