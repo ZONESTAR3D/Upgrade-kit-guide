@@ -15,7 +15,5 @@
 ## To fix HOME X issue for Z9V5-MK1 and Z9V5-MK2
 ![](Install_Z9V5.jpg)
 ## How to open the control box
-'''
 Losen these four screws to open the control box and then you can find the wire for extrude motors:
-'''    
 ![](OpenZ9V5Box.jpg)
