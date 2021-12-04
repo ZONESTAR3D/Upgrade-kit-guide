@@ -13,8 +13,7 @@ User guide for 3.5" TFT-LCD screen
 
 ## Video tutorial
 Video tutorial for using and upload firmware etc. 
-[Download video tutorial](https://www.jianguoyun.com/p/DVjWPUMQyoP1Bxi-954E)
 
 ## Mobile
-How to control the 3.5" TFT-LCD screen with WiFi by Mobile 
+How to control the 3.5" TFT-LCD screen with WiFi by smart mobile phone. 
 
