@@ -1,10 +1,10 @@
 ## ZONESTAR 3D printer upgrade kits / parts 
 ### Bed Leveling Sensor: 
 Hotbed tilt / uneven surface is a common problem of 3D printer, however, the first layer is very important for the success of 3D printing. The main solution to this problem is measure the hot bed height and correct automatically by using the hot bed automatic leveling sensor and the algorithm of firmware. 
-There are several type of bed leveling sensor:  
-1. [**PL-08N**](https://www.aliexpress.com/item/4000596309710.html) is a proximity sensor, it can probing metal hotbed. If your hot bed surface is metal, such as aluminum plate + hot bed adhesive tape, aluminum plate + magnetic hot bed paste, elastic rigid hot bed, etc., you can use this sensor.  
-2. [**BLtouch(3DTouch)**](https://www.aliexpress.com/item/1005001464420529.html) is an auto leveling sensor for 3D Printers that can precisely measure the tilt of your print surface.   
-3. [**ZLSensor**](https://www.aliexpress.com/item/1005002865311470.html) is a photoelectric sensor, it can probing almost all meterial hotbed. Also it is easier to wiring such as PL-08N.  
+There are several type of bed leveling sensor:    
+- **PL-08N** is a proximity sensor, it can probing metal hotbed. If your hot bed surface is metal, such as aluminum plate + hot bed adhesive tape, aluminum plate + magnetic hot bed paste, elastic rigid hot bed, etc., you can use this sensor. [**View details**](https://www.aliexpress.com/item/4000596309710.html)     
+- **BLtouch(3DTouch)** is a "famous" bed auto leveling sensor for 3D Printers, it integrates a simple servo motor and an electromagnetic sensor into a very small volume. It can be used for all types of heat beds with high accuracy. The disadvantage is that the wiring and use are a little complex. [**View details**](https://www.aliexpress.com/item/1005001464420529.html)   
+- **ZLSensor** is a special photoelectric sensor made by ZONESTAR, it can probing almost all meterial hotbed, also it is easier to wiring such as PL-08N. [**View details**](https://www.aliexpress.com/item/1005002865311470.html)  
 
 ### Direct Drive Extruder: 
 By using the direct drive extruder, the printer can print flexible filament (e.g. TPU filament) and get better printing quality.  
