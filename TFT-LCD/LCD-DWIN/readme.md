@@ -10,7 +10,7 @@
 ![](Wiring.jpg)
 
 ## User guide
-[](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/user_guide/LCD-DWIN MENU Description V1_2.pdf)
+- [***Menu description***](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/TFT-LCD/LCD-DWIN/user_guide/LCD-DWIN%20MENU%20Description%20V1_2.pdf)
 
 
 
