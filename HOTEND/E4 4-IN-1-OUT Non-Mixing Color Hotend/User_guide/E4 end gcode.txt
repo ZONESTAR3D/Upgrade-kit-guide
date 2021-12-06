@@ -1,0 +1,9 @@
+;E4 hotend end G-code
+M140 S0
+;pull out filament from hotend
+G92 E0
+G1 E-5 F1800
+G1 E-35 F900
+G28 YX
+M104 S0
+M84

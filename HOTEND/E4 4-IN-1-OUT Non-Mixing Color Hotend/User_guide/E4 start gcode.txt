@@ -1,0 +1,31 @@
+;E4 start G-code
+G90
+G28 ;Home
+G1 Z15.0 F6000 ;Move the platform down 15mm
+;Pre-load filament for E1
+T0 
+G92 E0
+G1 E30 F1200
+G1 E40 F180
+;Pre-load filament for E2
+T1
+G92 E0
+G1 E40 F1200
+G1 E25 F300
+;Pre-load filament for E3
+T2
+G92 E0
+G1 E40 F1200
+G1 E25 F300
+;Pre-load filament for E4
+T3
+G92 E0
+G1 E40 F1200
+G1 E25 F300
+;
+G1 Z5 F240
+G1 X10 Y10 F1800
+G1 Z1 F240
+;
+T0
+G92 E0

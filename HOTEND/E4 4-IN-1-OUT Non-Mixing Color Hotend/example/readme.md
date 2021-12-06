@@ -1,4 +1,8 @@
-## 1. Retraction Testing
+## ATTETION:
+Each time you print, you need to check whether the consumables are loaded to the initial position. Please refer to the figure below:
+![Pre-load filament](E4LoadFilament.jpg)
+  
+## Example 1. Retraction Testing
 - **3D printer:** Z9V5pro
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
 - **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
@@ -7,7 +11,7 @@
 	- **Extruder 2:** red ABS filament to print the retaction testing tower.
 ![](./Anti_strings_testing/E4_Retraction_Test.jpg)
 
-## 2. 4 Color test
+## Example 2. 4 Color test
 - **3D printer:** Z9V5pro
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
 - **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
@@ -18,7 +22,7 @@
 	- **Extruder 3:** Blue PLA   
 ![](./4_Color_test/E4_4Color_test.jpg)
 
-## 3. 4 Color Dog
+## Example 3. 4 Color Dog
 - **3D printer:** Z9V5pro
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
 - **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
@@ -89,7 +93,7 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 
 ![](E4_4Color_dog.jpg)
 
-## 5. Anti edge warping
+## Example 5. Anti edge warping
 - **3D printer:** Z9V5pro
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
 - **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
