@@ -79,7 +79,7 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 ![](./4_Color_Dog/settings2.jpg)   
 #### Extrduer start G-code
     ;start gcode of Extruder 1 
-    G0 X186 Y216 F4800	; move to the center of the prime tower
+    G0 X155 Y186 F4800	; move to the center of the prime tower
     G91 ; relative coordinates
     G1 E35 F1800; push filament 35mm
     G90 ;absolute coordinates
