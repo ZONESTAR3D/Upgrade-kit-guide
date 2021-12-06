@@ -93,7 +93,19 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 
 ![](E4_4Color_dog.jpg)
 
-## Example 5. Anti edge warping
+## Example 5. 4 Color owl
+Settings are the same with 4 Color dog
+- **3D printer:** Z9V5pro
+- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
+- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
+- **Filament:**
+	- **Extruder 1:** white PLA
+	- **Extruder 2:** Red PLA
+	- **Extruder 3:** Green PLA
+	- **Extruder 3:** Blue PLA    
+![](E4_4Color_owl.jpg)
+
+## Example 6. Anti edge warping
 - **3D printer:** Z9V5pro
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
 - **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
