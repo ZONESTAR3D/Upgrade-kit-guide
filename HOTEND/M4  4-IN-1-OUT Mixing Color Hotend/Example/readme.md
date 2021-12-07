@@ -1,0 +1,223 @@
+## Example 1. 4 Color test
+- **3D printer:** Z9V5pro
+- **Hotend:** M4 hotend (4-IN-1-OUT Mixing color hotend)
+- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
+- **Filament:**
+	- **Extruder 1:** white PLA  
+	- **Extruder 2:** Red PLA  
+	- **Extruder 3:** Green PLA  
+	- **Extruder 3:** Blue PLA   
+
+![](./4_Color_Test/M4_4Color_Test.jpg)        
+### Start G-code
+![](./4_Color_Test/settings1.jpg)   
+ 
+    G28
+    G1 Z15 F300
+    M107
+    ;Prime the extruder
+    G92 E0
+    G1 F200 E3
+    G92 E0
+    G1 X5 Y10 F1500 ; move to prime
+    G1 Z0.2 F3000 ; get ready to prime
+    G92 E0 ; reset extrusion distance
+    G1 Y250 E15 F600 ; prime nozzle
+    G1 Y100 F5000 ; quick wipe
+### End G-code
+    G91
+    G1 E-1
+    G28 XY
+    M104 S0
+    G90
+    G92 E0
+    M140 S0
+    M84
+### Extruder gcode
+Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.  
+![](./4_Color_Test/settings2.jpg)   
+#### Extrduer 1 start G-code
+    ;start gcode of Extruder 1 
+    M163 S0 P100
+    M163 S1 P0
+    M163 S2 P0
+    M163 S3 P0
+#### Extrduer 2 start G-code
+    ;start gcode of Extruder 2 
+    M163 S0 P0
+    M163 S1 P100
+    M163 S2 P0
+    M163 S3 P0
+#### Extrduer 3 start G-code
+    ;start gcode of Extruder 3 
+    M163 S0 P0
+    M163 S1 P0
+    M163 S2 P100
+    M163 S3 P0
+#### Extrduer 4 start G-code
+    ;start gcode of Extruder 3 
+    M163 S0 P0
+    M163 S1 P0
+    M163 S2 P100
+    M163 S3 P0
+#### Extrduer 1(2/3/4) End G-code
+    ;end gcode of Extruder 1(2/3/4) 
+    G92 E0 
+    G1 E-16 F2100
+    G0 X160 Y205 F4800 ; Move to center of prime tower
+    G1 E0.02 F1800
+    G92 E0
+![](./4_Color_test/M4_4Color_test.jpg)
+
+## Example 2. 4 Color Dog  
+- **3D printer:** Z9V5pro
+- **Hotend:** M4 (4-IN-1-OUT Mixing color hotend)
+- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
+- **Filament:**
+	- **Extruder 1:** white PLA
+	- **Extruder 2:** Red PLA
+	- **Extruder 3:** Green PLA
+	- **Extruder 3:** Blue PLA    
+![](./4_Color_dog/M4_4Color_dog.jpg)
+
+## Example 3. 4 Color Owl
+Settings are the same with 4 Color dog
+- **3D printer:** Z9V5pro  
+- **Hotend:** M4(4-IN-1-OUT Mixing color) hotend  
+- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
+- **Filament:**  
+	- **Extruder 1:** white PLA  
+	- **Extruder 2:** Red PLA  
+	- **Extruder 3:** Green PLA  
+	- **Extruder 3:** Blue PLA      
+![](./4_Color_owl/M4_4Color_owl.jpg)  
+
+
+## Example 4. 6 Color Patrick
+Settings are the same with 4 Color dog
+- **3D printer:** Z9V5pro  
+- **Hotend:** M4(4-IN-1-OUT Mixing color) hotend  
+- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
+- **Filament:**  
+	- **Extruder 1:** white PLA  
+	- **Extruder 2:** Red PLA  
+	- **Extruder 3:** Green PLA  
+	- **Extruder 3:** Blue PLA   
+- **VTOOL:**
+	-  **VTOOL 0:** E1:E2:E3:E4 = 100:  0:  0:  0, white color  
+	-  **VTOOL 1:** E1:E2:E3:E4 =   0:100:  0:  0, Red color  
+	-  **VTOOL 2:** E1:E2:E3:E4 =   0:  0:100:  0, Green color  
+	-  **VTOOL 3:** E1:E2:E3:E4 =   0:  0:  0:100, Blue color  
+	-  **VTOOL 4:** E1:E2:E3:E4 =  25: 25: 25: 25, *Unused*    
+	-  **VTOOL 5:** E1:E2:E3:E4 =  60: 36:  2:  2, Pink  
+	-  **VTOOL 6:** E1:E2:E3:E4 =  50: 25: 25:  0, Yellow    
+	-  **VTOOL 7:** E1:E2:E3:E4 =  50:  0:  0: 50, *Unused*     
+![](./6_Color_Patrick/M4_6Color_Patrick.jpg)  
+
+### Start G-code
+![](./6_Color_Patrick/settings1.jpg)   
+
+    G28
+    G1 Z15 F300
+    M107
+    ;Prime the extruder
+    G92 E0
+    G1 F200 E3
+    G92 E0
+    G1 X5 Y10 F1500 ; move to prime
+    G1 Z0.2 F3000 ; get ready to prime
+    G92 E0 ; reset extrusion distance
+    G1 Y250 E15 F600 ; prime nozzle
+    G1 Y100 F5000 ; quick wipe
+### End G-code
+
+    G91
+    G1 E-1
+    G28 XY
+    M104 S0
+    G90
+    G92 E0
+    M140 S0
+    M84
+
+#### start G-code
+![](./6_Color_Patrick/settings2.jpg) 
+![](./6_Color_Patrick/settings3.jpg)
+![](./6_Color_Patrick/settings4.jpg)   
+#### VTOOL0 start G-code
+    ;start gcode for Virual Extuder 0
+    M163 S0 P100
+    M163 S1 P0
+    M163 S2 P0
+    M163 S3 P0
+    ;Mix Rate=100:0:0:0,change if need
+
+#### VTOOL1 start G-code
+    ;start gcode for Virual Extuder 1
+    M163 S0 P0
+    M163 S1 P100
+    M163 S2 P0
+    M163 S3 P0
+    ;Mix Rate=0:100:0:0,change if need
+
+#### VTOOL2 start G-code
+    ;start gcode for Virual Extuder 2
+    M163 S0 P0
+    M163 S1 P0
+    M163 S2 P100
+    M163 S3 P0
+    ;Mix Rate=0:0:100:0,change if need
+
+#### VTOOL3 start G-code
+    ;start gcode for Virual Extuder 3
+    M163 S0 P0
+    M163 S1 P0
+    M163 S2 P0
+    M163 S3 P100
+    ;Mix Rate=0:0:0:100,change if need
+
+#### VTOOL4 start G-code
+    ;start gcode for Virual Extuder 4
+    M163 S0 P25
+    M163 S1 P25
+    M163 S2 P25
+    M163 S3 P25
+    ;Mix Rate=25:25:25:25,change if need
+
+#### VTOOL5 start G-code
+    ;start gcode for Virual Extuder 5
+    M163 S0 P60
+    M163 S1 P36
+    M163 S2 P2
+    M163 S3 P2
+    ;Mix Rate=60:36:2:2,change if need
+
+#### VTOOL6 start G-code
+    ;start gcode for Virual Extuder 6
+    M163 S0 P50
+    M163 S1 P25
+    M163 S2 P25
+    M163 S3 P0
+    ;Mix Rate=50:25:25:0,change if need
+
+#### VTOOL7 start G-code
+    ;start gcode for Virual Extuder 6
+    M163 S0 P50
+    M163 S1 P0
+    M163 S2 P0
+    M163 S3 P50
+    ;Mix Rate=50:0:0:50,change if need
+
+#### end G-code
+The end G-code are the same for all VTOOL.    
+
+    M163 S0 P25
+    M163 S1 P25
+    M163 S2 P25
+    M163 S3 P25
+    G92 E0
+    G1 E-32 F2400
+    G0 X170 Y210 F4800	;Move to the center of prime tower
+    G1 E0.02 F2400
+    G92 E0
+

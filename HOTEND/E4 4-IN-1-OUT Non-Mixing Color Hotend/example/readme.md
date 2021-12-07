@@ -16,21 +16,22 @@ Each time you print, you need to check whether the consumables are loaded to the
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
 - **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
 - **Filament:**
-	- **Extruder 1:** white PLA
+	- **Extruder 1:** White PLA
 	- **Extruder 2:** Red PLA
 	- **Extruder 3:** Green PLA
 	- **Extruder 3:** Blue PLA   
 ![](./4_Color_test/E4_4Color_test.jpg)
-
+---
 ## Example 3. 4 Color Dog
 - **3D printer:** Z9V5pro
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
-- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
+- **Slicing software:** Cura, silcing parameter, please download **E4-4Color-dog.3mf** and open it by Cura       
 - **Filament:**
-	- **Extruder 1:** white PLA
+	- **Extruder 1:** White PLA
 	- **Extruder 2:** Red PLA
 	- **Extruder 3:** Green PLA
-	- **Extruder 3:** Blue PLA    
+	- **Extruder 3:** Blue PLA  
+![](./4_Color_Dog/E4_4C_Dog.jpg)    
 ### Start G-code
 ![](./4_Color_Dog/settings1.jpg)    
 
@@ -89,27 +90,16 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
     G91 ; relative coordinates
     G1 E-35 F1800; pull filament 35mm
     G90 ;absolute coordinates
-    G92 E0 ;reset extrusion distance
-
-![](E4_4Color_dog.jpg)
+    G92 E0 ;reset extrusion distance  
 
 ## Example 5. 4 Color owl
-Settings are the same with 4 Color dog
-- **3D printer:** Z9V5pro
-- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
-- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
-- **Filament:**
-	- **Extruder 1:** white PLA
-	- **Extruder 2:** Red PLA
-	- **Extruder 3:** Green PLA
-	- **Extruder 3:** Blue PLA    
-![](E4_4Color_owl.jpg)
-
-## Example 6. Anti edge warping
-- **3D printer:** Z9V5pro
-- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
-- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
-- **Filament:**
-	- **Extruder 1:** white PLA+ filament to print a raft to anti-warp.
-	- **Extruder 2:** red ABS filament to print the retaction testing tower.
-![](Anti_warping_Test.jpg)
+### Note: The settings are the same with 4 Color dog
+- **3D printer:** Z9V5pro  
+- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)  
+- **Slicing software:** Cura, silcing parameter, please download **E4-4Color-owl.3mf** and open it by Cura     
+- **Filament:**  
+	- **Extruder 1:** White PLA   
+	- **Extruder 2:** Red PLA  
+	- **Extruder 3:** Green PLA  
+	- **Extruder 3:** Blue PLA      
+![](./4_Color_owl/E4_4Color_owl.jpg)
