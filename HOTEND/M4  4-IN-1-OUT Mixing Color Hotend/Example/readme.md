@@ -68,8 +68,13 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
     G0 X160 Y205 F4800 ; Move to center of prime tower
     G1 E0.02 F1200	   ; Modify the retraction speed if need
     G92 E0
-![](./4_Color_test/M4_4Color_test.jpg)
+### Issue
+Because we add T4 command in "start G-code", to ensure all of the extrder can work well before printing that "target STL file", so the "raft" will be printed with mixing color (White:Red:Green:Blue = 25:25:25:25) by all extruders. 
+**Therefore, we manually added the following code to the M4\_4C\_Test.gcode file  to switch the extruder to E1. You can ignore this issue because it only cause a very small issue on the final prints.**    
+![](./4_Color_Test/issue.jpg)
 
+
+---
 ## Example 2. 4 Color Dog  
 - **3D printer:** Z9V5pro
 - **Hotend:** M4 (4-IN-1-OUT Mixing color hotend)
@@ -80,7 +85,13 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 	- **Extruder 3:** Green PLA
 	- **Extruder 3:** Blue PLA    
 ![](./4_Color_dog/M4_4Color_dog.jpg)
+### Issue
+Because we add T4 command in "start G-code", to ensure all of the extrder can work well before printing that "target STL file", so the "raft" will be printed with mixing color (White:Red:Green:Blue = 25:25:25:25) by all extruders. 
+**Therefore, we manually added the following code to the M4\_4C\_dog.gcode file  to switch the extruder to E1. You can ignore this issue because it only cause a very small issue on the final prints.**    
+![](./4_Color_dog/issue.jpg)
 
+
+---
 ## Example 3. 4 Color Owl
 Settings are the same with 4 Color dog
 - **3D printer:** Z9V5pro  
@@ -92,8 +103,13 @@ Settings are the same with 4 Color dog
 	- **Extruder 3:** Green PLA  
 	- **Extruder 3:** Blue PLA      
 ![](./4_Color_owl/M4_4Color_owl.jpg)  
+### Issue
+Because we add T4 command in "start G-code", to ensure all of the extrder can work well before printing that "target STL file", so the "raft" will be printed with mixing color (White:Red:Green:Blue = 25:25:25:25) by all extruders. 
+**Therefore, we manually added the following code to the M4\_4C\_owl.gcode file  to switch the extruder to E1. You can ignore this issue because it only cause a very small issue on the final prints.**    
+![](./4_Color_owl/issue.jpg)
 
 
+---
 ## Example 4. 6 Color Patrick
 Settings are the same with 4 Color dog
 - **3D printer:** Z9V5pro  
@@ -142,7 +158,7 @@ Settings are the same with 4 Color dog
     M140 S0
     M84
 
-#### start G-code
+#### Extruder start G-code
 ![](./6_Color_Patrick/settings2.jpg) 
 ![](./6_Color_Patrick/settings3.jpg)
 ![](./6_Color_Patrick/settings4.jpg)   
@@ -210,8 +226,8 @@ Settings are the same with 4 Color dog
     M163 S3 P50
     ;Mix Rate=50:0:0:50,change if need
 
-#### end G-code
-The end G-code are the same for all VTOOL.    
+#### Extruder end G-code
+The extruder end G-code are the same for all VTOOLs.    
 
     M163 S0 P25
     M163 S1 P25
