@@ -16,6 +16,7 @@
     G1 Z15 F300
     M107
     ;Prime the extruder
+    T4
     G92 E0
     G1 F200 E3
     G92 E0
@@ -26,13 +27,13 @@
     G1 Y100 F5000 ; quick wipe
 ### End G-code
     G91
-    G1 E-1
     G28 XY
     M104 S0
     G90
     G92 E0
     M140 S0
     M84
+
 ### Extruder gcode
 Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.  
 ![](./4_Color_Test/settings2.jpg)   
@@ -63,9 +64,9 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 #### Extrduer 1(2/3/4) End G-code
     ;end gcode of Extruder 1(2/3/4) 
     G92 E0 
-    G1 E-16 F2100
+    G1 E-16 F1800	   ; Modify the retraction speed if need 
     G0 X160 Y205 F4800 ; Move to center of prime tower
-    G1 E0.02 F1800
+    G1 E0.02 F1200	   ; Modify the retraction speed if need
     G92 E0
 ![](./4_Color_test/M4_4Color_test.jpg)
 
@@ -121,6 +122,7 @@ Settings are the same with 4 Color dog
     G1 Z15 F300
     M107
     ;Prime the extruder
+	T4
     G92 E0
     G1 F200 E3
     G92 E0
@@ -218,6 +220,6 @@ The end G-code are the same for all VTOOL.
     G92 E0
     G1 E-32 F2400
     G0 X170 Y210 F4800	;Move to the center of prime tower
-    G1 E0.02 F2400
+    G1 E0.02 F1800
     G92 E0
 
