@@ -1,5 +1,4 @@
-## Structure diagram of single color hot end structure
-![](Single_Color_hotend.jpg)
+## Single color Hotend
 
 
 ## Structure diagram of N-IN-1-OUT mixing color hot end
