@@ -1,6 +1,9 @@
 ## ZONESTAR M4 (4-IN-1-OUT Mixing Color) Hotend
-### M4V3 & M4V4
-Introduction of the 3th and 4th version M4 hotend.  
+[**Buy a M4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
+[**Buy a M4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html) 
+
+### M4V3(V4) - The 3th version and 4th version 4-IN-1-OUT hotend
+Introduction of the 3th and 4th version M4 hotend.      
 #### Structure diagram
 ![](./M4_V3_V4/M4_V3_V4.jpg)
 #### The different between  **M4V4** with **M4V3**:  
@@ -10,10 +13,10 @@ Introduction of the 3th and 4th version M4 hotend.
 ![](./M4_V3_V4/small_store_room_nozzle.jpg)  
 
 #### Get the upgrade parts
-[**PEEK_Insulation_block**](https://www.aliexpress.com/item/1005001447928770.html)  
+[**PEEK_Insulation_block**](https://www.aliexpress.com/item/1005002124027691.html)  
 [**Small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html)
 
-### M4 V5
+### M4V5 - The 3th version 4-IN-1-OUT hotend
 Introduction of the 5th version M4 hotend
 ####  Structure diagram
 ![](./M4_V5/M4V5.jpg)

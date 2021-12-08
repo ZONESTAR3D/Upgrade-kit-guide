@@ -25,7 +25,7 @@ Please refer to the below pictures to load filaments every time you print by E4 
 	- **Extruder 1:** White PLA
 	- **Extruder 2:** Red PLA
 	- **Extruder 3:** Green PLA
-	- **Extruder 3:** Blue PLA   
+	- **Extruder 4:** Blue PLA   
 ![](./4_Color_test/E4_4Color_test.jpg)
 
 ## Example 3. 4 Color Dog
@@ -36,7 +36,7 @@ Please refer to the below pictures to load filaments every time you print by E4 
 	- **Extruder 1:** White PLA
 	- **Extruder 2:** Red PLA
 	- **Extruder 3:** Green PLA
-	- **Extruder 3:** Blue PLA  
+	- **Extruder 4:** Blue PLA  
 ![](./4_Color_Dog/E4_4C_Dog.jpg)    
 ### Start G-code
 ![](./4_Color_Dog/settings1.jpg)    
@@ -130,5 +130,5 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 	- **Extruder 1:** White PLA   
 	- **Extruder 2:** Red PLA  
 	- **Extruder 3:** Green PLA  
-	- **Extruder 3:** Blue PLA      
+	- **Extruder 4:** Blue PLA      
 ![](./4_Color_owl/E4_4Color_owl.jpg)
