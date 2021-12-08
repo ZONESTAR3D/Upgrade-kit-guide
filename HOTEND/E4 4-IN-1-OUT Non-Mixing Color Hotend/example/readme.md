@@ -84,20 +84,43 @@ Please refer to the below pictures to load filaments every time you print by E4 
 ### Extruder gcode
 Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.  
 ![](./4_Color_Dog/settings2.jpg)   
-#### Extrduer start G-code
+#### Extrduer 2 start G-code
     ;start gcode of Extruder 1 
-    G0 X155 Y186 F4800	; move to the center of the prime tower
+    G0 X186 Y186 F4800	; move to the center of the prime tower
     G91 ; relative coordinates
     G1 E35 F1800; push filament 35mm
     G90 ;absolute coordinates
     G92 E0 ;reset extrusion distance
-#### Extrduer End G-code
-    ;end gcode of Extruder 1 
+#### Extrduer 2 start G-code
+    ;start gcode of Extruder 2 
+    G0 X180 Y186 F4800	; move to the center of the prime tower
+    G91 ; relative coordinates
+    G1 E35 F1800; push filament 35mm
+    G90 ;absolute coordinates
+    G92 E0 ;reset extrusion distance
+#### Extrduer 3 start G-code
+    ;start gcode of Extruder 3 
+    G0 X186 Y180 F4800	; move to the center of the prime tower
+    G91 ; relative coordinates
+    G1 E35 F1800; push filament 35mm
+    G90 ;absolute coordinates
+    G92 E0 ;reset extrusion distance
+#### Extrduer 4 start G-code
+    ;start gcode of Extruder 4 
+    G0 X180 Y180 F4800	; move to the center of the prime tower
+    G91 ; relative coordinates
+    G1 E35 F1800; push filament 35mm
+    G90 ;absolute coordinates
+    G92 E0 ;reset extrusion distance
+#### Extrduer 1/2/3/4 End G-code
+    ;end gcode of Extruder 1/2/3/4 
     G91 ; relative coordinates
     G1 E-35 F1800; pull filament 35mm
     G90 ;absolute coordinates
     G92 E0 ;reset extrusion distance  
 
+### Slicing setting
+![](./4_Color_Dog/settings3.jpg)
 ## Example 5. 4 Color owl
 ### Note: The settings are the same with 4 Color dog
 - **3D printer:** Z9V5pro  
