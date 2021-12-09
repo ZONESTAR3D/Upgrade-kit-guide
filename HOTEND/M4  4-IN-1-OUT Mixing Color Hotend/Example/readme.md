@@ -76,6 +76,8 @@ Because we add T4 command in "start G-code", to ensure all of the extrder can wo
 
 ---
 ## Example 2. 4 Color Dog  
+![](./4_Color_dog/M4_4C_Dog.jpg)
+### 
 - **3D printer:** Z9V5pro
 - **Hotend:** M4 (4-IN-1-OUT Mixing color hotend)
 - **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
@@ -84,7 +86,6 @@ Because we add T4 command in "start G-code", to ensure all of the extrder can wo
 	- **Extruder 2:** Red PLA
 	- **Extruder 3:** Green PLA
 	- **Extruder 3:** Blue PLA    
-![](./4_Color_dog/M4_4Color_dog.jpg)
 ### Issue
 Because we add T4 command in "start G-code", to ensure all of the extrder can work well before printing that "target STL file", so the "raft" will be printed with mixing color (White:Red:Green:Blue = 25:25:25:25) by all extruders. 
 **Therefore, we manually added the following code to the M4\_4C\_dog.gcode file  to switch the extruder to E1. You can ignore this issue because it only cause a very small issue on the final prints.**    
