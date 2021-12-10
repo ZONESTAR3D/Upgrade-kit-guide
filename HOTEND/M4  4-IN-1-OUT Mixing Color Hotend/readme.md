@@ -34,10 +34,10 @@ Stl files of the fan duck
 
 ### Example
 gcode/stl files to print by using M4 hotend and slicing settings 
-![4_Color_Test](./example/4_Color_Test/M4_4C_test.jpg)  
-![4_Color_Dog](./example/4_Color_Dog/M4_4C_Dog.jpg)  
-![4_Color_owl](./example/4_Color_owl/M4_4C_owl.jpg)  
-![6_Color_Patrick](./example/6_Color_Patrick/M4_6C_Patrick.jpg)  
+![4_Color_Test](./Example/4_Color_Test/M4_4C_test.jpg)  
+![4_Color_Dog](./Example/4_Color_Dog/M4_4C_Dog.jpg)  
+![4_Color_owl](./Example/4_Color_owl/M4_4C_owl.jpg)  
+![6_Color_Patrick](./Example/6_Color_Patrick/M4_6C_Patrick.jpg)  
 
 
 
