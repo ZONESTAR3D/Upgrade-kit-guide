@@ -1,6 +1,6 @@
 # Hotend
-The hotend is the component of a 3D printer that melts the filament for extrusion.  
-Generally, the hot end consists of the following parts:  
+The hotend is the component of a 3D printer that melts the filament for extrusion. Generally, the hot end consists of the following parts:
+
 1. **Nozzle**: To melt filament and flow out， the size of its outlet determines the layer thickness can be built. It is usually made of materials with high thermal conductivity and high hardness, such as copper and carbon steel.  
 2. **Heating block**: It is a device used to fix the heating rod and nozzle together. It is usually made of materials with high thermal conductivity, such as aluminum and copper.  
 3. **Insulation block**: It is a device used to isolate the heater from the Heat sink, usually made of high temperature resistant but low thermal conductivity materials, such as stainless steel, PTFE, PEEK, etc..  
@@ -9,6 +9,7 @@ Generally, the hot end consists of the following parts:
 6. **Extrusion fan**: It be used to cool the colloid extruded from the nozzle so that the filaments can be formed and fixed as soon as possible.  
 7. **Heater and temperature sensor**:  
 > **Referance document:**[***Hot End Design Theory***](https://reprap.org/wiki/Hot_End_Design_Theory)  
+![](hotend.jpg)  
 
 ## Single color Hotend
 Included documents about ZONESTAR single color hot end
@@ -32,24 +33,28 @@ We have mass produced five versions of M4 hot end. For details, please refer to 
 ## Issues of the mixing color hotend 
 ### 1. Clogged issue
 **Reasons:**  
-1. The length of the extrusion channel is longer than that of the single color.    
+1. The length of the extrusion channel is longer than that of the single color.   
+![](Issue_mixing_1.jpg)       
 2. Since the channels at the hot end of the color mixing are interconnected, the filaments in the feed channels are also under the action of the reverse extrusion force of the other channels at the same time.  
-3. The longer of the filament between Tg(Glass Transition Temperature) and Tm(Melting Temperature), the greater its adhesion to the feed tube (refer to [***Hot End Design Theory***](https://reprap.org/wiki/Hot_End_Design_Theory)), and the final result will be that the extrusion feeder can't push the filament.   
-4. Others: Due to weight, processing and installation restrictions, the distance between the extruder engine and the hot end needs to be longer, it also increases the resistance of the extruder.  
+![](Issue_mixing_2.jpg)    
+3. The longer of the filament between Tg(Glass Transition Temperature) and Tm(Melting Temperature), the greater its adhesion to the feed tube (refer to [***Hot End Design Theory***](https://reprap.org/wiki/Hot_End_Design_Theory)), and the final result will be that the extrusion feeder can't push the filament.  
+![](Issue_mixing_3.jpg)   
+4. Other reasons: Due to weight, processing and installation restrictions, the distance between the extruder feeder and the hot end needs to be longer, it also increases the resistance of the extruder.  
 **Solutions:**  
 1. Increase extruder force, for exmple upgrade to [**Dual gear extruder**](https://www.aliexpress.com/item/1005003473360998.html) or [**Titan extruder**](https://www.aliexpress.com/item/1005001678239017.html) .  
-2. Choose harder filaments, for example PLA+ > PLA > silk-PLA.  
-3. [**hot end desing**] Reduce the heat transfer rate of **Insulation block** and keep the "Heat sink" cool, to short the filament distance between Tg and Tm.  
-4. [**hot end desing**] Minimize the length of the mixing chamber channels.   
-5. Reduce retraction times, but it will cause strings issue.  
-6. Do not leave a channel unused for a long time.  
+2. Choose harder filaments, for example **PLA+** > **PLA** > **silk-PLA**.  
+3. Reduce the heat transfer rate of **Insulation block** and keep the "Heat sink" cool, to short the filament distance between Tg and Tm.  
+4. Minimize the length of the mixing chamber channels.   
+5. Improve retraction settings.  
+6. Do not leave the channel unused for a long time, filament in Tg state for a long time will be more firmly attached to the filament guide.
  
 ### 2. Strings issue
 **Reasons:**  
 Because there is a mixing color chamber, so the stored filaments in the mixing color hotend is bigger than single color hotend, it will reduce the effect of retraction.  
+![](Issue_mixing_4.jpg)   
 **Solutions:**  
 1. Reduce the size of mixing color chamber, for example, upgrade to [**small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html).  
-2. Synchronous retract using multiple extruders.    
+2. Synchronous retract to use multiple extruders.    
 
 ## R3 3-IN-3-OUT HOTEND
 **R3** hot end is a 3-IN-3-OUT hotend, it has three feeding channels and three nozzles, and all of the three nozzle share one heater and temperature sensor.  
