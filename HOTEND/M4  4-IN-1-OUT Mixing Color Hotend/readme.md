@@ -2,10 +2,15 @@
 [**Buy a M4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
 [**Buy a M4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html) 
 
-### M4V3(V4) - The 3th version and 4th version 4-IN-1-OUT hotend
-Introduction of the 3th and 4th version M4 hotend.      
+### M4V3 - The 3rd version 4-IN-1-OUT hotend
+Introduction of the 3rd M4 hotend.      
 #### Structure diagram
-![](./M4_V3_V4/M4_V3_V4.jpg)
+![](./M4_V3_V4/M4_V3.jpg)
+
+### M4V4 - The 4th version 4-IN-1-OUT hotend
+Introduction of the 4th M4 hotend.      
+#### Structure diagram
+![](./M4_V3_V4/M4_V4.jpg)
 #### The different between  **M4V4** with **M4V3**:  
 1. Upgraded the insulation block material from **PETF** to **PEEK**, so M4-V4 can work at maxius temperature to 260℃.  
 ![](./M4_V3_V4/PEEK_Insulation_block.jpg)
@@ -16,17 +21,23 @@ Introduction of the 3th and 4th version M4 hotend.
 [**PEEK_Insulation_block**](https://www.aliexpress.com/item/1005002124027691.html)  
 [**Small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html)
 
-### M4V5 - The 3th version 4-IN-1-OUT hotend
+### M4V5 - The 5th version 4-IN-1-OUT hotend
 Introduction of the 5th version M4 hotend
 ####  Structure diagram
 ![](./M4_V5/M4V5.jpg)
 #### The different between  **M4V5** with **M4V4**:  
-1. Removed the inner PTEF tube, reduce clogged issue because of the damage of internal PTEF tube.   
+1. Removed the inner PTEF pipes, Reduce the probability of clogged because the internal PTEF pipe be damaged.   
 2. Upgraded the fittings, easier to load filament and replace the filament guide. 
 
 ### stl
 Stl files of the fan duck
 
 ### Example
-Examples to use M4 hotend to print
-   
+gcode/stl files to print by using M4 hotend and slicing settings 
+![4_Color_Test](./example/4_Color_Test/M4_4C_test.jpg)  
+![4_Color_Dog](./example/4_Color_Dog/M4_4C_Dog.jpg)  
+![4_Color_owl](./example/4_Color_owl/M4_4C_owl.jpg)  
+![6_Color_Patrick](./example/6_Color_Patrick/M4_6C_Patrick.jpg)  
+
+
+
