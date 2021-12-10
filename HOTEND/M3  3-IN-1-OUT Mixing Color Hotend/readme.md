@@ -2,6 +2,10 @@
 #### Structure diagram
 ![](M3_V2.jpg)
 
-### M3 V3 & M3 V4 
+### M3 V3
 #### Structure diagram
-![](V3vsV4.jpg)
+![](M3_V3.jpg)
+
+### M3 V4
+#### Structure diagram
+![](M3_V4.jpg)

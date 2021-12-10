@@ -121,6 +121,7 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 
 ### Slicing setting
 ![](./4_Color_Dog/settings3.jpg)
+
 ## Example 5. 4 Color owl
 ### Note: The settings are the same with 4 Color dog
 - **3D printer:** Z9V5pro  
@@ -128,7 +129,8 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 - **Slicing software:** Cura, silcing parameter, please download **E4-4Color-owl.3mf** and open it by Cura     
 - **Filament:**  
 	- **Extruder 1:** White PLA   
-	- **Extruder 2:** Red PLA  
+	- **Extruder 2:** Yellow PLA  
 	- **Extruder 3:** Green PLA  
 	- **Extruder 4:** Blue PLA      
-![](./4_Color_owl/E4_4Color_owl.jpg)
+
+![](./4_Color_owl/E4_4C_Owl_small.jpg)
