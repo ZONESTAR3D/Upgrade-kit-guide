@@ -1,7 +1,59 @@
-## Example 1. 4 Color test
+## Retraction test (string issue test)
 - **3D printer:** Z9V5pro
-- **Hotend:** M4 hotend (4-IN-1-OUT Mixing color hotend)
-- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
+- **Hotend:** the 3rd M4 hotend, upgraded [**small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html) and [**FAN duck**](). FAN duck stl file please find in here **./stl/fan\_duck\_m4_v3.stl**.     
+- **Slicing software:** Cura, silcing parameter please refer to  "M4\_Retraction_Test.3mf"    
+- **Filament:**
+	- **Extruder 1:** Green PLA+  
+	- **Extruder 2:** NA  
+	- **Extruder 3:** NA  
+	- **Extruder 3:** NA 
+![](./Retraction_Test/M4_Retraction_Test.jpg)
+
+### Use auto retraction function to improve stings issue
+There are two methods to turn on the "auto retraction function":
+1. Add command on machine start G-code within slicing software.
+2. Turn on the function on LCD screen.
+#### Add command on machine start G-code within slicing software.
+1. Add M207/M208/M209 commands on start G-code  
+![](./Retraction_Test/AutoRetraction_Setting1.jpg)
+
+    M207 S10 F2400   
+    M208 S0 F2400   
+    M209 S1
+
+    ;Description of M207/M208/M209 commands
+
+    	;M207: Set firmware retraction values
+    	;   S[+units]retract_length  
+        ;   W[+units]swap_retract_length (multi-extruder)  
+        ;   F[units/min] retract_feedrate_mm_s  
+        ;   Z[units] retract_zraise  
+
+		;M208: Set firmware un-retraction values
+ 		;   S[+units]    retract_recover_extra (in addition to M207 S*)
+		;   W[+units]    swap_retract_recover_extra (multi-extruder)
+		;   F[units/min] retract_recover_feedrate_mm_s
+ 		;   R[units/min] swap_retract_recover_feedrate_mm_s  
+
+		;M209: Enable automatic retract (M209 S1)
+ 		;   S[bool]    =1 Enable automatic retract    
+2.  Set the "Retraction length to 8mm" (This value must be less than 10[^1]).    
+![](./Retraction_Test/AutoRetraction_Setting2.jpg)  
+About detail, please refer "M4_Retraction_TestPLA_AutoRetraction.3mf".
+#### Turn on the function on LCD screen.
+1. Set the "Retraction length to 8mm" when slicing (This value must be less than 10[^1]).
+2. Turn on the "AutoRetract" Feature on LCD screen  
+  	>
+    **Control >> configre >> AutoRetraction**   or  
+    **Tune >>  configre >> AutoRetraction**  
+![](./Retraction_Test/AutoRetraction_LCDScreen.jpg)
+
+[^1]: We have changed the firmware to allow this value is less than 20, please read the firmware release note. For example ***Z9V5Pro V1.3.2***. [**Upgrade firmware**](https://github.com/ZONESTAR3D/firmare).    
+
+## 4 Color test
+- **3D printer:** Z9V5pro
+- **Hotend:** M4 hotend 
+- **Slicing software:** Cura, silcing parameter please refer to "M4_4C_Dog.3mf"  
 - **Filament:**
 	- **Extruder 1:** white PLA  
 	- **Extruder 2:** Red PLA  
@@ -75,7 +127,7 @@ Because we add T4 command in "start G-code", to ensure all of the extrder can wo
 
 
 ---
-## Example 2. 4 Color Dog  
+## 4 Color Dog  
 ![](./4_Color_dog/M4_4C_Dog.jpg)
 ### 
 - **3D printer:** Z9V5pro
@@ -93,7 +145,7 @@ Because we add T4 command in "start G-code", to ensure all of the extrder can wo
 
 
 ---
-## Example 3. 4 Color Owl
+## 4 Color Owl
 Settings are the same with 4 Color dog
 - **3D printer:** Z9V5pro  
 - **Hotend:** M4(4-IN-1-OUT Mixing color) hotend  
@@ -111,7 +163,7 @@ Because we add T4 command in "start G-code", to ensure all of the extrder can wo
 
 
 ---
-## Example 4. 6 Color Patrick
+## 6 Color Patrick
 Settings are the same with 4 Color dog
 - **3D printer:** Z9V5pro  
 - **Hotend:** M4(4-IN-1-OUT Mixing color) hotend  
