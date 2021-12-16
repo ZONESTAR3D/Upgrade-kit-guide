@@ -54,7 +54,7 @@ Because there is a mixing color chamber, so the stored filaments in the mixing c
 ![](Issue_mixing_4.jpg)   
 **Solutions:**  
 1. Reduce the size of mixing color chamber, for example, upgrade to [**small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html).  
-2. Synchronous retract to use multiple extruders.    
+2. Synchronous retract to use multiple extruders. It called "Auto Retraction" or "FW Retract" too, about detail, please refer to [**Here**](./M4 4-IN-1-OUT Mixing Color Hotend/Example/readme.md)     
 
 ## R3 3-IN-3-OUT HOTEND
 **R3** hot end is a 3-IN-3-OUT hotend, it has three feeding channels and three nozzles, and all of the three nozzle share one heater and temperature sensor.  
