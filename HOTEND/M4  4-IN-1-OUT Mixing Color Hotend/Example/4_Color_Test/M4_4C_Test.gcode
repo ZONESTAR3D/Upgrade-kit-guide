@@ -36,6 +36,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G92 E0
 G1 F2100 E-16
 ;LAYER_COUNT:25
@@ -1204,10 +1205,6 @@ G0 F6000 X185.199 Y134.505
 ;TIME_ELAPSED:1075.580557
 ;LAYER:-3
 ;TYPE:SUPPORT-INTERFACE
-M163 S0 P100
-M163 S1 P0
-M163 S2 P0
-M163 S3 P0
 G1 F1200 X185.149 Y134.345 E1180.40452
 G1 X185.048 Y134.083 E1180.41386
 G1 X184.914 Y133.794 E1180.42446
@@ -2950,8 +2947,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -2960,7 +2957,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 ;MESH:Color_2.stl
 G0 F3000 X162.251 Y145.846 Z2.66
@@ -3412,8 +3409,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -3422,7 +3419,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 ;MESH:Color_3.stl
 G0 F3000 X173.371 Y156.967 Z2.66
@@ -4055,8 +4052,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -4065,7 +4062,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 ;MESH:Color_4.stl
 G0 F3000 X159.535 Y137.473 Z2.66
@@ -5526,8 +5523,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -5536,6 +5533,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z1.71
 ;MESH:Color_1.stl
@@ -6857,8 +6855,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -6867,7 +6865,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z1.71
 ;MESH:Color_2.stl
@@ -7539,8 +7537,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -7549,7 +7547,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z1.71
 ;MESH:Color_3.stl
@@ -9103,8 +9101,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -9113,6 +9111,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z1.91
 ;MESH:Color_1.stl
@@ -10413,8 +10412,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -10423,7 +10422,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z1.91
 ;MESH:Color_2.stl
@@ -11108,8 +11107,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -11118,7 +11117,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z1.91
 ;MESH:Color_4.stl
@@ -13057,8 +13056,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -13067,6 +13066,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z2.11
 ;MESH:Color_1.stl
@@ -14386,8 +14386,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -14396,7 +14396,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z2.11
 ;MESH:Color_2.stl
@@ -15069,8 +15069,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -15079,7 +15079,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z2.11
 ;MESH:Color_3.stl
@@ -16329,8 +16329,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -16339,6 +16339,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z2.31
 ;MESH:Color_1.stl
@@ -17195,8 +17196,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -17205,7 +17206,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z2.31
 ;MESH:Color_2.stl
@@ -17665,8 +17666,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -17675,7 +17676,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z2.31
 ;MESH:Color_4.stl
@@ -19033,8 +19034,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -19043,6 +19044,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z2.51
 ;MESH:Color_1.stl
@@ -19904,8 +19906,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -19914,7 +19916,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z2.51
 ;MESH:Color_2.stl
@@ -20374,8 +20376,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -20384,7 +20386,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z2.51
 ;MESH:Color_3.stl
@@ -21340,8 +21342,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -21350,6 +21352,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z2.71
 ;MESH:Color_1.stl
@@ -22204,8 +22207,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -22214,7 +22217,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z2.71
 ;MESH:Color_2.stl
@@ -22674,8 +22677,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -22684,7 +22687,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z2.71
 ;MESH:Color_4.stl
@@ -24042,8 +24045,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -24052,6 +24055,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z2.91
 ;MESH:Color_1.stl
@@ -24912,8 +24916,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -24922,7 +24926,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z2.91
 ;MESH:Color_2.stl
@@ -25382,8 +25386,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -25392,7 +25396,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z2.91
 ;MESH:Color_3.stl
@@ -26348,8 +26352,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -26358,6 +26362,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z3.11
 ;MESH:Color_1.stl
@@ -27218,8 +27223,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -27228,7 +27233,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z3.11
 ;MESH:Color_2.stl
@@ -27688,8 +27693,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -27698,7 +27703,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z3.11
 ;MESH:Color_4.stl
@@ -29056,8 +29061,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -29066,6 +29071,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z3.31
 ;MESH:Color_1.stl
@@ -29921,8 +29927,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -29931,7 +29937,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z3.31
 ;MESH:Color_2.stl
@@ -30391,8 +30397,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -30401,7 +30407,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z3.31
 ;MESH:Color_3.stl
@@ -31357,8 +31363,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -31367,6 +31373,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z3.51
 ;MESH:Color_1.stl
@@ -32234,8 +32241,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -32244,7 +32251,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z3.51
 ;MESH:Color_2.stl
@@ -32704,8 +32711,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -32714,7 +32721,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z3.51
 ;MESH:Color_4.stl
@@ -34072,8 +34079,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -34082,6 +34089,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z3.71
 ;MESH:Color_1.stl
@@ -34940,8 +34948,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -34950,7 +34958,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z3.71
 ;MESH:Color_2.stl
@@ -35410,8 +35418,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -35420,7 +35428,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z3.71
 ;MESH:Color_3.stl
@@ -36376,8 +36384,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -36386,6 +36394,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z3.91
 ;MESH:Color_1.stl
@@ -37244,8 +37253,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -37254,7 +37263,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z3.91
 ;MESH:Color_2.stl
@@ -37714,8 +37723,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -37724,7 +37733,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z3.91
 ;MESH:Color_4.stl
@@ -39082,8 +39091,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -39092,6 +39101,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z4.11
 ;MESH:Color_1.stl
@@ -39951,8 +39961,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -39961,7 +39971,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z4.11
 ;MESH:Color_2.stl
@@ -40421,8 +40431,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -40431,7 +40441,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z4.11
 ;MESH:Color_3.stl
@@ -41387,8 +41397,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -41397,6 +41407,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z4.31
 ;MESH:Color_1.stl
@@ -42256,8 +42267,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -42266,7 +42277,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z4.31
 ;MESH:Color_2.stl
@@ -42726,8 +42737,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -42736,7 +42747,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z4.31
 ;MESH:Color_4.stl
@@ -44094,8 +44105,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -44104,6 +44115,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z4.51
 ;MESH:Color_1.stl
@@ -44960,8 +44972,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -44970,7 +44982,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z4.51
 ;MESH:Color_2.stl
@@ -45430,8 +45442,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -45440,7 +45452,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z4.51
 ;MESH:Color_3.stl
@@ -46396,8 +46408,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -46406,6 +46418,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z4.71
 ;MESH:Color_1.stl
@@ -47267,8 +47280,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -47277,7 +47290,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z4.71
 ;MESH:Color_2.stl
@@ -47737,8 +47750,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -47747,7 +47760,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z4.71
 ;MESH:Color_4.stl
@@ -49105,8 +49118,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -49115,6 +49128,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z4.91
 ;MESH:Color_1.stl
@@ -49974,8 +49988,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -49984,7 +49998,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z4.91
 ;MESH:Color_2.stl
@@ -50444,8 +50458,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -50454,7 +50468,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z4.91
 ;MESH:Color_3.stl
@@ -51410,8 +51424,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -51420,6 +51434,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z5.11
 ;MESH:Color_1.stl
@@ -52275,8 +52290,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -52285,7 +52300,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z5.11
 ;MESH:Color_2.stl
@@ -52745,8 +52760,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -52755,7 +52770,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z5.11
 ;MESH:Color_4.stl
@@ -54113,8 +54128,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -54123,6 +54138,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z5.31
 ;MESH:Color_1.stl
@@ -54978,8 +54994,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -54988,7 +55004,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z5.31
 ;MESH:Color_2.stl
@@ -55448,8 +55464,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -55458,7 +55474,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z5.31
 ;MESH:Color_3.stl
@@ -56414,8 +56430,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -56424,6 +56440,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z5.51
 ;MESH:Color_1.stl
@@ -57280,8 +57297,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -57290,7 +57307,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z5.51
 ;MESH:Color_2.stl
@@ -57750,8 +57767,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -57760,7 +57777,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z5.51
 ;MESH:Color_4.stl
@@ -59405,8 +59422,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -59415,6 +59432,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z5.71
 ;MESH:Color_1.stl
@@ -60731,8 +60749,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -60741,7 +60759,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z5.71
 ;MESH:Color_2.stl
@@ -61414,8 +61432,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -61424,7 +61442,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z5.71
 ;MESH:Color_3.stl
@@ -62978,8 +62996,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -62988,6 +63006,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z5.91
 ;MESH:Color_1.stl
@@ -64287,8 +64306,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -64297,7 +64316,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z5.91
 ;MESH:Color_2.stl
@@ -64982,8 +65001,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -64992,7 +65011,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z5.91
 ;MESH:Color_4.stl
@@ -66913,8 +66932,8 @@ G92 E0
 ;end gcode of Extruder 4
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -66923,6 +66942,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z6.11
 ;MESH:Color_1.stl
@@ -68240,8 +68260,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -68250,7 +68270,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z6.11
 ;MESH:Color_2.stl
@@ -68922,8 +68942,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T2
 G92 E0
@@ -68932,7 +68952,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P100
 M163 S3 P0
-
+M164 S2
 G1 F2100 E-16
 G1 F600 Z6.11
 ;MESH:Color_3.stl
@@ -70491,8 +70511,8 @@ G92 E0
 ;end gcode of Extruder 3
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T0
 G92 E0
@@ -70501,6 +70521,7 @@ M163 S0 P100
 M163 S1 P0
 M163 S2 P0
 M163 S3 P0
+M164 S0
 G1 F2100 E-16
 G1 F600 Z6.31
 ;MESH:Color_1.stl
@@ -71801,8 +71822,8 @@ G92 E0
 ;end gcode of Extruder 1
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T1
 G92 E0
@@ -71811,7 +71832,7 @@ M163 S0 P0
 M163 S1 P100
 M163 S2 P0
 M163 S3 P0
-
+M164 S1
 G1 F2100 E-16
 G1 F600 Z6.31
 ;MESH:Color_2.stl
@@ -72496,8 +72517,8 @@ G92 E0
 ;end gcode of Extruder 2
 G92 E0
 G1 E-16 F1800
-G0 X160 Y205 F4800 ; Move to center of prime tower
-G1 E0.02 F1200
+G0 X160 Y265 F4800 ; Move to center of prime tower
+G1 E-1 F1200
 G92 E0
 T3
 G92 E0
@@ -72506,7 +72527,7 @@ M163 S0 P0
 M163 S1 P0
 M163 S2 P0
 M163 S3 P100
-
+M164 S3
 G1 F2100 E-16
 G1 F600 Z6.31
 ;MESH:Color_4.stl
