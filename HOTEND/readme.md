@@ -67,13 +67,13 @@ For details, please refer to the documents in the "**E4 4-IN-3-OUT NON-Mixing Co
 
 ## Advantages and disadvantages of E4 and M4 hot end
 ### Advantages of E4 hotend
-1. Non strings issue.
-2. Less blockages issue.
-3. Less color swich prime tower when print multi color
+1. No strings/drawing issue.
+2. Less clogging issue.
+3. Smaller "extruder switch prime tower" inneed while printing multi colors.
 
 ### Advantages of M4 hotend
-1. Get additional colors than filament colors
-2. Gradient color printing
+1. Get more colors than extruders.
+2. Support gradient color printing feature.
 
 # Slicing Guide  
 Please refer to the guide [**here**](https://github.com/ZONESTAR3D/Slicing-Guide)
