@@ -292,13 +292,13 @@ Settings are the same with 4 Color dog
     ;Mix Rate=50:0:0:50,change if need
 
 #### Extruder end G-code
-The extruder end G-code are the same for all VTOOLs.    	
+##### The extruder end G-code are the same for all VTOOLs.      	
     ;end gcode for Virual Extuder 0
-	G92 E0
-	G1 E-10 F2400
-	G0 X180 Y250 F4800	;Move to the back of prime tower
-	G1 E0 F1800
-	G92 E0
+    G92 E0
+    G1 E-10 F2400
+    G0 X180 Y250 F4800	;Move to the back of prime tower
+    G1 E0 F1800
+    G92 E0
 
 ### slicing settings
 ![](./6_Color_Patrick/settings5.jpg) 

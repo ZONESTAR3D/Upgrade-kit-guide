@@ -1,3 +1,5 @@
+#### [**Download 3.5" TFT-LCD documents in one go**](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/TFTLCD35-MK)
+
 ## Case stl file
 The case stl files for install 3.5" TFT-LCD  screen, it included 2 stl files, one is the top and another is the bottom.  
 ![](./Case_stl_file/TFT35_MK_CASE.jpg)
@@ -16,4 +18,5 @@ Video tutorial for using and upload firmware etc.
 
 ## Mobile
 How to control the 3.5" TFT-LCD screen with WiFi by smart mobile phone. 
+
 

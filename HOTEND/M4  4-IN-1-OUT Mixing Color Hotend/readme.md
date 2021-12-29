@@ -25,9 +25,11 @@ Introduction of the 4th M4 hotend.
 Introduction of the 5th version M4 hotend
 ####  Structure diagram
 ![](./M4_V5/M4V5.jpg)
-#### The different between  **M4V5** with **M4V4**:  
+#### The different between **M4V5** with **M4V4**:  
 1. Removed the inner PTEF pipes, Reduce the probability of clogged because the internal PTEF pipe be damaged.   
 2. Upgraded the fittings, easier to load filament and replace the filament guide. 
+#### !!ATTETION PLEASE!!
+**Because M4V5 used different fittings which to fix the PTFE filament guides, its size is bigger than M4V3 and M4V4, so M4V5 can't be installed to the older housing.**     
 
 ### stl
 Stl files of the fan duck
