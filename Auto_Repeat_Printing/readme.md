@@ -1,8 +1,8 @@
-<h2> Automatic Repeat Printing Module User Manual</h2>
+<h2> Automatic Repeat Printing Module User Manual</h2>  
 <h3> !!ATTENTION!! </h3>  
 **Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Special Notes](#7)**
 
-<h3> Contents </h3> 
+<h3> Contents </h3>   
 [**1. Brief introduction**](#1)  
 [**2. Parts list**](#2)  
 [**3. Installation**](#3)  
