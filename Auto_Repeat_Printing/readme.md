@@ -99,7 +99,10 @@ You can also add the below Gcode command in to the start Gcode of slicing softwa
 	L[int]:  Push arm length.  
 	B[float]: Base heigth. (while used the print base)
 
-	For example, you want to print one 3d object 10 pieces, before remove the prints, the hotbed temperature lower than 23 degree. In order that the prints can be push down by the arm, the hot bed need to move to 60mm heigth and the arm need to push 350mm, you can add a command to the start G-code:
+	For example, you want to print one 3d object 10 pieces, before remove the
+	prints, the hotbed temperature lower than 23 degree. In order that the prints
+	can be push down by the arm, the hot bed need to move to 60mm heigth and the
+	arm need to push 350mm, you can add a command to the start G-code:
 	M182 S1 N9 Z60 T23 L350 
 
 	PS: Add this gcode before G28 command in "start G-code".
