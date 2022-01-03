@@ -146,7 +146,7 @@ If the above operation can successfully remove the prints, you can start the rep
 
 ### 11. Adanced feature    [return to contents>>][0]
 #### print base
--[ ] TODO: Add print base description here.  
+- [ ] TODO: Add print base description here.  
 
 [0]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#contents
 [1]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#1-brief-introduction---return-to-contents
