@@ -69,7 +69,7 @@ Download firmware bin file and upload to your 3d printer.
 	* **Click R- button**: the right motor rotate anti-clockwise.
 * **Step 3**: Operature the LCD MENU: ***Control>>Repeat Print***
 	* **ATTENTION: Make sure the arm is above the hot bed before testing**
-	* Move to MENU ***Repeat Printing: OFF***, and click knob to turn ON.
+	* Move to MENU ***Repeat Printing:*** and click knob to turn ***Repeat Printing: ON***.
 	* Move to MENU ***Home Arm Test***, click knob, the arm will move back and stop when the ENDSTOPs it triggered.
 	* Move to MENU ***Push Arm Test***, click knob, the arm will move front 340mm.
 
@@ -83,9 +83,11 @@ Download firmware bin file and upload to your 3d printer.
 * Please note that the glass printing platfome may be pushed out of the hot bed and damage when removing the prints. It is suggested that foam should be laid under the machine to prevent the glass from falling down. You may also consider using double-sided adhesive to paste hot bed glass on the hot bed aluminum substrate to instead of fixed by clips.
 
 ## 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
-A complete workflow of repeated printing is **[Print]->[Wait bed cool]->[Move up hotbed]->[Push the arm]->[Home the arm]->[Print next one]**.   
+A complete workflow of repeated printing is:   
+**[Print]->[Wait bed cool]->[Move up hotbed]->[Push the arm]->[Home the arm]->[Print next one]**.     
 - [ ] **TODO: Add a workflow animation picture here.**    
 ![](workflow.gif)   
+![](workflow.jpg)
 
 ## 9. Apply Automatic Repeat Printing function   [return to contents>>][0]
 There are two ways to apply the **Automatic Printing function**: *Apply from LCD control panel* or *Apply by adding gcode in slicing software*.    
