@@ -21,14 +21,14 @@
 
 ### 2. Parts list   [return to contents>>][0]  
 ![](Parts.jpg)    
-* **1 x Left Arm Driver Assembly with limit switch.**[1]    
-* **1 x Right Arm Driver Assembly with limit switch.**[2]   
-* **1 x Drive Board.** [3]    
-* **1 x metal pushing Arm.**[4]   
-* **2 x T8 445mm lead screws.**[5]    
-* **2 x T8 Lead Screw Fixing Blocks.**[6]   
-* **1 x 6Pin DuPont wire, 1 x 2Pin power wire with connector.**[7]   
-* **4 x M3x6 screws + 4x M3 Nylon Pillar.**[8]    
+* **1 x Left Arm Driver Assembly with limit switch(1).**    
+* **1 x Right Arm Driver Assembly with limit switch(2).**   
+* **1 x Drive Board(3).**     
+* **1 x metal pushing Arm(4).**   
+* **2 x T8 445mm lead screws(5).**    
+* **2 x T8 Lead Screw Fixing Blocks(6).**   
+* **1 x 6Pin DuPont wire, 1 x 2Pin power wire with connector(7).**   
+* **4 x M3x6 screws + 4x M3 Nylon pillar(8).**    
 
 ### 3. Installation   [return to contents>>][0]
 #### 3.1 Install the arm driver assembly.
@@ -38,6 +38,7 @@
 ![](Install3.jpg)
 ####  3.3 Install arm and lead screws.
 ![](Install4.jpg)
+![](Install5.jpg)
 
 ### 4. Wiring   [return to contents>>][0]
 ![](Wiring1.jpg)
@@ -82,8 +83,7 @@ Download firmware bin file and upload to your 3d printer.
 * Please note that the glass printing platfome may be pushed out of the hot bed and damage when removing the prints. It is suggested that foam should be laid under the machine to prevent the glass from falling down. You may also consider using double-sided adhesive to paste hot bed glass on the hot bed aluminum substrate to instead of fixed by clips.
 
 ### 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
-A complete workflow of repeated printing is as follows:  
-Print->Wait bed cool->Move up hotbed->Push the arm->Home the arm->Print next one.  
+A complete workflow of repeated printing is **[Print]->[Wait bed cool]->[Move up hotbed]->[Push the arm]->[Home the arm]->[Print next one]**.   
 - [ ] **TODO: Add a workflow animation picture here.**    
 ![](workflow.gif)   
 
@@ -91,12 +91,13 @@ Print->Wait bed cool->Move up hotbed->Push the arm->Home the arm->Print next one
 There are two ways to apply the **Automatic Printing function**: *Apply from LCD control panel* or *Apply by adding gcode in slicing software*.    
 #### 1. Apply Automatic Printing function from LCD control panel.
 + Slice the 3d files to gcode file, which is the same as without Automatic Printing function.
-+ Turn on the **"Auto repeating"** and set several parameters on the LCD screen.About the details of **several parameters**:  
++ Turn on the **"Auto repeating"** and set parameters on the LCD screen. About the details of **parameters**:  
 	+ **Repeat times:** Number of times to repeat, obviously, the actual prints number is equal to Repeat times + 1.
 	+ **Push length:** *PUSH ARM* move forward length when removing the print. 
 	+ **Bed temp:** Wait the hotbed cooled to this temperature before removing the prints.
-	+ **Z Heigth:** Move Z-axis to this height before removing the prints.
-	+ **Base Heigth:** Height of the base while used the print base. [**More about the print base**][11]
+	+ **Z Heigth:** Move Z-axis to this heigth before pushing the arm to remove the prints.
+	+ **Base Heigth:** Height of the base while used the print base. [**More about the print base**][11]  
+![](lcdsettings.jpg)
 
 #### 2. Apply Automatic Printing function by adding gcode in slicing software.
 You can also add the below Gcode command in to the start Gcode of slicing software. 
@@ -144,9 +145,11 @@ If the above operation can successfully remove the prints, you can start the rep
 * **DemoRep.gcode**: This file is an "auto repeat printing demo" print file. It print a small box with 30mmx30mm size and 40mm heigth and repeat 10 times automatically. 
 
 
-### 11. Adanced feature    [return to contents>>][0]
-#### print base
-- [ ] **TODO: Add print base description here.**  
+### 11. Advanced feature    [return to contents>>][0]
+#### Add print base
+- [ ] **TODO: To add a description about print base.**  
+#### Add bed cooling FAN
+- [ ] **TODO: To add a description of the hot bed cooling fan.**
 
 [0]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#contents
 [1]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#1-brief-introduction---return-to-contents
