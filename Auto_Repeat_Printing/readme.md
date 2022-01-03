@@ -1,8 +1,8 @@
-## Automatic Repeat Printing Module User Manual
-### **!!ATTENTION!!**  
+<h2> Automatic Repeat Printing Module User Manual</h2>
+<h3> !!ATTENTION!! </h3>  
 **Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Special Notes](#7)**
 
-### Contents
+<h3> Contents </h3> 
 [**1. Brief introduction**](#1)  
 [**2. Parts list**](#2)  
 [**3. Installation**](#3)  
@@ -100,7 +100,7 @@ There are two ways to apply the **Automatic Printing function**: *Apply from LCD
 	+ **Base Heigth:** Height of the base while used the print base. [**More about the print base**](#a)
 
 <h4> 2. Apply Automatic Printing function by adding gcode in slicing software
-You can also add the below Gcode command in to the start Gcode of slicing software.</h4>
+You can also add the below Gcode command in to the start Gcode of slicing software.
 
     M182 Sx Nxx Zxx Txx Lxx
 
@@ -143,6 +143,6 @@ If the above operation can successfully remove the prints, you can start the rep
 
 [selllink]:(https://www.aliexpress.com/item/1005002865311470.html)
 
-<h4 id="a">print Base</h2>
+<h4 id="a">print Base</h4>
 
 
