@@ -69,9 +69,9 @@ Download firmware bin file and upload to your 3d printer.
 	* **Click R- button**: the right motor rotate anti-clockwise.
 * **Step 3**: Operature the LCD MENU: ***Control>>Repeat Print***
 	* **ATTENTION: Make sure the arm is above the hot bed before testing**
-	* Move to MENU **Repeat Printing: OFF**, and click knob to turn ON.
-	* Move to MENU **Home Arm Test***, click knob, the arm will move back and stop when the ENDSTOPs it triggered.
-	* Move to MENU **Push Arm Test***, click knob, the arm will move front 340mm.
+	* Move to MENU ***Repeat Printing: OFF***, and click knob to turn ON.
+	* Move to MENU ***Home Arm Test***, click knob, the arm will move back and stop when the ENDSTOPs it triggered.
+	* Move to MENU ***Push Arm Test***, click knob, the arm will move front 340mm.
 
 ## 7. Important Notice   [return to contents>>][0]
 * Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. It is recommended that you print and confirm this before using automatic repeat printing. 
