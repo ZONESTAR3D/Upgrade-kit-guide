@@ -1,8 +1,8 @@
-## Automatic Repeat Printing Module User Manual
-### !!ATTENTION!!
+# Automatic Repeat Printing Module User Manual
+## !!ATTENTION!!
 **Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice][7]**
 
-### Contents
+## Contents
 * [**1. Brief introduction**][1]  
 * [**2. Parts list**][2]
 * [**3. Installation**][3]  
@@ -15,11 +15,11 @@
 * [**10.Example Gcode files**][10]
 * [**11.Advanced features**][11]
 
-### 1. Brief introduction   [return to contents>>][0]
+## 1. Brief introduction   [return to contents>>][0]
 **Sometimes we hope to use the 3D printer to make some plastic parts in small quantities (dozens or hundreds). In this case, we need a device to automatically remove the 3D prints on the hot bed and print this part repeatedly, so that the 3D printer can realize unattended automatic repeated production.  [**Automatic Repeat Printing Module**][selllink] is upgrade kit for Z9 to meet this requirement.**
 ![](principle.gif)
 
-### 2. Parts list   [return to contents>>][0]  
+## 2. Parts list   [return to contents>>][0]  
 ![](Parts.jpg)    
 * **1 x Left Arm Driver Assembly with limit switch(1).**    
 * **1 x Right Arm Driver Assembly with limit switch(2).**   
@@ -30,21 +30,21 @@
 * **1 x 6Pin DuPont wire, 1 x 2Pin power wire with connector(7).**   
 * **4 x M3x6 screws + 4x M3 Nylon pillar(8).**    
 
-### 3. Installation   [return to contents>>][0]
-#### 3.1 Install the arm driver assembly.
+## 3. Installation   [return to contents>>][0]
+### 3.1 Install the arm driver assembly.
 ![](Install1.jpg)
-####  3.2 Install lead screw fixing blocks.
+###  3.2 Install lead screw fixing blocks.
 ![](Install2.jpg)
 ![](Install3.jpg)
-####  3.3 Install arm and lead screws.
+###  3.3 Install arm and lead screws.
 ![](Install4.jpg)
 ![](Install5.jpg)
 
-### 4. Wiring   [return to contents>>][0]
+## 4. Wiring   [return to contents>>][0]
 ![](Wiring1.jpg)
 ![](Wiring2.jpg)
 
-### 5. Upgrade firmware   [return to contents>>][0]
+## 5. Upgrade firmware   [return to contents>>][0]
 Download firmware bin file and upload to your 3d printer.  
 [**Z9V5-MK1 & Z9V5-MK2** firmware with **repeat print feature**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro/beta/RepeatPrint)   
 [**Z9V5-MK3** firmware with **repeat print feature**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK3/beta/RepeatPrint)   
@@ -60,7 +60,7 @@ Download firmware bin file and upload to your 3d printer.
 > 6. Check the firmware version on LCD screen:    
 > 	`MENU: Infor>>Firmware Version` 
 
-### 6. Verify wiring and installation   [return to contents>>][0]
+## 6. Verify wiring and installation   [return to contents>>][0]
 * **Step 1**: Power on the 3d printer.  
 * **Step 2**: Push the buttons on the drive board, and check if the motor rotate as below:
 	* **Click L+ button**: the left motor rotate clockwise.
@@ -73,7 +73,7 @@ Download firmware bin file and upload to your 3d printer.
 	* Move to MENU **Home Arm Test***, click knob, the arm will move back and stop when the ENDSTOPs it triggered.
 	* Move to MENU **Push Arm Test***, click knob, the arm will move front 340mm.
 
-### 7. Important Notice   [return to contents>>][0]
+## 7. Important Notice   [return to contents>>][0]
 * Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. It is recommended that you print and confirm this before using automatic repeat printing. 
 * The following methods will help to peel the print from the printing platform:
 	* Put the smooth surface of the glass upward, if the print does not attach well to the platform, you can try the following solution:
@@ -82,14 +82,14 @@ Download firmware bin file and upload to your 3d printer.
 	* Do not use "Brim" or "Raft" on "Build Plate Adhesion" settings when slicing.
 * Please note that the glass printing platfome may be pushed out of the hot bed and damage when removing the prints. It is suggested that foam should be laid under the machine to prevent the glass from falling down. You may also consider using double-sided adhesive to paste hot bed glass on the hot bed aluminum substrate to instead of fixed by clips.
 
-### 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
+## 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
 A complete workflow of repeated printing is **[Print]->[Wait bed cool]->[Move up hotbed]->[Push the arm]->[Home the arm]->[Print next one]**.   
 - [ ] **TODO: Add a workflow animation picture here.**    
 ![](workflow.gif)   
 
-### 9. Apply Automatic Repeat Printing function   [return to contents>>][0]
+## 9. Apply Automatic Repeat Printing function   [return to contents>>][0]
 There are two ways to apply the **Automatic Printing function**: *Apply from LCD control panel* or *Apply by adding gcode in slicing software*.    
-#### 1. Apply Automatic Printing function from LCD control panel.
+### 9-1. Apply Automatic Printing function from LCD control panel.
 + Slice the 3d files to gcode file, which is the same as without Automatic Printing function.
 + Turn on the **"Auto repeating"** and set parameters on the LCD screen. About the details of **parameters**:  
 	+ **Repeat times:** Number of times to repeat, obviously, the actual prints number is equal to Repeat times + 1.
@@ -99,7 +99,7 @@ There are two ways to apply the **Automatic Printing function**: *Apply from LCD
 	+ **Base Heigth:** Height of the base while used the print base. [**More about the print base**][11]  
 ![](lcdsettings.jpg)
 
-#### 2. Apply Automatic Printing function by adding gcode in slicing software.
+### 9-2. Apply Automatic Printing function by adding gcode in slicing software.
 You can also add the below Gcode command in to the start Gcode of slicing software. 
 
     M182 Sx Nxx Zxx Txx Lxx
@@ -122,7 +122,7 @@ You can also add the below Gcode command in to the start Gcode of slicing softwa
 	PS: Add this gcode before G28 command in "start G-code".
  
 
-### 10. Example Gcode files   [return to contents>>][0]
+## 10. Example Gcode files   [return to contents>>][0]
 In the example directory, you can see several gcode files, which are:    
 
 * **Dummy.gcode**: This file is a "dummy" print file. It doesn't actually print anything. It can help you quickly test the repeat printing function. the steps are as follows:  
@@ -145,10 +145,10 @@ If the above operation can successfully remove the prints, you can start the rep
 * **DemoRep.gcode**: This file is an "auto repeat printing demo" print file. It print a small box with 30mmx30mm size and 40mm heigth and repeat 10 times automatically. 
 
 
-### 11. Advanced feature    [return to contents>>][0]
-#### Add print base
+## 11. Advanced feature    [return to contents>>][0]
+### 11-1. Add print base
 - [ ] **TODO: To add a description about print base.**  
-#### Add bed cooling FAN
+### 11-2. Add bed cooling FAN
 - [ ] **TODO: To add a description of the hot bed cooling fan.**
 
 [0]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#contents
