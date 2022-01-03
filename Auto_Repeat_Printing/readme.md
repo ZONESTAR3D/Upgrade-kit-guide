@@ -84,7 +84,7 @@ Download firmware bin file and upload to your 3d printer.
 ### 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
 A complete workflow of repeated printing is as follows:  
 Print->Wait bed cool->Move up hotbed->Push the arm->Home the arm->Print next one.  
-- [ ] TODO: Add a workflow animation picture here.  
+- [ ] **TODO: Add a workflow animation picture here.**    
 ![](workflow.gif)   
 
 ### 9. Apply Automatic Repeat Printing function   [return to contents>>][0]
@@ -146,7 +146,7 @@ If the above operation can successfully remove the prints, you can start the rep
 
 ### 11. Adanced feature    [return to contents>>][0]
 #### print base
-- [ ] TODO: Add print base description here.  
+- [ ] **TODO: Add print base description here.**  
 
 [0]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#contents
 [1]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#1-brief-introduction---return-to-contents
