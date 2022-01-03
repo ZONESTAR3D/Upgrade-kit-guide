@@ -27,8 +27,8 @@
 ![](Install4.jpg)
 
 ### 4. Wiring
-![](wiring1.jpg)
-![](wiring2.jpg)
+![](Wiring1.jpg)
+![](Wiring2.jpg)
 
 ### 5. Upgrade firmware
 Download firmware bin file and upload to your 3d printer.  
