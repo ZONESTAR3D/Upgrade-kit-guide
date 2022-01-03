@@ -35,17 +35,16 @@ Download firmware bin file and upload to your 3d printer.
 [**Z9V5-MK1 & Z9V5-MK2** firmware with **repeat print feature**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro/beta/RepeatPrint)   
 [**Z9V5-MK3** firmware with **repeat print feature**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK3/beta/RepeatPrint)   
 
-> 
-**How to upload firmware**  
-1. Download the zip file and unzip it.  
-2. Copy ***firmware.bin*** to the root directory of Micro-SD card.   
-**NOTE:if there is a "old_fw.bin" in the SD card, delete it first.** 
-3. Power off 3d printer and plug the SD card into card socket of control board.
-4. Power on the printer, push the power button and wait about 30 seconds.  
-5. Do the below step on LCD screen to initialize EEPROM after upload firmware:
-    `MENU: Control>>Restore Defaults`  
-6. Check the firmware version on LCD screen:    
-	`MENU: Infor>>Firmware Version` 
+>**How to upload firmware**  
+> 1. Download the zip file and unzip it.  
+> 2. Copy ***firmware.bin*** to the root directory of Micro-SD card.   
+> **NOTE:if there is a "old_fw.bin" in the SD card, delete it first.** 
+> 3. Power off 3d printer and plug the SD card into card socket of control board.
+> 4. Power on the printer, push the power button and wait about 30 seconds.  
+> 5. Do the below step on LCD screen to initialize EEPROM after upload firmware:
+>     `MENU: Control>>Restore Defaults`  
+> 6. Check the firmware version on LCD screen:    
+> 	`MENU: Infor>>Firmware Version` 
 
 ### 6. Verify wiring and installation
 * **Step 1**: Power on the 3d printer.  
