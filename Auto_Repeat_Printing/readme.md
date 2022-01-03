@@ -1,24 +1,12 @@
-<h2> Automatic Repeat Printing Module User Manual</h2>  
-<h3> !!ATTENTION!! </h3>  
+## Automatic Repeat Printing Module User Manual
+### !!ATTENTION!!
 **Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Special Notes](#7)**
 
-<h3> Contents </h3>   
-[**1. Brief introduction**](#1)  
-[**2. Parts list**](#2)  
-[**3. Installation**](#3)  
-[**4. Wiring**](#4)  
-[**5. Upgrade firmware**](#5)  
-[**6. Verify wiring and installation**](#6)  
-[**7. Special Notes**](#7)  
-[**8. Workflow of Automatic Repeat Printing**](#8)  
-[**9. Apply Automatic Repeat Printing feature**](#9)  
-[**10.Example**](#10)  
- 
-<h3 id="1">1. Brief introduction</h3>    
+### 1. Brief introduction   
 **Sometimes we hope to use the 3D printer to make some plastic parts in small quantities (dozens or hundreds). In this case, we need a device to automatically remove the 3D prints on the hot bed and print this part repeatedly, so that the 3D printer can realize unattended automatic repeated production.  [**Automatic Repeat Printing Module**][selllink] is upgrade kit for Z9 to meet this requirement.**
 ![](principle.gif)
 
-<h3 id="2">2. Parts list</h3>  
+### 2. Parts list  
 ![](parts.jpg)    
 * **1 x Left Arm Driver Assembly with limit switch.**[1]    
 * **1 x Right Arm Driver Assembly with limit switch.**[2]   
@@ -30,13 +18,13 @@
 * **4 x M3x6 screws + 4x M3 Nylon Pillar.**[8]    
 
 
-<h3 id="3">3. Installation</h3>
-<h4> 3.1 Install the arm driver assembly.</h4>
+### 3. Installation
+#### 3.1 Install the arm driver assembly.
 ![](Install1.jpg)
-<h4> 3.2 Install lead screw fixing blocks.</h4>
+####  3.2 Install lead screw fixing blocks.
 ![](Install2.jpg)
 ![](Install3.jpg)
-<h4> 3.3 Install arm and lead screws.</h4>
+####  3.3 Install arm and lead screws.
 ![](Install4.jpg)
 
 <h3 id="4">4. Wiring</h3>
