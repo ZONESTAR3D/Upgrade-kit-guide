@@ -19,15 +19,16 @@
 ![](principle.gif)
 
 <h3 id="2">2. Parts list</h3>  
-* **1 x Left Arm Driver Assembly with limit switch.** 
-* **1 x Right Arm Driver Assembly with limit switch.**
-* **1 x Drive Board.**
-* **1 x metal pushing Arm.**
-* **2 x T8 445mm lead screws.**
-* **2 x T8 Lead Screw Fixing Blocks.**
-* **1 x 6PIN DuPont wire, 1 x 2PIN power wire with onnector.**
-* **4 x M3x6 screws + 4x M3 Nylon Pillar.**  
-![](Part.jpg)   
+![](parts.jpg)    
+* **1 x Left Arm Driver Assembly with limit switch.**[1]    
+* **1 x Right Arm Driver Assembly with limit switch.**[2]   
+* **1 x Drive Board.** [3]    
+* **1 x metal pushing Arm.**[4]   
+* **2 x T8 445mm lead screws.**[5]    
+* **2 x T8 Lead Screw Fixing Blocks.**[6]   
+* **1 x 6Pin DuPont wire, 1 x 2Pin power wire with connector.**[7]   
+* **4 x M3x6 screws + 4x M3 Nylon Pillar.**[8]    
+
 
 <h3 id="3">3. Installation</h3>
 #### 3.1 Install the arm driver assembly.
