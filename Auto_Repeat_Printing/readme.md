@@ -31,16 +31,16 @@
 
 
 <h3 id="3">3. Installation</h3>
-#### 3.1 Install the arm driver assembly.
+<h4> 3.1 Install the arm driver assembly.</h4>
 ![](Install1.jpg)
-#### 3.2 Install lead screw fixing blocks.
+<h4> 3.2 Install lead screw fixing blocks.</h4>
 ![](Install2.jpg)
 ![](Install3.jpg)
-#### 3.3 Install arm and lead screws.
+<h4> 3.3 Install arm and lead screws.</h4>
 ![](Install4.jpg)
 
 <h3 id="4">4. Wiring</h3>
-#### Please refer to the below pictures to wiring 
+<h4> Please refer to the below pictures to wiring </h4>
 ![](wiring1.jpg)
 ![](wiring2.jpg)
 
@@ -49,17 +49,17 @@ Download firmware and upload to your 3d printer.
 [**Z9V5-MK1 & Z9V5-MK2** firmware with **repeat print feature**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro/beta/RepeatPrint)   
 [**Z9V5-MK3** firmware with **repeat print feature**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK3/beta/RepeatPrint)   
 
->#### How to upload firmware  
-1. Download the zip file and unzip it.
+> 
+**How to upload firmware**  
+1. Download the zip file and unzip it.  
 2. Copy ***firmware.bin*** to the root directory of Micro-SD card.   
 **NOTE:if there is a "old_fw.bin" in the SD card, delete it first.** 
 3. Power off 3d printer and plug the SD card into card socket of control board.
-4. Power on the printer, push the power button and wait about 30 seconds.
+4. Power on the printer, push the power button and wait about 30 seconds.  
 5. Do the below step on LCD screen to initialize EEPROM after upload firmware:
-    `MENU: Control>>Restore Defaults`
-6. Check the firmware version on LCD screen:  
+    `MENU: Control>>Restore Defaults`  
+6. Check the firmware version on LCD screen:    
 	`MENU: Infor>>Firmware Version` 
-
 
 <h3 id="6">6. Verify wiring and installation</h3>
 * **Step 1**: Power on the 3d printer.  
@@ -90,7 +90,7 @@ Print->Wait bed cool->Move up hotbed->Push the arm->Home the arm->Print next one
 
 <h3 id="9">9. Apply Automatic Repeat Printing function</h3>
 There are two ways to apply the **Automatic Printing function**: *Apply from LCD control panel* or *Apply by adding gcode in slicing software*.    
-#### 1. Apply Automatic Printing function from LCD control panel.
+<h4> 1. Apply Automatic Printing function from LCD control panel.</h4>
 + Slice the 3d files to gcode file, which is the same as without Automatic Printing function.
 + Turn on the **"Auto repeating"** and set several parameters on the LCD screen.About the details of **several parameters**:  
 	+ **Repeat times:** Number of times to repeat, obviously, the actual prints number is equal to Repeat times + 1.
@@ -99,8 +99,8 @@ There are two ways to apply the **Automatic Printing function**: *Apply from LCD
 	+ **Z Heigth:** Move Z-axis to this height before removing the prints.
 	+ **Base Heigth:** Height of the base while used the print base. [**More about the print base**](#a)
 
-#### 2. Apply Automatic Printing function by adding gcode in slicing software
-You can also add the below Gcode command in to the start Gcode of slicing software.   
+<h4> 2. Apply Automatic Printing function by adding gcode in slicing software
+You can also add the below Gcode command in to the start Gcode of slicing software.</h4>
 
     M182 Sx Nxx Zxx Txx Lxx
 
