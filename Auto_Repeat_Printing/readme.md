@@ -1,18 +1,18 @@
 ## Automatic Repeat Printing Module User Manual
 ### !!ATTENTION!!
-**Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [!!Important Notice!!](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#7-Important-Notice)**
+**Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#7-important-notice)**
 
 ### Contents
-* [**1. Brief introduction**](#1)  
-* [**2. Parts list**](#2)  
-* [**3. Installation**](#3)  
-* [**4. Wiring**](#4)  
-* [**5. Upgrade firmware**](#5)  
-* [**6. Verify wiring and installation**](#6)  
-* [**7. Important Notice**](#7)  
-* [**8. Workflow of Automatic Repeat Printing**](#8)  
-* [**9. Apply Automatic Repeat Printing function**](#9)  
-* [**10.Example Gcode files**](#10)  
+* [**1. Brief introduction**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#1-brief-introduction)  
+* [**2. Parts list**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#2-parts-list)  
+* [**3. Installation**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#3-installation)  
+* [**4. Wiring**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#4-wiring)  
+* [**5. Upgrade firmware**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#5-upgrade-firmware)  
+* [**6. Verify wiring and installation**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#6-verify-wiring-and-installation)  
+* [**7. Important Notice**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#7-important-notice)  
+* [**8. Workflow of Automatic Repeat Printing**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#8-workflow-of-automatic-repeat-printing)  
+* [**9. Apply Automatic Repeat Printing function**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#9-apply-automatic-repeat-printing-function)  
+* [**10.Example Gcode files**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#10-example-gcode-files)  
 
 ### 1. Brief introduction   
 **Sometimes we hope to use the 3D printer to make some plastic parts in small quantities (dozens or hundreds). In this case, we need a device to automatically remove the 3D prints on the hot bed and print this part repeatedly, so that the 3D printer can realize unattended automatic repeated production.  [**Automatic Repeat Printing Module**][selllink] is upgrade kit for Z9 to meet this requirement.**
@@ -83,7 +83,7 @@ Download firmware bin file and upload to your 3d printer.
 ### 8. Workflow of Automatic Repeat Printing
 A complete workflow of repeated printing is as follows:  
 Print->Wait bed cool->Move up hotbed->Push the arm->Home the arm->Print next one.  
-- [ ] Add one workflow animation picture here.  
+- [ ] TODO: Add a workflow animation picture here.  
 ![](workflow.gif)   
 
 ### 9. Apply Automatic Repeat Printing function
