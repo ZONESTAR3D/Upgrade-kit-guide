@@ -108,7 +108,7 @@ There are two ways to apply the **Automatic Repeat Printing function**: ***Apply
 ![](./pic/lcdsettings.jpg)
 
 ### 9-2. Apply Automatic Printing function by adding gcode in slicing software.
-You can also add the M182 command to the "Start G-code" of "machine setting" when slicing, The following is a detailed description of the M182 command: 
+You can also add the M182 command to the "Start G-code" of "machine setting" when slicing, detailed description of M182 command as below: 
 
     M182 Sx Nxx Zxx Txx Lxx
 
@@ -132,7 +132,7 @@ You can also add the M182 command to the "Start G-code" of "machine setting" whe
  
 
 ## 10. Example Gcode files   [return to contents>>][0]
-We have placed several gcode files in the "Example" directory for testing:      
+There are several testing gcode files in the [**Example**](./Example) directory:      
 
 + **Dummy.gcode**: This file is a "dummy" print file. It doesn't actually print anything, only help to test the repeat printing function quickly. you can download and copy the file to the SD card and followng the below steps to do a "automatica repeat printing" test:  
 	* **Step 1**. Turn on **Auto repeating** and set the parameters on the LCD screen.
