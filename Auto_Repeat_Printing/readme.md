@@ -106,7 +106,7 @@ A complete workflow of repeated printing is:
 There are two ways to apply the **Automatic Repeat Printing function**: ***Apply from LCD control panel*** or ***Apply by adding gcode in slicing software***.    
 ### 9-1. Apply Automatic Printing function from LCD control panel.
 + Slice the 3d files to gcode file, which is the same as without **Automatic Repeat Printing** function.
-+ Turn on the **Auto repeating** and set parameters on the LCD screen.
++ Turn on the Repeat Printing and set parameters on the LCD screen.  
 ![](./pic/lcdsettings.jpg)
 
 ### 9-2. Apply Automatic Printing function by adding gcode in slicing software.
