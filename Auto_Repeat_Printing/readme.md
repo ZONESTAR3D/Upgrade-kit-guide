@@ -1,6 +1,8 @@
-# Automatic Repeat Printing Module User Manual
+# [Automatic Repeat Printing Module][selllink] User Manual
 ## !!ATTENTION!!
-**Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice][7]**
+#### 1. Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice][7]
+#### 2. It is recommended to purchase one 4-IN-1-OUT Non-mixing color hotend if you haven't it,  its printing quality is better than mixing color hotend when printing one color 3d prints. [Click Here to buy](https://www.aliexpress.com/item/1005002951777699.html)
+
 
 ## Contents
 * [**1. Brief introduction**][1]  
@@ -17,8 +19,8 @@
 
 ## 1. Brief introduction   [return to contents>>][0]
 Sometimes we hope to use the 3D printer to make some plastic parts in small quantities (dozens or hundreds). In this case, we need a device to automatically remove the 3D printed object on the hot bed and print this part repeatedly, so that the 3D printer can realize unattended automatic repeated production.  [**Automatic Repeat Printing Module**][selllink] is an upgrade kit for Z9 to meet this requirement.     
-**The premise that the Automatic Repeat Printing Module can work normally is that the printed 3D printed object can be easily separated from the printing platform after the printing platform is cooled.** According to our test, if we were used the glass printing platform and properly set the printing height of the first layer, the printed object (made by ABS, PLA+ or PETG filament etc.) can be easily separated from the glass printing platform after the glass is cooled to below 25℃.    
-The **Automatic Repeat Printing Module** is composed of **Arm Drivers, lead screw fixing blocks, lead screws and Pushing-arm**. It is installed between the hot bed and the hot end. 
+**The premise that the [Automatic Repeat Printing Module][selllink] can work normally is that the printed 3D printed object can be easily separated from the printing platform after the printing platform is cooled.** According to our test, if we were used the glass printing platform and properly set the printing height of the first layer, the printed object (made by ABS, PLA+ or PETG filament etc.) can be easily separated from the glass printing platform after the glass is cooled to below 25℃.    
+The **[Automatic Repeat Printing Module][selllink]** is composed of **Arm Drivers, lead screw fixing blocks, lead screws and Pushing-arm**. It is installed between the hot bed and the hot end. 
 The working process is that finished one print first, then cooling the printing platform, and then push the printed object out of the printing platform with the Pushing-arm, and then print the next one repeatedly.  
 ![](./pic/principle.gif)
 
@@ -78,7 +80,7 @@ Download firmware bin file and upload to your 3d printer.
 	* Move to MENU ***Push Arm Test***, click knob, the arm will move front 340mm.
 
 ## 7. Important Notice   [return to contents>>][0]
-* Before using Automatic Repeat Printing feature, please confirm that the printed object is easy to be removed from the printing platform while the hotbed is cooled. It is recommended that you print and confirm this before using automatic repeat printing. 
+* Before using Automatic Repeat Printing feature, please confirm that the printed object is easy to be removed from the printing platform while the hotbed is cooled. It is recommended that you print and confirm this before using Automatic Repeat Printing. 
 * The following methods will help to remove the printed object from the printing platform:
 	* Put the smooth surface of the glass upward, if the print does not attach well to the platform, you can try the following solution:
 		* Set the hot bed temperature to 70 degrees (PLA, PLA +), or 85 degrees (PETG)
@@ -103,7 +105,7 @@ A complete workflow of repeated printing is:
 ## 9. Apply Automatic Repeat Printing function   [return to contents>>][0]
 There are two ways to apply the **Automatic Repeat Printing function**: ***Apply from LCD control panel*** or ***Apply by adding gcode in slicing software***.    
 ### 9-1. Apply Automatic Printing function from LCD control panel.
-+ Slice the 3d files to gcode file, which is the same as without Automatic Repeat Printing function.
++ Slice the 3d files to gcode file, which is the same as without **Automatic Repeat Printing** function.
 + Turn on the **Auto repeating** and set parameters on the LCD screen.
 ![](./pic/lcdsettings.jpg)
 
@@ -176,7 +178,7 @@ If the above operation can successfully remove the printed object, you can start
 [9]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#9-apply-automatic-repeat-printing-function---return-to-contents
 [10]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#10-example-gcode-files---return-to-contents 
 [11]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#11-advanced-feature----return-to-contents
-[selllink]:https://www.aliexpress.com/item/1005002865311470.html
+[selllink]:https://www.aliexpress.com/item/1005003767078457.html
 
 
 
