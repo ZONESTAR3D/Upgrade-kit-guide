@@ -96,9 +96,9 @@ A complete workflow of repeated printing is:
 
 ### Description of settings:  
 + **Auto repeating**: Turn on or turn off the **Automatic Repeat Print**.  
-+ **Repeat times:** Number of times to repeat, obviously, the actual printed number is equal to Repeat times + 1.
++ **Repeat times:** Number of repeat, obviously the actual printed number = Repeat times + 1.
 + **Push length:** Puhing-arm move forward length when removing the printed object. 
-+ **Bed temp:** Wait the hotbed cooled to this temperature before removing the printed object.
++ **Bed temp:** Wait the hotbed cool to this temperature before removing the printed object.
 + **Z Heigth:** Move Z-axis to this heigth before removing the printed object.  
 + **Base Heigth:** Heigth of the base. [**See advanced feature for details**][11]  
 
