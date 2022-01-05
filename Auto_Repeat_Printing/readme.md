@@ -124,11 +124,10 @@ You can also add the M182 command to the "Start G-code" of "machine setting" whe
 	B[float]: Base heigth. (while used the print base)
 
 	For example:
-	 >>1. Need to print 10 pieces, 
-	 >>2. The hotbed temperature should be lower than 23℃ before remove it. 
-	 >>3. In order that the printed object can be pushed by the arm, the hot bed need to 
-	    move to 65 mm heigth.
-	 >>4. The arm need to push 350mm while remove the printed object.  
+	 >>1. Need to print 10 pieces total. 
+	 >>2. The hotbed temperature should be lower than 23℃ before removing. 
+	 >>3. Move printing platform heigth to 65mm before removing.
+	 >>4. Pushing the arm 350mm to remove the printed object.  
 	you can add this command to the start G-code (before G28 command):
 	M182 S1 N9 Z65 T23 L350 
  
