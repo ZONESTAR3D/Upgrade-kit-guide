@@ -101,9 +101,9 @@ A complete workflow of repeated printing is:
 + **Base Heigth:** Heigth of the base. [**See advanced feature for details**][11]  
 
 ## 9. Apply Automatic Repeat Printing function   [return to contents>>][0]
-There are two ways to apply the **Automatic Printing function**: ***Apply from LCD control panel*** or ***Apply by adding gcode in slicing software***.    
+There are two ways to apply the **Automatic Repeat Printing function**: ***Apply from LCD control panel*** or ***Apply by adding gcode in slicing software***.    
 ### 9-1. Apply Automatic Printing function from LCD control panel.
-+ Slice the 3d files to gcode file, which is the same as without Automatic Printing function.
++ Slice the 3d files to gcode file, which is the same as without Automatic Repeat Printing function.
 + Turn on the **Auto repeating** and set parameters on the LCD screen.
 ![](./pic/lcdsettings.jpg)
 
@@ -137,7 +137,7 @@ We have placed several gcode files in the "Example" directory for testing:
 + **Dummy.gcode**: This file is a "dummy" print file. It doesn't actually print anything, only help to test the repeat printing function quickly. you can download and copy the file to the SD card and followng the below steps to do a "automatica repeat printing" test:  
 	* **Step 1**. Turn on **Auto repeating** and set the parameters on the LCD screen.
 	* **Step 2**. Start print "dummy.gcode" file from SD card, and watch the printer how to work.
-![](./pic/dummysettings.jpg)
+![](./pic/dummy.jpg)
 
 + **ShowHow.gcode**: This file is a "dummy" print file too, but it has added M182 commands in the "start Gcode" while slicing, so you can download and copy the file to the SD card and start print it directly, and watch the printer how to work.
   
