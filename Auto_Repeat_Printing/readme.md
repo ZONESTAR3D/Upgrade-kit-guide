@@ -58,8 +58,8 @@ Download firmware bin file and upload to your 3d printer.
 > **NOTE:if there is a "old_fw.bin" in the SD card, delete it first.** 
 > 3. Power off 3d printer and plug the SD card into card socket of control board.
 > 4. Power on the printer, push the power button and wait about 30 seconds.  
-> 5. Do the below step on LCD screen to initialize EEPROM after upload firmware:
->     `MENU: Control>>Restore Defaults`  
+> 5. Do the below step on LCD screen to initialize EEPROM after upload firmware:  
+>   `MENU: Control>>Restore Defaults`  
 > 6. Check the firmware version on LCD screen:    
 > 	`MENU: Infor>>Firmware Version` 
 
@@ -88,7 +88,7 @@ Download firmware bin file and upload to your 3d printer.
 ## 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
 A complete workflow of repeated printing is:   
 **[Print]->[Wait bed cool]->[Move up hotbed]->[Push the arm]->[Home the arm]->[Print next one]**.     
-- [ ] **TODO: Add a workflow animation picture here.**    
+- [ ] **TODO: To add a workflow animation picture here.**    
 ![](./pic/workflow.gif)   
 ![](./pic/workflow.jpg)
 
