@@ -94,7 +94,7 @@ A complete workflow of repeated printing is:
 ![](./pic/workflow.gif)   
 ![](./pic/workflow.jpg)
 
-### About the of parameters of Automatic Repeat Print:  
+### Description of settings:  
 + **Auto repeating**: Turn on or turn off the **Automatic Repeat Print**.  
 + **Repeat times:** Number of times to repeat, obviously, the actual printed number is equal to Repeat times + 1.
 + **Push length:** Puhing-arm move forward length when removing the printed object. 
