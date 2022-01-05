@@ -89,7 +89,6 @@ Download firmware bin file and upload to your 3d printer.
 ## 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
 A complete workflow of repeated printing is:   
 **[Print]->[Wait bed cool]->[Move up hotbed]->[Push the arm]->[Home the arm]->[Print next one]**.     
-- [ ] **TODO: To add a workflow animation picture here.**    
 ![](./pic/workflow.gif)   
 ![](./pic/workflow.jpg)
 
