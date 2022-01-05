@@ -136,14 +136,14 @@ You can also add the M182 command to the "Start G-code" of "machine setting" whe
 ## 10. Example Gcode files   [return to contents>>][0]
 There are several testing gcode files in the [**Example**](./Example) directory:      
 
-+ **Dummy.gcode**: This file is a "dummy" print file. It doesn't actually print anything, only help to test the repeat printing function quickly. you can download and copy the file to the SD card and followng the below steps to do a "automatica repeat printing" test:  
-	* **Step 1**. Turn on **Auto repeating** and set the parameters on the LCD screen.
++ **Dummy.gcode**: This file is a "dummy" print file. It doesn't actually print anything, only help to test the repeat printing function quickly. you can download and copy this file to the SD card and followng the below steps to do a "automatic repeat printing" test:  
+	* **Step 1**. Turn on **Repeat Printing** and set the parameters on the LCD screen.
 	* **Step 2**. Start print "dummy.gcode" file from SD card, and watch the printer how to work.
-![](./pic/dummy.jpg)
+![](./pic/dummy.jpg)   
 
-+ **ShowHow.gcode**: This file is a "dummy" print file too, but it has added M182 commands in the "start Gcode" while slicing, so you can download and copy the file to the SD card and start print it directly, and watch the printer how to work.
++ **ShowHow.gcode**: This file is a "dummy" print file too, but it added M182 commands in the "start Gcode" while slicing, you can download and copy the file to the SD card and start print it directly and don't need to set "Repeat Print" settings on LCD screen, and watch the printer how to work.
   
-> The below picture shows what's different between "Dummy.gcode" with "ShowHow.gcode".
+> **The below picture shows what's different between file "Dummy.gcode" with "ShowHow.gcode".**
 ![](./pic/showhow.jpg)
 
 + **Demo.gcode**: This file is a "demo" print file. It print a small box with 30x30mm size and 40mm heigth. It can help you test the repeat printing function. the steps are as follows:  
@@ -155,7 +155,7 @@ There are several testing gcode files in the [**Example**](./Example) directory:
 	* **Step 6**.  Do **Prepare>>Move Axis>>Move Z** to move the Z axis to about 40mm.
 	* **Step 7**.  Do **Control>>Repeat Print>>Push Arm Test** on the LCD MENU to push the arm and check if the printed object can be removed by the arm. 
 If the above operation can successfully remove the printed object, you can start the repeat printing function on the LCD menu and test it.
-+ **DemoRep.gcode**: This file is almost the same with **Demo.gcode**, but a M182 command is added in the "start G-code" while slicing, so you don't need to start the "Automatic repeat printing" from the LCD screen.
++ **DemoRep.gcode**: This file is almost the same with **Demo.gcode**, but a M182 command is added in the "start G-code" while slicing, so you can print it directlly but don't need to turn on the "Repeat Printing" settings from LCD screen.
 
 
 ## 11. Advanced feature    [return to contents>>][0]
