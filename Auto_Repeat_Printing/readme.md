@@ -46,6 +46,7 @@ The working process is that finished one print first, then cooling the printing 
 ## 4. Wiring   [return to contents>>][0]
 ![](./pic/Wiring1.jpg)
 ![](./pic/Wiring2.jpg)
+![](./pic/Wiring3.jpg)
 
 ## 5. Upgrade firmware   [return to contents>>][0]
 Download firmware bin file and upload to your 3d printer.  
