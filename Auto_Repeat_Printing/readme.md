@@ -145,7 +145,7 @@ There are several testing gcode files in the [**Example**](./Example) directory:
 > **The below picture shows what's different between file "Dummy.gcode" with "ShowHow.gcode".**
 ![](./pic/showhow.jpg)
 
-+ **Demo.gcode**: This file is a "demo" print file. It print a small box with 30x30mm size and 40mm heigth. It can help you test the repeat printing function. the steps are as follows:  
++ **Demo.gcode**: This file is a "demo" print file. It print a small box with 30x30x50mm size. It can help you test the repeat printing function. the steps are as follows:  
 	* **Step 1**. Turn off **Repeat repeating** on the LCD screen,
 	* **Step 2**. Start print "Demo.gcode" file from SD card.
 	* **Step 3**. Pay attention to adjust the heigth when printing first layer.
