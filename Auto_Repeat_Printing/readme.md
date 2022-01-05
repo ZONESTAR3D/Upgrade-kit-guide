@@ -92,8 +92,8 @@ A complete workflow of repeated printing is:
 ![](./pic/workflow.gif)   
 ![](./pic/workflow.jpg)
 
-### About the of parameters of Automatics Repeat Print:  
-+ **Auto repeating**: Turn on or turn off the **Automatics Repeat Print**.  
+### About the of parameters of Automatic Repeat Print:  
++ **Auto repeating**: Turn on or turn off the **Automatic Repeat Print**.  
 + **Repeat times:** Number of times to repeat, obviously, the actual printed number is equal to Repeat times + 1.
 + **Push length:** Puhing-arm move forward length when removing the printed object. 
 + **Bed temp:** Wait the hotbed cooled to this temperature before removing the printed object.
