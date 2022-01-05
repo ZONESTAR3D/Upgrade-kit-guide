@@ -16,10 +16,10 @@
 * [**11.Advanced features**][11]
 
 ## 1. Brief introduction   [return to contents>>][0]
-Sometimes we hope to use the 3D printer to make some plastic parts in small quantities (dozens or hundreds). In this case, we need a device to automatically remove the 3D prints on the hot bed and print this part repeatedly, so that the 3D printer can realize unattended automatic repeated production.  [**Automatic Repeat Printing Module**][selllink] is an upgrade kit for Z9 to meet this requirement.     
-**The premise that the Automatic Repeat Printing Module can work normally is that the printed 3D prints can be easily separated from the printing platform after the printing platform is cooled.** According to our test, if we were used the glass printing platform and properly set the printing height of the first layer, the prints (made by ABS, PLA +, PETG filament) can be easily separated from the glass printing platform after the glass is cooled to below 25℃.    
+Sometimes we hope to use the 3D printer to make some plastic parts in small quantities (dozens or hundreds). In this case, we need a device to automatically remove the 3D printed object on the hot bed and print this part repeatedly, so that the 3D printer can realize unattended automatic repeated production.  [**Automatic Repeat Printing Module**][selllink] is an upgrade kit for Z9 to meet this requirement.     
+**The premise that the Automatic Repeat Printing Module can work normally is that the printed 3D printed object can be easily separated from the printing platform after the printing platform is cooled.** According to our test, if we were used the glass printing platform and properly set the printing height of the first layer, the printed object (made by ABS, PLA+ or PETG filament etc.) can be easily separated from the glass printing platform after the glass is cooled to below 25℃.    
 The **Automatic Repeat Printing Module** is composed of **Arm Drivers, lead screw fixing blocks, lead screws and Pushing-arm**. It is installed between the hot bed and the hot end. 
-The working process is that finished one print first, then cooling the printing platform, and then push the prints out of the printing platform with the Pushing-arm, and then print the next one repeatedly.  
+The working process is that finished one print first, then cooling the printing platform, and then push the printed object out of the printing platform with the Pushing-arm, and then print the next one repeatedly.  
 ![](./pic/principle.gif)
 
 ## 2. Parts list   [return to contents>>][0]  
@@ -83,7 +83,7 @@ Download firmware bin file and upload to your 3d printer.
 		* Set the hot bed temperature to 70 degrees (PLA, PLA +), or 85 degrees (PETG)
 		* Set the height of the first floor to 0.4mm and the printing speed to 10mm / s
 	* Do not use "Brim" or "Raft" on "Build Plate Adhesion" settings when slicing.
-* Please note that the glass printing platfome may be pushed out of the hot bed  while removed the prints. It is suggested that you put foam under the machine to prevent the glass is damaged because of falling down. You may also consider using adhesive to paste glass on the hot bed substrate to instead of fixed by clips.
+* Please note that the glass printing platfome may be pushed out of the hot bed  while removed the printed object. It is suggested that you put foam under the machine to prevent the glass is damaged because of falling down. You may also consider using adhesive to paste glass on the hot bed substrate to instead of fixed by clips.
 
 ## 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
 A complete workflow of repeated printing is:   
@@ -94,10 +94,10 @@ A complete workflow of repeated printing is:
 
 ### About the of parameters of Automatics Repeat Print:  
 + **Auto repeating**: Turn on or turn off the **Automatics Repeat Print**.  
-+ **Repeat times:** Number of times to repeat, obviously, the actual prints number is equal to Repeat times + 1.
-+ **Push length:** Puhing-arm move forward length when removing the prints. 
-+ **Bed temp:** Wait the hotbed cooled to this temperature before removing the prints.
-+ **Z Heigth:** Move Z-axis to this heigth before removing the prints.  
++ **Repeat times:** Number of times to repeat, obviously, the actual printed number is equal to Repeat times + 1.
++ **Push length:** Puhing-arm move forward length when removing the printed object. 
++ **Bed temp:** Wait the hotbed cooled to this temperature before removing the printed object.
++ **Z Heigth:** Move Z-axis to this heigth before removing the printed object.  
 + **Base Heigth:** Heigth of the base. [**See advanced feature for details**][11]  
 
 ## 9. Apply Automatic Repeat Printing function   [return to contents>>][0]
@@ -124,9 +124,9 @@ You can also add the M182 command to the "Start G-code" of "machine setting" whe
 	For example:
 	 >>1. Need to print 10 pieces, 
 	 >>2. The hotbed temperature should be lower than 23℃ before remove it. 
-	 >>3. In order that the prints can be push by the arm, the hot bed need to 
+	 >>3. In order that the printed object can be pushed by the arm, the hot bed need to 
 	    move to 65 mm heigth.
-	 >>4. The arm need to push 350mm while remove the prints.  
+	 >>4. The arm need to push 350mm while remove the printed object.  
 	you can add this command to the start G-code (before G28 command):
 	M182 S1 N9 Z65 T23 L350 
  
@@ -151,18 +151,18 @@ We have placed several gcode files in the "Example" directory for testing:
 	* **Step 4**. Wait for printing finish.
 	* **Step 5**. Wait the hotend cool down,  depending on the ambient temperature and it shoudl be lower than 25 degree.
 	* **Step 6**.  Do **Prepare>>Move Axis>>Move Z** to move the Z axis to about 40mm.
-	* **Step 7**.  Do **Control>>Repeat Print>>Push Arm Test** on the LCD MENU to push the arm and check if the prints can be removed by the arm. 
-If the above operation can successfully remove the prints, you can start the repeat printing function on the LCD menu and test it.
+	* **Step 7**.  Do **Control>>Repeat Print>>Push Arm Test** on the LCD MENU to push the arm and check if the printed object can be removed by the arm. 
+If the above operation can successfully remove the printed object, you can start the repeat printing function on the LCD menu and test it.
 + **DemoRep.gcode**: This file is almost the same with **Demo.gcode**, but a M182 command is added in the "start G-code" while slicing, so you don't need to start the "Automatic repeat printing" from the LCD screen.
 
 
 ## 11. Advanced feature    [return to contents>>][0]
 ### 11-1. Add print base
-- [ ] **TODO: To add an instruction about how to add a base on 3d prints.**  
+- [ ] **TODO: To add an instruction about how to add a base under the printed object.**  
 ### 11-2. Add bed cooling FAN
 - [ ] **TODO: To add an instruction about how to add the hot bed cooling fan.**
 ### 11-3. Print another gcode file
-- [ ] **TODO: To add an instruction about how to print different 3d prints.**
+- [ ] **TODO: To add an instruction about how to print another gcode file.**
 
 [0]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#contents
 [1]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#1-brief-introduction---return-to-contents
