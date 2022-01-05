@@ -34,12 +34,12 @@ The working process is that finished one print first, then cooling the printing 
 * **4 x M3x6 screws + 4x M3 Nylon pillar(8).**    
 
 ## 3. Installation   [return to contents>>][0]
-### 3.1 Install the arm driver assembly.
+### 3.1 Install the arm driver assemblies.
 ![](./pic/Install1.jpg)
 ###  3.2 Install lead screw fixing blocks.
 ![](./pic/Install2.jpg)
 ![](./pic/Install3.jpg)
-###  3.3 Install arm and lead screws.
+###  3.3 Install Pushing-arm and lead screws.
 ![](./pic/Install4.jpg)
 ![](./pic/Install5.jpg)
 
@@ -49,8 +49,8 @@ The working process is that finished one print first, then cooling the printing 
 
 ## 5. Upgrade firmware   [return to contents>>][0]
 Download firmware bin file and upload to your 3d printer.  
-[**Z9V5-MK1 & Z9V5-MK2** firmware with **repeat print feature**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro/beta/RepeatPrint)   
-[**Z9V5-MK3** firmware with **repeat print feature**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK3/beta/RepeatPrint)   
+[**Z9V5-MK1 & Z9V5-MK2** firmware with **repeat print feature**](firmware/Z9V5-MK1(MK2))   
+[**Z9V5-MK3** firmware with **repeat print feature**](firmware/Z9V5-MK3)   
 
 >**How to upload firmware**  
 > 1. Download the zip file and unzip it.  
@@ -108,12 +108,12 @@ There are two ways to apply the **Automatic Printing function**: ***Apply from L
 ![](./pic/lcdsettings.jpg)
 
 ### 9-2. Apply Automatic Printing function by adding gcode in slicing software.
-You can also add the M182 command to the "Start G-code" of machine when slicing, The following is a detailed description of the M182 command: 
+You can also add the M182 command to the "Start G-code" of "machine setting" when slicing, The following is a detailed description of the M182 command: 
 
     M182 Sx Nxx Zxx Txx Lxx
 
 	//M182 command decscription
-	M182: set auto Repeat Printing settings.  
+	M182: set Automatica Repeat Printing settings.  
 	S[bool]: enable (= 1) or disable(= 0) auto repeat printing.  
 	N[int]:  Repeat Printing times (1~999).  
 	Z[int]:  Move Z axis to this heigth before pushing the arm.  
@@ -161,7 +161,7 @@ If the above operation can successfully remove the prints, you can start the rep
 - [ ] **TODO: To add an instruction about how to add a base on 3d prints.**  
 ### 11-2. Add bed cooling FAN
 - [ ] **TODO: To add an instruction about how to add the hot bed cooling fan.**
-### 11-3. Print different 3d prints files
+### 11-3. Print another gcode file
 - [ ] **TODO: To add an instruction about how to print different 3d prints.**
 
 [0]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#contents
