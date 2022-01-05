@@ -77,13 +77,13 @@ Download firmware bin file and upload to your 3d printer.
 	* Move to MENU ***Push Arm Test***, click knob, the arm will move front 340mm.
 
 ## 7. Important Notice   [return to contents>>][0]
-* Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. It is recommended that you print and confirm this before using automatic repeat printing. 
-* The following methods will help to remove the prints from the printing platform:
+* Before using Automatic Repeat Printing feature, please confirm that the printed object is easy to be removed from the printing platform while the hotbed is cooled. It is recommended that you print and confirm this before using automatic repeat printing. 
+* The following methods will help to remove the printed object from the printing platform:
 	* Put the smooth surface of the glass upward, if the print does not attach well to the platform, you can try the following solution:
 		* Set the hot bed temperature to 70 degrees (PLA, PLA +), or 85 degrees (PETG)
 		* Set the height of the first floor to 0.4mm and the printing speed to 10mm / s
 	* Do not use "Brim" or "Raft" on "Build Plate Adhesion" settings when slicing.
-* Please note that the glass printing platfome may be pushed out of the hot bed  if the prints can be removed the prints. It is suggested that foam should be laid under the machine to prevent the glass is damaged by falling down. You may also consider using adhesive to paste glass on the hot bed substrate to instead of fixed by clips.
+* Please note that the glass printing platfome may be pushed out of the hot bed  while removed the prints. It is suggested that you put foam under the machine to prevent the glass is damaged because of falling down. You may also consider using adhesive to paste glass on the hot bed substrate to instead of fixed by clips.
 
 ## 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
 A complete workflow of repeated printing is:   
