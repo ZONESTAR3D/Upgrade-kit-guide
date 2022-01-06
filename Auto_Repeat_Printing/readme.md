@@ -1,7 +1,8 @@
 # [Automatic Repeat Printing Module][selllink] User Manual
 ## :warning::bangbang:ATTENTION:bangbang:
 #### 1. Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice][7]
-#### 2. It is recommended to purchase one 4-IN-1-OUT Non-mixing color hotend if you haven't it,  its printing quality is better than mixing color hotend when printing one color 3d prints. [Click Here to buy](https://www.aliexpress.com/item/1005002951777699.html)
+#### 2. Remove the M84 command from the "End G-code" of "machine setting" of slicing software.
+#### 3. It is recommended to purchase one 4-IN-1-OUT Non-mixing color hotend if you haven't it,  its printing quality is better than mixing color hotend when printing one color 3d prints. [Click Here to buy](https://www.aliexpress.com/item/1005002951777699.html)
 
 
 ## Contents
@@ -159,10 +160,21 @@ If the above operation can successfully remove the printed object, you can start
 
 ## 11. Advanced feature    [return to contents>>][0]
 ### 11-1. Print another gcode file
-If you want to print another gcode file, you can add an M183 command before the M182 command.
-	M183: Set the repeat printing file
-	Example: M183 12345678.gco - print file "12345678.gco"
-**:exclamation:Note:exclamation:The file name must be in 8.3 format and placed in the same directory as the previous file (it is recommended to place them in the root directory).**  
+If you want to print another gcode file after finished, you can add an M183 command before the M182 command.    
+> 
+    M183 command description
+    M183: Set the repeat printing file.  
+    Example: M183 12345678.gco -> print file "12345678.gco"  
+
+**:exclamation:Note:exclamation:The file name must be in 8.3 format and placed in the same directory with the previous file (it is recommended to place them in the root directory).**  
+:memo:For example, you want to print 3d object "A" 7 copies and print 3d object "B" 3 copies, you need to:  
+>  
++ Add the below commands on the "start g-code" when slicing 3d model "A"  
+    M182 S1 N6 Zxx Txx Lxxx   
+    M183 b.gco  	
++ Add the below commands on the "start g-code" when slicing 3d model "B"    
+    M182 S1 N2 Zxx Txx Lxxx  
++ Store the a.gco and b.gco to the same directory and print "a.gco" file first. 
 
 ### 11-3. Add bed cooling FAN
 :negative_squared_cross_mark: **TODO: To add an instruction about how to add the hot bed cooling fan.**

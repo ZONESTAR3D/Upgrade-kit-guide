@@ -9,6 +9,10 @@ MENU>>config>>Restore Defaults
 
 ## Release Note
 ### Z9V5Pro_MK3 V2.2.2 beta
+- **Date:** 2021-01-06
+- [**BUG**] Add M183 command to print the next file. 
+- 
+### Z9V5Pro_MK3 V2.2.2 beta
 - **Date:** 2021-01-04
 - [**BUG**] Add Base Heigth settings for repeat printing feature. 
 
