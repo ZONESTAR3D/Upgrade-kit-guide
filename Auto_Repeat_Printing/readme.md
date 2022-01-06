@@ -1,5 +1,5 @@
 # [Automatic Repeat Printing Module][selllink] User Manual
-## :warning:!!ATTENTION!!
+## :warning::bangbang:ATTENTION:bangbang:
 #### 1. Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice][7]
 #### 2. It is recommended to purchase one 4-IN-1-OUT Non-mixing color hotend if you haven't it,  its printing quality is better than mixing color hotend when printing one color 3d prints. [Click Here to buy](https://www.aliexpress.com/item/1005002951777699.html)
 
