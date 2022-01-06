@@ -124,7 +124,7 @@ You can also add the M182 command to the "Start G-code" of "machine setting" whe
 	L[int]:  Push arm length.  
 	B[float]: Base heigth. (while used the print base)
 
-	For example:
+	:memo:For example:
 	 >>1. Need to print 10 pieces total. 
 	 >>2. The hotbed temperature should be lower than 23℃ before removing. 
 	 >>3. Move printing platform heigth to 65mm before removing.
@@ -168,12 +168,20 @@ If you want to print another gcode file after finished, you can add an M183 comm
 
 **:exclamation:Note:exclamation:The file name must be in 8.3 format and placed in the same directory with the previous file (it is recommended to place them in the root directory).**  
 :memo:For example, you want to print 3d object "A" 7 copies and print 3d object "B" 3 copies, you need to:  
->  
-+ Add the below commands on the "start g-code" when slicing 3d model "A"  
+  
++ Add the below commands on the "start g-code" when slicing 3d model "A"
+  
+>
     M182 S1 N6 Zxx Txx Lxxx   
-    M183 b.gco  	
-+ Add the below commands on the "start g-code" when slicing 3d model "B"    
+    M183 b.gco 
+	;xx needs to be set as required 	
+
++ Add the below commands on the "start g-code" when slicing 3d model "B"
+
+>    
     M182 S1 N2 Zxx Txx Lxxx  
+	;xx needs to be set as required
+
 + Store the a.gco and b.gco to the same directory and print "a.gco" file first. 
 
 ### 11-3. Add bed cooling FAN
