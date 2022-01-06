@@ -1,5 +1,5 @@
 # [Automatic Repeat Printing Module][selllink] User Manual
-## !!ATTENTION!!
+## :warning:!!ATTENTION!!
 #### 1. Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice][7]
 #### 2. It is recommended to purchase one 4-IN-1-OUT Non-mixing color hotend if you haven't it,  its printing quality is better than mixing color hotend when printing one color 3d prints. [Click Here to buy](https://www.aliexpress.com/item/1005002951777699.html)
 
@@ -54,7 +54,7 @@ The working process is that finished one print first, then cooling the printing 
 Download firmware bin file and upload to your 3d printer.  
 [**Z9V5-MK1 & Z9V5-MK2** firmware with **repeat print feature**](firmware/Z9V5-MK1(MK2))   
 [**Z9V5-MK3** firmware with **repeat print feature**](firmware/Z9V5-MK3)   
-
+  
 >**How to upload firmware**  
 > 1. Download the zip file and unzip it.  
 > 2. Copy ***firmware.bin*** to the root directory of Micro-SD card.   
@@ -158,12 +158,17 @@ If the above operation can successfully remove the printed object, you can start
 
 
 ## 11. Advanced feature    [return to contents>>][0]
-### 11-1. Add print base
-- [ ] **TODO: To add an instruction about how to add a base under the printed object.**  
-### 11-2. Add bed cooling FAN
-- [ ] **TODO: To add an instruction about how to add the hot bed cooling fan.**
-### 11-3. Print another gcode file
-- [ ] **TODO: To add an instruction about how to print another gcode file.**
+### 11-1. Print another gcode file
+If you want to print another gcode file, you can add an M183 command before the M182 command.
+	M183: Set the repeat printing file
+	Example: M183 12345678.gco - print file "12345678.gco"
+**:exclamation:Note:exclamation:The file name must be in 8.3 format and placed in the same directory as the previous file (it is recommended to place them in the root directory).**  
+
+### 11-3. Add bed cooling FAN
+:negative_squared_cross_mark: **TODO: To add an instruction about how to add the hot bed cooling fan.**
+### 11-2. Add print base
+:negative_squared_cross_mark: **TODO: To add an instruction about how to add a base under the printed object.**  
+
 
 [0]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#contents
 [1]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#1-brief-introduction---return-to-contents
