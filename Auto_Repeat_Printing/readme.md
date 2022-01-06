@@ -185,9 +185,9 @@ If you want to print another gcode file after finished, you can add an M183 comm
 + Store the a.gco and b.gco to the same directory and print "a.gco" file first. 
 
 ### 11-3. Add bed cooling FAN
-:negative_squared_cross_mark: **TODO: To add an instruction about how to add the hot bed cooling fan.**
+:black_square_button: **TODO: To add an instruction about how to add the hot bed cooling fan.**
 ### 11-2. Add print base
-:negative_squared_cross_mark: **TODO: To add an instruction about how to add a base under the printed object.**  
+:black_square_button: **TODO: To add an instruction about how to add a base under the printed object.**  
 
 
 [0]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#contents
