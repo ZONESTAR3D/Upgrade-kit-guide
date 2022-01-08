@@ -136,12 +136,12 @@ You can also add the M182 command to the "Start G-code" of "machine setting" whe
 ## 10. Example Gcode files   [return to contents>>][0]
 There are several testing gcode files in the [**Example**](./Example) directory:      
 
-+ **Dummy.gcode**: This file is a "dummy" print file. It doesn't actually print anything, only help to test the repeat printing function quickly. you can download and copy this file to the SD card and followng the below steps to do a "automatic repeat printing" test:  
-	* **Step 1**. Turn on **Repeat Printing** and set the parameters on the LCD screen.
-	* **Step 2**. Start print "dummy.gcode" file from SD card, and watch the printer how to work.
++ **Dummy.gcode**: This file is a "dummy" print file. It doesn't actually print anything, only help to test the repeat printing function quickly. You can download and copy this file to the SD card and followng the below steps to tes  *Automatic Repeat Printing* function:  
+	+ **Step 1**. Turn on **Repeat Printing** and set the parameters on the LCD screen.
+	+ **Step 2**. Start print *dummy.gcode* file from SD card, and watch the printer how to work.
 ![](./pic/dummy.jpg)   
 
-+ **ShowHow.gcode**: This file is a "dummy" print file too, but it added M182 commands in the "start Gcode" while slicing, you can download and copy the file to the SD card and start print it directly and don't need to set "Repeat Print" settings on LCD screen, and watch the printer how to work.
++ **ShowHow.gcode**: This file is a "dummy" print file too, but a M182 command has been added in the "start Gcode" when slicing, you can download and copy the file to the SD card and print it and watch the printer how to work (don't need to set "Repeat Print" settings on LCD screen).
   
 > **The below picture shows what's different between file "Dummy.gcode" with "ShowHow.gcode".**
 ![](./pic/showhow.jpg)
