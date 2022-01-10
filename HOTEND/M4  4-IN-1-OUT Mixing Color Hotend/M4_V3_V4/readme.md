@@ -4,7 +4,7 @@
 ![](use_1.jpg)
 + DONOT feed-in filament over 10mm if any of the channels is empty, otherwise may cause it be clogged, the correct way is
 	+ Load filament to all channels at the same time.  
-	+ Use a hotend clean tool to close empty channels.
+	+ Use a hotend clean tool to close empty channels.  
 ![](use_2.jpg)
 
 ### How to print singel color 3d object
@@ -13,7 +13,7 @@
 + Use hotend clean tool to close the unused channle of hotend.
 + load filament to the hotend. **Recommend to load the filament to the center
 channel.**
-+ print gcode file from SD card.
++ print gcode file from SD card.  
 ![](use_3.jpg)
 
 ### How to change printed color by adjust mixing rate    
@@ -110,37 +110,39 @@ You can also add a M166/M167 command into the "start G-code" of the machine sett
 	E3->3 extruders (Extruder#1 to Extruder#3) will be used
 
 ### Hot to print multi-color 3d objects
-please refer to [**here**](./Example/readme.md)
+please refer to [**here**](../Example/readme.md)
 
 ## FAQ
 #### **Hotend is clogged/blocked ?**  
 If you encounter the problem of hot end clogged / blocked, please check according to the following items:  
 
-+ **Check Slicing settings.**    
+##### Check Slicing settings.   
 :red_circle: **Disable “Extruder/Nozzle switching retraction”.**
 For example, set “Nozzle Switch Retraction Distance” to 0 in Cura.   
 :red_circle: **Set the print speed low than 50mm/s.**  
 
-+ **Check filament**    
+##### Check filament    
 :red_circle: **Don't mix different type of filament.**   
-:bulb: Mixing ABS and PLA / PLA + is usually no problem, but PETG or silk PLA, wood-pla, transparent PLA and other materials mixed with many additives are usually easy to cause blockage.
+:bulb: Mixing ABS and PLA / PLA + is usually no problem, but PETG or silk PLA, wood-pla, transparent PLA and other materials mixed with many additives are usually easy to cause blockage.  
+:bulb: When loading the filament to the hotend, please make sure that the filament enter the heating block of the hot end, it is about 45mm deep into the hot end.
 
-+ **Check nozzle**  
+
+##### Check nozzle
 :red_circle: There may be impurities in the filament that cannot melt, resulting in nozzle blockage.   
 :key: Refer to the "How to clean the cloged mixing color hotend" to clean the hotend and replace a new nozzle.  
 :red_circle: When printing, the first layer is too close, resulting in the nozzle scraping on the glass, or the front end of the nozzle may be damaged and blocked.  
-:key: Refer to the "How to clean the cloged mixing color hotend" to clean the hotend and replace a new nozzle.   
+:key: Refer to the "How to clean the cloged mixing color hotend" to replace a new nozzle.   
   
-+ **Check distance from nozzle to bed**  
+##### Check distance from nozzle to bed  
 :red_circle:If the distance from nozzle to bed is too closed, it will cause the filament can't flow out from the nozzle.   
 :key: Double click the knob to fine tune the distance from the nozzle to the Printing platform.   
 :bulb: When slicing, use the "shaft" base, and set the distance of the first layer to more than 0.5mm as far as possible, which can effectively reduce the trouble of adjusting the z-axis distance each time.  
 
-+ **Check temperature of hot end**  
+##### Check temperature of hot end 
 :red_circle: Hot end cooling fan must work when the nozzle temperature is over 50 degree, otherwise it will cause clogged because the inner PTFE tube overheat.  
 
-+ **Check extruder motor**  
-:key: Check whether the extruder is installed properly  
+##### Check extruder motor 
+:key: Check whether the extruder is installed properly.    
 ![](extruder1.jpg)  
 :key: Properly adjust the extruder pressure.
 ![](extruder2.jpg)
