@@ -1,5 +1,5 @@
 ## User guide of M4-V3(V4) hotend
-###:warning:ATTENTION
+### :warning:ATTENTION
 + DONOT load / unload filament when the nozzle temperature is less than 150℃.
 ![](use_1.jpg)
 + DONOT feed-in filament over 10mm if any of the channels is empty, otherwise may cause it be clogged, the correct way is
@@ -141,10 +141,12 @@ For example, set “Nozzle Switch Retraction Distance” to 0 in Cura.
 ![](extruder2.jpg)
 
 ### :question: Filament leaked from the hotend
-
+:white_medium_small_square: TODO: wait to add.
+ 
 ### :question: There are mottled colors (when printing multi-color)
+:white_medium_small_square: TODO: wait to add.
 
-#### How to clean the cloged mixing color hotend
+### How to clean the cloged mixing color hotend
 + **Step 1:** Heat the hot end (nozzle) to 200 degrees and wait for the temperature to be reached
 + **Step 2:** Remove the fitting and pull out the filament (Figure 1).  
 :sunny: **Tips1:** If it is difficult to pull out the filaments, you can use the cutting pliers to clamp the filaments and pull out (Figure 2).  
