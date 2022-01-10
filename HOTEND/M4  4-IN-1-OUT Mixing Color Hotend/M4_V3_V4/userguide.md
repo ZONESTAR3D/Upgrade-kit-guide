@@ -105,4 +105,5 @@ You can also add a M167 command into the "start G-code" of the machine setting w
 	E3->3 extruders (Extruder#1 to Extruder#3) will be used
 
 ### 5. Hot to print multi-color 3d objects
-please refer to [**here**](../Example/readme.md)
++ [**Slicing guide**](https://github.com/ZONESTAR3D/Slicing-Guide)  
++ [**Example**](../Example/readme.md)  
