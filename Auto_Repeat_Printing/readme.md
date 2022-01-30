@@ -52,17 +52,18 @@ The working process is that finished one print first, then cooling the printing 
 ![](./pic/Wiring3.jpg)
 
 ## 5. Upgrade firmware   [return to contents>>][0]
-Download firmware bin file and upload to your 3d printer.  
+Download firmware bin file and upload to your 3d printer.
+[**Z9M4** firmware with **repeat print feature**](firmware/Z9M4)  
 [**Z9V5-MK1 & Z9V5-MK2** firmware with **repeat print feature**](firmware/Z9V5-MK1(MK2))   
 [**Z9V5-MK3** firmware with **repeat print feature**](firmware/Z9V5-MK3)   
-  
+
 >**How to upload firmware**  
-> 1. Download the zip file and unzip it.  
-> 2. Copy ***firmware.bin*** to the root directory of Micro-SD card.   
+> 1. Download the zip file and unzip it, you will get a "firmware.bin" file.  
+> 2. Copy "firmware.bin" to the root directory of Micro-SD card.   
 > **NOTE:if there is a "old_fw.bin" in the SD card, delete it first.** 
 > 3. Power off 3d printer and plug the SD card into card socket of control board.
 > 4. Power on the printer, push the power button and wait about 30 seconds.  
-> 5. Do the below step on LCD screen to initialize EEPROM after upload firmware:  
+> 5. Do the below step on LCD screen to initialize EEPROM after uploaded firmware:  
 >   `MENU: Control>>Restore Defaults`  
 > 6. Check the firmware version on LCD screen:    
 > 	`MENU: Infor>>Firmware Version` 
@@ -96,21 +97,21 @@ A complete workflow of repeated printing is:
 ![](./pic/workflow.jpg)
 
 ### Description of settings:  
-+ **Auto repeating**: Turn on or turn off the **Automatic Repeat Print**.  
-+ **Repeat times:** Number of repeat, obviously the actual printed number = Repeat times + 1.
++ **Auto repeating**: Turn on/off the **Automatic Repeat Print** feature.  
++ **Repeat times:** Number of repeats, the actual printed number = Repeat times + 1.
 + **Push length:** Puhing-arm move forward length when removing the printed object. 
 + **Bed temp:** Wait the hotbed cool to this temperature before removing the printed object.
 + **Z Heigth:** Move Z-axis to this heigth before removing the printed object.  
 + **Base Heigth:** Heigth of the base. [**See advanced feature for details**][11]  
 
 ## 9. Apply Automatic Repeat Printing function   [return to contents>>][0]
-There are two ways to apply the **Automatic Repeat Printing function**: ***Apply from LCD control panel*** or ***Apply by adding gcode in slicing software***.    
+There are two ways to apply the **Automatic Repeat Printing function**: ***Apply from LCD control panel*** or ***Apply by adding gcode***.    
 ### 9-1. Apply Automatic Printing function from LCD control panel.
 + Slice the 3d files to gcode file, which is the same as without **Automatic Repeat Printing** function.
 + Turn on the Repeat Printing and set parameters on the LCD screen.  
 ![](./pic/lcdsettings.jpg)
 
-### 9-2. Apply Automatic Printing function by adding gcode in slicing software.
+### 9-2. Apply Automatic Printing function by adding gcode.
 You can also add the M182 command to the "Start G-code" of "machine setting" when slicing, detailed description of M182 command as below: 
 
     M182 Sx Nxx Zxx Txx Lxx
