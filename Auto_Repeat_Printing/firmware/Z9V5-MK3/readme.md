@@ -8,8 +8,13 @@ NOTE: !!if there is a "old_fw.bin" in the SD card, delete it first!!
 MENU>>config>>Restore Defaults
 
 ## Release Note
-### Z9V5Pro_MK3 V2.3.1 beta
-- **Date:** 2022-01-08
+### Z9V5Pro_MK3_RePrint_V2_3_1_beta
+- **Date:** 2022-02-26
+- [**BUG**] Fix the bug of setting max hotend temperature.  
+- [**CHG**] Change LCD message while temperature error occured.  
+
+### Z9V5Pro_MK3_RePrint_V2_3_0_beta
+- **Date:** 2022-01-05
 - [**New**]Add "Hotend PID tune" menu.  
 - [**CHG**]Optimize the setting of motion to improve the printing quality.  
 - [**CHG**]Optimize menu display characters.
