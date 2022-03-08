@@ -1,5 +1,5 @@
 [**Download 4.3" TFT-LCD documents in one go**](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN)   
-[**Tips: How to downlod files from Github page**](https://github.com/ZONESTAR3D/Document-and-User-Guide#how-to-downlod-files-from-github-page)
+[**:star2: How to downlod files from Github page**](https://github.com/ZONESTAR3D/Document-and-User-Guide#how-to-downlod-files-from-github-page)
 
 ## Assembly
 ### Step 1: assemble the foot
@@ -30,8 +30,8 @@
 ## Upload firmware
 #### Step 1: Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with "Allocation units size" is 4069 bytes. 
 ![](pictures/Format.jpg)      
-##### [Tips: Format SD Card on Windows](https://recoverit.wondershare.com/partition-tips/format-sd-in-windows-10.html?/topic/916-upgrade-to-pdf-to-pages/=&comment=2884&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EApQAT_0jaSjNTHDKfbyTB8K-lLEt9m_hd2Ro526ZG6lerIJX3YE-7caAhXAEALw_wcB)  
-##### [Tips: Format SD Card on Mac OS](https://recoverit.wondershare.com//mac-tips/format-sd-card-fat32-mac.html?gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAo1hhsQ62C9vIhIAKUQitkIz72xy7axY1Ylf9p7Z7-kPSLVffoWslQaAp19EALw_wcB) 
+##### [:star: Format SD Card on Windows](https://recoverit.wondershare.com/partition-tips/format-sd-in-windows-10.html?/topic/916-upgrade-to-pdf-to-pages/=&comment=2884&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EApQAT_0jaSjNTHDKfbyTB8K-lLEt9m_hd2Ro526ZG6lerIJX3YE-7caAhXAEALw_wcB)  
+##### [:star: Format SD Card on Mac OS](https://recoverit.wondershare.com//mac-tips/format-sd-card-fat32-mac.html?gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAo1hhsQ62C9vIhIAKUQitkIz72xy7axY1Ylf9p7Z7-kPSLVffoWslQaAp19EALw_wcB) 
 #### Step 2: Download and unzip "DWIN\_SET" to your PC, copy DWIN_SET to the root directory of SD card.
 ![](pictures/SD1.jpg)  
 ![](pictures/SD2.jpg)  
