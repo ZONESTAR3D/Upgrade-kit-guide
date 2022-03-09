@@ -30,12 +30,18 @@
 ## Upload firmware
 #### :one: Step 1: Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with "Allocation units size" is 4069 bytes. 
 ![](pictures/Format.jpg)      
-:star2: [**Format SD Card on Windows**](https://recoverit.wondershare.com/partition-tips/format-sd-in-windows-10.html?/topic/916-upgrade-to-pdf-to-pages/=&comment=2884&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EApQAT_0jaSjNTHDKfbyTB8K-lLEt9m_hd2Ro526ZG6lerIJX3YE-7caAhXAEALw_wcB)  
-:star2: [**Format SD Card on Mac OS**](https://recoverit.wondershare.com//mac-tips/format-sd-card-fat32-mac.html?gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAo1hhsQ62C9vIhIAKUQitkIz72xy7axY1Ylf9p7Z7-kPSLVffoWslQaAp19EALw_wcB) 
-#### :two: Step 2: Download and unzip "DWIN\_SET" to your PC, copy DWIN_SET to the root directory of SD card.
-![](pictures/SD1.jpg)  
-![](pictures/SD2.jpg)  
+>
+- :star2: [**Format SD Card on Windows**](https://recoverit.wondershare.com/partition-tips/format-sd-in-windows-10.html?/topic/916-upgrade-to-pdf-to-pages/=&comment=2884&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EApQAT_0jaSjNTHDKfbyTB8K-lLEt9m_hd2Ro526ZG6lerIJX3YE-7caAhXAEALw_wcB)    
+- :star2: [**Format SD Card on Mac OS**](https://recoverit.wondershare.com//mac-tips/format-sd-card-fat32-mac.html?gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAo1hhsQ62C9vIhIAKUQitkIz72xy7axY1Ylf9p7Z7-kPSLVffoWslQaAp19EALw_wcB)
 
+ 
+#### :two: Step 2: Download and unzip "DWIN\_SET" to your PC, copy DWIN\_SET to the root directory of SD card.  
+>
+- :star2: [**Click to download DWIN-LCD-V2 firmware**](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/V2/DWIN_SET). 
+- :star2: [**Click to download DWIN-LCD-V1 firmware**](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/V1/DWIN_SET)      
+
+![](pictures/SD1.jpg)  
+![](pictures/SD2.jpg)
 #### :three: Step 3: Remove the screws from the back of LCD box, take down the backplate.
 ![](pictures/open_box.jpg)
 #### :four: Step 4: Remove the screws that mounted the LCD screen.
