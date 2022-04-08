@@ -20,6 +20,10 @@ M82 ;absolute extrusion mode
 G28
 G1 Z15 F300
 M107
+;Start auto retraction
+M207 S10 F2400 
+M208 S0 F2400 
+M209 S1
 ;Prime the extruder
 G92 E0
 G1 F200 E3
