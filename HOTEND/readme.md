@@ -49,12 +49,17 @@ We have mass produced five versions of M4 hot end. For details, please refer to 
 6. Do not leave the channel unused for a long time, filament in Tg state for a long time will be more firmly attached to the filament guide.
  
 ### 2. Strings issue
-**Reasons:**  
+#### Reasons:
 Because there is a mixing color chamber, so the stored filaments in the mixing color hotend is bigger than single color hotend, it will reduce the effect of retraction.  
 ![](Issue_mixing_4.jpg)   
-**Solutions:**  
-1. Reduce the size of mixing color chamber, for example, upgrade to [**small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html).  
-2. Synchronous retract to use multiple extruders. It called "Auto Retraction" or "FW Retract" too, about detail, please refer to [**Here**](./M4 4-IN-1-OUT Mixing Color Hotend/Example/readme.md)     
+#### Solutions:  
+##### 1. Reduce the size of mixing color chamber, for example, upgrade to [**small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html).  
+##### 2. Add "wipe" on silcing settings.
+###### Cura Slicer (Coasting)
+![Cura](curawipe.png)
+###### PrusaSlicer (Wipe while retracting)
+![PrusaSlicer](prusawipe.png)
+##### 3. Synchronous retract to use multiple extruders. It called "Auto Retraction" or "FW Retract" too, about detail, please refer to [**Here**](./M4 4-IN-1-OUT Mixing Color Hotend/Example/readme.md)     
 
 ## R3 3-IN-3-OUT HOTEND
 **R3** hot end is a 3-IN-3-OUT hotend, it has three feeding channels and three nozzles, and all of the three nozzle share one heater and temperature sensor.  
