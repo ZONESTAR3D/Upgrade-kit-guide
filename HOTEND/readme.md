@@ -60,7 +60,7 @@ Because there is a mixing color chamber, so the stored filaments in the mixing c
 ###### PrusaSlicer (Wipe while retracting)
 ![PrusaSlicer](prusawipe.png)
 
-##### 3. Synchronous retract to use multiple extruders. It called "Auto Retraction" or "FW Retract" too, about detail, please refer to [Here](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/readme.md)
+##### 3. Synchronous retract to use multiple extruders. It called "Auto Retraction" or "FW Retract" too, about detail, please refer to [Here](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/Example#use-auto-retraction-function-to-improve-stings-issue)
 
 ## R3 3-IN-3-OUT HOTEND
 **R3** hot end is a 3-IN-3-OUT hotend, it has three feeding channels and three nozzles, and all of the three nozzle share one heater and temperature sensor.  
