@@ -9,7 +9,7 @@
 	- **Extruder 3:** NA   
 ![](./Retraction_Test/M4_Retraction_Test.jpg)
 
-### Use auto retraction function to improve stings issue
+### :star2: Use auto retraction function to improve stings issue
 There are two methods to turn on the "auto retraction function":  
 1. Add command on machine start G-code within slicing software.  
 2. Turn on the function on LCD screen.  
