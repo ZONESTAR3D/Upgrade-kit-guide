@@ -67,7 +67,7 @@ Please refer to the below pictures to load filaments every time you print by E4 
     G0 X8 F3000
     G92 E0
     G1 E-10 F1800
-    G1 E-60 F2400
+    G1 E-80 F2400
     M400
     M117 Preload Extruder #2
     T1
@@ -87,7 +87,7 @@ Please refer to the below pictures to load filaments every time you print by E4 
     G0 X11 F3000
     G92 E0
     G1 E-10 F1800
-    G1 E-60 F2400
+    G1 E-80 F2400
     M400
     M117 Preload Extruder #3
     T2
@@ -107,7 +107,7 @@ Please refer to the below pictures to load filaments every time you print by E4 
     G0 X14 F3000
     G92 E0
     G1 E-10 F1800
-    G1 E-60 F2400
+    G1 E-80 F2400
     M400
     M117 Preload Extruder #4
     T3
@@ -128,17 +128,17 @@ Please refer to the below pictures to load filaments every time you print by E4 
     G0 Y155 F4800
     G92 E0    
     G1 E-10 F1800
-    G1 E-60 F2400
+    G1 E-80 F2400
     G92 E0
     ;===Pre-load filament end
-    M117 Pls confirm filaments load well!
-    M300 S5000 P100
-    G4 P200
-    M300 S5000 P100
-    G4 P200
-    M300 S5000 P100
-    G4 P200
-    M0
+    ;M117 Pls confirm filaments load well!
+    ;M300 S5000 P100
+    ;G4 P200
+    ;M300 S5000 P100
+    ;G4 P200
+    ;M300 S5000 P100
+    ;G4 P200
+    ;M0
 ### End G-code
     ;Z9E4 end gcode
     G28 XY
@@ -155,16 +155,16 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 #### Extrduer start G-code
     ;start gcode of Extruders     
     G92 E0
-    G1 E25 F1200; push filament-1
-    G1 E55 F1800; push filament-2
-    G1 E59 F900; push filament-3
+    G1 E45 F1200; push filament-1
+    G1 E75 F1800; push filament-2
+    G1 E79 F900; push filament-3
     G92 E0
 
 #### Extrduer End G-code
     ;end gcode of Extruder 1/2/3/4 
     G92 E0
-    G1 E-10 F2400; pull filament-1
-    G1 E-60 F1800; pull filament-2
+    G1 E-10 F1800; pull filament-1
+    G1 E-80 F2400; pull filament-2
     G92 E0 ;reset extrusion distance  
 
 ### Slicing setting
