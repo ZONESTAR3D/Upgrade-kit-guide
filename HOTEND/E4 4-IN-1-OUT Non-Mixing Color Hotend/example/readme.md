@@ -52,18 +52,18 @@ Please refer to the below pictures to load filaments every time you print by E4 
     M117 Preload Extruder #1
     T0
     G92 E0
-    G0 X5 Y10 F3000
-    G1 Y210 E15 F1200
+    G0 X5 Y50 F3000
+    G1 Y250 E15 F1200
     G0 X5.5 F3000
-    G1 Y10 E30 F1200
+    G1 Y50 E30 F1200
     G0 X6 F3000
-    G1 Y210 E45 F1200
+    G1 Y250 E45 F1200
     G0 X6.5 F3000
-    G1 Y10 E60 F1200
+    G1 Y50 E60 F1200
     G0 X7 F3000
-    G1 Y210 E75 F1200
+    G1 Y250 E75 F1200
     G0 X7.5 F3000
-    G1 Y10 E90 F1200
+    G1 Y50 E90 F1200
     G0 X8 F3000
     G92 E0
     G1 E-10 F1800
@@ -72,18 +72,18 @@ Please refer to the below pictures to load filaments every time you print by E4 
     M117 Preload Extruder #2
     T1
     G92 E0
-    G0 X8 Y10 F3000
-    G1 Y210 E15 F1200
+    G0 X8 Y50 F3000
+    G1 Y250 E15 F1200
     G0 X8.5 F3000
-    G1 Y10 E30 F1200
+    G1 Y50 E30 F1200
     G0 X9 F3000
-    G1 Y210 E45 F1200
+    G1 Y250 E45 F1200
     G0 X9.5 F3000
-    G1 Y10 E60 F1200
+    G1 Y50 E60 F1200
     G0 X10 F3000
-    G1 Y210 E75 F1200
+    G1 Y250 E75 F1200
     G0 X10.5 F3000
-    G1 Y10 E90 F1200
+    G1 Y50 E90 F1200
     G0 X11 F3000
     G92 E0
     G1 E-10 F1800
@@ -92,42 +92,53 @@ Please refer to the below pictures to load filaments every time you print by E4 
     M117 Preload Extruder #3
     T2
     G92 E0
-    G0 X11 Y10 F3000
-    G1 Y210 E15 F1200
+    G0 X11 Y50 F3000
+    G1 Y250 E15 F1200
     G0 X11.5 F3000
-    G1 Y10 E30 F1200
+    G1 Y50 E30 F1200
     G0 X12 F3000
-    G1 Y210 E45 F1200
+    G1 Y250 E45 F1200
     G0 X12.5 F3000
-    G1 Y10 E60 F600
+    G1 Y50 E60 F600
     G0 X13 F3000
-    G1 Y210 E75 F1200
+    G1 Y250 E75 F1200
     G0 X13.5 F3000
-    G1 Y10 E90 F1200
+    G1 Y50 E90 F1200
     G0 X14 F3000
     G92 E0
     G1 E-10 F1800
     G1 E-60 F2400
     M400
-    M117 Preload Extruder #3
+    M117 Preload Extruder #4
     T3
     G92 E0
     G0 X14 Y10 F3000
-    G1 Y210 E15 F1200
+    G1 Y250 E15 F1200
     G0 X14.5 F3000
-    G1 Y10 E30 F1200
+    G1 Y50 E30 F1200
     G0 X15 F3000
-    G1 Y210 E45 F1200
+    G1 Y250 E45 F1200
     G0 X15.5 F3000
-    G1 Y10 E60 F1200
+    G1 Y50 E60 F1200
     G0 X16 F3000
-    G1 Y210 E75 F1200
+    G1 Y250 E75 F1200
     G0 X16.5 F3000
-    G1 Y10 E90 F1200
+    G1 Y50 E90 F1200
     G0 X17 F3000
     G0 Y155 F4800
+    G92 E0    
+    G1 E-10 F1800
+    G1 E-60 F2400
     G92 E0
     ;===Pre-load filament end
+    M117 Pls confirm filaments load well!
+    M300 S5000 P100
+    G4 P200
+    M300 S5000 P100
+    G4 P200
+    M300 S5000 P100
+    G4 P200
+    M0
 ### End G-code
     ;Z9E4 end gcode
     G28 XY
