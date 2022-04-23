@@ -144,8 +144,8 @@ Please refer to the below pictures to load filaments every time you print by E4 
     G28 XY
     M140 S0 ; cool bed
     G92 E0 
-    G1 E-10 F1800   ; pull out filament-1
-    G1 E-45 F1200   ; pull out filament-2
+    G1 E-10 F1800   ; unload filament-1
+    G1 E-45 F2400   ; unload filament-2
     M104 S0 ; cool hotend
     M84 ; disable steppers
 
@@ -155,16 +155,17 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
 #### Extrduer start G-code
     ;start gcode of Extruders     
     G92 E0
-    G1 E45 F1200; push filament-1
-    G1 E75 F1800; push filament-2
-    G1 E79 F900; push filament-3
+    G1 E25 F2400; reload filament-1
+    G1 E45 F1200; reload filament-2
+    G1 E70 F2400; reload filament-3
+    G1 E79 F900; reload filament-4
     G92 E0
 
 #### Extrduer End G-code
     ;end gcode of Extruder 1/2/3/4 
     G92 E0
-    G1 E-10 F1800; pull filament-1
-    G1 E-80 F2400; pull filament-2
+    G1 E-10 F1800; unload filament-1
+    G1 E-80 F2400; unload filament-2
     G92 E0 ;reset extrusion distance  
 
 ### Slicing setting
