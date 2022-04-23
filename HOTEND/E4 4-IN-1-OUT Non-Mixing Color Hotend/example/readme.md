@@ -131,7 +131,7 @@ Please refer to the below pictures to load filaments every time you print by E4 
     G1 E-80 F2400
     G92 E0
     ;===Pre-load filament end
-    ;M117 Pls confirm filaments load well!
+    ;M117 Confirm filaments load well!
     ;M300 S5000 P100
     ;G4 P200
     ;M300 S5000 P100
@@ -140,6 +140,7 @@ Please refer to the below pictures to load filaments every time you print by E4 
     ;G4 P200
     ;M0
 ### End G-code
+>
     ;Z9E4 end gcode
     G28 XY
     M140 S0 ; cool bed
@@ -150,10 +151,21 @@ Please refer to the below pictures to load filaments every time you print by E4 
     M84 ; disable steppers
 
 ### Extruder gcode
-Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.  
+Add the "extruder start gcode" and "extruder end gcode" to all of extruders.  
 ![](./4_Color_Dog/settings2.png)   
+![](./4_Color_Dog/settings22.png)   
+![](./4_Color_Dog/settings23.png)   
+![](./4_Color_Dog/settings24.png)   
 #### Extrduer start G-code
-    ;start gcode of Extruders     
+>
+    ;start gcode of Extruders   
+    G91 
+    G1 Z1 F600
+    G90
+    G0 X155 Y300 F5000 
+    G91 
+    G1 Z-1 F600
+    G90  
     G92 E0
     G1 E25 F2400; reload filament-1
     G1 E45 F1200; reload filament-2
@@ -162,6 +174,7 @@ Add the "extruder start gcode" and "extruder stop gcode" to all of extruders.
     G92 E0
 
 #### Extrduer End G-code
+>
     ;end gcode of Extruder 1/2/3/4 
     G92 E0
     G1 E-10 F1800; unload filament-1
