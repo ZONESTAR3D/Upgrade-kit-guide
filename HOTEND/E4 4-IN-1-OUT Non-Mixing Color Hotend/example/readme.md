@@ -1,23 +1,37 @@
-## ATTETION:
-Please refer to the below pictures to load filaments every time you print by E4 hotend. To check whether the filaments are loaded to the initial position.
-![Pre-load filament](E4LoadFilament.jpg)
-  
-## Example 1. Retraction Testing
-- **3D printer:** Z9V5pro
-- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
-- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
-- **Filament:**
-	- **Extruder 1:** White PLA+ filament to print a raft to anti-warp.
-	- **Extruder 2:** Red ABS filament to print the retaction testing tower.
-- **3D printer:** Z9V5pro
-- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
-- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
-- **Filament:**
-	- **Extruder 1:** White PLA+ filament to print a raft to anti-warp.
-	- **Extruder 2:** Red ABS filament to print the retaction testing tower.
-![](./Anti_strings_testing/E4_Retraction_Test.jpg)
+#### :warning: !!ATTETION PLEASE!!
 
-## Example 2. 4 Color test
+1. Refer to the below pictures to load filaments every time you print by E4 hotend. To check whether the filaments are loaded to the initial position.
+![](E4LoadFilament.jpg)
+:pushpin: If the last printing has been successfully completed, usually you can skip this step.
+2. To confirm the "preload line" prints well before you leave the machine.
+![](E4PreLoadline.png)
+
+
+---------
+## Examples sliced by PrusaSlicer
+![](PrusaSlicer/Z9E4_Bobomb.jpg)
+![](PrusaSlicer/Z9E4_4CTest.jpg)
+![](PrusaSlicer/Z9E4_3DBenchy.jpg)
+
+
+---------
+## Examples sliced by Cura
+#### Example 1. Retraction Testing
+- **3D printer:** Z9V5pro
+- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
+- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
+- **Filament:**
+	- **Extruder 1:** White PLA+ filament to print a raft to anti-warp.
+	- **Extruder 2:** Red ABS filament to print the retaction testing tower.
+- **3D printer:** Z9V5pro
+- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
+- **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
+- **Filament:**
+	- **Extruder 1:** White PLA+ filament to print a raft to anti-warp.
+	- **Extruder 2:** Red ABS filament to print the retaction testing tower.
+![](cura/Anti_strings_testing/E4_Retraction_Test.jpg)
+
+#### Example 2. 4 Color test
 - **3D printer:** Z9V5pro
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
 - **Slicing software:** Cura, silcing parameter please refer to the 3mf file  
@@ -28,7 +42,7 @@ Please refer to the below pictures to load filaments every time you print by E4 
 	- **Extruder 4:** Blue PLA   
 ![](./4_Color_test/E4_4Color_test.jpg)
 
-## Example 3. 4 Color Dog
+#### Example 3. 4 Color Dog
 - **3D printer:** Z9V5pro
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
 - **Slicing software:** Cura, silcing parameter, please download **E4-4Color-dog.3mf** and open it by Cura       
@@ -37,9 +51,27 @@ Please refer to the below pictures to load filaments every time you print by E4 
 	- **Extruder 2:** Red PLA
 	- **Extruder 3:** Green PLA
 	- **Extruder 4:** Blue PLA  
-![](./4_Color_Dog/E4_4C_Dog.jpg)    
-### Start G-code
-![](./4_Color_Dog/settings1.png)    
+![](cura//4_Color_Dog/E4_4C_Dog.jpg)    
+
+#### Example 5. 4 Color owl
+### Note: The settings are the same with 4 Color dog
+- **3D printer:** Z9V5pro  
+- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)  
+- **Slicing software:** Cura, silcing parameter, please download **E4-4Color-owl.3mf** and open it by Cura     
+- **Filament:**  
+	- **Extruder 1:** White PLA   
+	- **Extruder 2:** Yellow PLA  
+	- **Extruder 3:** Green PLA  
+	- **Extruder 4:** Blue PLA      
+
+![](cura//4_Color_owl/E4_4C_Owl_small.jpg)
+
+##### Slicing settings
+
+##### 1. Start G-code & End G-code
+![](cura//4_Color_Dog/settings1.png)    
+
+##### start G-code
 >
     ;Z9E4 start G-code
     G28 ;Home
@@ -131,15 +163,18 @@ Please refer to the below pictures to load filaments every time you print by E4 
     G1 E-80 F2400
     G92 E0
     ;===Pre-load filament end
-    ;M117 Confirm filaments load well!
-    ;M300 S5000 P100
-    ;G4 P200
-    ;M300 S5000 P100
-    ;G4 P200
-    ;M300 S5000 P100
-    ;G4 P200
-    ;M0
-### End G-code
+    
+    ;The below commands will beeps and pause printing afer filaments pre-load done,
+    ;and wait for click the knob to continute
+    M300 S5000 P100
+    G4 P200
+    M300 S5000 P100
+    G4 P200
+    M300 S5000 P100
+    G4 P200
+    M0
+
+##### End G-code
 >
     ;Z9E4 end gcode
     G28 XY
@@ -150,13 +185,13 @@ Please refer to the below pictures to load filaments every time you print by E4 
     M104 S0 ; cool hotend
     M84 ; disable steppers
 
-### Extruder gcode
+##### 3. Extruder gcode
 Add the "extruder start gcode" and "extruder end gcode" to all of extruders.  
-![](./4_Color_Dog/settings2.png)   
-![](./4_Color_Dog/settings22.png)   
-![](./4_Color_Dog/settings23.png)   
-![](./4_Color_Dog/settings24.png)   
-#### Extrduer start G-code
+![](cura//4_Color_Dog/settings2.png)   
+![](cura//4_Color_Dog/settings22.png)   
+![](cura//4_Color_Dog/settings23.png)   
+![](cura//4_Color_Dog/settings24.png)   
+###### Extrduer start G-code
 >
     ;start gcode of Extruders   
     G91 
@@ -173,7 +208,7 @@ Add the "extruder start gcode" and "extruder end gcode" to all of extruders.
     G1 E79 F900; reload filament-4
     G92 E0
 
-#### Extrduer End G-code
+###### Extrduer End G-code
 >
     ;end gcode of Extruder 1/2/3/4 
     G92 E0
@@ -181,18 +216,6 @@ Add the "extruder start gcode" and "extruder end gcode" to all of extruders.
     G1 E-80 F2400; unload filament-2
     G92 E0 ;reset extrusion distance  
 
-### Slicing setting
-![](./4_Color_Dog/settings3.jpg)
+##### 4. Slicing configuration
+![](cura//4_Color_Dog/settings3.jpg)
 
-## Example 5. 4 Color owl
-### Note: The settings are the same with 4 Color dog
-- **3D printer:** Z9V5pro  
-- **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)  
-- **Slicing software:** Cura, silcing parameter, please download **E4-4Color-owl.3mf** and open it by Cura     
-- **Filament:**  
-	- **Extruder 1:** White PLA   
-	- **Extruder 2:** Yellow PLA  
-	- **Extruder 3:** Green PLA  
-	- **Extruder 4:** Blue PLA      
-
-![](./4_Color_owl/E4_4C_Owl_small.jpg)
