@@ -9,7 +9,7 @@
 
 ---------
 ## Examples sliced by PrusaSlicer 
-[Download gcode](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/example/PrusaSlicer)
+:arrow_down:[Download gcode](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/example/PrusaSlicer)  
 ![](PrusaSlicer/Z9E4_Bobomb.jpg)
 ![](PrusaSlicer/Z9E4_4CTest.jpg)
 ![](PrusaSlicer/Z9E4_3DBenchy.jpg)
@@ -17,7 +17,7 @@
 
 ---------
 ## Examples sliced by Cura
-[Download gcode](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/example/Cura)
+:arrow_down[:Download gcode](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/example/Cura)  
 #### Example 1. Retraction Testing
 - **3D printer:** Z9V5pro
 - **Hotend:** E4 (4-IN-1-OUT Non-mixing color hotend)
