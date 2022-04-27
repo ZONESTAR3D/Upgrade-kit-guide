@@ -19,7 +19,7 @@
 ![](Z9E4_Patrick.jpg)
 
 #### Example 7. 4 Color BDD
-![](bdd/Z9E4_BDD.jpg)
+![](BDD.jpg)
 
 #### Slicing steps
 ##### Step 1. Choose printer Z9 + E4 HOTEND

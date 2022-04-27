@@ -9,7 +9,3 @@ stl file of the fan duck
 
 ### Example
 Examples to use E4 hotend print
-![](./example/Anti_strings_testing/E4_Retraction_Test.jpg)
-![](./example/4_Color_test/E4_4Color_test.jpg)
-![](./example/4_Color_Dog/E4_4C_Dog.jpg)
-![](./example/4_Color_owl/E4_4C_Owl_small.jpg)  
