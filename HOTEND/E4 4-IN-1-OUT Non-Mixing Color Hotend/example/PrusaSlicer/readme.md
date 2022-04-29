@@ -25,7 +25,7 @@
 ![](BDD.jpg)
 
 #### Slicing steps
-[Video Toutrial](BDD.mp4)
+:arrow_down:[Video Toutrial](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/example/PrusaSlicer/BDD/BDD.mp4)
 ##### Step 1. Choose printer Z9 + E4 HOTEND
 ![](bdd/1.png)
 
