@@ -18,10 +18,14 @@
 #### Example 6. 4 Color Patrick
 ![](Z9E4_Patrick.jpg)
 
-#### Example 7. 4 Color BDD
+#### Example 7. 4 Color KUMATY_Bear
+![](Z9E4_KUMATY_Bear.jpg)
+
+#### Example 8. 4 Color BDD
 ![](BDD.jpg)
 
 #### Slicing steps
+[Video Toutrial](BDD.mp4)
 ##### Step 1. Choose printer Z9 + E4 HOTEND
 ![](bdd/1.png)
 
