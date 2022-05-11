@@ -11,13 +11,13 @@
 ![](Z9E4_Bobomb.jpg)    
 #### Example 4. OWL
 :arrow_down: [Download gcode files](Z9E4_OWL.zip)  
-![](Z9E4_owl.jpg)
+![](Z9E4_OWL.jpg)
 #### Example 5. Dog
 :arrow_down: [Download gcode files](Z9E4_Dog.zip)  
 ![](Z9E4_dog.jpg)
 #### Example 6. Patrick
 :arrow_down: [Download gcode files](Z9E4_Patrick.zip)  
-![](Z9E4_Patrick.zip)
+![](Z9E4_Patrick.jpg)
 #### Example 7. KUMATY_Bear
 :arrow_down: [Download gcode files](Z9E4_KUMATY_Bear.zip)  
 ![](Z9E4_KUMATY_Bear.jpg)
