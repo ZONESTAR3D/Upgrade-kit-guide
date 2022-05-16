@@ -178,7 +178,56 @@ Add the "extruder start gcode" and "extruder end gcode" to all of extruders.
 ![]/4_Color_Dog/settings24.png)   
 ###### Extrduer start G-code
 >
-    ;start gcode of Extruders   
+    ;start gcode of Extruder 1
+    T0   
+    G91 
+    G1 Z1 F600
+    G90
+    G0 X155 Y300 F5000 
+    G91 
+    G1 Z-1 F600
+    G90  
+    G92 E0
+    G1 E25 F2400; reload filament-1
+    G1 E45 F1200; reload filament-2
+    G1 E70 F2400; reload filament-3
+    G1 E79 F900; reload filament-4
+    G92 E0
+
+    ;start gcode of Extruder 2
+    T1   
+    G91 
+    G1 Z1 F600
+    G90
+    G0 X155 Y300 F5000 
+    G91 
+    G1 Z-1 F600
+    G90  
+    G92 E0
+    G1 E25 F2400; reload filament-1
+    G1 E45 F1200; reload filament-2
+    G1 E70 F2400; reload filament-3
+    G1 E79 F900; reload filament-4
+    G92 E0
+
+    ;start gcode of Extruder 3
+    T2   
+    G91 
+    G1 Z1 F600
+    G90
+    G0 X155 Y300 F5000 
+    G91 
+    G1 Z-1 F600
+    G90  
+    G92 E0
+    G1 E25 F2400; reload filament-1
+    G1 E45 F1200; reload filament-2
+    G1 E70 F2400; reload filament-3
+    G1 E79 F900; reload filament-4
+    G92 E0
+
+    ;start gcode of Extruder 4
+    T3   
     G91 
     G1 Z1 F600
     G90
