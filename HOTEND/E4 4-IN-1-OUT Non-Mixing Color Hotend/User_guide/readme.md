@@ -22,7 +22,7 @@ Simply remove the 3 screws behind the hot end assembly and install them on the m
 ### 5. Working principle
 4-IN-1-OUT hot end is composed of fitting, heat-sink, heater, nozzle and other components, when printing, extrusion feeder insert this color filaments into the hot end, then the filament is melted and flowed from the nozzle.
 While changing the color, the extrusion feeder needs to pull the previous color filament out of the hot end, and then insert another color filament. 
-Since the melted residual filament in the nozzle cannot be completely pulled out, after replacing the filament, a "wipe tower" needs to be added to remove the residual filament in the nozzle to make better color discrimination, refer to [Slicing]()
+Since the melted residual filament in the nozzle cannot be completely pulled out, after replacing the filament, a "wipe tower" needs to be added to remove the residual filament in the nozzle to make better color discrimination, refer to [Slicing](#8-slicing)
 ![](E4-5.jpg) 
 
 ###  6. Pre-load filaments
