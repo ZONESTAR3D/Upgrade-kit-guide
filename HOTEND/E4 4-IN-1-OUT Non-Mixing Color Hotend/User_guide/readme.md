@@ -22,7 +22,7 @@ Simply remove the 3 screws behind the hot end assembly and install them on the m
 ### 5. Working principle
 4-IN-1-OUT hot end is composed of fitting, heat-sink, heater, nozzle and other components, when printing, extrusion feeder insert this color filaments into the hot end, then the filament is melted and flowed from the nozzle.
 While changing the color, the extrusion feeder needs to pull the previous color filament out of the hot end, and then insert another color filament. 
-Since the melted residual filament in the nozzle cannot be completely pulled out, after replacing the filament, a "wipe tower" needs to be added to remove the residual filament in the nozzle to make better color discrimination, refer to [Slicing](#8-slicing)
+Since the melted residual filament in the nozzle cannot be completely pulled out, after replacing the filament, a "wipe tower" needs to be added to remove the residual filament in the nozzle to make better color discrimination, refer to :point_right: [Slicing](#8-slicing)
 ![](E4-5.jpg) 
 
 ###  6. Pre-load filaments
@@ -40,8 +40,9 @@ Please follow the steps below to unload the filament from the hotend:
 :star2: Some 3d printers (e.g. Z9V5Pro) has a “Filament” Menu on LCD screen, please operate the LCD screen and use menu of “Prepare>>Preheat/Extruder/Unload” etc. to preheat the nozzle, choose extruder and unload filaments.
 
 ### 8. Slicing
-- For PrusaSlicer(recommended), please refer to [here](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer#6-slicing-muti-color-for-e4-hotend)
-- For Cura Slicer, please refer to [here]()
+- For PrusaSlicer(recommended), please refer to :point_right: [here](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer#6-slicing-muti-color-for-e4-hotend)
+- For Cura Slicer, please refer to :point_right: [here]()
+- For Simplify3d Slicer, please refer to :point_right: [here](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/Simplify3D/readme_Z9V5-E4hotend.md)
 
 ### 9. Maintain
 For some reason, it may happen that the filament is clogged inside the hot end and cannot be pulled out 
