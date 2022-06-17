@@ -12,5 +12,5 @@ Please refer to [**here**](userguide.md)
 ## [FAQ](FAQ.md)
 Please refer to [**here**](FAQ.md)
 
-## [How to assemble/unaddemble M4-V3(V4) hotend](assemble.md)
+## [How to assemble / disaddemble M4-V3(V4) hotend](assemble.md)
 Please refer to [**here**](assemble.md)
