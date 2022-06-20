@@ -25,35 +25,33 @@
 	#define LCD_RXD 			PA10   	//TXD of UART1
 
 ## User guide
-- [***Menu description V1***](./user_guide/LCD%20DWIN%20MENU%20Description%20V1_2.pdf)
-- [***Menu description V2***](./user_guide/LCD%20DWIN%20MENU%20Description%20V2.pdf)
+- :green_book: [***Menu description V2***](./user_guide/LCD%20DWIN%20MENU%20Description%20V2.pdf)
 
 ## Upload firmware
-#### :one: Step 1: Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with "Allocation units size" is 4069 bytes. 
+#### Step :one: : Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with "Allocation units size" is 4069 bytes. 
 ![](pictures/Format.jpg)      
->
 - :star2: [**Format SD Card on Windows**](https://recoverit.wondershare.com/partition-tips/format-sd-in-windows-10.html?/topic/916-upgrade-to-pdf-to-pages/=&comment=2884&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EApQAT_0jaSjNTHDKfbyTB8K-lLEt9m_hd2Ro526ZG6lerIJX3YE-7caAhXAEALw_wcB)    
 - :star2: [**Format SD Card on Mac OS**](https://recoverit.wondershare.com//mac-tips/format-sd-card-fat32-mac.html?gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAo1hhsQ62C9vIhIAKUQitkIz72xy7axY1Ylf9p7Z7-kPSLVffoWslQaAp19EALw_wcB)
 
  
-#### :two: Step 2: Download and unzip "DWIN\_SET" to your PC, copy DWIN\_SET to the root directory of SD card.  
->
-- :star2: [**Click to download DWIN-LCD-V2 firmware**](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/V2/DWIN_SET). 
-- :star2: [**Click to download DWIN-LCD-V1 firmware**](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/V1/DWIN_SET)      
+#### Step :two: : Download and unzip the zip file to your PC, copy DWIN\_SET to the root directory of SD card.  
+- :arrow_down: [**Click here and then click "download" button to download DWIN-LCD MENU V2 files**](./V2/DWIN_MENU_V2.zip).   
+or  
+- :arrow_down: [**Click here to download DWIN-LCD MENU V2 files automatically**](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/V2/DWIN_SET).   
 
 ![](pictures/SD1.jpg)  
 ![](pictures/SD2.jpg)
-#### :three: Step 3: Remove the screws from the back of LCD box, take down the backplate.
+#### Step :three: : Remove the screws from the back of LCD box, take down the backplate.
 ![](pictures/open_box.jpg)
-#### :four: Step 4: Remove the screws that mounted the LCD screen.
+#### Step :four: : Remove the screws that mounted the LCD screen.
 ![](pictures/open_box2.jpg)
-#### :five: Step 5: Insert the Micro-SD card into the socket of the LCD screen PCBA.
+#### Step :five: : Insert the Micro-SD card into the socket of the LCD screen PCBA.
 ![](pictures/Insert_SD.jpg)
-#### :six: Step 6: Connect the LCD screen to the 3d printer (Power on it first), and the LCD screen will show full "BLUE" and then full "RED" about 30 seconds.
+#### Step :six: : Connect the LCD screen to the 3d printer (Power on it first), and the LCD screen will show a "BLUE" screen and then a "RED" screen about 20~30 seconds later.
 ![](pictures/LCDShows.jpg)
-#### :seven: Step 7: Disconnect the LCD screen cable and remove the Micro-SD card.
-#### :eight: Step 8: Install the screws just removed in the reverse order, Done! 
-#### :checkered_flag: After upload firmware (V2 version), you can find a string "V2" on LCD SCREEN
+#### Step :seven: : Disconnect the LCD screen cable and remove the Micro-SD card.
+#### Step :eight: : Install the screws just removed in the reverse order, Done! 
+#### :checkered_flag: After upload firmware (V2 version), you can find a string "V2" on LCD SCREEN when power on.
 ![](pictures/LCDShowV2.jpg)  
 
 
