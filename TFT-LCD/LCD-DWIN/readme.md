@@ -25,7 +25,8 @@
 	#define LCD_RXD 			PA10   	//TXD of UART1
 
 ## User guide
-- [***Menu description***](./user_guide/LCD%20DWIN%20MENU%20Description%20V1_2.pdf)
+- [***Menu description V1***](./user_guide/LCD%20DWIN%20MENU%20Description%20V1_2.pdf)
+- [***Menu description V2***](./user_guide/LCD%20DWIN%20MENU%20Description%20V2.pdf)
 
 ## Upload firmware
 #### :one: Step 1: Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with "Allocation units size" is 4069 bytes. 
