@@ -17,7 +17,7 @@
 
 	//EC11 P2 and G pins connected to GND. 
 	//Pin define of EXP2 of ZM3E4
-	#define BEEPER_PIN          PA15    //
+	#define BEEPER_PIN    PA15    //
 	#define BTN_EN1 			PB3    	//
 	#define BTN_EN2 			PB5    	//
 	#define BTN_ENC 			PB4   	//
@@ -25,7 +25,9 @@
 	#define LCD_RXD 			PA10   	//TXD of UART1
 
 ## User guide
-- :green_book: [***Menu description V2***](./user_guide/LCD%20DWIN%20MENU%20Description%20V2.pdf)
+- :green_book: [***Menu description V3***](./user_guide/LCD-DWIN%20MENU%20Description%20V3.pdf)
+- :green_book: [***Menu description V2***](./user_guide/LCD-DWIN%20MENU%20Description%20V2.pdf)
+- :green_book: [***Menu description V1***](./user_guide/LCD%20DWIN%20MENU%20Description%20V1_2.pdf)
 
 ## Upload firmware
 #### Step :one: : Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with "Allocation units size" is 4069 bytes. 
