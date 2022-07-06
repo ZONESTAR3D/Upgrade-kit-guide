@@ -35,9 +35,7 @@
 
  
 #### Step :two: : Download and unzip the zip file to your PC, copy DWIN\_SET to the root directory of SD card.  
-- :arrow_down: [**Click here and then click "download" button to download DWIN-LCD MENU V2 files**](./V2/DWIN_MENU_V2.zip).   
-or  
-- :arrow_down: [**Click here to download DWIN-LCD MENU V2 files automatically**](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/V2/DWIN_SET).   
+- :arrow_down: [**Click here and then click "download" button to download DWIN-LCD MENU V3 files**](./V3/DWIN_MENU_V3.zip).   
 
 ![](pictures/SD1.jpg)  
 ![](pictures/SD2.jpg)
@@ -51,7 +49,7 @@ or
 ![](pictures/LCDShows.jpg)
 #### Step :seven: : Disconnect the LCD screen cable and remove the Micro-SD card.
 #### Step :eight: : Install the screws just removed in the reverse order, Done! 
-#### :checkered_flag: After upload firmware (V2 version), you can find a string "V2" on LCD SCREEN when power on.
+#### :checkered_flag: After upload firmware, you can find a string "Vx" on the right-bottom corner of LCD SCREEN when power on.
 ![](pictures/LCDShowV2.jpg)  
 
 
