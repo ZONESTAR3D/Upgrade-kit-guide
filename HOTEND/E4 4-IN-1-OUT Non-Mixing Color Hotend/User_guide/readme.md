@@ -15,9 +15,12 @@ There are 4 input channels and 1 nozzles on the E4 hotend, when switching color,
 ### 3. Wire and Terminals
 ![](E4-3.jpg)
 
-### 4. Installation
-Simply remove the 3 screws behind the hot end assembly and install them on the machine X carrier.
-![](E4-4.jpg)
+### 4. Installation & wiring
+#### Installation
+Simply remove the 3 screws behind the hot end assembly and install the E4 hotend assembly on the X carrier of the machine.
+![](E4-4.jpg)  
+#### Wiring
+![](E4_wiring.jpg)  
 
 ### 5. Working principle
 4-IN-1-OUT hot end is composed of fitting, heat-sink, heater, nozzle and other components, when printing, extrusion feeder insert this color filaments into the hot end, then the filament is melted and flowed from the nozzle.
@@ -41,7 +44,6 @@ Please follow the steps below to unload the filament from the hotend:
 
 ### 8. Slicing
 - For PrusaSlicer(recommended), please refer to :point_right: [here](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer#6-slicing-muti-color-for-e4-hotend)
-- For Cura Slicer, please refer to :point_right: [here]()
 - For Simplify3d Slicer, please refer to :point_right: [here](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/Simplify3D/readme_Z9V5-E4hotend.md)
 
 ### 9. Maintain
@@ -62,5 +64,12 @@ length or wrong sequence, which may also cause blockage.
 ### 10. Testing gcode
 We have uploaded some test files to our website, you can download them from [here](../example/readme.md)
 
+### Video toturial
+- :movie_camera: [**How to load Filament - for one color printing**](https://youtu.be/6aTF5QnFhi4)
+- :movie_camera: [**How to load Filament - for multi colors printing**](https://youtu.be/FyHrAMytlT8)
+- :movie_camera: [**Download and install slicing software**](https://youtu.be/SgyXD-kQIeo)  
+- :movie_camera: [**Slicing guide - for one color printing**](https://youtu.be/SgyXD-kQIeo4)  
+- :movie_camera: [**Slicing guide - for multi colors printing**](https://youtu.be/AIKrszmxvE4)    
+- :movie_camera: [**Slicing guide - Convert one color 3d file to multi colors**](https://youtu.be/2LJu4G0T4Zg)    
 
   
