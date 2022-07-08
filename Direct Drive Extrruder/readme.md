@@ -1,4 +1,5 @@
 ## 1. Installation
+:movie_camera:[**Video tutorial**](https://youtu.be/7aF-C7VgDZY)
 + **Step 1**. Take down the orignal hotend from the x carrier.  
 + **Step 2**. Install the direct drive extruder (DDE ) to the same position of the carrier.  
 ![DDE_Installation](DDE_Installation.jpg)
