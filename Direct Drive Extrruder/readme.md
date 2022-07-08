@@ -18,3 +18,4 @@
 ### How to open the control box
 Lossen the four screws to open the upper control box and then you can find the wire for extrude motors, connect the wire to E1 motor connecotor.  
 ![](OpenZ9V5Box.jpg)
+## 5. :point_right: [Print parts stl file](./stl/readme.md)
