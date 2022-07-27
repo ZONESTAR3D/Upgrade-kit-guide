@@ -65,8 +65,8 @@ For details, please refer to the documents in the "**E4 4-IN-3-OUT NON-Mixing Co
 
 
 ------
-# Slicing Guide  
-Please refer to the guide [**here**](https://github.com/ZONESTAR3D/Slicing-Guide)
+# [Slicing Guide](https://github.com/ZONESTAR3D/Slicing-Guide)
+Please refer to :point_right: the [guide](https://github.com/ZONESTAR3D/Slicing-Guide)
 
 
 
