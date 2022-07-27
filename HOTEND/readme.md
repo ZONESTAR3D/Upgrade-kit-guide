@@ -28,29 +28,29 @@ The hotend is the component of a 3D printer that melts the filament for extrusio
 Included documents about ZONESTAR single color hot end
 
 ------
-## M2 (2-IN-1-OUT)  Mixing color hotend
+## [M2 (2-IN-1-OUT)  Mixing color hotend](./M2%202_IN-1-OUT%20Mixing%20Color%20Hotend/)
 **M2** hot end is a 2-IN-1-OUT hotend, it has two feeding channels and one nozzle. Two filaments are mixed in the mixing chamber in the heating block and extruded through the nozzle.  
 We have mass produced four versions of M2 hot end. For details, please refer to the documents in the "**M2 2-IN-1-OUT mixing color Hotend**" directory.  
 
 ------
-## M3 (3-IN-1-OUT) Mixing color hotend
+## [M3 (3-IN-1-OUT) Mixing color hotend](./M3%20%203-IN-1-OUT%20Mixing%20Color%20Hotend/)
 **M3** hot end is a 3-IN-1-OUT hotend, it has three feeding channels and one nozzle. Three filaments are mixed in the mixing chamber in the heating block and extruded through the nozzle.  
 We have mass produced four versions of M3 hot end. For details, please refer to the documents in the "**M3 3-IN-1-OUT mixing color Hotend**" directory.  
 
-## M2P1 3-IN-2-OUT Mixing Color Hotend
+## [M2P1 3-IN-2-OUT Mixing Color Hotend](./M2P1%20%203-IN-2-OUT%20Mixing%20Color%20Hotend/)
 **M2P1** hot end is a 3-IN-2-OUT hotend, it has three feeding channels and two nozzle. Two filaments are mixed in the mixing chamber in the heating block and extruded through one of the nozzle, another independent nozzle can be used to print the support filament.   
 Simply put, it is a combination of an M2 hot end and a single color hot end. It has the advantages of M2, singel nozzle hot end and double nozzle hot end. It can meet the needs of printing singel color, mixed color and two-color, as well as singel color+ support (such as PLA + PVA).
 
-## R3 3-IN-3-OUT HOTEND
+## [R3 3-IN-3-OUT HOTEND](./R3%203-IN-3-OUT%20HOTEND/)
 **R3** hot end is a 3-IN-3-OUT hotend, it has three feeding channels and three nozzles, and all of the three nozzle share one heater and temperature sensor.  
 We have mass produced 2 versions of R3 hot end. For details, please refer to the documents in the "**R3 3-IN-3-OUT HOTEND**" directory.  
 
 ------
-## M4(4-IN-1-OUT)  Mixing color hotend
+## [M4(4-IN-1-OUT Mixing color) hotend](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/)
 **M4** hot end is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. Four filaments are mixed in the mixing chamber in the heating block and extruded through the nozzle.  
 We have mass produced five versions of M4 hot end. For details, please refer to the documents in the "**M4 4-IN-1-OUT mixing color Hotend**" directory.  
 
-## E4 (4-IN-1-OUT Non-Mixing Color Hotend)
+## [E4 (4-IN-1-OUT Non-Mix Color) Hotend](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/)
 **E4** hot end is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. One of the four filaments can be pushed in the heating block and extruded through the nozzle, When a new filament push in, it needs to pull out the previous filament first.
 For details, please refer to the documents in the "**E4 4-IN-3-OUT NON-Mixing Color Hotend**" directory.  
 
