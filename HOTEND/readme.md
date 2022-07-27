@@ -24,7 +24,7 @@ The hotend is the component of a 3D printer that melts the filament for extrusio
 ![](hotend.jpg)  
 
 ------
-## Single color Hotend
+## [Single color Hotend](./Single%20color%20Hotend/)
 Included documents about ZONESTAR single color hot end
 
 ------
