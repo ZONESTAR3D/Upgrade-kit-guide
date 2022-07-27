@@ -52,7 +52,7 @@ We have mass produced five versions of M4 hot end. For details, please refer to 
 
 ## [E4 (4-IN-1-OUT Non-Mix Color) Hotend](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/)
 **E4** hot end is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. One of the four filaments can be pushed in the heating block and extruded through the nozzle, When a new filament push in, it needs to pull out the previous filament first.
-For details, please refer to the documents in the "**E4 4-IN-3-OUT NON-Mixing Color Hotend**" directory.  
+For details, please refer to the documents in the "**E4 4-IN-1-OUT NON-Mixing Color Hotend**" directory.  
 
 ### Advantages and disadvantages of E4 and M4 hot end
 #### Advantages of E4 hotend
