@@ -1,4 +1,4 @@
-### Choose Language (Translated by google)
+### :globe_with_meridians: Choose Language (Translated by google)
 [![](../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=es)
 [![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=fr)
@@ -63,6 +63,17 @@ For details, please refer to the documents in the "**E4 4-IN-1-OUT NON-Mixing Co
 1. Get more colors than extruders.
 2. Support gradient color printing feature.
 
+
+### How to switch between mix color Hotend and non-mix color Hotend
+#### 1. Loosen the three screws on the hot end housing and remove the old hot end from the machine (x pulley). Then install the new hot end on the machine (x pulley) and lock the screws.
+![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/E4-4.jpg)
+#### 2. Connect the wires of the new hot end to the machine.
+![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/E4_wiring.jpg)
+#### 3. Set the hot end type on the LCD menu: *Control>>Configure>>Hotend Type*
+![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/hotendtype-mix.jpg)![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/hotendtype-nonmix.jpg)
+#### :warning: NOTE 1: If you can't find the hotend type menu on LCD screen, please upload the newest firmware to your printer 
+:point_right: Firmware for [**[Z9V5]**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin)  [**[Z8P]**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z8/Z8P/ZM3E4/released)  [**[Z9M4]**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9M4)
+#### :warning: NOTE 2: The mix color Hotend and non-mix color hotend must use different slice settings, please pay attention to distinguish. Using the wrong slice setting may cause the hotend to be blocked.
 
 ------
 # [Slicing Guide](https://github.com/ZONESTAR3D/Slicing-Guide)

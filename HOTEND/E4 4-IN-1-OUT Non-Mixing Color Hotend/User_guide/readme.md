@@ -1,4 +1,5 @@
-[**Buy E4 hotend**](https://www.aliexpress.com/item/1005002951777699.html)
+[:gift: **Buy E4 hotend**](https://bit.ly/39qDtKp)
+[:gift: **Buy E4 hotend**](https://www.aliexpress.com/item/1005002951777699.html)
 
 ## E4 Hotend user guide
 ### 1. Specifications
@@ -21,6 +22,8 @@ Simply remove the 3 screws behind the hot end assembly and install the E4 hotend
 ![](E4-4.jpg)  
 #### Wiring
 ![](E4_wiring.jpg)  
+#### Set hot end type on LCD MENU: Control>>Configure>>Hotend Type
+![](hotendtype-nonmix.jpg)  
 
 ### 5. Working principle
 4-IN-1-OUT hot end is composed of fitting, heat-sink, heater, nozzle and other components, when printing, extrusion feeder insert this color filaments into the hot end, then the filament is melted and flowed from the nozzle.
