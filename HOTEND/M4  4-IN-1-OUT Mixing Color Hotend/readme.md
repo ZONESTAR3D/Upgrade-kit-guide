@@ -48,7 +48,7 @@ Because M4V5 used different fittings which to fix the PTFE filament guides, its 
 ## stl
 Stl files of the fan duck
 - :arrow_down: [Fan duck for M4V3 M4V4 & M4V5](./stl/fan_duck_m4_v3.rar)
-- :arrow_down: [Fan duck for M4V6](./stl/fan_duck_m4_v6.rar)
+- :arrow_down: [Fan duck for M4V6](./stl/fan_m4v6_v2.rar)
 
 ## Example
 gcode/stl files to print by using M4 hotend and slicing settings 
