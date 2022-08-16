@@ -21,14 +21,14 @@
 - If your printer is Z9V5, please refer to [here](https://github.com/ZONESTAR3D/Z9/blob/main/Z9V5/Z9V5-MK2/5.%20FAQ/How%20to%20open%20the%20control%20box%20(Z9V5-MK2).jpg) to open the control box.   
 
 ## Work Mode
-The WiFi module can work in two modes, namely, access point (AP) mode or client station mode.
+The WiFi module can work in two modes, namely, Access Point (AP) mode or Client Station mode.
 - **Access Point (AP) mode:** The control equipment (laptop, PC, mobile phone etc.) link to 3d printer directly, ***when the WiFi module leave factory, it works in AP mode.***
 - **Client Station mode:** Both the control equipment and 3d printer link to router, transfer control command by router.   
 :star2: The control distance in AP mode is about 5 meters. In cilent mode, you can operate the machine within the coverage of the router.
 ![](workmode.jpg)
 
 ## Connet to printer by AP Mode
-:star2: You must use AP mode if you are connecting to the WiFi module for the first time.
+:warning: **You must use AP mode if you are connecting to the WiFi module for the first time.**  
 1. Turn on the WiFi on LCD MENU “Control>>Configre>>WiFi”, after WiFi working, it will shows a IP address on the bottom of LCD screen “192.168.0.1”
 ![](AP1.jpg)
 2. Choose the WiFi hotspot "ZONESTAR3DP" on the laptop (or any other device can receive the WiFi signal), connect it, the default password is 12345678.  
