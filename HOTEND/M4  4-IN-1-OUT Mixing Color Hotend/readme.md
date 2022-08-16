@@ -1,14 +1,33 @@
 # ZONESTAR M4 (4-IN-1-OUT Mixing Color) Hotend
+
+
+
+## M4V6 - The 6th version 4-IN-1-OUT mix color hotend
+[:book: Introduction of the 6th M4 hotend](./M4_V6/readme.md)  
+### Structure diagram
+![](./M4_V6/M4V6_2.JPG)
+### What's improved
+The M4V6 has reformed the structure of the hot end, which is completely different from the previous version. It uses an inclined feed channel and canceled the flow channel inside the heater. Advantages compared with the previous version M4 hot ends:
+1. Solved the leakage issue completely.
+2. Reduced the volume of mixing room, the drawing/stings issue is greatly improved.
+
+
+## M4V5 - The 5th version 4-IN-1-OUT mix color hotend
+[:book: Introduction of the 5th version M4 hotend](./M4_V5/readme.md)
+### Structure diagram
+![](./M4_V5/M4V5.jpg)
+### The different between **M4V5** with **M4V4**:  
+1. Removed the inner PTEF pipes, Reduce the probability of clogged because the internal PTEF pipe be damaged.   
+2. Upgraded the fittings, easier to load filament and replace the filament guide. 
+### :warning: ATTETION PLEASE
+Because M4V5 used different fittings which to fix the PTFE filament guides, its size is bigger than M4V3 and M4V4, so M4V5 can't be installed to the older housing.   
+
+
+## M4V4 - The 4th version 4-IN-1-OUT mix color hotend
+[:book: Introduction of the 4th M4 hotend](./M4_V3_V4/readme.md)      
 [**Buy a M4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
 [**Buy a M4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html) 
 
-## M4V3 - The 3rd version 4-IN-1-OUT hotend
-[Introduction of the 3rd M4 hotend](./M4_V3_V4/readme.md)
-### Structure diagram
-![](./M4_V3_V4/M4_V3.jpg)
-
-## M4V4 - The 4th version 4-IN-1-OUT hotend
-[:book: Introduction of the 4th M4 hotend](./M4_V3_V4/readme.md)      
 ### Structure diagram
 ![](./M4_V3_V4/M4_V4.jpg)
 ### The different between  **M4V4** with **M4V3**:  
@@ -21,19 +40,15 @@
 [**PEEK_Insulation_block**](https://www.aliexpress.com/item/1005002124027691.html)  
 [**Small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html)
 
-## M4V5 - The 5th version 4-IN-1-OUT hotend
-[Introduction of the 5th version M4 hotend](./M4_V5/readme.md)
+## M4V3 - The 3rd version 4-IN-1-OUT mix color hotend
+[:book: Introduction of the 3rd M4 hotend](./M4_V3_V4/readme.md)
 ### Structure diagram
-###  Structure diagram
-![](./M4_V5/M4V5.jpg)
-### The different between **M4V5** with **M4V4**:  
-1. Removed the inner PTEF pipes, Reduce the probability of clogged because the internal PTEF pipe be damaged.   
-2. Upgraded the fittings, easier to load filament and replace the filament guide. 
-### :warning: ATTETION PLEASE
-Because M4V5 used different fittings which to fix the PTFE filament guides, its size is bigger than M4V3 and M4V4, so M4V5 can't be installed to the older housing.   
+![](./M4_V3_V4/M4_V3.jpg)
 
 ## stl
 Stl files of the fan duck
+- :arrow_down: [Fan duck for M4V3 M4V4 & M4V5](./stl/fan_duck_m4_v3.rar)
+- :arrow_down: [Fan duck for M4V6](./stl/fan_duck_m4_v6.rar)
 
 ## Example
 gcode/stl files to print by using M4 hotend and slicing settings 
