@@ -57,9 +57,9 @@ In the AP mode, your computer (mobile) is directly connected to the hotspot of t
 5. You can control the 3d printer by ESP3D console page. For details, please refer to [ESP3D WebUI](https://github.com/luc-github/ESP3D-WEBUI)
 
 ## Work on Client Station Mode
-1. After switched to the client station mode, the machine will save the SSID and password automatically. You only need to enter the IP address on web browser to access and control your 3D printer. 
-2. The IP address of the 3D printer may change each time the printer is turned on. Please pay attention to the prompts on the LCD after the 3D printer is turned on.
-3. If you forget the IP address of the 3d printer, just need to turn off and then turn on WiFi feature on LCD screen.
+1. After switched to the client station mode, the WiFi module will save the SSID and password automatically. You only need to enter the IP address on web browser to access and control your 3D printer. 
+2. The IP address of the 3D printer may be changed while the 3d printer is turned on. Please pay attention to the message on the LCD after the 3D printer is turned on.
+3. If you forget or are not sure about the current IP address of the 3d printer, just need to turn off and then turn on WiFi feature on LCD screen and then find it on the LCD screen.
 
 
 
