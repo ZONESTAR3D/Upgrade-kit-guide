@@ -28,6 +28,7 @@ The WiFi module can work in two modes, namely, Access Point (AP) mode or Client 
 
 ## Connet to printer by AP Mode
 :warning: **You must use AP mode if you are connecting to the WiFi module for the first time.**  
+:warning: **The distance of WiFi control is less than 10 meters on AP Mode.**   
 1. Turn on the WiFi on LCD MENU “Control>>Configre>>WiFi”, after WiFi working, it will shows a IP address on the bottom of LCD screen “192.168.0.1”
 ![](AP1.jpg)
 2. Choose the WiFi hotspot "ZONESTAR3DP" on the laptop (or any other device can receive the WiFi signal), connect it, the default password is 12345678.  
@@ -38,9 +39,8 @@ The WiFi module can work in two modes, namely, Access Point (AP) mode or Client 
 ![](AP4.jpg)  
 4. You can control the 3d printer by ESP3D console page. For details, please refer to [ESP3D WebUI](https://github.com/luc-github/ESP3D-WEBUI)
 
-
 ## Switch to Client Station Mode from AP Mode
-In the AP mode, your computer (mobile) is directly connected to the hotspot of the WiFi of the 3D printer, so you cannot access the Internet through WiFi. If you have a wireless router and use WiFi to access the Internet, you need to switch to Client Station mode.
+In the AP mode, your computer (mobile) is directly connected to the hotspot of the 3D printer, so you cannot access the internet through WiFi. If you have a wireless router and use WiFi to access the internet, you can switch to Client Station mode.
 1. Refer to the following picture to set on **ESP3D console page**. 
 ![](AP2CP.jpg)    
 **Station SSID      :**  the SSID of your WiFi hotspot.  
@@ -59,6 +59,12 @@ In the AP mode, your computer (mobile) is directly connected to the hotspot of t
 1. After switched to the client station mode, the WiFi module will save the SSID and password automatically. You only need to enter the IP address on web browser to access and control your 3D printer. 
 2. The IP address of the 3D printer may be changed while the 3d printer is turned on. Please pay attention to the message on the LCD after the 3D printer is turned on.
 3. If you forget or are not sure about the current IP address of the 3d printer, just need to turn off and then turn on WiFi feature on LCD screen and then find it on the LCD screen.
+
+## Set WiFi Baud Rate
+When you upload files to the SD card through WiFi, you will find that the uploading speed is very low. You can improve the uploading speed by modifying the baud rate of communication.
+:warning: You must set the same baud rate in the LCD display menu and ESP3D console page, otherwise you cannot control the 3D printer.
+- **Step 1:** set the WiFi BaudRate on LCD menu.
+- **Step 2:** set the WiFi BaudRate on ESP3D console page and reset the WiFi module.
 
 
 
