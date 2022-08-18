@@ -61,8 +61,9 @@ In the AP mode, your computer (mobile) is directly connected to the hotspot of t
 3. If you forget or are not sure about the current IP address of the 3d printer, just need to turn off and then turn on WiFi feature on LCD screen and then find it on the LCD screen.
 
 ## Set WiFi Baud Rate
-When you upload files to the SD card through WiFi, you will find that the uploading speed is very low. You can improve the uploading speed by modifying the baud rate of communication.  
-:warning: You must set the same baud rate in the LCD display menu and esp3d console page, otherwise you will not be able to control the 3D printer via WiFi.  
+:warning: Upload gcode file to SD card via WiFi is slow, we suggest you copy the file directly if the gcode file is over 1M.  
+You can improve the file uploading speed by modifying the baud rate of communication.   
+:warning: You must set the same baud rate in the LCD display menu and ESP3D console page, otherwise you will not be able to control the 3D printer via WiFi.  
 - **Step 1:** set the WiFi BaudRate on LCD menu.
 - **Step 2:** set the WiFi BaudRate on ESP3D console page and reset the WiFi module.
 
