@@ -48,13 +48,15 @@ We have mass produced 2 versions of R3 hot end. For details, please refer to the
 ------
 ## [M4(4-IN-1-OUT Mixing color) hotend](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/)
 **M4** hot end is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. Four filaments are mixed in the mixing chamber in the heating block and extruded through the nozzle.  
-We have mass produced five versions of M4 hot end. For details, please refer to the documents in the "**M4 4-IN-1-OUT mixing color Hotend**" directory.  
+For details, please refer to [**here**](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/readme.md).  
 
 ## [E4 (4-IN-1-OUT Non-Mix Color) Hotend](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/)
 **E4** hot end is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. One of the four filaments can be pushed in the heating block and extruded through the nozzle, When a new filament push in, it needs to pull out the previous filament first.
-For details, please refer to the documents in the "**E4 4-IN-1-OUT NON-Mixing Color Hotend**" directory.  
+For details, please refer to [**here**](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/readme.md).  
 
 ### Advantages and disadvantages of E4 and M4 hot end
+- E4 hotend is good at printing one color 3d prints or multi colos 3d prints (up to 4 colors).
+- M4 hotend is good at printing gradient color 3d prints, it can print one color and over 4 colos 3d object too.
 #### Advantages of E4 hotend
 1. No strings/drawing issue.
 2. Less clogging issue.
@@ -62,7 +64,6 @@ For details, please refer to the documents in the "**E4 4-IN-1-OUT NON-Mixing Co
 #### Advantages of M4 hotend
 1. Get more colors than extruders.
 2. Support gradient color printing feature.
-
 
 ### How to switch between mix color Hotend and non-mix color Hotend
 #### 1. Loosen the three screws on the hot end housing and remove the old hot end from the machine (x pulley). Then install the new hot end on the machine (x pulley) and lock the screws.
