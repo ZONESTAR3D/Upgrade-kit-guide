@@ -47,16 +47,16 @@ We have mass produced 2 versions of R3 hot end. For details, please refer to the
 
 ------
 ## [M4(4-IN-1-OUT Mixing color) hotend](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/)
-**M4** hot end is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. Four filaments are mixed in the mixing room in the heating block and extruded through the nozzle. For details, please refer to [**here**](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/readme.md).  
+**M4 hotend** is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. Four filaments are mixed in the mixing room in the heating block and extruded through the nozzle. For details, please refer to [**here**](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/readme.md).  
 
 ## [E4 (4-IN-1-OUT Non-Mix Color) Hotend](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/)
-**E4** hot end is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. One of the four filaments can be pushed in the heating block and extruded through the nozzle, When a new filament push in, it needs to pull out the previous filament first.
+**E4 hotend** is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. One of the four filaments can be pushed in the heating block and extruded through the nozzle, When a new filament push in, it needs to pull out the previous filament first.
 For details, please refer to [**here**](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/readme.md).  
 
-### Advantages and disadvantages of E4 and M4 hot end
-- M4 hotend has a mix color room, it can mix different color filament to another colors. E4 hotend hasn't mix color room, it only print only one filament color at once.  
-- E4 hotend is good at printing one color 3d prints or multi colos 3d prints (up to 4 colors).
-- M4 hotend is good at printing gradient color 3d prints, it can print one color and over 4 colos 3d object too.
+### :pushpin: Advantages and disadvantages of E4 and M4 hot end
+- **M4 hotend** has a mix color room, it can mix different color filament to another colors. **E4 hotend** hasn't mix color room, it only print only one filament color at once.  
+- **E4 hotend** is good at printing one color 3d prints or multi colos 3d prints (up to 4 colors).
+- **M4 hotend** is good at printing gradient color 3d prints, it can print one color and over 4 colos 3d object too.
 #### Advantages of E4 hotend
 1. No strings/drawing issue.
 2. Less clogging issue.
@@ -66,11 +66,11 @@ For details, please refer to [**here**](./E4%204-IN-1-OUT%20Non-Mixing%20Color%2
 2. Support gradient color printing feature.
 ![](M4VSE4.jpg)
 
-### Which type of hot end should I choose, M4 or E4?
-- If you do not need to print gradient color 3d model, we suggest you choose E4 hotend, it can get better quality on printing one color and multi colors 3d prints.
-- If you want to print gradient color 3d model, or you want to mix different color filaments to another color, you need to choose M4 hotend.
+### :pushpin: Which type of hot end should I choose, M4 or E4?
+- If you **do not need** to print gradient color 3d model, we suggest you choose **E4 hotend**, it can get better quality on printing single color and multi colors 3d prints.
+- If you want to print **gradient color** 3d model, or you want to **mix different color filaments to another color**, choose M4 hotend.
 
-### How to switch between mix color Hotend and non-mix color Hotend
+### :pushpin: How to switch between mix color Hotend and non-mix color Hotend
 #### 1. Loosen the three screws on the hot end housing and remove the old hot end from the machine (x pulley). Then install the new hot end on the machine (x pulley) and lock the screws.
 ![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/E4-4.jpg)
 #### 2. Connect the wires of the new hot end to the machine.
@@ -82,8 +82,5 @@ For details, please refer to [**here**](./E4%204-IN-1-OUT%20Non-Mixing%20Color%2
 #### :warning: NOTE 2: The mix color Hotend and non-mix color hotend must use different slice settings, please pay attention to distinguish. Using the wrong slice setting may cause the hotend to be blocked.
 
 ------
-# [Slicing Guide](https://github.com/ZONESTAR3D/Slicing-Guide)
+### [Slicing Guide](https://github.com/ZONESTAR3D/Slicing-Guide)
 Please refer to the [:point_right: guide](https://github.com/ZONESTAR3D/Slicing-Guide)
-
-
-
