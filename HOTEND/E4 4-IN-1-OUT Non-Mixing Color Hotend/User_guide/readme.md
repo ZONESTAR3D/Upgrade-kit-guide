@@ -21,6 +21,8 @@ There are 4 input channels and 1 nozzles on the E4 hotend, when switching color,
 Simply remove the 3 screws behind the hot end assembly and install the E4 hotend assembly on the X carrier of the machine.
 ![](E4-4.jpg)  
 #### Wiring
+:loudspeaker: **Please pay attention to terminals 3 and 4, because the color of the terminal is the same, but the color of the wire is different.**   
+PS: If the wires of 3 and 4 are connected reversely, you can see that the nozzle temperature displayed on the display screen will be much higher than the room temperature after you power on the machine.
 ![](E4_wiring.jpg)  
 #### Set hot end type on LCD MENU: Control>>Configure>>Hotend Type
 ![](hotendtype-nonmix.jpg)  
