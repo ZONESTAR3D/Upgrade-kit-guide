@@ -19,3 +19,10 @@
 Lossen the four screws to open the upper control box and then you can find the wire for extrude motors, connect the wire to E1 motor connecotor.  
 ![](OpenZ9V5Box.jpg)
 ## 5. :point_right: [Print parts stl file](./stl/readme.md)  [:arrow_down:](./stl/stl.zip)
+
+## 6. Correct X&Y offset
+If the hot bed center moves after replacing the extruder, you can set it in the slicing software.
+### PrusaSlicer
+![](./Offset_PrusaSlcier.jpg)
+### Cura
+![](./Offset_Cura.jpg)
