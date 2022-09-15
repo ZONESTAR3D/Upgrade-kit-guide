@@ -18,3 +18,7 @@
 :book: [User guide](./WiFi_User_Guide.md)  
 :green_book: [User guide pdf file](./WiFi_User_Guide.pdf)  
 
+### Install WiFi module to Z8PM4
+- [Z8P Install WiFi module Video Tutorial](./Z8P+WiFi.mp4)
+<!-- - :movie_camera: [Z9V5 Install WiFi module to ]() -->
+

@@ -9,9 +9,11 @@
 [![](../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/WiFi/WiFi_User_Guide.md?_x_tr_sl=en&_x_tr_tl=ko)
 [![](../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/WiFi/WiFi_User_Guide.md?_x_tr_sl=en&_x_tr_tl=ja)
 [![](../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/WiFi/WiFi_User_Guide.md?_x_tr_sl=en&_x_tr_tl=ar)
+[![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/WiFi/WiFi_User_Guide.md?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
 ------
 # WiFi Feature User Guide
+[WiFi Settings Video Tutorial](./WiFi_Settings.mp4)
 ## Connect WiFi module
 - Refer to the below picture to connect the WiFi module to the control board.
 ![](connect.jpg)  
