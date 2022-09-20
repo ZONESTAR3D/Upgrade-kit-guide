@@ -9,6 +9,7 @@
 [![](../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ko)
 [![](../../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ja)
 [![](../../lanpic/SA.png)](https://github-com.translate.goog/ZZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ar)
+[![](../../lanpic/CN.png)](https://github-com.translate.goog/ZZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
 ------------
 ## ZONESTAR 4-IN-1-OUT Non-Mixing Color Hotend user guide
