@@ -33,9 +33,9 @@ For details, please refer to [**here**](./E4%204-IN-1-OUT%20Non-Mixing%20Color%2
 **M4 hotend** is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. Four filaments are mixed in the mixing room in the heating block and extruded through the nozzle. For details, please refer to [**here**](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/readme.md). 
 
 ## [FAQ for E4 and M4 hot end](./FAQ_M4E4.md)
-- [**What's different of E4 and M4 hotend?**]()
-- [**Which type of hot end should I choose?**]()
-- [**How to switch between M4 Hotend and E4 Hotend?**]()
+- [**What's different of E4 and M4 hotend?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-advantages-and-disadvantages-of-e4-and-m4-hot-end)
+- [**Which type of hot end should I choose?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-which-type-of-hot-end-should-i-choose-m4-or-e4)
+- [**How to switch between M4 Hotend and E4 Hotend?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-which-type-of-hot-end-should-i-choose-m4-or-e4)
 
 ------
 ## [M3 (3-IN-1-OUT) Mixing color hotend](./M3%20%203-IN-1-OUT%20Mixing%20Color%20Hotend/)
