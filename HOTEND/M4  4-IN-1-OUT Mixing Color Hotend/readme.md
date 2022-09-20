@@ -8,9 +8,9 @@
 |           Parameter and Specification             |    M4V3       |    M4V4       |      M4V5     |      M4V6     |
 |:----------------------------------------------:   |:--------------|:--------------|:--------------|:--------------|
 |Maximum operating temperature                      |  240℃        |  260℃        |  260℃         |  260℃        |
-|Unused Channel Closable<sup>*1</sup>               |  Yes          |  Yes          |  Yes          |  No           |
+|Unused Channel Closable<sup>*1</sup>               |  Yes          |  Yes          |  No           |  No           |
 |Volume of Mixing Chamber (mm<sup>3</sup>)          |  40 ~ 50      |  40 ~ 50      |  40 ~ 50      |  20 ~ 30      |
-|Anti Strings Isuue <sup>*2</sup>                   |  Poor         |   Poor        |  Poor         |  good         |
+|Anti Strings <sup>*2</sup>                         |  Poor         |   Poor        |  Poor         |  Good         |
 |Maximum Flow Rate (mm<sup>3</sup>/s)<sup>*3</sup>  |  8            |   8           |  10           |  12           |
 |Maximum mix color print speed (mm/s)<sup>*3</sup>  |  60           |   60          |  75           |  90           |
 |Maximum multi color print speed (mm/s)<sup>*3</sup>|  50           |   50          |  60           |  75           |
