@@ -14,7 +14,7 @@
 ## ZONESTAR 4-IN-1-OUT Non-Mixing Color Hotend user guide
 :gift: [**Buy E4 hotend**](https://www.aliexpress.com/item/1005002951777699.html)
 
-### User guide
+### User guide and Slicing guide
 :book: [User guide](./User_guide/readme.md)    
 :green_book: [User guide pdf file](./User_guide/E4%20Hotend%20user%20guide-V2.pdf)  
 

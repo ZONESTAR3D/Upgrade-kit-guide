@@ -1,5 +1,19 @@
 # ZONESTAR M4 (4-IN-1-OUT Mixing Color) Hotend
 
+### Differences between different versions M4 hotend (M4V4/M4V5/M4V6)
+|           Parameter and Specification             |    M4V3       |    M4V4       |      M4V5     |      M4V6     |
+|:----------------------------------------------:   |:--------------|:--------------|:--------------|:--------------|
+|Maximum operating temperature                      |  240℃        |  260℃        |  260℃         |  260℃        |
+|Unused Channel Closable<sup>*1</sup>               |  Yes          |  Yes          |  Yes          |  No           |
+|Volume of Mixing Chamber (mm<sup>3</sup>)          |  40 ~ 50      |  40 ~ 50      |  40 ~ 50      |  20 ~ 30      |
+|Anti Strings Isuue <sup>*2</sup>                   |  Poor         |   Poor        |  Poor         |  good         |
+|Maximum Flow Rate (mm<sup>3</sup>/s)<sup>*3</sup>  |  8            |   8           |  10           |  12           |
+|Maximum mix color print speed (mm/s)<sup>*3</sup>  |  60           |   60          |  75           |  90           |
+|Maximum multi color print speed (mm/s)<sup>*3</sup>|  50           |   50          |  60           |  75           |
+
+[*1]: Whether unused channels can be closed, so that filaments do not need to be loaded in unused channels when printing.   
+[*2]: It can be improved obviously after using the small storage room nozzle.     
+[*3]: Test condition is PLA filament @ 205℃ nozzle temperature. Recommended to use 60~80% of the maximum print speed when slicing.     
 
 
 ## M4V6 - The 6th version 4-IN-1-OUT mix color hotend
@@ -11,7 +25,6 @@ The M4V6 has reformed the structure of the hot end, which is completely differen
 1. Solved the leakage issue completely.
 2. Reduced the volume of mixing room, the drawing/stings issue is greatly improved.
 
-
 ## M4V5 - The 5th version 4-IN-1-OUT mix color hotend
 [:book: Introduction of the 5th version M4 hotend](./M4_V5/readme.md)
 ### Structure diagram
@@ -21,7 +34,6 @@ The M4V6 has reformed the structure of the hot end, which is completely differen
 2. Upgraded the fittings, easier to load filament and replace the filament guide. 
 ### :warning: ATTETION PLEASE
 Because M4V5 used different fittings which to fix the PTFE filament guides, its size is bigger than M4V3 and M4V4, so M4V5 can't be installed to the older housing.   
-
 
 ## M4V4 - The 4th version 4-IN-1-OUT mix color hotend
 [:book: Introduction of the 4th M4 hotend](./M4_V3_V4/readme.md)      

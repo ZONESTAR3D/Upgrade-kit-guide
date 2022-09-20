@@ -51,7 +51,8 @@ Please follow the steps below to unload the filament from the hotend:
 
 ### 8. Slicing
 - For PrusaSlicer(recommended), please refer to :point_right: [here](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer#6-slicing-muti-color-for-e4-hotend)
-- For Simplify3d Slicer, please refer to :point_right: [here](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/Simplify3D/readme_Z9V5-E4hotend.md)
+- For Cura slicer, please refer to :point_right: [here](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura)
+- For Simplify3d Slicer, please refer to :point_right: [here](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/Simplify3D#slicing-video-toturial-for-z9v5-with-e4-hotend)
 
 ### 9. Maintain
 For some reason, it may happen that the filament is clogged inside the hot end and cannot be pulled out 
