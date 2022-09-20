@@ -25,13 +25,17 @@ The hotend is the component of a 3D printer that melts the filament for extrusio
 ![](hotend.jpg)  
 
 ------
-## [Single color Hotend](./Single%20color%20Hotend/)
-Included documents about ZONESTAR single color hot end
+## [E4 (4-IN-1-OUT Non-Mix Color) Hotend](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/)
+**E4 hotend** is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. One of the four filaments can be pushed in the heating block and extruded through the nozzle, When a new filament push in, it needs to pull out the previous filament first.
+For details, please refer to [**here**](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/readme.md).  
 
-------
-## [M2 (2-IN-1-OUT)  Mixing color hotend](./M2%202_IN-1-OUT%20Mixing%20Color%20Hotend/)
-**M2** hot end is a 2-IN-1-OUT hotend, it has two feeding channels and one nozzle. Two filaments are mixed in the mixing chamber in the heating block and extruded through the nozzle.  
-We have mass produced four versions of M2 hot end. For details, please refer to the documents in the "**M2 2-IN-1-OUT mixing color Hotend**" directory.  
+## [M4(4-IN-1-OUT Mixing color) hotend](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/)
+**M4 hotend** is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. Four filaments are mixed in the mixing room in the heating block and extruded through the nozzle. For details, please refer to [**here**](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/readme.md). 
+
+## [FAQ for E4 and M4 hot end](./FAQ_M4E4.md)
+- [**What's different of E4 and M4 hotend?**]()
+- [**Which type of hot end should I choose?**]()
+- [**How to switch between M4 Hotend and E4 Hotend?**]()
 
 ------
 ## [M3 (3-IN-1-OUT) Mixing color hotend](./M3%20%203-IN-1-OUT%20Mixing%20Color%20Hotend/)
@@ -47,41 +51,14 @@ Simply put, it is a combination of an M2 hot end and a single color hot end. It 
 We have mass produced 2 versions of R3 hot end. For details, please refer to the documents in the "**R3 3-IN-3-OUT HOTEND**" directory.  
 
 ------
-## [M4(4-IN-1-OUT Mixing color) hotend](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/)
-**M4 hotend** is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. Four filaments are mixed in the mixing room in the heating block and extruded through the nozzle. For details, please refer to [**here**](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/readme.md).  
-
-## [E4 (4-IN-1-OUT Non-Mix Color) Hotend](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/)
-**E4 hotend** is a 4-IN-1-OUT hotend, it has four feeding channels and one nozzle. One of the four filaments can be pushed in the heating block and extruded through the nozzle, When a new filament push in, it needs to pull out the previous filament first.
-For details, please refer to [**here**](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/readme.md).  
-
-### :pushpin: Advantages and disadvantages of E4 and M4 hot end
-- **M4 hotend** has a mix color room, it can mix different color filament to another colors. **E4 hotend** hasn't mix color room, it only print only one filament color at once.  
-- **E4 hotend** is good at printing one color 3d prints or multi colos 3d prints (up to 4 colors).
-- **M4 hotend** is good at printing gradient color 3d prints, it can print one color and over 4 colos 3d object too.
-#### Advantages of E4 hotend
-1. No strings/drawing issue.
-2. Less clogging issue.
-3. Smaller "extruder switch prime tower" inneed while printing multi colors.
-#### Advantages of M4 hotend
-1. Get more colors than extruders.
-2. Support gradient color printing feature.
-![](M4VSE4.jpg)
-
-### :pushpin: Which type of hot end should I choose, M4 or E4?
-- If you **do not need** to print gradient color 3d model, we suggest you choose **E4 hotend**, it can get better quality on printing single color and multi colors 3d prints.
-- If you want to print **gradient color** 3d model, or you want to **mix different color filaments to another color**, choose M4 hotend.
-
-### :pushpin: How to switch between mix color Hotend and non-mix color Hotend
-#### 1. Loosen the three screws on the hot end housing and remove the old hot end from the machine (x pulley). Then install the new hot end on the machine (x pulley) and lock the screws.
-![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/E4-4.jpg)
-#### 2. Connect the wires of the new hot end to the machine.
-![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/E4_wiring.jpg)
-#### 3. Set the hot end type on the LCD menu: *Control>>Configure>>Hotend Type*
-![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/hotendtype-mix.jpg)![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/hotendtype-nonmix.jpg)
-#### :warning: NOTE 1: If you can't find the hotend type menu on LCD screen, please upload the newest firmware to your printer 
-:point_right: Firmware for [**[Z9V5]**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin)  [**[Z8P]**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z8/Z8P/ZM3E4/released)  [**[Z9M4]**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9M4)
-#### :warning: NOTE 2: The mix color Hotend and non-mix color hotend must use different slice settings, please pay attention to distinguish. Using the wrong slice setting may cause the hotend to be blocked.
+## [M2 (2-IN-1-OUT)  Mixing color hotend](./M2%202_IN-1-OUT%20Mixing%20Color%20Hotend/)
+**M2** hot end is a 2-IN-1-OUT hotend, it has two feeding channels and one nozzle. Two filaments are mixed in the mixing chamber in the heating block and extruded through the nozzle.  
+We have mass produced four versions of M2 hot end. For details, please refer to the documents in the "**M2 2-IN-1-OUT mixing color Hotend**" directory.  
 
 ------
-### [Slicing Guide](https://github.com/ZONESTAR3D/Slicing-Guide)
+## [Single color Hotend](./Single%20color%20Hotend/)
+Included documents about ZONESTAR single color hot end
+
+------
+## [Slicing Guide](https://github.com/ZONESTAR3D/Slicing-Guide)
 Please refer to the [:point_right: guide](https://github.com/ZONESTAR3D/Slicing-Guide)
