@@ -1,6 +1,10 @@
 # ZONESTAR M4 (4-IN-1-OUT Mixing Color) Hotend
+-  [**M4V3**](#m4v3): The 3rd version 4-IN-1-OUT mix color hotend.
+-  [**M4V4**](#m4v4): The 4th version 4-IN-1-OUT mix color hotend.
+-  [**M4V5**](#m4v5): The 5th version 4-IN-1-OUT mix color hotend.
+-  [**M4V6**](#m4v6): The 6th version 4-IN-1-OUT mix color hotend.
 
-### Differences between different versions M4 hotend (M4V4/M4V5/M4V6)
+### Differences between different versions M4 hotend ([M4V3](#m4v3)/[M4V4](#m4v4)/[M4V5](#m4v5)/[M4V6](#m4v6))
 |           Parameter and Specification             |    M4V3       |    M4V4       |      M4V5     |      M4V6     |
 |:----------------------------------------------:   |:--------------|:--------------|:--------------|:--------------|
 |Maximum operating temperature                      |  240℃        |  260℃        |  260℃         |  260℃        |
@@ -15,9 +19,10 @@
 [*2]: It can be improved obviously after using the small storage room nozzle.     
 [*3]: Test condition is PLA filament @ 205℃ nozzle temperature. Recommended to use 60~80% of the maximum print speed when slicing.     
 
-
-## M4V6 - The 6th version 4-IN-1-OUT mix color hotend
+--------------
+## M4V6
 [:book: Introduction of the 6th M4 hotend](./M4_V6/readme.md)  
+[:gift: **M4V6 Hotend assembly**](https://www.aliexpress.com/item/1005004547646195.html) 
 ### Structure diagram
 ![](./M4_V6/M4V6_2.JPG)
 ### What's improved
@@ -25,8 +30,10 @@ The M4V6 has reformed the structure of the hot end, which is completely differen
 1. Solved the leakage issue completely.
 2. Reduced the volume of mixing room, the drawing/stings issue is greatly improved.
 
-## M4V5 - The 5th version 4-IN-1-OUT mix color hotend
+## M4V5
 [:book: Introduction of the 5th version M4 hotend](./M4_V5/readme.md)
+[:gift: **M4V5 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html) 
+
 ### Structure diagram
 ![](./M4_V5/M4V5.jpg)
 ### The different between **M4V5** with **M4V4**:  
@@ -35,10 +42,10 @@ The M4V6 has reformed the structure of the hot end, which is completely differen
 ### :warning: ATTETION PLEASE
 Because M4V5 used different fittings which to fix the PTFE filament guides, its size is bigger than M4V3 and M4V4, so M4V5 can't be installed to the older housing.   
 
-## M4V4 - The 4th version 4-IN-1-OUT mix color hotend
+## M4V4
 [:book: Introduction of the 4th M4 hotend](./M4_V3_V4/readme.md)      
-[**Buy a M4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
-[**Buy a M4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html) 
+[:gift: **M4V4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
+[:gift: **M4V4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html) 
 
 ### Structure diagram
 ![](./M4_V3_V4/M4_V4.jpg)
@@ -48,29 +55,17 @@ Because M4V5 used different fittings which to fix the PTFE filament guides, its 
 2. Upgraded the nozzle to a "Small store room nozzle" to improve the strings issue.
 ![](./M4_V3_V4/small_store_room_nozzle.jpg)  
 
-### Get the upgrade parts
-[**PEEK_Insulation_block**](https://www.aliexpress.com/item/1005002124027691.html)  
-[**Small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html)
+### Parts for upgrading from M4V3 to M4V4
+[:gift: **PEEK_Insulation_block**](https://www.aliexpress.com/item/1005002124027691.html)  
+[:gift: **Small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html)
 
-## M4V3 - The 3rd version 4-IN-1-OUT mix color hotend
+## M4V3
 [:book: Introduction of the 3rd M4 hotend](./M4_V3_V4/readme.md)
 ### Structure diagram
 ![](./M4_V3_V4/M4_V3.jpg)
 
-## stl
-Stl files of the fan duck
-- :arrow_down: [Fan duck for M4V3 M4V4 & M4V5](./stl/fan_duck_m4_v3.rar)
-- :arrow_down: [Fan duck for M4V6](./stl/fan_m4v6_v2.rar)
-
-## Example
-gcode/stl files to print by using M4 hotend and slicing settings 
-![4_Color_Dog](./Example/4_Color_Dog/M4_4C_Dog.jpg)  
-![4_Color_owl](./Example/4_Color_owl/M4_4Color_owl.jpg)  
-![6_Color_Patrick](./Example/6_Color_Patrick/M4_6Color_Patrick.jpg)  
-
-
-
-## :bug: Issues of the mixing color hotend 
+-----------
+## :bug: Issues of the mix color hot end and improvde solution
 ### 1. Clogged issue
 #### :question: Reasons
 1. The length of the extrusion channel is longer than that of the single color.   
@@ -99,11 +94,10 @@ Because there is a mixing color chamber, so the stored filaments in the mixing c
 ![Cura](curawipe.png)
 ###### PrusaSlicer (Wipe while retracting)
 ![PrusaSlicer](prusawipe.png)
-##### 3. Synchronous retract to use multiple extruders. It called "Auto Retraction" or "FW Retract" too, about detail, please refer to [Here](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/Example#use-auto-retraction-function-to-improve-stings-issue)
-##### 4. If you are very concerned about strings issue, it is recommended that you buy a single color or 4-IN-1-OUT Non-mixing color Hotend.
-- :package: [**Single color Hotend**](https://www.aliexpress.com/item/1005002829919346.html)
-- :package: [**Direct Drive Extruder**](https://fr.aliexpress.com/item/1005002847644867.html)
-- :package: [**4-IN-1-OUT Non-Mixing Color (E4) Hotend**](https://www.aliexpress.com/item/1005002951777699.html)
+##### 3. Turn on auto synchronous retraction feature. For detail, please refer to [**here**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/Example#turn-on-the-function-on-lcd-screen)
+##### 4. If you are very concerned about strings issue, it is recommended that you buy a single color or 4-IN-1-OUT Non-mix color Hotend.
+- :book: [**4-IN-1-OUT Non-Mix Color Hotend**](../E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/example/readme.md)
+- :gift: [**4-IN-1-OUT Non-Mix Color Hotend**](https://www.aliexpress.com/item/1005002951777699.html)
 
 
 
