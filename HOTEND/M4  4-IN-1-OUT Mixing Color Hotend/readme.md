@@ -79,6 +79,12 @@ Because M4V5 used different fittings which to fix the PTFE filament guides, its 
 ![](./M4_V3_V4/M4_V3.jpg)
 
 -----------
+## Slicing guide for M4 hotend
+### [Slicing by PrusaSlicer](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer)
+### [Slicing by Cura](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura)
+### [Test gcode files](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/M4)
+
+-----------
 ## :bug: Issues of the mix color hot end and improvde solution
 ### 1. Clogged issue
 #### :question: Reasons
