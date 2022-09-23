@@ -43,9 +43,9 @@ Before printing, please pre-load the filaments into the appropriate position of 
 :pushpin: Cutting the front of filaments into a sharp shape before loading filament. 
 :pushpin: The filament of the extruder that is not used during printing does not need to be loaded.   
 ![](./E4-6.jpg) 
-:pushpin: Suggest to add some gcodes in the **"Start gcode"** ([:point_right: View](./E4_start_end_gcode.md)) of slicing software to print. 
+:pushpin: Suggest to add some gcodes in the **"Start gcode"** ([:point_right: View](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md)) of slicing software to print. 
 ![](./Preload_line.jpg)   
-:pushpin: Suggest to add some gcodes in the **"End gcode"** ([:point_right: View](./E4_start_end_gcode.md)) of slicing software to pull out the last printed filament from the hotend.      
+:pushpin: Suggest to add some gcodes in the **"End gcode"** ([:point_right: View](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md)) of slicing software to pull out the last printed filament from the hotend.      
 
 
 ### 7. Unload filaments
