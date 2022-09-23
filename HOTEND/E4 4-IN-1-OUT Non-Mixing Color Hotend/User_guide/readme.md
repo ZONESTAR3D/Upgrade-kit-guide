@@ -37,9 +37,10 @@ Since the melted residual filament in the nozzle cannot be completely pulled out
 
 ###  6. Pre-load filaments
 Before printing, please pre-load the filaments into the appropriate position of the hot end so that the extruder can load smoothly the filaments into and out of the hot end.
-- **Step 1:** Load filament from the extruder and let the filaments extend about 10mm out of PTFE tubes.
-- **Step 2:** Plug the PTFE tubes (with filaments) into the fittings of HOTEND.   
-:pushpin: Cutting the front of filaments into a sharp shape before loading filament. **:warning: If there is a filament in the hot end before printing, please pull it out first.**   
+- **Step 1:** Load filaments from the extruder and let the filaments extend about 10mm out of PTFE tubes.
+- **Step 2:** Plug the PTFE tubes (with filaments) into the HOTEND.  
+:pushpin: :warning:**If there is a filament in the hot end, heating and noozle and then pull it out first.**    
+:pushpin: Cutting the front of filaments into a sharp shape before loading filament. 
 :pushpin: The filament of the extruder that is not used during printing does not need to be loaded.   
 ![](./E4-6.jpg) 
 :pushpin: Suggest to add some gcodes in the **"Start gcode"** ([:point_right: View](./E4_start_end_gcode.md)) of slicing software to print. 
