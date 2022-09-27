@@ -1,6 +1,6 @@
 [**Download 4.3" TFT-LCD documents in one go**](https://downgit.github.io/#/home?url=https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN)   
-[**:star2:How to downlod files from Github page**](https://github.com/ZONESTAR3D/Document-and-User-Guide#how-to-downlod-files-from-github-page)
 
+---------
 ## Assembly
 ### Step 1: assemble the foot
 ![](pictures/assembly-1.jpg)
@@ -25,9 +25,9 @@
 	#define LCD_RXD 			PA10   	//TXD of UART1
 
 ## User guide
-- :green_book: [***Menu description V3***](./user_guide/LCD-DWIN%20MENU%20Description%20V3.pdf)
-- :green_book: [***Menu description V2***](./user_guide/LCD-DWIN%20MENU%20Description%20V2.pdf)
-- :green_book: [***Menu description V1***](./user_guide/LCD%20DWIN%20MENU%20Description%20V1_2.pdf)
+- :green_book: [***Menu description V3***](./user_guide/LCD-DWIN-MENU-Description-V3.pdf)
+- :green_book: [***Menu description V2***](./user_guide/LCD-DWIN-MENU-Description-V2.pdf)
+- :green_book: [***Menu description V1***](./user_guide/LCD-DWIN-MENU-Description-V1_2.pdf)
 
 ## Upload firmware
 #### Step :one: : Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with "Allocation units size" is 4069 bytes. 
