@@ -43,9 +43,9 @@ Before printing, please pre-load the filaments into the appropriate position of 
 :pushpin: Cutting the front of filaments into a sharp shape before loading filament. 
 :pushpin: The filament of the extruder that is not used during printing does not need to be loaded.   
 ![](./E4-6.jpg) 
-:pushpin: Suggest to add some gcodes in the **"Start gcode"** ([:point_right: View](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#start-gcode)) of slicing software to print. 
+:pushpin: Add some gcodes in the **"Start gcode"** ([:point_right: View](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#start-gcode)) of slicing software to print. 
 ![](./Preload_line.jpg)   
-:pushpin: Suggest to add some gcodes in the **"End gcode"** ([:point_right: View](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#end-g-code)) of slicing software to pull out the last printed filament from the hotend.      
+:pushpin: Add some gcodes in the **"End gcode"** ([:point_right: View](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#end-g-code)) of slicing software to pull out the last printed filament from the hotend.      
 
 
 ### 7. Unload filaments
@@ -73,6 +73,7 @@ be stuck in the PTFE tube when pulled out.
 4. The “switch extruder" setting in the slicer setting is incorrect, such as insufficient load and unload 
 length or wrong sequence, which may also cause blockage.
 ![](E4-8.jpg) 
+
 
 ### 10. Testing gcode
 We have uploaded some test files to our website, you can download them from [**here**](../example/readme.md)
