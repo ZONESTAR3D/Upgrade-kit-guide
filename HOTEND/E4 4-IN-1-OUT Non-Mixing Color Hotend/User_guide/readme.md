@@ -64,15 +64,34 @@ For some reason, it may happen that the filament is clogged inside the hot end a
 and pushed in, in this case, you may need to remove the heating block from the hot end and clean the 
 hot end, the reasons included:
 1. The filament breaks inside the hot end, usually because the filament is damaged by moisture or 
-poor quality.. 
+poor quality. 
 2. When the filament is pulled out, the melted front end will be pulled out a long filament, and when 
 a new filament enters, the filament may be glued together and cannot be inserted. The cause is 
-usually an excess of toughening agent added to the filament. 
+usually an excess of toughening agent added to the filament. [Refer to here to set the length when switching filament](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md)
 3. The filament is not completely melted due to the printing temperature setting problem, and may 
 be stuck in the PTFE tube when pulled out. 
-4. The “switch extruder" setting in the slicer setting is incorrect, such as insufficient load and unload 
-length or wrong sequence, which may also cause blockage.
+4. Incorrect "Retract length" or “switch extruder" settings on slicing software. :point_right:[For Detail.](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_E4.md#step-6-set-the-print-settings)
+
+
+#### Unassemble the E4 hotend
+If the filament clogged in the hotend, please unassemble the hotend and then remove the filament from the "throat", steps as follows:
+:warning: Wait for the hot end to cool down before operation.:warning:   
 ![](E4-8.jpg) 
+1. Remove the hotend assembly from the X carrier of 3d printer, and take down the silicone insulation sleeve.
+2. Remove the cable from the hotend housing.
+3. Loosen the 2 screws fixing the hot end.
+4. Pull the hot end out of the heats-sink.
+
+#### Replace the inner PTFE pipe
+If the blockage is easy to occur, it is recommended that you replace the built-in PTFE pipe too, steps as follows:
+![](E4-9.jpg) 
+1. Remove the scews which fixed the temperature sensor and heater and take down the temperature sensor and heater.
+2. Use a wrench to remove the nozzle.
+3. Remove the built-in PTFE pipe to be replaced.
+4. Install a new PTFE pipe, and use a paper cutter to cut off.
+5. the PTFE pipe should be about 0.5mm longer than the throat, or it can be directly flush.
+6. Use a small metal thin rod to turn it inside, because when cutting the PTFE pipe, its inner diameter may become thinner.
+7. Reinstall the hot end in reverse order.
 
 
 ### 10. Testing gcode
