@@ -10,10 +10,10 @@
   - Before operating one of the channels, rotate all extrduer motors to feed in filament at the same time, until that filament flowed out from the nozzle.
 :arrow_down:[Load Filament Video Tutorial](./M4V6_load_filament.zip)
 - **Unload filament:**
-  - Heating the nozzle before unload filament (200℃ for PLA / 230℃ for PETG).
-  - Operature on the LCD menu or rotate the extruder gear to upload filament.
+  - Heating the nozzle before unload filament (200℃ for PLA / 230℃ for PETG/ABS).
+  - Operature on the LCD menu or rotate the extruder gear to unload filament.
+  
 ----
-
 #### How to Replace of the inner PTFE guide
 - Prepare 4 piece PTFE tube (ID=2mm/OD=4mm), length is about 100mm (Fig 1). To cut the PTFE pipe by a knife (paper cutter) and try to keep the front end flat.
 - Remove the screws which to fix the hot end on the top of the hot end housing (Fig 2).
