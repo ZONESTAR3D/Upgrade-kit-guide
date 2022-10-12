@@ -14,7 +14,7 @@
   - Operature on the LCD menu or rotate the extruder gear to unload filament.
   
 ----
-#### How to Replace of the inner PTFE guide
+#### How to replace of the inner PTFE guide
 - Prepare 4 piece PTFE tube (ID=2mm/OD=4mm), length is about 100mm (Fig 1). To cut the PTFE pipe by a knife (paper cutter) and try to keep the front end flat.
 - Remove the screws which to fix the hot end on the top of the hot end housing (Fig 2).
 - Loosen the screws which to fix the heater and temperature sensor (Fig 3).
