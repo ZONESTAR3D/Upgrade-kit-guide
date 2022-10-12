@@ -6,11 +6,11 @@
 ### Load and unload filament
 - **Load filament:**
   - :warning: MUST load filaments to all 4 channels, DONOT leave any channel empty before printing.
-  - While loading filaments, make sure the filaments has been inserted to the bottom of the hot end.
-  - Before operating one of the channels, rotate all extrduer motors to feed in filament at the same time, until that filament flowed out from the nozzle.
+  - The front end of the used filament may become thicker, please cut it with diagonal pliers before loading to the hotend.
+  - While loading filaments, make sure the filaments has been inserted to the bottom of the hot end. You can use the "Filament" menu to load all filaments at the same time, for details, please download and watch the below video tutorial.   
 :arrow_down:[Load Filament Video Tutorial](./M4V6_load_filament.zip)
 - **Unload filament:**
-  - Heating the nozzle before unload filament (200℃ for PLA / 230℃ for PETG/ABS).
+  - Heating the nozzle (200℃ for PLA / 230℃ for PETG/ABS).
   - Operature on the LCD menu or rotate the extruder gear to unload filament.
   
 ----
