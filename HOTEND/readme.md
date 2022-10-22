@@ -61,5 +61,36 @@ For details, please refer to [here](./M2%202_IN-1-OUT%20Mixing%20Color%20Hotend/
 [:book:Details](./Single%20color%20Hotend/readme.md).
 
 ------
+## How to buy
+### :one: One color Hotend 
+#### Normal Flowrate hotend
+[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275334841.html)
+#### High Flowrate hotend
+[**Buy (ZONESTAR Offical Store)**](https://bit.ly/3RF7ciR)    
+[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275334841.html)
+<!-- #### Ultra High Flowrate hotend -->
+<!-- [**Buy (ZONESTAR Offical Store)**]() -->
+<!-- [**Buy (Aliexpress)**] -->
+
+### :two: 2 Colors Hot end (2-IN-1-OUT/2-IN-2-OUT)
+[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001285955926.html)
+
+### :three: 3 Colors Hotend (3-IN-1-OUT/3-IN-2-OUT/3-IN-3-OUT)
+[**Buy (ZONESTAR Offical Store)**](https://bit.ly/3z37ZUo)   
+[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275429959.html)
+
+### :four: 4 Colors Hot end
+#### E4 Hot end
+[**Buy (ZONESTAR Offical Store)**](https://bit.ly/39qDtKp)    
+[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005002951777699.html)
+#### M4V6 Hot end
+[**Buy (ZONESTAR Offical Store)**](https://bit.ly/3QhWJtf)   
+[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005004547646195.html)
+#### M4V4 & M4V5 Hot end
+[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001581641783.html)
+
+------
 ## [Slicing Guide for ZONESTAR 3D Printer](https://github.com/ZONESTAR3D/Slicing-Guide)
 [:book:Details](https://github.com/ZONESTAR3D/Slicing-Guide)
+
+
