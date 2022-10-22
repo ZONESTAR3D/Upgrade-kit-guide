@@ -6,5 +6,5 @@
 ![](E4PreLoadline.png)  
 #### :pushpin: These lines may not enough complete because filament preloading positions is different, don't worry about this. However, you have to ensure that each filament can be normally loaded into the hot end and flow out from the nozzle.
 
-### :point_right: [Example gcode files sliced by PrusaSlicer](./PrusaSlicer/PrusaSlicer/)
-### :point_right: [Example gcode files sliced by Cura](./Cura/)
+### :point_right: [Example gcode files sliced by PrusaSlicer](./PrusaSlicer/readme.md)
+### :point_right: [Example gcode files sliced by Cura](./Cura/readme.md)
