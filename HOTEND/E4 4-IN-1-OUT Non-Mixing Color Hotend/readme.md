@@ -23,4 +23,5 @@
 [stl file of the fan duck](./Fan_Duck_stl/fan_duck_e4_v1.stl)
 
 ### Example
-[Examples to use E4 hotend print](./example/readme.md)
+[Examples Gcode Files](./example/readme.md)
+[More Test Gcode files](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
