@@ -16,12 +16,12 @@
 :gift: [**Buy E4 hotend**](https://www.aliexpress.com/item/1005002951777699.html)
 
 ### User guide and Slicing guide
-:book: [User guide](./User_guide/readme.md)    
-:green_book: [User guide pdf file](./User_guide/E4%20Hotend%20user%20guide-V2.pdf)  
+:book: [**User guide**](./User_guide/readme.md)    
+:green_book: [**User guide pdf file**](./User_guide/E4%20Hotend%20user%20guide-V2.pdf)  
 
 ### Fan Duck stl
-[stl file of the fan duck](./Fan_Duck_stl/fan_duck_e4_v1.stl)
+[**stl file of the fan duck**](./Fan_Duck_stl/fan_duck_e4_v1.stl)
 
 ### Example
-[Examples Gcode Files](./example/readme.md)
-[More Test Gcode files](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
+[**Examples Gcode Files**](./example/readme.md)    
+[**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
