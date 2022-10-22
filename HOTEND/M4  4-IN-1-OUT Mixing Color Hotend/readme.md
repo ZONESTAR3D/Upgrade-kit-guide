@@ -36,8 +36,8 @@
 --------------
 ## M4V6
 [:book: Introduction of the 6th M4 hotend](./M4_V6/readme.md)  
-[:gift: **M4V6 Hotend assembly**](https://bit.ly/3QhWJtf)  
-[:gift: **M4V6 Hotend assembly**](https://www.aliexpress.com/item/1005004547646195.html)   
+[:gift: **Buy M4V6 Hotend**](https://bit.ly/3QhWJtf)  
+[:gift: **Buy M4V6 Hotend**](https://www.aliexpress.com/item/1005004547646195.html)   
 
 ### Structure diagram
 ![](./M4_V6/M4V6_2.JPG)
@@ -47,10 +47,8 @@ The M4V6 has reformed the structure of the hot end, which is completely differen
 2. Reduced the volume of mixing room, the drawing/stings issue is greatly improved.
 
 ## M4V5
-[:book: Introduction of the 5th version M4 hotend](./M4_V5/readme.md)
-[:gift: **M4V5 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html) 
-
-
+[:book: Introduction of the 5th version M4 hotend](./M4_V5/readme.md)   
+[:gift: **Buy M4V5 Hotend**](https://www.aliexpress.com/item/1005001581641783.html) 
 
 ### Structure diagram
 ![](./M4_V5/M4V5.jpg)
@@ -62,8 +60,8 @@ Because M4V5 used different fittings which to fix the PTFE filament guides, its 
 
 ## M4V4
 [:book: Introduction of the 4th M4 hotend](./M4_V3_V4/readme.md)      
-[:gift: **M4V4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
-[:gift: **M4V4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html) 
+[:gift: **Buy M4V4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
+[:gift: **Buy M4V4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html)   
 
 ### Structure diagram
 ![](./M4_V3_V4/M4_V4.jpg)
