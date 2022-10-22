@@ -1,5 +1,5 @@
-[:gift: **Buy E4 hotend**](https://bit.ly/39qDtKp)
-[:gift: **Buy E4 hotend**](https://www.aliexpress.com/item/1005002951777699.html)
+[:gift: **Buy (ZONESTAR Offical Store)**](https://bit.ly/39qDtKp)
+[:gift: **Buy (Aliexpress)**](https://www.aliexpress.com/item/1005002951777699.html)
 
 ## E4 Hotend user guide
 ### 1. Specifications
