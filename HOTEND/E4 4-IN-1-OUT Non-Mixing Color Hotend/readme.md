@@ -12,16 +12,17 @@
 [![](../../lanpic/CN.png)](https://github-com.translate.goog/ZZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
 ------------
-## ZONESTAR 4-IN-1-OUT Non-Mixing Color Hotend user guide
+## ZONESTAR 4-IN-1-OUT Non-Mixing Color Hotend User Guide
 :gift: [**Buy E4 hotend**](https://www.aliexpress.com/item/1005002951777699.html)
 
-### User guide and Slicing guide
+### :black_medium_square: User guide and Slicing guide
 :book: [**User guide**](./User_guide/readme.md)    
 :green_book: [**User guide pdf file**](./User_guide/E4%20Hotend%20user%20guide-V2.pdf)  
 
-### Fan Duck stl
-[**stl file of the fan duck**](./Fan_Duck_stl/fan_duck_e4_v1.stl)
+### :black_medium_square: Fan Duck stl
+:file_folder: [**stl file of the fan duck**](./Fan_Duck_stl/fan_duck_e4_v1.stl)
 
-### Example
-[**Examples Gcode Files**](./example/readme.md)    
-[**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
+### :black_medium_square: Example
+:file_folder: [**Examples Gcode Files**](./example/readme.md)    
+:file_folder: [**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
+
