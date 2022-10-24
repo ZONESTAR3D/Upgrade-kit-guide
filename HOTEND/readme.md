@@ -34,7 +34,7 @@ For details, please refer to [**here**](./E4%204-IN-1-OUT%20Non-Mixing%20Color%2
 For details, please refer to [**here**](./M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/readme.md). 
 
 ## [FAQ for E4 and M4 Hotend](./FAQ_M4E4.md)
-- [**What's different of E4 and M4 hotend?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-advantages-and-disadvantages-of-e4-and-m4-hot-end)
+- [**What's different between E4 and M4 hotend?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-advantages-and-disadvantages-of-e4-and-m4-hot-end)
 - [**Which type of hot end should I choose?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-which-type-of-hot-end-should-i-choose-m4-or-e4)
 - [**How to switch between M4 Hotend and E4 Hotend?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-which-type-of-hot-end-should-i-choose-m4-or-e4)
 
