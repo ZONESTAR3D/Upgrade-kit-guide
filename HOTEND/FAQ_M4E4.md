@@ -17,10 +17,12 @@
 2. Support gradient color printing feature.
 ![](M4VSE4.jpg)
 
+----
 ### Which type of hot end should I choose, M4 or E4?
 - If you **do not need** to print gradient color 3d model, we suggest you choose **E4 hotend**, it can get better quality on printing single color and multi colors 3d prints.
 - If you want to print **gradient color** 3d model, or you want to **mix different color filaments to another color**, choose M4 hotend.
 
+----
 ### How to switch between M4 Hotend and E4 Hotend
 #### 1. Loosen the three screws on the hot end housing and remove the old hot end from the machine (x pulley). Then install the new hot end on the machine (x pulley) and lock the screws.
 ![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/E4-4.jpg)
