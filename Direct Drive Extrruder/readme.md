@@ -1,5 +1,5 @@
 ## 1. Installation
-:movie_camera:[**Video tutorial**](https://youtu.be/7aF-C7VgDZY)
+:movie_camera:[**Video tutorial**](https://youtu.be/_s9Yc3zy6vw)
 + **Step 1**. Take down the orignal hotend from the x carrier.  
 + **Step 2**. Install the direct drive extruder (DDE ) to the same position of the carrier.  
 ![DDE_Installation](DDE_Installation.jpg)
@@ -21,8 +21,6 @@ Lossen the four screws to open the upper control box and then you can find the w
 ## 5. :point_right: [Print parts stl file](./stl/readme.md)  [:arrow_down:](./stl/stl.zip)
 
 ## 6. Correct X&Y offset
-If the hot bed center moves after replacing the extruder, you can set it in the slicing software.
-### PrusaSlicer
-![](./Offset_PrusaSlcier.jpg)
-### Cura
-![](./Offset_Cura.jpg)
+The hot bed center moves after replacing the extruder, you can set it on LCD screen if you care about it, please upload the newest firmware to your printer. Firmware Download link:    
+- [**Z9V5**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin)  
+- [**Z8P**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z8/Z8P/ZM3E4)  
