@@ -33,7 +33,7 @@ The WiFi module can work in two modes, namely, Access Point (AP) mode or Client 
 :warning: **The distance of WiFi control is less than 10 meters on AP Mode.**   
 1. Turn on the WiFi on LCD MENU “Control>>Configre>>WiFi”, after WiFi working, it will shows a IP address on the bottom of LCD screen “192.168.0.1”
 ![](AP1.jpg)
-2. Choose the WiFi hotspot **"ZONESTAR3DP"** on the PC or laptop (or any other device can receive the WiFi signal), connect it, :warning:**the default password is 12345678**:warning:.  
+2. Choose the WiFi hotspot **"ZONESTAR3D" or "ZONESTAR3DP"** on the PC or laptop (or any other device can receive the WiFi signal), connect it, :warning:the default password is ***12345678*** :warning:.  
 ![](AP2.jpg)
 3. Input IP address 192.168.0.1 in the web explorer and press "Enter" or "search", the web explorer will show the ESP3D console page.  
 ![](AP3.jpg)  
