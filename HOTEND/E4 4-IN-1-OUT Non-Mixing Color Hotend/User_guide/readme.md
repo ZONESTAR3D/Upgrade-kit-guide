@@ -36,8 +36,8 @@ PS: If the wires of 3 and 4 are connected reversely, you can see the nozzle temp
 ![](./hotendtype-nonmix.jpg)  
 
 ### 5. Working principle
-4-IN-1-OUT hot end is composed of fitting, heat-sink, heater, nozzle and other components, when printing, extrusion feeder insert this color filaments into the hot end, then the filament is melted and flowed from the nozzle.
-While changing the color, the extrusion feeder needs to pull the previous color filament out of the hot end, and then insert another color filament. 
+4-IN-1-OUT hot end is composed of fitting, heat-sink, heater, nozzle and other components, when printing, extrusion feeder insert one color filaments into the hot end, then the filament is melted and flowed from the nozzle, while need to chang to another color filament, the extruder pull the previous color filament out of the hot end, and then load another color filament.    
+:movie_camera: [**Watch animation demonstration of E4 working principle**](./E4_rinciple.gif).   
 Since the melted residual filament in the nozzle cannot be completely pulled out, after replacing the filament, a "wipe tower" needs to be added to remove the residual filament in the nozzle to make better color discrimination, refer to :point_right: [Slicing](#8-slicing)
 ![](./E4-5.jpg) 
 
