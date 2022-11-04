@@ -25,18 +25,16 @@ Simply remove the 3 screws behind the hot end assembly and install the E4 hotend
 #### :two: Wiring
 :loudspeaker: **Attention** 
 - **Please watch for to distinguish terminals 3 and 4**, because their terminals  color are the same, but the wires color are different.    
-PS: If the wires of 3 and 4 are connected reversely, you can see the nozzle temperature displayed on the LCD screen will be much higher than the room temperature after you powered on the machine.
+If the wires of 3 and 4 are connected reversely, you can see the nozzle temperature displayed on the LCD screen will be much higher than the room temperature after you powered on the machine.
 - When pluging the terminal, **be careful not to push the metal terminal from the plastic case**.  
-:warning: Please note:
-1. By default, the working voltage of the fan and heater at the hot end is DC24V.  
-2. The cooling fan must be turned on (when the temperature of the hot end is higher than 60°C), otherwise the hot end may be blocked or even damaged.  
+:warning: **Please note**    
+- **The cooling fan must be turned on** (when the temperature of the hot end is higher than 60°C), otherwise the hot end may be blocked or even damaged.  
+- By default, the **working voltage** of the fan and heater at the hot end is **DC 24V**. 
 ##### Please following the define of terminals to connect the hotend to your control board.
 - Wiring of Z8P (Extend cable is omitted in the below picture)     
 ![](./E4_wiring_Z8P.jpg)  
 - Wiring of Z9V5Pro     
 ![](./E4_wiring_Z9V5.jpg)  
-
-
 
 #### :three: Set hot end type on LCD MENU: Control>>Configure>>Hotend Type
 :warning: If your printer hasn't a 4.3" TFT-LCD screen, ignore this step.   
@@ -61,7 +59,6 @@ Before printing, please pre-load the filaments into the appropriate position of 
 ![](./Preload_line.jpg)   
 :pushpin: Add some gcodes in the **"End gcode"** ([:point_right: View](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#end-g-code)) of slicing software to pull out the last printed filament from the hotend.      
 
-
 ### 7. Unload filaments
 Please follow the steps below to unload the filament from the hotend:
 - Step 1: Heating the nozzle (190 degree for PLA and 230 degree for ABS).
@@ -79,13 +76,10 @@ and pushed in, in this case, you may need to remove the heating block from the h
 hot end, the reasons included:
 1. The filament breaks inside the hot end, usually because the filament is damaged by moisture or 
 poor quality. 
-2. When the filament is pulled out, the melted front end will be pulled out a long filament, and when 
-a new filament enters, the filament may be glued together and cannot be inserted. The cause is 
-usually an excess of toughening agent added to the filament. [Refer to here to set the length when switching filament](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md)
+2. When the filament is pulled out, the melted front end will be pulled out a long filament, and when a new filament enters, the filament may be glued together and cannot be inserted. The cause is usually an excess of toughening agent added to the filament. [Refer to here to set the length when switching filament](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md)
 3. The filament is not completely melted due to the printing temperature setting problem, and may 
 be stuck in the PTFE tube when pulled out. 
 4. Incorrect "Retract length" or “switch extruder" settings on slicing software. :point_right:[For Detail.](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_E4.md#step-6-set-the-print-settings)
-
 
 #### Unassemble the E4 hotend
 If the filament clogged in the hotend, please unassemble the hotend and then remove the filament from the "throat", steps as follows:
@@ -106,7 +100,6 @@ If the blockage is easy to occur, it is recommended that you replace the built-i
 5. the PTFE pipe should be about 0.5mm longer than the throat, or it can be directly flush.
 6. Use a small metal thin rod to turn it inside, because when cutting the PTFE pipe, its inner diameter may become thinner.
 7. Reinstall the hot end in reverse order.
-
 
 ### 10. Testing gcode
 We have uploaded some test files to our website, you can download them from [**here**](../example/readme.md)
