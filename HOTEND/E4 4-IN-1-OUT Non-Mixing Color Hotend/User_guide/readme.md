@@ -17,21 +17,29 @@ There are 4 input channels and 1 nozzles on the E4 hotend, when switching color,
 ![](./E4-3.jpg)   
 If you choose "E4 hotend for Z9V5", it hasn't the extend cable.
 
-
 ### 4. Installation & wiring
 #### :one: Installation
 Simply remove the 3 screws behind the hot end assembly and install the E4 hotend assembly on the X carrier of the machine.
 ![](./E4-4.jpg)  
+
 #### :two: Wiring
 :loudspeaker: **Attention** 
 - **Please watch for to distinguish terminals 3 and 4**, because their terminals  color are the same, but the wires color are different.    
 PS: If the wires of 3 and 4 are connected reversely, you can see the nozzle temperature displayed on the LCD screen will be much higher than the room temperature after you powered on the machine.
 - When pluging the terminal, **be careful not to push the metal terminal from the plastic case**.  
-##### Wiring of Z9V5Pro
-![](./E4_wiring_Z9V5.jpg)  
-##### Wiring of Z8P (Extend cable is omitted in the below picture)
+:warning: Please note:
+1. By default, the working voltage of the fan and heater at the hot end is DC24V.  
+2. The cooling fan must be turned on (when the temperature of the hot end is higher than 60°C), otherwise the hot end may be blocked or even damaged.  
+##### Please following the define of terminals to connect the hotend to your control board.
+- Wiring of Z8P (Extend cable is omitted in the below picture)     
 ![](./E4_wiring_Z8P.jpg)  
+- Wiring of Z9V5Pro     
+![](./E4_wiring_Z9V5.jpg)  
+
+
+
 #### :three: Set hot end type on LCD MENU: Control>>Configure>>Hotend Type
+:warning: If your printer hasn't a 4.3" TFT-LCD screen, ignore this step.   
 :warning: If you can't see the menu on the LCD screen of your printer, please upgrade to the newest version. [:link: **Firmware Download Link**](https://github.com/ZONESTAR3D/Firmware)    
 ![](./hotendtype-nonmix.jpg)  
 
