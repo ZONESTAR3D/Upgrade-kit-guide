@@ -1,0 +1,118 @@
+### :globe_with_meridians: Choose Language (Translated by google)
+[![](../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/?_x_tr_sl=en&_x_tr_tl=es)
+[![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=pt)
+[![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=fr)
+[![](../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=ru)
+[![](../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=it)
+[![](../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=de)
+[![](../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=pl)
+[![](../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=ko)
+[![](../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=ja)
+[![](../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=ar)
+[![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=zh-CN)
+
+## Troubleshooting of E4 hotend
+By understanding the [**working principle**]() of E4 hot end, you should have known that when the printer switches the filament color, the extruder needs to load and unload the filament once. Therefore, only in the process of building one 3d print, the filaments needs to be loaded/unloaded at least hundreds of times, or even tens of thousands of times, depending on the size of the print and the color of the filament used in each layer.   
+Ater made more than 1000 print tests, we summarized the possible problems at the E4 hot end, especially the causes of filament(s) clogged(blockage) and their solutions for your reference.  
+
+------
+### :memo: Some things must to know
+#### :one: [Woking principle of E4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#5-working-principle)
+If you are not clear about the working principle of E4, please click [**here**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#5-working-principle) to review it. A clear understanding of how E4 works will help you better understand the cause of the problem.
+#### :two: Brief of E4 hotend structure 
+In order to better browse the following documents, please read this section to better understand the names and functions of each part of the E4 hot end.
+There are two versions of the E4 hot end we are sold (E4_V2 and E4_V3), there is no big difference in the use effect. E4_V3 improved: 
+- Modify the funnel structure to help the filament enter into the nozzle smoothly.   
+- Add a cooper tube to improve heat dissipation of the throat (heat break part).  
+![](./E4_struct.png)    
+:warning: If you need to replace the accessories of the E4 hot end, please distinguish the version of your hot end.
+#### Parts Description:
+>
+    1. Fitting (Pneumatic Connector)      2. Heat sink        3. Funnel collector (E4V2)          4. Heat Break (throat)
+    5. Inner PTFE tube (E4V2)             6. Heating block    7. Nozzle   8. Copper tube(E4V3)    9. Funnel collector (E4V3)
+
+#### :three: Choose appropriate filament
+E4 hot end can be applied to a wide range of filaments such as ABS/PLA/PLA+/PETG. But when switching extruder of E4 hotend, it is necessary to unload the filament from the hot end and then re-load it. Therefore, if the filament has the following characteristics, it may cause printing defects or even clog the hot end:
+1. **Expands too much after heated.**       -- can not enter the hotend when re-load.
+2. **Too soft.**                            -- easy to be scratched by the gear of the extruder during multiple load/unload.
+3. **With a long strings after unloaded.**  -- block the new filament enter the hotend.
+In order to improve the tenacity, fluidity and appearance of the filament, the filament manufacturers will add some additives to the filament, it may cause the filament has above “unapproachable” characteristics to E4 hotend, so we suggest that before using a new filament, it is better to manually insert the filament into the hot end of the heating, and then pull it out for inspection.
+
+------
+### The filament is clogged in the hotend - serious blockage issue 
+If you find a serious blockage issue, such as the filament can not be pulled out from the hot end, the filament is twisted and deformed in the funnel collector of the hot end, please follow the following steps to check:    
+
+:warning: If your machine is equipped with filament run out sensors, it is recommended to bypass them first and let the filaments load to the extruders directly.[:point_right: **this Fig**](./E4FAQ-4.jpg) 
+
+#### :one: Is the cooling fan work well of the hot end?
+The [**cooling FAN of the E4 hotend**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#2-components) should work (it can work all the time or work when the nozzle temperature is higher than 60 °C). If the cooling FAN doesn't work, It is easy to cause hot end blockage.
+
+#### :two: Is the nozzle too close to the hot bed?
+If the nozzle is too closed to the print plate / hotbed, the filament can't be extruded from the nozzle, it may cause the filament to block inside the hot end, and in severe cases, it may cause the filament to be twisted in the funnel collector of hot end. This problem usually occurs when printing the first layer.     
+##### :pill: Solution <span id="solution2"></span> 
+- When printing the first layer, use the babysteps menu to adjust the nozzle height.   
+- When slicing, pay attention to setting the height of the first layer (recommended to set to 150% of the layer thickness or 80% of the nozzle diameter).   
+
+#### :three: Can the extruder push and pull the filaments well?
+If the extruder cann't push or pull the filament well, it may cause that the filament stady in the hot end and block a new filament to enter, 
+##### :pill: Solution <span id="solution3"></span> 
+please refer to [:point_right: **here**](#🔑-how-to-adjust-the-extruder-pressure-to-a-proper-value) to check and adjust the pressure of the extruder.
+
+#### :four: Are the slicing settings correct?
+If the hotend work well when printing the test gcode file which provided by us, but it is easily blocked when printing gcode file by your own sliced, please check the slicing settings, especially the following parameters:
+1. The length and pull/push speed on ***"switching extruder"***, please refer to [:point_right: **here**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md).    
+2. The setting of ***"Retraction length"*** shall not be greater than 10mm, refer to [:point_right: **here**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_E4.md#step-6-set-the-print-settings).    
+3. If the volume of filaments extruded by an extruder in the same layer is less than 10mm, there is a certain probability of clogging. Therefore, when you drawing color on a 3D model, try to color the interior of the model at the same time. 
+<!-- As shown in [**this figure**](./small_parts.jpg). -->
+
+#### :five: When the filament is pulled out from the hot end, will there be long strings?
+There will be a "strings" in front of the filaments which pulled out from the hotend during printing. If the strings are too long (for default 80mm pull/push length, the strings length should be less than 45mm), it may block the new filaments enter the hotend.    
+![](./strings.jpg)   
+##### :pill: Solution  <span id="solution5"></span>
+- Modify the push/pull length on switching extruder in "tool change G-code". About details, please refer to **[:point_right: PrusaSlicer](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#tool-change-g-code) [:point_right: Cura Silcer](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/cura/E4_hotend/readme.md#exturder-startend-gcode-of-e4-hotend)**.
+- Change a new filament with shorter string length, usually the string length: ABS < PLA+ < PLA < PLA-Slik.
+- Adjusting the nozzle temperature sometimes can help to solve this issue.
+
+#### :six: When the filament is pulled out from the hot end, will the front end become too thick?
+When switching the extruder, the front end of the pulled out filament will become slightly thicker than the orignal diameter, which is unavoidable. Therefore, E4 has allowed such a situation in the design, but the maximum should not exceed 2.2mm. If the front end becomes too thick and exceeds the design allowable range, the filament may not enter the nozzle normally.    
+![](./front.jpg)    
+##### :pill: Solution   <span id="solution6"></span>
+1. Replace filaments.
+2. This issue maybe because the inner PTFE tube is deformed(for E4V2), please refer to [:point_right: **here**](#🔑-how-to-replace-the-inner-ptfe-pipe-for-e4v2-only) to replace it.
+
+------
+### The filament is clogged in the hotend - Slight blockage problem
+You may also encounter such a problem: Mostly, printing can be performed normally, but there are obvious defects when printing to certain layers, and the abnormal Kaka noise of the extruder is occasionally heard during printing.   
+##### :pill: Solution  <span id="solution7"></span>
+This issue is usually caused by failure to load and unload filament when switching extruder, please following the below steps to check:
+- [**Check the extruder pressure**](#3️⃣-can-the-extruder-push-and-pull-the-filaments-well)
+- **Check or replace filament**[:point_right: 1](#5️⃣-when-the-filament-is-pulled-out-from-the-hot-end-will-there-be-long-strings) [:point_right: 2](#6️⃣-when-the-filament-is-pulled-out-from-the-hot-end-will-the-front-end-become-too-thick) [:point_right: 3](#3️⃣-choose-appropriate-filament). 
+- [**Add pull and push length by modifind the slicing settings**](#solution5).
+- [**Reinstall the heat part of the hot end**](#🔑-how-to-unassemble-the-e4-hotend)
+- Replace a new hotend.
+
+-----
+### :key: How to adjust the extruder pressure to a proper value 
+1. Load the filaments to the extruders but don't load in to the hotend, that is to say, do not connect the PTFE guide to the hot end, as shown in [:point_right: **this Fig**](./E4FAQ-5.jpg).
+2. Try to hold the filament with your thumb and forefinger and then rotate the gear of extruder by hand, refer to this [:movie_camera: **video tutorial**](./pressure_test.gif), if you can't hold the filament by your fingers, the pressure of the extruder is sufficient. If not, refer to this [:movie_camera: **video tutorial**](./pressure_adjust.gif) to adjust the extruder pressure. 
+:warning: **Please note that the pressure should be adjusted appropriately, but not the bigger the better**. Because the same position of the filament may be pushed back and forth by the gear during printing, which may cause the filament to be scratched. The scratched filament cannot be transmitted to the nozzle during printing, and even the filament cannot enter the hot end normally.
+
+### :key: How to unassemble the E4 hotend
+If the filament is clogged inside the hot end and cannot be pulled out and pushed in, you need to unassemble the hotend and clean it, steps as follows:
+:warning: Wait for the hot end to cool down before operation.:warning:   
+![](E4-8.jpg) 
+1. Remove the hotend assembly from the X carrier of 3d printer, and take down the silicone insulation sleeve.
+2. Remove the cable from the hotend housing.
+3. Loosen the 2 screws fixing the hot end.
+4. Pull the hot end out of the heats-sink.
+
+### :key: How to replace the inner PTFE pipe (for E4V2 only)
+If the blockage is easy to occur, it is recommended that you replace the built-in PTFE pipe too, steps as follows:
+![](E4-9.jpg) 
+1. Remove the scews which fixed the temperature sensor and heater and take down the temperature sensor and heater.
+2. Use a wrench to remove the nozzle.
+3. Remove the built-in PTFE pipe to be replaced.
+4. Install a new PTFE pipe, and use a paper cutter to cut off.
+5. the PTFE pipe should be about 0.5mm longer than the throat, or it can be directly flush.
+6. Use a small metal thin rod to turn it inside, because when cutting the PTFE pipe, its inner diameter may become thinner.
+7. Reinstall the hot end in reverse order.
