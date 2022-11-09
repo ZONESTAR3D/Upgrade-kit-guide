@@ -24,9 +24,9 @@
 :book: [**Troubleshooting of E4 hotend**](./FAQ/readme.md)    
 
 ### :file_folder: [Fan Duck stl](./Fan_Duck_stl/) 
-:file_folder: [**stl file of the fan duck**](./Fan_Duck_stl/fan_duck_e4_v1.stl)
+:floppy_disk: [**stl file of the fan duck**](./Fan_Duck_stl/fan_duck_e4_v1.zip)
 
 ### :file_folder: [Example](./example/) 
-:file_folder: [**Examples Gcode Files**](./example/readme.md)    
-:file_folder: [**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
+:floppy_disk: [**Examples Gcode Files**](./example/readme.md)    
+:floppy_disk: [**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
 
