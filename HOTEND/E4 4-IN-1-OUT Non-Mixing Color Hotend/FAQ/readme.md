@@ -16,27 +16,29 @@ By understanding the [**working principle**]() of E4 hot end, you should have kn
 Ater made more than 1000 print tests, we summarized the possible problems at the E4 hot end, especially the causes of filament(s) clogged(blockage) and their solutions for your reference.  
 
 ------
-### :memo: Some things must to know
+### :memo: Some things must to know about E4 hotend
 #### :one: [Woking principle of E4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#5-working-principle)
-If you are not clear about the working principle of E4, please click [**here**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#5-working-principle) to review it. A clear understanding of how E4 works will help you better understand the cause of the problem.
+If you are not clear about the working principle of E4, please click [**here**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#5-working-principle) to view it, to understand how E4 works will help you to find understand the problem and the reason what caused.
 #### :two: Brief of E4 hotend structure 
-In order to better browse the following documents, please read this section to better understand the names and functions of each part of the E4 hot end.
-There are two versions of the E4 hot end we are sold (E4_V2 and E4_V3), there is no big difference in the use effect. E4_V3 improved: 
+In order to better browse the following documents, please read this section to know the names and functions of each part of the E4 hot end.
+There are two versions of the E4 hot end we are sold (E4_V2 and E4_V3), they are no many difference in using and print quality.    
+What E4_V3 improved: 
 - Modify the funnel structure to help the filament enter into the nozzle smoothly.   
 - Add a cooper tube to improve heat dissipation of the throat (heat break part).  
 ![](./E4_struct.png)    
-:warning: If you need to replace the accessories of the E4 hot end, please distinguish the version of your hot end.
+:warning: If you need to replace the parts/accessories of the E4 hot end, please distinguish the version which you have.
 #### Parts Description:
 >
     1. Fitting (Pneumatic Connector)      2. Heat sink        3. Funnel collector (E4V2)          4. Heat Break (throat)
     5. Inner PTFE tube (E4V2)             6. Heating block    7. Nozzle   8. Copper tube(E4V3)    9. Funnel collector (E4V3)
 
 #### :three: Choose appropriate filament
-E4 hot end can be applied to a wide range of filaments such as ABS/PLA/PLA+/PETG. But when switching extruder of E4 hotend, it is necessary to unload the filament from the hot end and then re-load it. Therefore, if the filament has the following characteristics, it may cause printing defects or even clog the hot end:
-1. **Expands too much after heated.**       -- can not enter the hotend when re-load.
-2. **Too soft.**                            -- easy to be scratched by the gear of the extruder during multiple load/unload.
-3. **With a long strings after unloaded.**  -- block the new filament enter the hotend.
-In order to improve the tenacity, fluidity and appearance of the filament, the filament manufacturers will add some additives to the filament, it may cause the filament has above “unapproachable” characteristics to E4 hotend, so we suggest that before using a new filament, it is better to manually insert the filament into the hot end of the heating, and then pull it out for inspection.
+E4 hot end can be applied to a wide range of filaments such as ABS, PLA, PLA+, PETG, etc. But as you know, while switching extruder, a filament will be unload from the hot end and then re-load anthoer filament. Therefore, the following characteristics of filament may be not good to E4 hot end:
+1. **Expands too much after heated**       -- can not enter the hotend when re-load.     
+2. **Too soft**                            -- easy to be scratched by the gear of the extruder during multiple load/unload.    
+3. **With a long strings after unloaded**  -- block the filament enter the hotend.     
+
+In order to improve the tenacity, fluidity and appearance of the filament, the filament manufacturers will add some additives to the filament, it may cause the filament has these “unapproachable” characteristics to E4 hotend, so we suggest you do the below steps to check before using a new filament: **Heating the nozzle >> manually load the filament into the hot end >> purge a little filament(50mm or so) >>pull it out from the hotend slowly>> check the size  and strings length at the end of filament.**
 
 ------
 ### The filament is clogged in the hotend - serious blockage issue 
