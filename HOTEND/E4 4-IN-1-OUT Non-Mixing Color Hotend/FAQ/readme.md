@@ -22,12 +22,12 @@ If you are not clear about the working principle of E4, please click [**here**][
 #### :two: Brief of E4 hotend structure 
 In order to better browse the following documents, please read this section to know the names and functions of each part of the E4 hotend.
 There are two versions of the E4 hotend we are sold (E4_V2 and E4_V3), they are no many difference in using and print quality.    
-What E4_V3 improved: 
+**What E4_V3 improved:** 
 - Modify the funnel structure to help the filament enter into the nozzle smoothly.   
 - Add a cooper tube to improve heat dissipation of the throat (heat break part).  
 ![](./E4_struct.png)    
 :warning: If you need to replace the parts/accessories of the E4 hotend, please distinguish the version which you have.
-#### Parts Description:
+#### Parts description:
 >
     1. Fitting (Pneumatic Connector)      2. Heat sink        3. Funnel collector (E4V2)          4. Heat Break (throat)
     5. Inner PTFE tube (E4V2)             6. Heating block    7. Nozzle   8. Copper tube(E4V3)    9. Funnel collector (E4V3)
@@ -42,7 +42,7 @@ In order to improve the tenacity, fluidity and appearance of the filament, the f
 
 ------
 ### The filament is clogged in the hotend - serious blockage issue 
-If you find a serious blockage issue, such as the filament can not be pulled out from the hotend, the filament is twisted and deformed in the funnel collector of the hotend, please follow the following steps to check:    
+If you find a serious blockage issue in the hotend, such as the filament can not be pulled out from the hotend, the filament is twisted and deformed in the funnel collector of the hotend, please follow the following steps to check:    
 :exclamation:**NOTE:exclamation: If your machine is equipped with filament run out sensors, it is recommended to bypass them first and let the filaments load to the extruders directly, please refer to [:point_right: here](./E4FAQ-4.jpg)** 
 
 #### :one: Is the cooling fan work well of the hotend?
@@ -123,4 +123,4 @@ If the blockage is easy to occur, it is recommended that you replace the built-i
 [3]:https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_E4.md#step-6-set-the-print-settings
 [4]:https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#tool-change-g-code
 [5]:https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/cura/E4_hotend/readme.md#exturder-startend-gcode-of-e4-hotend
-[6]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#2-components
+[6]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/readme.md#2-components

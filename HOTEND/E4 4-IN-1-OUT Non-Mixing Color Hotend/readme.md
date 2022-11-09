@@ -13,8 +13,6 @@
 
 ------------
 ## ZONESTAR 4-IN-1-OUT Non-Mixing Color Hotend User Guide
-:gift: [**Buy (ZONESTAR Offical Store)**](https://bit.ly/39qDtKp)   
-:gift: [**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005002951777699.html)
 
 ### :file_folder: [User guide and Slicing guide](./User_guide/)  
 :book: [**User guide**](./User_guide/readme.md)    
@@ -29,4 +27,8 @@
 ### :file_folder: [Example](./example/) 
 :floppy_disk: [**Examples Gcode Files**](./example/readme.md)    
 :floppy_disk: [**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
+
+### Sell link
+:gift: [**ZONESTAR Offical Store**](https://bit.ly/39qDtKp)   
+:gift: [**Aliexpress**](https://www.aliexpress.com/item/1005002951777699.html)
 
