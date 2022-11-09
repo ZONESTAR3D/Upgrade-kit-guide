@@ -57,7 +57,7 @@ If the nozzle is too closed to the print plate (hotbed), the filament can't be e
 #### :three: Can the extruder push and pull the filaments well? <span id="Q3"></span> 
 If the extruder cann't push or pull the filament well, it may cause the filament stady in the hotend and block a new filament to enter, 
 ##### :pill: Solution <span id="A3"></span> 
-please check and adjust the pressure of the extruder, refer to [:point_right: **here**](#🔑-how-to-adjust-the-extruder-pressure-to-a-proper-value)
+please check and adjust the pressure of the extruder, refer to [:point_right: **here**](#HOW1)
 
 #### :four: Are the slicing settings correct? <span id="Q4"></span> 
 If the hotend work well when printing the test gcode file which provided by us, but it is easily blocked when printing gcode file by your own sliced, please check the slicing settings, especially the following parameters:
@@ -79,7 +79,7 @@ When switching the extruder, the end of the pulled out filament may become sligh
 ![](./front.jpg)    
 ##### :pill: Solution <span id="A6"></span>
 1. Replace filaments.
-2. This issue maybe because the inner PTFE tube is deformed(for E4V2) too, please refer to [:point_right: **here**](#🔑-how-to-replace-the-inner-ptfe-pipe-for-e4v2-only) to replace it.
+2. This issue maybe because the inner PTFE tube is deformed(for E4V2) too, please refer to [:point_right: **here**](#HOW3) to replace it.
 
 ------
 ### The filament is clogged in the hotend - Slight blockage problem
@@ -87,7 +87,7 @@ You may also encounter such a problem: Mostly, printing can be performed normall
 ##### :pill: Solution  <span id="A7"></span>
 This issue is usually caused by failure to load and unload filament when switching extruder, please following the below steps to check:
 - [:point_up: **Check the extruder pressure**](#Q3)
-- **Check or replace filament**[:point_up: 1](#Q5) [:point_right: 2](#Q6) [:point_right: 3](#choosefilament). 
+- **Check or replace filament**[:point_up: 1](#Q5) [:point_up: 2](#Q6) [:point_up: 3](#choosefilament). 
 - [**Add pull and push length by modifind the slicing settings**](#A5).
 - [**Reinstall the heat part of the hotend**](#HOW2)
 - [**Replace a new hotend.**](https://bit.ly/39qDtKp)
