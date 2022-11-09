@@ -48,7 +48,7 @@ If you find a serious blockage issue in the hotend, such as the filament can not
 #### :one: Is the cooling fan work well of the hotend?
 The **[cooling FAN of the E4 hotend][6]** should work (it can work all the time or work when the nozzle temperature is higher than 60 °C). If the cooling FAN doesn't work, the hotend is easy to be blockage.
 
-#### :two: Is the nozzle too close to the hot bed?
+#### :two: Is the nozzle too close to the print plate?
 If the nozzle is too closed to the print plate (hotbed), the filament can't be extruded from the nozzle when printing, it may cause to block the hotend, in severe cases, it may cause the filament to be twisted in the funnel collector of hotend. This problem usually occurs when printing the first layer.     
 ##### :pill: Solution <span id="solution2"></span> 
 - When printing the first layer, use the **babysteps** menu to adjust the distance from the nozzle to the print plate.   
@@ -57,29 +57,29 @@ If the nozzle is too closed to the print plate (hotbed), the filament can't be e
 #### :three: Can the extruder push and pull the filaments well?
 If the extruder cann't push or pull the filament well, it may cause the filament stady in the hotend and block a new filament to enter, 
 ##### :pill: Solution <span id="solution3"></span> 
-please refer to [:point_right: **here**](#🔑-how-to-adjust-the-extruder-pressure-to-a-proper-value) to check and adjust the pressure of the extruder.
+please check and adjust the pressure of the extruder, refer to [:point_right: **here**](#🔑-how-to-adjust-the-extruder-pressure-to-a-proper-value)
 
 #### :four: Are the slicing settings correct?
 If the hotend work well when printing the test gcode file which provided by us, but it is easily blocked when printing gcode file by your own sliced, please check the slicing settings, especially the following parameters:
 1. The length and pull/push speed on ***"switching extruder"***, please refer to **[:point_right: here][2]**.    
 2. The setting of ***"Retraction length"*** shall not be greater than 10mm, refer to **[:point_right: here][3]**.    
-3. If the volume of filaments extruded by an extruder in the same layer is less than 10mm, there is a certain probability of clogging. Therefore, when you drawing color on a 3D model, try to color the interior of the model at the same time. 
+3. If the volume of filaments extruded by an extruder in the same layer is less than 10mm, there is a certain probability of clogging. so when you drawing a multi colors 3d prints or painting color on 3D model in PrusaSlicer, please pay attion to the minimus size at the same layer. 
 <!-- As shown in [**this figure**](./small_parts.jpg). -->
 
 #### :five: When the filament is pulled out from the hotend, will there be long strings?
-There will be a "strings" in front of the filaments which pulled out from the hotend during printing. If the strings are too long (for default 80mm pull/push length, the strings length should be less than 45mm), it may block the new filaments enter the hotend.    
+There will be a "strings" on end of the filaments which pulled out from the hotend, if the strings are too long (for default 80mm pull/push length, the strings length should be less than 45mm), it may block the filament enter the hotend.    
 ![](./strings.jpg)   
 ##### :pill: Solution  <span id="solution5"></span>
 - Modify the push/pull length on switching extruder in "tool change G-code". About details, please refer to **[:point_right: PrusaSlicer][4] [:point_right: Cura Silcer][5]**.
-- Change a new filament with shorter string length, usually the string length: ABS < PLA+ < PLA < PLA-Slik.
-- Adjusting the nozzle temperature sometimes can help to solve this issue.
+- Replace a new filament with shorter strings, usually the length of string are: **ABS <(*shorter than*) PLA+ < PLA < PLA-Slik.**
+- Modify the nozzle temperature when printing/slicing.
 
 #### :six: When the filament is pulled out from the hotend, will the front end become too thick?
-When switching the extruder, the front end of the pulled out filament will become slightly thicker than the orignal diameter, which is unavoidable. Therefore, E4 has allowed such a situation in the design, but the maximum should not exceed 2.2mm. If the front end becomes too thick and exceeds the design allowable range, the filament may not enter the nozzle normally.    
+When switching the extruder, the end of the pulled out filament may become slightly thicker than the orignal, E4 hotend allowed the maximum filament diameter is 2.2mm. If the end becomes too thick and exceeds the allowable diameter, the filament may not enter the nozzle normally.    
 ![](./front.jpg)    
 ##### :pill: Solution   <span id="solution6"></span>
 1. Replace filaments.
-2. This issue maybe because the inner PTFE tube is deformed(for E4V2), please refer to [:point_right: **here**](#🔑-how-to-replace-the-inner-ptfe-pipe-for-e4v2-only) to replace it.
+2. This issue maybe because the inner PTFE tube is deformed(for E4V2) too, please refer to [:point_right: **here**](#🔑-how-to-replace-the-inner-ptfe-pipe-for-e4v2-only) to replace it.
 
 ------
 ### The filament is clogged in the hotend - Slight blockage problem
