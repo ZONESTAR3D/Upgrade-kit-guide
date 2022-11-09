@@ -16,14 +16,17 @@
 :gift: [**Buy (ZONESTAR Offical Store)**](https://bit.ly/39qDtKp)   
 :gift: [**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005002951777699.html)
 
-### :black_medium_square: User guide and Slicing guide
+### :file_folder: [User guide and Slicing guide](./User_guide/)  
 :book: [**User guide**](./User_guide/readme.md)    
 :green_book: [**User guide pdf file**](./User_guide/E4%20Hotend%20user%20guide-V2.pdf)  
 
-### :black_medium_square: Fan Duck stl
+### :file_folder: [FAQ](./FAQ/) 
+:book: [**Troubleshooting of E4 hotend**](./FAQ/readme.md)    
+
+### :file_folder: [Fan Duck stl](./Fan_Duck_stl/) 
 :file_folder: [**stl file of the fan duck**](./Fan_Duck_stl/fan_duck_e4_v1.stl)
 
-### :black_medium_square: Example
+### :file_folder: [Example](./example/) 
 :file_folder: [**Examples Gcode Files**](./example/readme.md)    
 :file_folder: [**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
 
