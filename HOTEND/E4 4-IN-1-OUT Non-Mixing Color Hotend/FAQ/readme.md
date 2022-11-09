@@ -12,13 +12,13 @@
 [![](../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
 ## Troubleshooting of E4 hotend
-By understanding the [**working principle**]() of E4 hotend, you should have known that when the printer switches the filament color, the extruder needs to load and unload the filament once. Therefore, only in the process of building one 3d print, the filaments needs to be loaded/unloaded at least hundreds of times, or even tens of thousands of times, depending on the size of the print and the color of the filament used in each layer.   
+By understanding the [**working principle**][1] of E4 hotend, you should have known that when the printer switches the filament color, the extruder needs to load and unload the filament once. Therefore, only in the process of building one 3d print, the filaments needs to be loaded/unloaded at least hundreds of times, or even tens of thousands of times, depending on the size of the print and the color of the filament used in each layer.   
 Ater made more than 1000 print tests, we summarized the possible problems at the E4 hotend, especially the causes of filament(s) clogged(blockage) and their solutions for your reference.  
 
 ------
 ### :memo: Some things must to know about E4 hotend
-#### :one: [Woking principle of E4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#5-working-principle)
-If you are not clear about the working principle of E4, please click [**here**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#5-working-principle) to view it, to understand how E4 works will help you to find understand the problem and the reason what caused.
+#### :one: [Woking principle of E4 hotend][1]
+If you are not clear about the working principle of E4, please click [**here**][1] to view it, to understand how E4 works will help you to find understand the problem and the reason what caused.
 #### :two: Brief of E4 hotend structure 
 In order to better browse the following documents, please read this section to know the names and functions of each part of the E4 hotend.
 There are two versions of the E4 hotend we are sold (E4_V2 and E4_V3), they are no many difference in using and print quality.    
@@ -46,7 +46,7 @@ If you find a serious blockage issue, such as the filament can not be pulled out
 :exclamation:**NOTE:exclamation: If your machine is equipped with filament run out sensors, it is recommended to bypass them first and let the filaments load to the extruders directly, please refer to [:point_right: here](./E4FAQ-4.jpg)** 
 
 #### :one: Is the cooling fan work well of the hotend?
-The [**cooling FAN of the E4 hotend**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#2-components) should work (it can work all the time or work when the nozzle temperature is higher than 60 °C). If the cooling FAN doesn't work, the hotend is easy to be blockage.
+The [**cooling FAN of the E4 hotend**]6] should work (it can work all the time or work when the nozzle temperature is higher than 60 °C). If the cooling FAN doesn't work, the hotend is easy to be blockage.
 
 #### :two: Is the nozzle too close to the hot bed?
 If the nozzle is too closed to the print plate (hotbed), the filament can't be extruded from the nozzle when printing, it may cause to block the hotend, in severe cases, it may cause the filament to be twisted in the funnel collector of hotend. This problem usually occurs when printing the first layer.     
@@ -61,8 +61,8 @@ please refer to [:point_right: **here**](#🔑-how-to-adjust-the-extruder-pressu
 
 #### :four: Are the slicing settings correct?
 If the hotend work well when printing the test gcode file which provided by us, but it is easily blocked when printing gcode file by your own sliced, please check the slicing settings, especially the following parameters:
-1. The length and pull/push speed on ***"switching extruder"***, please refer to [:point_right: **here**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md).    
-2. The setting of ***"Retraction length"*** shall not be greater than 10mm, refer to [:point_right: **here**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_E4.md#step-6-set-the-print-settings).    
+1. The length and pull/push speed on ***"switching extruder"***, please refer to **[:point_right: here][2]**.    
+2. The setting of ***"Retraction length"*** shall not be greater than 10mm, refer to **[:point_right: here][3]**.    
 3. If the volume of filaments extruded by an extruder in the same layer is less than 10mm, there is a certain probability of clogging. Therefore, when you drawing color on a 3D model, try to color the interior of the model at the same time. 
 <!-- As shown in [**this figure**](./small_parts.jpg). -->
 
@@ -70,7 +70,7 @@ If the hotend work well when printing the test gcode file which provided by us, 
 There will be a "strings" in front of the filaments which pulled out from the hotend during printing. If the strings are too long (for default 80mm pull/push length, the strings length should be less than 45mm), it may block the new filaments enter the hotend.    
 ![](./strings.jpg)   
 ##### :pill: Solution  <span id="solution5"></span>
-- Modify the push/pull length on switching extruder in "tool change G-code". About details, please refer to **[:point_right: PrusaSlicer](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#tool-change-g-code) [:point_right: Cura Silcer](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/cura/E4_hotend/readme.md#exturder-startend-gcode-of-e4-hotend)**.
+- Modify the push/pull length on switching extruder in "tool change G-code". About details, please refer to **[:point_right: PrusaSlicer][4] [:point_right: Cura Silcer][5]**.
 - Change a new filament with shorter string length, usually the string length: ABS < PLA+ < PLA < PLA-Slik.
 - Adjusting the nozzle temperature sometimes can help to solve this issue.
 
@@ -117,3 +117,10 @@ If the blockage is easy to occur, it is recommended that you replace the built-i
 5. the PTFE pipe should be about 0.5mm longer than the throat, or it can be directly flush.
 6. Use a small metal thin rod to turn it inside, because when cutting the PTFE pipe, its inner diameter may become thinner.
 7. Reinstall the hotend in reverse order.
+
+[1]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/readme.md#5-working-principle
+[2]:https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md
+[3]:https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_E4.md#step-6-set-the-print-settings
+[4]:https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#tool-change-g-code
+[5]:https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/cura/E4_hotend/readme.md#exturder-startend-gcode-of-e4-hotend
+[6]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend#2-components
