@@ -16,7 +16,7 @@ By understanding the [**working principle**][1] of E4 hotend, you should have kn
 Ater made more than 1000 print tests, we summarized the possible problems at the E4 hotend, especially the causes of filament(s) clogged(blockage) and their solutions for your reference.  
 
 ------
-### :memo: Some things must to know about E4 hotend
+### :bell: Some things must to know about E4 hotend
 #### :one: [Woking principle of E4 hotend][1]
 If you are not clear about the working principle of E4, please click [**here**][1] to view it, to understand how E4 works will help you to find understand the problem and the reason what caused.
 #### :two: Brief of E4 hotend structure 
