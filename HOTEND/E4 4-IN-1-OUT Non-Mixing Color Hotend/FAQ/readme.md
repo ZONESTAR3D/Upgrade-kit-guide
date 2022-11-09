@@ -46,7 +46,7 @@ If you find a serious blockage issue, such as the filament can not be pulled out
 :exclamation:**NOTE:exclamation: If your machine is equipped with filament run out sensors, it is recommended to bypass them first and let the filaments load to the extruders directly, please refer to [:point_right: here](./E4FAQ-4.jpg)** 
 
 #### :one: Is the cooling fan work well of the hotend?
-The [**cooling FAN of the E4 hotend**]6] should work (it can work all the time or work when the nozzle temperature is higher than 60 °C). If the cooling FAN doesn't work, the hotend is easy to be blockage.
+The **[cooling FAN of the E4 hotend][6]** should work (it can work all the time or work when the nozzle temperature is higher than 60 °C). If the cooling FAN doesn't work, the hotend is easy to be blockage.
 
 #### :two: Is the nozzle too close to the hot bed?
 If the nozzle is too closed to the print plate (hotbed), the filament can't be extruded from the nozzle when printing, it may cause to block the hotend, in severe cases, it may cause the filament to be twisted in the funnel collector of hotend. This problem usually occurs when printing the first layer.     
