@@ -1,6 +1,17 @@
-[:gift: **Sell link (ZONESTAR Offical Store)**](https://bit.ly/39qDtKp)     
-[:gift: **Sell link (Aliexpress)**](https://www.aliexpress.com/item/1005002951777699.html)
+### :globe_with_meridians: Choose Language (Translated by google)
+[![](../../../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=es)
+[![](../../../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=pt)
+[![](../../../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=fr)
+[![](../../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=ru)
+[![](../../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=it)
+[![](../../../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=de)
+[![](../../../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=pl)
+[![](../../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=ko)
+[![](../../../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=ja)
+[![](../../../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=ar)
+[![](../../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
+----
 ## :book: E4 Hotend user guide
 ZONESTAR 4-IN-1-OUT Non-mix color hotend (we called E4 Hotend) has 4 input channels and 1 nozzle, when switching color, the previous color filament need to be unloaded (pulled out) from the hot end, and then load the next color filament.
 
@@ -100,4 +111,7 @@ We have uploaded some test files to our Github page, you can download them from 
 ### 10. Troubleshootings
 If you encounter problems when using the E4 hot end, please refer to the [**troubleshootings guide**](../FAQ/readme.md) first to find a solutions. If the problem still can't be solved, please contact our technical support engineer by email: :email: support@zonestar3d.com.
 
-  
+----
+### Sell link
+[:gift: **ZONESTAR Offical Store**](https://bit.ly/39qDtKp)     
+[:gift: **Aliexpress**](https://www.aliexpress.com/item/1005002951777699.html)
