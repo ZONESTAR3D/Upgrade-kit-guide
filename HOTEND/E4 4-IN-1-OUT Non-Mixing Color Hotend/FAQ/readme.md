@@ -41,7 +41,7 @@ E4 hotend can be applied to a wide range of filaments such as ABS, PLA, PLA+, PE
 In order to improve the tenacity, fluidity and appearance of the filament, the filament manufacturers will add some additives to the filament, it may cause the filament has these “unapproachable” characteristics to E4 hotend, so we suggest you do the below steps to check before using a new filament: **Heating the nozzle >> manually load the filament into the hotend >> purge a little filament(50mm or so) >>pull it out from the hotend slowly>> check the size  and strings length at the end of filament.**
 
 ------
-### The filament is clogged in the hotend - serious blockage issue 
+### :bug: The filament is clogged in the hotend - serious blockage issue 
 If you find a serious blockage issue in the hotend, such as the filament can not be pulled out from the hotend, the filament is twisted and deformed in the funnel collector of the hotend, please follow the following steps to check:    
 :exclamation:**NOTE:exclamation: If your machine is equipped with filament run out sensors, it is recommended to bypass them first and let the filaments load to the extruders directly, please refer to [:point_right: here](./E4FAQ-4.jpg)** 
 
@@ -82,7 +82,7 @@ When switching the extruder, the end of the pulled out filament may become sligh
 2. This issue maybe because the inner PTFE tube is deformed(for E4V2) too, please refer to [:point_right: **here**](#HOW3) to replace it.
 
 ------
-### The filament is clogged in the hotend - Slight blockage problem
+### :bug: The filament is clogged in the hotend - Slight blockage problem
 You may also encounter such a problem: Mostly, printing can be performed normally, but there are obvious defects when printing to certain layers, and the abnormal Kaka noise of the extruder is occasionally heard during printing.   
 ##### :pill: Solution  <span id="A7"></span>
 This issue is usually caused by failure to load and unload filament when switching extruder, please following the below steps to check:
