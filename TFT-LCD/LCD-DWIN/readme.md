@@ -52,13 +52,13 @@
 ## Upload firmware
 #### :one: Step 1: Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with 4069 bytes/cluster (allocation units size). 
 ![](pictures/Format.jpg)     
-:warning: The SD card must be formatted as required, otherwise the upgrade cannot be successful.
-:pencil: [**How to Format SD Card on Windows**](https://recoverit.wondershare.com/partition-tips/format-sd-in-windows-10.html?/topic/916-upgrade-to-pdf-to-pages/=&comment=2884&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EApQAT_0jaSjNTHDKfbyTB8K-lLEt9m_hd2Ro526ZG6lerIJX3YE-7caAhXAEALw_wcB)       
+:warning: :exclamation:**Not to format the SD card as required may result in upgrade failure.**:exclamation:    
+:pencil: [**How to Format SD Card on Windows**](https://recoverit.wondershare.com/partition-tips/format-sd-in-windows-10.html?/topic/916-upgrade-to-pdf-to-pages/=&comment=2884&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EApQAT_0jaSjNTHDKfbyTB8K-lLEt9m_hd2Ro526ZG6lerIJX3YE-7caAhXAEALw_wcB)     
 :pencil: [**How to Format SD Card on Mac OS**](https://recoverit.wondershare.com//mac-tips/format-sd-card-fat32-mac.html?gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAo1hhsQ62C9vIhIAKUQitkIz72xy7axY1Ylf9p7Z7-kPSLVffoWslQaAp19EALw_wcB)
 
 #### :two: Step 2: Download and unzip the zip file to your PC, copy DWIN\_SET to the root directory of SD card.  
 :arrow_down: [**Click here to download DWIN-LCD MENU V3 files**](./V3/DWIN_MENU_V3.zip).     
-:warning: "DWIN_SET" floder must be under the root directory of SD card, in other words, it must be "x:\DWIN_SET\\{files}", but not "x:\DWIN_SET\\DWIN_SET\\{files}", otherwise the upgrade cannot be successful.    
+:warning: :exclamation:**DWIN_SET floder must be under the root directory of SD card, in other words, it must be "x:\DWIN_SET\\{files}", but not "x:\DWIN_SET\\DWIN_SET\\{files}", Not to store files as required will result in upgrade failure.**:exclamation:    
 ![](pictures/SD1.jpg)  ![](pictures/SD2.jpg)
 
 #### :three: Step 3: Remove the screws from the back of LCD box, take down the backplate.
@@ -78,7 +78,9 @@
 #### :eight: Step 8: Install the screws back. 
 
 #### :checkered_flag: After upload firmware, you can find a string "Vx" on the right-bottom corner of LCD SCREEN when power on.
-![](pictures/LCDShowV2.jpg)  
+![](pictures/LCDShowV2.jpg)  ![](pictures/LCDShowV3.jpg)
+
+#### :loudspeaker: If the upgraded is fail, check double check if you have done Step2 and Step3 according the requirement.
 
 
 
