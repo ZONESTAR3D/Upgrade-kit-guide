@@ -19,18 +19,18 @@ By upgrading this module to make your 3D printer capable of continuous automatic
 [:book:**Use Guide**](./Auto_Repeat_Printing/readme.md)    
 [:gift:**Sell Link**](https://www.aliexpress.com/item/1005003767078457.html) 
 
-### :file_folder: [Bed Leveling Sensor](./Bed%20Leveling%20Sensor/)
-[:book:**View details**](./Bed%20Leveling%20Sensor/)   
+### :file_folder: [Bed Leveling Sensor](./Bed_Leveling_Sensor/)
+[:book:**View details**](./Bed_Leveling_Sensor/)
 Hot bed tilt / uneven surface is a common problem of 3D printer, however, the first layer is very important for the successfully print. The main solution to slove this problem is to use a ***bed leveling sensor*** to measure the distance between the nozzle with the hot bed, to generate a ***"hot bed height table"***, and save it in the memory of the 3D printer. While printing, automatically adjust the height of the nozzle to compensate the uneven hot bed. For more information on this issue, please refer to [**Marlin documents - Automatic Bed Leveling**](https://marlinfw.org/docs/features/auto_bed_leveling.html)    
 **There are several types of bed leveling sensor:**      
 - **PL-08N** is a proximity sensor, it can probing metal hotbed. If your hot bed surface is metal, such as aluminum plate + hot bed adhesive tape, aluminum plate + magnetic hot bed paste, elastic rigid hot bed, etc., you can use this sensor.[:gift:**Sell Link**](https://www.aliexpress.com/item/4000596309710.html)      
 - **BLtouch(3DTouch)** is a "famous" bed auto leveling sensor for 3D Printers, it integrates a simple servo motor and an electromagnetic sensor into a very small volume. It can be used for all types of heat beds with high accuracy. The disadvantage is that the wiring and use are a little complex. [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001464420529.html)   
 - **ZL-Sensor** is a special photoelectric sensor made by ZONESTAR, it can probing almost all meterial hotbed, also it is easier to wiring such as PL-08N. [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002865311470.html)  
 
-### :file_folder: [Direct Drive Extruder](./Direct%20Drive%20Extrruder/)
-[:book:**View details**](./Direct%20Drive%20Extrruder/)    
+### :file_folder: [Direct Drive Extruder](./Direct_Drive_Extrruder/)
+[:book:**View details**](./Direct_Drive_Extrruder/)    
 By using the direct drive extruder, the printer can print flexible filament (e.g. TPU filament) and get better printing quality.   
-[:book:**Use Guide**](./Direct%20Drive%20Extrruder/readme.md)   
+[:book:**Use Guide**](./Direct_Drive_Extrruder/readme.md)   
 [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002847644867.html) 
 
 ### :file_folder: [Filament Run Out Sensor (FROD)](./FROD/)
@@ -47,16 +47,16 @@ ZONESTAR has been promoting the development of color FDM 3D printing technology,
 - **M4 4-IN-1-OUT Mix Color Hotend**[:book:**Use Guide**](./HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002124027691.html)  
 - **E4 4-IN-1-OUT Non-Mix Color Hotend**[:book:**Use Guide**](./HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002951777699.html)  
 
-### :file_folder: [Laser Engraving](./Laser%20Engraving/)
-[:book:**View details**](./Laser%20Engraving/)
+### :file_folder: [Laser Engraving](./Laser_Engraving/)
+[:book:**View details**](./Laser_Engraving/)
 By add a laser engrave engine , you can turn your 3D printer into a simple laser engraving machine.   
-[:book:**Use Guide**](./Laser%20Engraving/)   
+[:book:**Use Guide**](./Laser_Engraving/)   
 [:gift:**Sell Link**](https://www.aliexpress.com/item/4001309902136.html)
 
-### :file_folder: [Motor Drive Module](./Motor%20Drive%20Module/)
-[:book:**View details**](./Motor%20Drive%20Module/)
+### :file_folder: [Motor Drive Module](./Motor_Driver/)
+[:book:**View details**](./Motor_Driver/)
 TMC motor drive module used stealthChop2 ultra-quiet technology, it can After upgrading it, the noise of 3D printer stepper motor operation can be significantly reduced.   
-[:book:**Use Guide**](./Motor%20Drive%20Module/How%20to%20install%20Motor%20Driver%20Module.pdf)  
+[:book:**Use Guide**](./Motor_Driver/How_to_install_Motor_Driver_Module.pdf)  
 [:gift:**TMC2208**](https://www.aliexpress.com/item/4000596369015.html)  
 [:gift:**TMC2209**](https://www.aliexpress.com/item/1005001664336751.html)    
 [:gift:**TMC2225**](https://www.aliexpress.com/item/1005003270721219.html)   
