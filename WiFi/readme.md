@@ -12,7 +12,8 @@
 
 ------
 ### By upgrading the WiFi module, you can control your 3d printer by wireless. It can work with ZONESTAR Z9V5, Z9M4, Z8P 3D Printer or the others 3d printer used ZONESTAR ZM3E4 and ZM3E2 32-bits 3D printer control board.
-[**Buy a WiFi Module**](https://www.aliexpress.com/item/1005002378551489.html)
+[**:gift: Buy it from ZONESTAR Online Shop**](https://bit.ly/3rB7mx1)
+[**:gift: Buy it from Aliexpress Offical Shop**](https://bit.ly/3i7aX4o)
 
 ### User guide
 :book: [User guide](./WiFi_User_Guide.md)  
