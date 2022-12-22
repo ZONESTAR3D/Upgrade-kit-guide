@@ -1,34 +1,40 @@
-### :globe_with_meridians: Choose Language (Translated by google)
+### Choose Language (Translated by google)
 [![](../../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=es)
-[![](../../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=fr)
-[![](../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ru)
-[![](../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=it)
+[![](../../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=de)
+[![](../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=it)
 [![](../../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=pl)
-[![](../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ko)
+[![](../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ru)
+[![](../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=el)
 [![](../../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ja)
+[![](../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ko)
+[![](../../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=id)
+[![](../../lanpic/TH.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=th)
+[![](../../lanpic/VN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=vi)
+[![](../../lanpic/IL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=iw)
 [![](../../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ar)
+[![](../../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=tr)
 [![](../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
-------------
-## ZONESTAR 4-IN-1-OUT Non-Mixing Color Hotend User Guide
 
+-----
+## 4-IN-1-OUT Non-Mix Color Hotend User Guide
 ### :file_folder: [User guide and Slicing guide](./User_guide/)  
-:book: [**User guide**](./User_guide/readme.md)    
-:green_book: [**User guide pdf file**](./User_guide/E4%20Hotend%20user%20guide-V2.pdf)  
+- :book: [**User guide**](./User_guide/readme.md)    
+- :green_book: [**User guide pdf file**](./User_guide/E4%20Hotend%20user%20guide-V2.pdf)  
 
 ### :file_folder: [FAQ](./FAQ/) 
-:book: [**Troubleshooting of E4 hotend**](./FAQ/readme.md)    
+- :book: [**Troubleshooting of E4 hotend**](./FAQ/readme.md)    
 
 ### :file_folder: [Fan Duck stl](./Fan_Duck_stl/) 
-:floppy_disk: [**stl file of the fan duck**](./Fan_Duck_stl/fan_duck_e4_v1.zip)
+- :floppy_disk: [**stl file of the fan duck**](./Fan_Duck_stl/fan_duck_e4_v1.zip)
 
 ### :file_folder: [Example](./example/) 
-:floppy_disk: [**Examples Gcode Files**](./example/readme.md)    
-:floppy_disk: [**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
+- :floppy_disk: [**Examples Gcode Files**](./example/readme.md)    
+- :floppy_disk: [**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
 
-### Sell link
-:gift: [**ZONESTAR Offical Store**](https://bit.ly/39qDtKp)   
-:gift: [**Aliexpress**](https://www.aliexpress.com/item/1005002951777699.html)
+### :gift: Sales link
+- [**ZONESTAR Offical Store**](https://bit.ly/39qDtKp)   
+- [**ZONESTAR Aliexpress Store**](https://www.aliexpress.com/item/1005002951777699.html)
 
