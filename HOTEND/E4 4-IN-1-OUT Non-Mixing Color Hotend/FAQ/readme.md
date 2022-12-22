@@ -1,21 +1,28 @@
 ### :globe_with_meridians: Choose Language (Translated by google)
 [![](../../../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=es)
-[![](../../../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../../../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=fr)
-[![](../../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=ru)
-[![](../../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=it)
+[![](../../../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../../../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=de)
+[![](../../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=it)
 [![](../../../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=pl)
+[![](../../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=ru)
+[![](../../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=el)
+[![](../../../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=ja)
 [![](../../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=ko)
-[![](../.././lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=ja)
+[![](../../../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=id)
+[![](../../../lanpic/TH.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=th)
+[![](../../../lanpic/VN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=vi)
+[![](../../../lanpic/IL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=iw)
 [![](../../../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=ar)
+[![](../../../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=tr)
 [![](../../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
+-----
 ## Troubleshooting of E4 hotend
 By understanding the [**working principle**][1] of E4 hotend, you should have known that when the printer switches the filament color, the extruder needs to load and unload the filament once. Therefore, only in the process of building one 3d print, the filaments needs to be loaded/unloaded at least hundreds of times, or even tens of thousands of times, depending on the size of the print and the color of the filament used in each layer.   
 Ater made more than 1000 print tests, we summarized the possible problems at the E4 hotend, especially the causes of filament(s) clogged(blockage) and their solutions for your reference.  
 
-------
+-----
 ### :bell: Some things must to know about E4 hotend
 #### :one: [Woking principle of E4 hotend][1]
 If you are not clear about the working principle of E4, please click [**here**][1] to view it, to understand how E4 works will help you to find understand the problem and the reason what caused.
@@ -40,7 +47,7 @@ E4 hotend can be applied to a wide range of filaments such as ABS, PLA, PLA+, PE
 
 In order to improve the tenacity, fluidity and appearance of the filament, the filament manufacturers will add some additives to the filament, it may cause the filament has these “unapproachable” characteristics to E4 hotend, so we suggest you do the below steps to check before using a new filament: **Heating the nozzle >> manually load the filament into the hotend >> purge a little filament(50mm or so) >>pull it out from the hotend slowly>> check the size  and strings length at the end of filament.**
 
-------
+-----
 ### :bug: The filament is clogged in the hotend - serious blockage issue 
 If you find a serious blockage issue in the hotend, such as the filament can not be pulled out from the hotend, the filament is twisted and deformed in the funnel collector of the hotend, please follow the following steps to check:    
 :exclamation:**NOTE:exclamation: If your machine is equipped with filament run out sensors, it is recommended to bypass them first and let the filaments load to the extruders directly, please refer to [:point_right: here](./E4FAQ-4.jpg)** 
@@ -81,7 +88,7 @@ When switching the extruder, the end of the pulled out filament may become sligh
 1. Replace filaments.
 2. This issue maybe because the inner PTFE tube is deformed(for E4V2) too, please refer to [:point_right: **here**](#HOW3) to replace it.
 
-------
+-----
 ### :bug: The filament is clogged in the hotend - Slight blockage problem
 You may also encounter such a problem: Mostly, printing can be performed normally, but there are obvious defects when printing to certain layers, and the abnormal Kaka noise of the extruder is occasionally heard during printing.   
 ##### :pill: Solution  <span id="A7"></span>
