@@ -1,3 +1,23 @@
+### :globe_with_meridians: Choose Language (Translated by google)
+[![](../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=es)
+[![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=fr)
+[![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=pt)
+[![](../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=de)
+[![](../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=it)
+[![](../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=pl)
+[![](../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=ru)
+[![](../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=el)
+[![](../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=ja)
+[![](../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=ko)
+[![](../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=id)
+[![](../lanpic/TH.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=th)
+[![](../lanpic/VN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=vi)
+[![](../lanpic/IL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=iw)
+[![](../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=ar)
+[![](../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=tr)
+[![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/Auto_Repeat_Printing？_x_tr_sl=en&_x_tr_tl=zh-CN)
+
+-----
 # [Automatic Repeat Printing Module][selllink] User Manual
 ## :warning::bangbang:ATTENTION:bangbang:
 #### 1. Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice][7]
@@ -185,10 +205,10 @@ If you want to print another gcode file after finished, you can add an M183 comm
 
 + Store the a.gco and b.gco to the same directory and print "a.gco" file first. 
 
-### 11-3. Add bed cooling FAN
-:black_square_button: **TODO: To add an instruction about how to add the hot bed cooling fan.**
-### 11-2. Add print base
-:black_square_button: **TODO: To add an instruction about how to add a base under the printed object.**  
+<!-- ### 11-3. Add bed cooling FAN -->
+<!-- :black_square_button: **TODO: To add an instruction about how to add the hot bed cooling fan.** -->
+<!-- ### 11-2. Add print base -->
+<!-- :black_square_button: **TODO: To add an instruction about how to add a base under the printed object.**   -->
 
 
 [0]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#contents
