@@ -66,7 +66,8 @@ If the wires of 3 and 4 are connected reversely, you can see the nozzle temperat
 ### 5. Working principle
 4-IN-1-OUT hot end is composed of fitting, heat-sink, heater, nozzle and other components, when printing, extrusion feeder insert one color filaments into the hot end, then the filament is melted and flowed from the nozzle, while need to chang to another color filament, the extruder pull the previous color filament out of the hot end, and then load another color filament. 
 ![](./E4-5.jpg)   
-:movie_camera: [**Watch animation demonstration of E4 working principle**](./E4_principle.gif).   
+#### :movie_camera: Animation demonstration
+![](./E4_principle.gif).   
 #### :book: About "Wipe tower"  
 Because there are still melted filaments of the previous color in the nozzle after a new color filament loaded, so we need to "clean" the nozzle before starting to print the new color filament. Otherwise, the printed initial part will be the previous color but not the new color as we expect. The solution is that to add **"wipe tower"** after switched to a new extruder in slicing software.    
 About details, please refer to [**:point_right: Slicing**](#8-slicing).    
@@ -98,8 +99,8 @@ Please follow the steps below to unload the filament from the hotend:
 
 ----
 ### 8. Slicing
-We have made user guide and video tutorial for PrusaSlicer/Cura/Simplify3d slicing software (PrusaSlicer is our recommended slicing software right now). For details, please refer to:   
-- **PrusaSlicer(:+1:)**, please refer to :point_right: [**here**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer#6-slicing-muti-color-for-e4-hotend).
+User guide (video tutorial) for PrusaSlicer/Cura/Simplify3d slicing software.   
+- **:+1:PrusaSlicer**, please refer to :point_right: [**here**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer#6-slicing-muti-color-for-e4-hotend).
 - **Cura slicer**, please refer to :point_right: [**here**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura).
 - **Simplify3d Slicer**, please refer to :point_right: [**here**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/Simplify3D#slicing-video-toturial-for-z9v5-with-e4-hotend).
 
