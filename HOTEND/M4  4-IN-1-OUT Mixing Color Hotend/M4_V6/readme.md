@@ -1,8 +1,8 @@
 ## User guide [PDF file](./M4V6_the_6th_Version_4-IN-1-OUT_Mix_Color_HOTEND_User_Guide_V1.pdf)
 ### About Components of M4V6 hotend
-![](./1.JPG) ![](./2.JPG)
+![](./1.jpg) ![](./2.jpg)
 ### Structure and Working principl
-![](./3.JPG)
+![](./3.jpg)
 ### Load and unload filament
 - **Load filament:**
   - :warning: MUST load filaments to all 4 channels, DONOT leave any channel empty before printing.
