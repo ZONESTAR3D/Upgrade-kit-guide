@@ -48,7 +48,7 @@
 [:gift: **Buy M4V6 Hotend**](https://www.aliexpress.com/item/1005004547646195.html)   
 
 ### Structure diagram
-![](./M4_V6/2.JPG)
+![](./M4_V6/2.jpg)
 ### What's improved
 The M4V6 has reformed the structure of the hot end, which is completely different from the previous version. It uses an inclined feed channel and canceled the flow channel inside the heater. Advantages compared with the previous version M4 hot ends:
 1. Solved the leakage issue completely.
