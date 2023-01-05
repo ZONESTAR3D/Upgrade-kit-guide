@@ -21,10 +21,10 @@
 
 -----
 ## ZONESTAR M4 (4-IN-1-OUT Mixing Color) Hotend
--  [**M4V3**](#m4v3): The 3rd version 4-IN-1-OUT mix color hotend.
--  [**M4V4**](#m4v4): The 4th version 4-IN-1-OUT mix color hotend.
--  [**M4V5**](#m4v5): The 5th version 4-IN-1-OUT mix color hotend.
 -  [**M4V6**](#m4v6): The 6th version 4-IN-1-OUT mix color hotend.
+-  [**M4V5**](#m4v5): The 5th version 4-IN-1-OUT mix color hotend.
+-  [**M4V4**](#m4v4): The 4th version 4-IN-1-OUT mix color hotend.
+-  [**M4V3**](#m4v3): The 3rd version 4-IN-1-OUT mix color hotend.
 
 ### Differences between different versions M4 hotend ([M4V3](#m4v3)/[M4V4](#m4v4)/[M4V5](#m4v5)/[M4V6](#m4v6))
 |           Parameter and Specification             |    M4V3       |    M4V4       |      M4V5     |      M4V6     |
@@ -33,15 +33,15 @@
 |Unused Channel Closable<sup>*1</sup>               |  Yes          |  Yes          |  No           |  No           |
 |Volume of Mixing Chamber (mm<sup>3</sup>)          |  40 ~ 50      |  40 ~ 50      |  40 ~ 50      |  30 ~ 40      |
 |Anti Strings <sup>*2</sup>                         |  Poor         |   Poor        |  Poor         |  Good         |
-|Maximum Flow Rate (mm<sup>3</sup>/s)<sup>*3</sup>  |  8            |   8           |  10           |  15           |
-|Maximum mix color print speed (mm/s)<sup>*3</sup>  |  60           |   60          |  75           |  90           |
-|Maximum multi color print speed (mm/s)<sup>*3</sup>|  50           |   50          |  60           |  75           |
+|Maximum Flow Rate (mm<sup>3</sup>/s)<sup>*3</sup>  |  8            |   8           |  10           |  30           |
+|Maximum mix color print speed (mm/s)<sup>*3</sup>  |  60           |   60          |  75           |  150          |
+|Maximum multi color print speed (mm/s)<sup>*3</sup>|  50           |   50          |  60           |  100          |
 
 [*1]: Whether unused channels can be closed, so that filaments do not need to be loaded in unused channels when printing.   
 [*2]: It can be improved obviously after using the small storage room nozzle.     
 [*3]: Test condition is PLA filament @ 205℃ nozzle temperature. Recommended to use 60~80% of the maximum print speed when slicing.     
 
---------------
+-----
 ## M4V6
 [:book: Introduction of the 6th M4 hotend](./M4_V6/readme.md)  
 [:gift: **Buy M4V6 Hotend**](https://bit.ly/3QhWJtf)  
@@ -75,27 +75,28 @@ Because M4V5 used different fittings which to fix the PTFE filament guides, its 
 ![](./M4_V3_V4/M4_V4.jpg)
 ### The different between  **M4V4** with **M4V3**:  
 1. Upgraded the insulation block material from **PETF** to **PEEK**, so M4-V4 can work at maxius temperature to 260℃.  
+2. Upgraded the nozzle to a **Small store room nozzle** to improve the strings issue.     
 ![](./M4_V3_V4/PEEK_Insulation_block.jpg)
-2. Upgraded the nozzle to a "Small store room nozzle" to improve the strings issue.
-![](./M4_V3_V4/small_store_room_nozzle.jpg)  
-
-### Parts for upgrading from M4V3 to M4V4
-[:gift: **PEEK_Insulation_block**](https://www.aliexpress.com/item/1005002124027691.html)  
-[:gift: **Small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html)
+![](./M4_V3_V4/small_store_room_nozzle.jpg)      
+#### Parts for upgrading from M4V3 to M4V4
+- [:gift: **PEEK_Insulation_block**](https://www.aliexpress.com/item/1005002124027691.html)  
+- [:gift: **Small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html)
 
 ## M4V3
 [:book: Introduction of the 3rd M4 hotend](./M4_V3_V4/readme.md)
 ### Structure diagram
 ![](./M4_V3_V4/M4_V3.jpg)
 
------------
+-----
 ## Slicing guide for M4 hotend
 ### [Slicing by PrusaSlicer](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer)
 ### [Slicing by Cura](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura)
 ### [Test gcode files](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/M4)
 
------------
-## :bug: Issues of the mix color hot end and improvde solution
+-----
+## :bug: Issues of the mix color hot end and improvde solution.
+### :warning: These issue has been completely solved in M4V6.
+
 ### 1. Clogged issue
 #### :question: Reasons
 1. The length of the extrusion channel is longer than that of the single color.   
@@ -128,6 +129,3 @@ Because there is a mixing color chamber, so the stored filaments in the mixing c
 ##### 4. If you are very concerned about strings issue, it is recommended that you buy a single color or 4-IN-1-OUT Non-mix color Hotend.
 - :book: [**4-IN-1-OUT Non-Mix Color Hotend**](../E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/example/readme.md)
 - :gift: [**4-IN-1-OUT Non-Mix Color Hotend**](https://www.aliexpress.com/item/1005002951777699.html)
-
-
-
