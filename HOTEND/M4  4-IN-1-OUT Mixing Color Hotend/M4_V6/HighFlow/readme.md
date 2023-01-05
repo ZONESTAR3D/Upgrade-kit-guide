@@ -23,13 +23,11 @@ Our test shows that after replacing the 1.0mm nozzle, it can achieve a printing 
   M164 S0
 ~~~
 ![](2.png)
-#### 3. Modify the settings of the nozzle size, printing speed and other settings of the slice software.
-
-#### 4. Modify the settings for the machine limits so that the machine can support higher print speed.
-![](3.png)
-#### 5. Load 4 same color filaments to the extruders before printing.
+#### 3. Modify the settings of printing speed，the machine limits， etc.
+![](3.png) ![](6.png)
+#### 4. Load 4 same color filaments to the extruders before printing.
 Note: you can also ues the different colors filaments, but they will be mixed to another color.
-#### 6. Slicing (one color) and print it out from SD card.
+#### 5. Slicing (one color) and print it out from SD card.
 
 -----
 ### We have already made a config.ini file for PrusaSlicer, you can download and import it to PrusaSlicer. About how to import, please refer to the video tutorial. And we have made a test gcode file, you can download it and print it in your printer.
