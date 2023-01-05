@@ -30,10 +30,7 @@ Note: you can also ues the different colors filaments, but they will be mixed to
 #### 5. Slicing (one color) and print it out from SD card.
 
 -----
-### We have already made a config.ini file for PrusaSlicer, you can download and import it to PrusaSlicer. About how to import, please refer to the video tutorial. And we have made a test gcode file, you can download it and print it in your printer.
+### We have already made a config.ini file for PrusaSlicer, you can download and import it to PrusaSlicer. and we have made a test gcode file, you can download it and print it in your printer.
 - **[:arrow_down: Download config.ini](./M4V6HighFlow_1mmNozzle.ini).**
 - **[:movie_camera: Video tutorial for importing config.ini ](./Import_settings.gif).**
 - **[:arrow_down: download test gcode file](./Import_settings.gif).**  
-![](4.png)
-![](5.png)
-![](6.png)
