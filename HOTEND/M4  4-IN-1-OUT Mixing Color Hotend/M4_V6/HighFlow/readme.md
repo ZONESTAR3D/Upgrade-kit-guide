@@ -31,6 +31,6 @@ Note: you can also ues the different colors filaments, but they will be mixed to
 
 -----
 ### We have already made a config.ini file for PrusaSlicer, you can download and import it to PrusaSlicer. and we have made a test gcode file, you can download it and print it in your printer.
-- **[:arrow_down: Download config.ini](./M4V6HighFlow_1mmNozzle.zip).**
+- **[:arrow_down: Download PrusaSlicer config.ini file](./M4V6HighFlow_1mmNozzle.zip).**
 - **[:movie_camera: Video tutorial for importing config.ini ](./Import_settings.gif).**
 - **[:arrow_down: download test gcode file](./Z9_M4V6_HF_Vase.zip).**  
