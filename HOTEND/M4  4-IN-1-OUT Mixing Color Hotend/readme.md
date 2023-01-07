@@ -21,12 +21,12 @@
 
 -----
 ## ZONESTAR M4 (4-IN-1-OUT Mixing Color) Hotend
--  [**M4V6**](#m4v6): The 6th version 4-IN-1-OUT mix color hotend.
--  [**M4V5**](#m4v5): The 5th version 4-IN-1-OUT mix color hotend.
--  [**M4V4**](#m4v4): The 4th version 4-IN-1-OUT mix color hotend.
--  [**M4V3**](#m4v3): The 3rd version 4-IN-1-OUT mix color hotend.
+-  [**M4V6**: The 6th version 4-IN-1-OUT mix color hotend.](#m4v6)
+-  [**M4V5**: The 5th version 4-IN-1-OUT mix color hotend.](#m4v5)
+-  [**M4V4**: The 4th version 4-IN-1-OUT mix color hotend.](#m4v4)
+-  [**M4V3**: The 3rd version 4-IN-1-OUT mix color hotend.](#m4v3)
 
-### Differences between different versions M4 hotend ([M4V3](#m4v3)/[M4V4](#m4v4)/[M4V5](#m4v5)/[M4V6](#m4v6))
+### Differences between different versions M4 hotend (M4V3/M4V4/M4V5/M4V6)
 |           Parameter and Specification             |    M4V3       |    M4V4       |      M4V5     |      M4V6     |
 |:----------------------------------------------:   |:--------------|:--------------|:--------------|:--------------|
 |Maximum operating temperature                      |  240℃        |  260℃        |  260℃         |  260℃        |
@@ -43,9 +43,9 @@
 
 -----
 ## M4V6
-[:book: Introduction of the 6th M4 hotend](./M4_V6/readme.md)  
-[:gift: **Buy M4V6 Hotend**](https://bit.ly/3QhWJtf)  
-[:gift: **Buy M4V6 Hotend**](https://www.aliexpress.com/item/1005004547646195.html)   
+- [:book: Introduction of the 6th M4 hotend](./M4_V6/readme.md)  
+- [:gift: **Buy a M4V6 Hotend assembly**](https://bit.ly/3QhWJtf)  
+- [:gift: **Buy a M4V6 Hotend assembly**](https://www.aliexpress.com/item/1005004547646195.html)   
 
 ### Structure diagram
 ![](./M4_V6/2.jpg)
@@ -55,8 +55,8 @@ The M4V6 has reformed the structure of the hot end, which is completely differen
 2. Reduced the volume of mixing room, the drawing/stings issue is greatly improved.
 
 ## M4V5
-[:book: Introduction of the 5th version M4 hotend](./M4_V5/readme.md)   
-[:gift: **Buy M4V5 Hotend**](https://www.aliexpress.com/item/1005001581641783.html) 
+- [:book: **Introduction**](./M4_V5/readme.md)   
+- [:gift: **Buy a M4V5 Hotend**](https://www.aliexpress.com/item/1005001581641783.html) 
 
 ### Structure diagram
 ![](./M4_V5/M4V5.jpg)
@@ -67,9 +67,9 @@ The M4V6 has reformed the structure of the hot end, which is completely differen
 Because M4V5 used different fittings which to fix the PTFE filament guides, its size is bigger than M4V3 and M4V4, so M4V5 can't be installed to the older housing.   
 
 ## M4V4
-[:book: Introduction of the 4th M4 hotend](./M4_V3_V4/readme.md)      
-[:gift: **Buy M4V4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
-[:gift: **Buy M4V4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html)   
+- [:book: **Introduction**](./M4_V3_V4/readme.md)      
+- [:gift: **Buy a M4V4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
+- [:gift: **Buy a M4V4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html)   
 
 ### Structure diagram
 ![](./M4_V3_V4/M4_V4.jpg)
@@ -83,7 +83,7 @@ Because M4V5 used different fittings which to fix the PTFE filament guides, its 
 - [:gift: **Small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html)
 
 ## M4V3
-[:book: Introduction of the 3rd M4 hotend](./M4_V3_V4/readme.md)
+[:book: **Introduction**](./M4_V3_V4/readme.md)
 ### Structure diagram
 ![](./M4_V3_V4/M4_V3.jpg)
 
