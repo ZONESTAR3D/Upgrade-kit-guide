@@ -14,7 +14,7 @@
   - Operature on the LCD menu or rotate the extruder gear to unload filament.
 
 -----
-### Step by Step Guide to use M4V6 hotend to print
+### Steps to use M4V6 hotend to print
 #### Print a one color test file
 - **Prepare gcode file**. [:arrow_down: **download xyz_cube zip file**](./xyz_cube.zip) and unzip it on PC, and then copy the **xyz_cube.gcode** to SD card. Plug the SD card to the SD socket of machine.
 - **Load filament**. Refer to [:book: **here**](#load-and-unload-filament) to load all 4 color filaments to the extruders and hotend. ***:warning: For M4V6 hotend, you need to load 4 filament to the hotend even you print one color 3d prints.*** 
