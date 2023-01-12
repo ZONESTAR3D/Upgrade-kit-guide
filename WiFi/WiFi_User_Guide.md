@@ -85,7 +85,7 @@ You can improve the file uploading speed by modifying the baud rate of communica
 #### Wiring For ZM3E4 Control board
 - **For ZM3E4V2.1 board**: its WiFi connector are compatible with the ESP8266_01S WiFi module , you can plug the ESP8266_01S to the connector directly.    
 - **For ZM3E4V1/ZM3E4V2.0 board**: their WiFi connector are **not compatible** with the ESP8266_01S WiFi module, so we added a adapter board to the WiFi module, so you can purchase [**:gift:the ESP8266 WiFi module with adapter board**](https://www.aliexpress.com/item/1005002378551489.html) from our store.    
-If you have a EPS8266_01S WiFi module without adapter, you can connect it to the ZM3E4V1/ZM3E4V2 with 6 PIN DuPont Wire (as below picture) to connect EPS8266_01S WiFi module with ZM3E4V1/ZM3E4V2.
+If you have a EPS8266_01S WiFi module without adapter, you can connect it to the ZM3E4V1/ZM3E4V2 with 6 PIN DuPont Wire (as below picture) to connect EPS8266_01S WiFi module with ZM3E4V1/ZM3E4V2.     
 ![](./DuPont_Wire.jpg)
 #### Pin define of ESP8266-S01 
 ![](./ESP8266-S01.png) ![](./pin_ESP8266-S01.jpg)
@@ -96,14 +96,14 @@ If you have a EPS8266_01S WiFi module without adapter, you can connect it to the
 #### Wiring
 | pin of ESP8266  |  Description    |  pin of ZM3E4V1 |pin of ZM3E4V2.0 | 
 |-----------------|-----------------|-----------------|-----------------|
-|     3V3         |  Power DC+      |  Pin  1         |   Pin  5        |
-|     RST         |  Reset WiFi     |  Pin  5         |   Pin  7        |
-|     EN          |  Chip Enable    |  Pin  6         |   Pin  6        |
-|     TX          |  Data Transmit  |  Pin  3         |   Pin  8        |
-|     RX          |  Data Received  |  Pin  4         |   Pin  4        |
+|     3V3         |  Power DC+      |  Pin 1 (+3.3V)  |   Pin 5 (+3.3V) |
+|     RST         |  Reset WiFi     |  Pin 5 (W_RST)  |   Pin 7 (W_RST) |
+|     EN          |  Chip Enable    |  Pin 6 (W_CS)   |   Pin 6 (W_CS)  |
+|     TX          |  Data Transmit  |  Pin 3 (W_RX)   |   Pin 8 (W_RX)  |
+|     RX          |  Data Received  |  Pin 4 (W_TX)   |   Pin 4 (W_TX)  |
 |     IO0         |  Not connect    |                 |                 |
 |     IO1         |  Not connect    |                 |                 |
-|     GND         |  Power DC-      |  Pin  2         |   Pin  1        |
+|     GND         |  Power DC-      |  Pin 2 (GND)    |   Pin 1 (GND)   |
 #### Wiring For ZM3E2 Control board
 ![](./WiFi-ZM3E2.png)
 
