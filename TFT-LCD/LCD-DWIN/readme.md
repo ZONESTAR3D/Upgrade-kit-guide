@@ -57,34 +57,33 @@
 
 -----
 ## Upload firmware
-#### :one: Step 1: Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with 4069 bytes/cluster (allocation units size). 
+#### Step :one:: Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with 4069 bytes/cluster (allocation units size). 
 ![](pictures/Format.jpg)     
 :warning: **The SD card must be formatted as required, otherwise the menu cannot be successfully upgraded.**:warning:    
 :pencil: [**How to Format SD Card on Windows**](https://recoverit.wondershare.com/partition-tips/format-sd-in-windows-10.html?/topic/916-upgrade-to-pdf-to-pages/=&comment=2884&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EApQAT_0jaSjNTHDKfbyTB8K-lLEt9m_hd2Ro526ZG6lerIJX3YE-7caAhXAEALw_wcB)     
 :pencil: [**How to Format SD Card on Mac OS**](https://recoverit.wondershare.com//mac-tips/format-sd-card-fat32-mac.html?gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAo1hhsQ62C9vIhIAKUQitkIz72xy7axY1Ylf9p7Z7-kPSLVffoWslQaAp19EALw_wcB)
 
-#### :two: Step 2: Download the zip file and unzip to your PC, copy DWIN\_SET to the root directory of SD card.  
-:arrow_down: [**Click here to download DWIN-LCD MENU files**](./DWIN_SET.zip).     
-:warning: **DWIN_SET floder must be under the root directory of SD card, in other words, it must be "x:\DWIN_SET\\{files}", but not "x:\DWIN_SET\\DWIN_SET\\{files}"**:warning:    
+#### Step :two:: [Click and download :arrow_down:](./DWIN_SET.zip) the zip file to your PC and unzip it, copy "DWIN_SET" folder to the root directory of Micro-SD card.      
+:warning: **Please note that after the file zip is extracted, there may be a "DWIN_SET" folder under the "DWIN_SET" folder. You should copy the last "DWIN_SET" folder to the Micro-SD card. In other words, it must be "x:\DWIN_SET\\{files}", but not "x:\DWIN_SET\\DWIN_SET\\{files}" in the Micro-SD card. please refer to the below picture**:warning:    
 ![](pictures/SD1.jpg)  ![](pictures/SD2.jpg)
 
-#### :three: Step 3: Remove the screws from the back of LCD box, take down the backplate metal sheet.
+#### Step :three:: Remove the screws from the back of LCD box, take down the backplate metal sheet.
 ![](pictures/open_box.jpg)
 
-#### :four: Step 4: Remove the screws that mounted the LCD screen.
+#### Step :four:: Remove the screws that mounted the LCD screen.
 ![](pictures/open_box2.jpg)
 
-#### :five: Step 5: Insert the Micro-SD card into the socket of the PCB.
+#### Step :five:: Insert the Micro-SD card into the socket of the PCB.
 ![](pictures/Insert_SD.jpg)
 
-#### :six: Step 6: Power on the 3d printer, and then connect the LCD screen to the 3d printer, wait about 20~30 seconds until the LCD screen show a "BLUE" screen and then a "RED" screen.
+#### Step :six:: Power on the 3d printer, and then connect the LCD screen to the 3d printer, wait about 20~30 seconds until the LCD screen show a "BLUE" screen and then a "RED" screen.
 ![](pictures/LCDShows.jpg)
 
-#### :seven: Step 7: Disconnect the LCD screen cable and remove the Micro-SD card from LCD screen.
+#### Step :seven:: Disconnect the LCD screen cable and remove the Micro-SD card from LCD screen.
 
-#### :eight: Step 8: Install the screws back. 
+#### Step :eight:: Install the screws back. 
 
 #### :checkered_flag: After upload firmware, you can find a string "Vx" on the right-bottom corner of LCD SCREEN when power on.
-![](pictures/LCDShowV2.jpg)  ![](pictures/LCDShowV3.jpg)
+![](pictures/LCDShowV3.jpg)
 
 #### :loudspeaker: If the upgraded is fail, check double check if you have done Step2 and Step3 according the requirement.
