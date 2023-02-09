@@ -20,9 +20,6 @@
 [![](../../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/M4_V6?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
 -----
-## User guide [PDF file](./M4V6_the_6th_Version_4-IN-1-OUT_Mix_Color_HOTEND_User_Guide_V1.pdf)
-
------
 ### About Components of M4V6 hotend
 ![](./1.jpg) ![](./2.jpg)
 ### Structure and Working principl
