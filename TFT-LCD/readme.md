@@ -6,7 +6,9 @@
 [![](../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD?_x_tr_sl=en&_x_tr_tl=it)
 [![](../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD?_x_tr_sl=en&_x_tr_tl=pl)
 [![](../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD?_x_tr_sl=en&_x_tr_tl=ru)
+[![](../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD?_x_tr_sl=en&_x_tr_tl=el)
+
 [![](../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD?_x_tr_sl=en&_x_tr_tl=ja)
 [![](../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD?_x_tr_sl=en&_x_tr_tl=ko)
 [![](../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD?_x_tr_sl=en&_x_tr_tl=id)
