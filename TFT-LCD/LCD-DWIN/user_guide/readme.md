@@ -6,7 +6,9 @@
 [![](../../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/user_guide/readme.md?_x_tr_sl=en&_x_tr_tl=it)
 [![](../../../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/user_guide/readme.md?_x_tr_sl=en&_x_tr_tl=pl)
 [![](../../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/user_guide/readme.md?_x_tr_sl=en&_x_tr_tl=ru)
+[![](../../../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/user_guide/readme.md?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/user_guide/readme.md?_x_tr_sl=en&_x_tr_tl=el)
+
 [![](../../../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/user_guide/readme.md?_x_tr_sl=en&_x_tr_tl=ja)
 [![](../../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/user_guide/readme.md?_x_tr_sl=en&_x_tr_tl=ko)
 [![](../../../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/TFT-LCD/LCD-DWIN/user_guide/readme.md?_x_tr_sl=en&_x_tr_tl=id)
@@ -257,5 +259,3 @@ Tune
 | Mixer            |Set mixer,refer to “Control>> Mixer” Menu (only display while “Hotend type is Mixing”)  |
 | Configure        |Tune ON/OFF parts of configurations features, refer to “Control>> Configure” Menu       |
   
------
-## :blue_book: [How to upgrade firmware](./LCD-DWIN-Upgrade-firmware.pdf)

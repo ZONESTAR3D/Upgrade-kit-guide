@@ -24,10 +24,14 @@
 
 -----
 ## Contents
+- [**User guide**](#wiring)
 - [**Assembly**](#assembly)
 - [**Wiring**](#wiring)
-- [**User guide**](#wiring)
-- [**Upgrade firmware**](#upload-firmware)
+- [**Update**](#update-image-data-of-dwin-lcd)
+
+-----
+## User guide
+[***LCD Menu description***](./user_guide/readme.md)
 
 -----
 ## Assembly
@@ -50,13 +54,9 @@
 	#define LCD_TXD 			PA9   	//RXD of UART1
 	#define LCD_RXD 			PA10   	//TXD of UART1
 
-## User guide
-- :green_book: [***Menu description V3***](./user_guide/LCD-DWIN-MENU-Description-V3.pdf)
-- :green_book: [***Menu description V2***](./user_guide/LCD-DWIN-MENU-Description-V2.pdf)
-- :green_book: [***Menu description V1***](./user_guide/LCD-DWIN-MENU-Description-V1_2.pdf)
-
 -----
-## Upload firmware
+## Update image data of DWIN LCD
+DWIN LCD is an independent HMI (Human Machine Interface) module. It has its own memory to store the image data of UI interface. When the new function of 3D printer update needs to rely on the UI interface in the LCD, you also need to update the image data stored in the DWIN LCD screen. This chapter describes how to update the image data of DWIN LCD.
 #### Step :one:: Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with 4069 bytes/cluster (allocation units size). 
 ![](pictures/Format.jpg)     
 :warning: **The SD card must be formatted as required, otherwise the menu cannot be successfully upgraded.**:warning:    
