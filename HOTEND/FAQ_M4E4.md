@@ -1,14 +1,22 @@
 ### :globe_with_meridians: Choose Language (Translated by google)
 [![](../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=es)
-[![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=fr)
-[![](../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ru)
-[![](../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=it)
+[![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=de)
+[![](../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=it)
 [![](../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=pl)
-[![](../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ko)
+[![](../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ru)
+[![](../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=pt)
+[![](../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=el)
+
 [![](../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ja)
+[![](../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ko)
+[![](../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=id)
+[![](../lanpic/TH.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=th)
+[![](../lanpic/VN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=vi)
+[![](../lanpic/IL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=iw)
 [![](../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ar)
+[![](../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=tr)
 [![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
 ---
@@ -19,16 +27,14 @@
 
 ----
 ### What's different between E4 and M4 hotend?
-- **M4 hotend** has a mix color room, it can mix different color filament to another colors. **E4 hotend** hasn't mix color room, it only print only one filament color at once.  
+- **M4 hotend** has a mix color room, it can mix different color filament to another colors. **E4 hotend** hasn't mix color room, Its printing color depends on the color of filament.  
 - **E4 hotend** is good at printing one color 3d prints or multi colos 3d prints (up to 4 colors).
-- **M4 hotend** is good at printing gradient color 3d prints, it can print one color and over 4 colos 3d object too.
+- **M4 hotend** is good at printing gradient color 3d prints, it can print more than 4 colos 3d object too (by mixed filament color).
 #### Advantages of E4 hotend
-1. No strings/drawing issue.
-2. Less clogging issue.
-3. Smaller "extruder switch prime tower" inneed while printing multi colors.
+Smaller "extruder switch prime tower" inneed while printing multi colors.
 #### Advantages of M4 hotend
-1. Get more colors than extruders.
-2. Support gradient color printing feature.
+1. Get more colors than extruder numbers.
+2. Support gradient color printing.
 ![](M4VSE4.jpg)
 
 ----
