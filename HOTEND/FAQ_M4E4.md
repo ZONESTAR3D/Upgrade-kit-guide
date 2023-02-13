@@ -27,13 +27,13 @@
 
 ----
 ### What's different between E4 and M4 hotend?
-- **M4 hotend** has a mix color room, it can mix different color filament to another colors. **E4 hotend** hasn't mix color room, Its printing color depends on the color of filament.  
-- **E4 hotend** is good at printing one color 3d prints or multi colos 3d prints (up to 4 colors).
+- **M4 hotend** has a mix color room, it can mix different color filament to another color. **E4 hotend** hasn't mix color room, Its printing color depends on the color of filament.  
+- **E4 hotend** is good at printing one color 3d prints or multi colos 3d prints (up to 4 color).
 - **M4 hotend** is good at printing gradient color 3d prints, it can print more than 4 colos 3d object too (by mixed filament color).
 #### Advantages of E4 hotend
-Smaller "extruder switch prime tower" inneed while printing multi colors.
+Smaller "extruder switch prime tower" inneed while printing multi color.
 #### Advantages of M4 hotend
-1. Get more colors than extruder numbers.
+1. Get more color than extruder numbers.
 2. Support gradient color printing.
 ![](M4VSE4.jpg)
 
