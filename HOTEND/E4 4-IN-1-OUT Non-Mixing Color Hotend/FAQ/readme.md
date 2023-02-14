@@ -54,7 +54,7 @@ In order to improve the tenacity, fluidity and appearance of the filament, the f
 
 -----
 ### :bulb: Test whether the hot end can work normally
-:movie_camera:[**Video toturial**](./TestE4.mp4)
+:movie_camera:[**Download Video toturial**](./TestE4.mp4) <-- click it and then click "download" button to download.
 #### 1. Heat the hot end (nozzle) to 200 ℃.
 #### 2. Load filaments into each channel of the hot end one by one, and watch whether the filament can flow out from the nozzle. 
 :warning: **Please note:**  
