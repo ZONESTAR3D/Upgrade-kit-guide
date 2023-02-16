@@ -22,7 +22,8 @@
 -----
 ### About Components of M4V6 hotend
 ![](./1.jpg) ![](./2.jpg)
-### Structure and Working principl
+
+### Structure and Working principle
 ![](./3.jpg)
 ### How to load and unload filament
 - **Load filament to the hotend:**
