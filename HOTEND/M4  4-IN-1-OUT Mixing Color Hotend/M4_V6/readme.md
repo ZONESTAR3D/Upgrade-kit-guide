@@ -36,6 +36,7 @@
   - Operature on the LCD menu or rotate the extruder gear to unload filament.
 
 -----
+### [:book: How to switch hotend between E4 hotend and M4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#how-to-switch-between-m4-hotend-and-e4-hotend)
 ### Steps to use M4V6 hotend
 #### Print a one color 3D model
 - **Prepare gcode file**. Slicing the 3d modle by using one color 3d printer settings, please refer to [**here**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer#4-slicing-one-color).   
