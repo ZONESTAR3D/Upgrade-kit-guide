@@ -28,7 +28,9 @@
 :book: [User guide](./WiFi_User_Guide.md)  
 :green_book: [User guide pdf file](./WiFi_User_Guide.pdf)  
 
-### Install WiFi module to Z8PM4 (click the below link and then click download button to download)
+### Install WiFi module (click the below link and then click download button to download)
+#### For Z8PM4 
 - :movie_camera: [:arrow_down: Z8P Install WiFi module](./Z8P+WiFi.mp4)
+#### For Z9V5
 - :movie_camera: [:arrow_down: Z9V5 Open control box](https://github.com/ZONESTAR3D/Z9/blob/main/Z9V5/Z9V5_FAQ/Open_the_Control_Box_of_Z9V5.mp4) [:arrow_down: Z9V5 Install WiFi module](./Install_WiFi_Z9V5.mp4)
 
