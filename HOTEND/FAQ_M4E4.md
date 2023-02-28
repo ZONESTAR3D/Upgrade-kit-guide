@@ -22,23 +22,26 @@
 ---
 ## FAQ for E4 and M4 hot end
 - [**What's different between E4 and M4 hotend?**](#whats-different-between-e4-and-m4-hotend)
-- [**Which type of hot end should I choose?**](#which-type-of-hot-end-should-i-choose-m4-or-e4)
-- [**How to switch between M4 Hotend and E4 Hotend?**](#how-to-switch-between-m4-hotend-and-e4-hotend)
+- [**Which type of hot end should I choose?**](#which-hot-end-should-i-choose-m4-or-e4)
+- [**How to switch between M4 and E4 Hotend?**](#how-to-switch-between-m4-hotend-and-e4-hotend)
 
 ----
 ### What's different between E4 and M4 hotend?
 - **M4 hotend** has a mix color room, it can mix different color filament to another color. **E4 hotend** hasn't mix color room, Its printing color depends on the color of filament.  
-- **E4 hotend** is good at printing one color 3d prints or multi colos 3d prints (up to 4 color).
-- **M4 hotend** is good at printing gradient color 3d prints, it can print more than 4 colos 3d object too (by mixed filament color).
+- **E4 hotend** is good at printing one color or multi color 3d object (up to 4 color).
+- **M4 hotend** is good at printing gradient color 3d object, it can print more than 4 colos 3d object too (by mixing the filaments).
 #### Advantages of E4 hotend
-Smaller "extruder switch prime tower" inneed while printing multi color.
+1. Smaller "extruder switch prime tower" while printing multi color 3d object.
+2. Better quality when printing one color 3d object.
+3. Support to print different type of filament on the same 3d object.
 #### Advantages of M4 hotend
-1. Get more color than extruder numbers.
+1. Support mixing different color filaments to new colors.
 2. Support gradient color printing.
+3. Support higher flow rate.
 ![](M4VSE4.jpg)
 
 ----
-### Which type of hot end should I choose, M4 or E4?
+### Which hot end should I choose, M4 or E4?
 - If you **do not need** to print gradient color 3d model, we suggest you choose **E4 hotend**, it can get better quality on printing single color and multi colors 3d prints.
 - If you want to print **gradient color** 3d model, or you want to **mix different color filaments to another color**, choose M4 hotend.
 
