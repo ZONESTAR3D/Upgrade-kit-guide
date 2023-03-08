@@ -1,14 +1,18 @@
 ### :globe_with_meridians: Choose Language (Translated by google)
 [![](../../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=es)
-[![](../../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=fr)
 [![](../../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=pt)
+[![](../../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=fr)
 [![](../../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=de)
 [![](../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=it)
+[![](../../lanpic/SW.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=sv)
 [![](../../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=pl)
-[![](../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ru)
-[![](../../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=el)
+[![](../../lanpic/DK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=da)
+[![](../../lanpic/CZ.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=cs)
+[![](../../lanpic/HR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=hr)
+[![](../../lanpic/RO.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ro)
+[![](../../lanpic/SK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=sk)
 
+[![](../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=zh-CN)
 [![](../../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ja)
 [![](../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ko)
 [![](../../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=id)
@@ -17,7 +21,9 @@
 [![](../../lanpic/IL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=iw)
 [![](../../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ar)
 [![](../../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=tr)
-[![](../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=zh-CN)
+[![](../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=el)
+[![](../../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=pt)
+[![](../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend?_x_tr_sl=en&_x_tr_tl=ru)
 
 -----
 ## ZONESTAR M4 (4-IN-1-OUT Mixing Color) Hotend
@@ -27,6 +33,13 @@
 -  [**M4V3**: The 3rd version 4-IN-1-OUT mix color hotend.](#m4v3)
 
 ### Differences between different versions M4 hotend (M4V3/M4V4/M4V5/M4V6)
+- **Shape of different versions**   
+The M4 hot end assembly may be similar in appearance, please observe the shape of the hot end from the back of the metal housing to distinguish them.     
+:warning: **Note:** M4V3 and M4V4 has the same shape, but they used different material of the thermal isolation block. The thermal isolation block of M4V4 is made by PEEK, it is brown. M4V3 is made by PTFE, it is brown.    
+![](./M4.jpg)
+
+- **Parameters of different versions**   
+
 |           Parameter and Specification             |    M4V3       |    M4V4       |      M4V5     |      M4V6     |
 |:----------------------------------------------:   |:--------------|:--------------|:--------------|:--------------|
 |Maximum operating temperature                      |  240℃        |  260℃        |  260℃         |  260℃        |
