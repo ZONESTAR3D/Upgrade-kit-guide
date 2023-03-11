@@ -121,8 +121,8 @@ When switching the extruder, the end of the pulled out filament may become sligh
 2. Try to hold the filament with your thumb and forefinger and then rotate the gear of extruder by hand, refer to this [:movie_camera: **video tutorial**](./pressure_test.gif), if you can't hold the filament by your fingers, the pressure of the extruder is sufficient. If not, refer to this [:movie_camera: **video tutorial**](./pressure_adjust.gif) to adjust the extruder pressure. 
 :warning: **Please note that the pressure should be adjusted appropriately, but not the bigger the better**. Because the same position of the filament may be pushed back and forth by the gear during printing, which may cause the filament to be scratched. The scratched filament cannot be transmitted to the nozzle during printing, and even the filament cannot enter the hotend normally.
 
-### :key: How to unassemble the E4 hotend <span id="HOW2"></span>
-If the filament is clogged inside the hotend and cannot be pulled out and pushed in, you need to unassemble the hotend and clean it, steps as follows:
+### [:key: How to disassemble the E4 hotend <span id="HOW2"></span>](./How_to_disassemble_E4_hotend/readme.md)
+If the filament is clogged inside the hotend and cannot be pulled out and pushed in, you need to disassemble the hotend and clean it, steps as follows:
 :warning: Wait for the hotend to cool down before operation.:warning:   
 ![](E4-8.jpg) 
 1. Remove the hotend assembly from the X carrier of 3d printer, and take down the silicone insulation sleeve.

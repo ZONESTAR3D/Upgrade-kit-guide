@@ -1,5 +1,5 @@
-## How to unassemble E4 hot end
-You may need to unassemble the E4 hot end while the filament be clogged in the hotend,  steps as below :  
+## How to disassemble E4 hot end
+You may need to disassemble the E4 hot end while the filament be clogged in the hotend,  steps as below :  
 ### 1. Remove the silicone insulation sleeve 
 ![](1.jpg)
 ### 2. Remove the cable from the housing
