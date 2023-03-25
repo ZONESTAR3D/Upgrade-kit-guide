@@ -72,7 +72,7 @@ DWIN LCD is an independent HMI (Human Machine Interface) module. It has its own 
 **:warning:ATTETION PLEASE:warning:** 
 1. You can't copy those file to the root directory, those file MUST be stored in the "DWIN_LCD" folder.
 2. Floder name must be "DWIN_LCD", there is a '_'(underline) between "DWIN" and "LCD", not a "-"(minus sign).
-3. After the file zip is extracted, there may be a "DWIN_SET" folder under the "DWIN_SET" folder. You should copy the last "DWIN_SET" folder to the Micro-SD card. In other words, it must be "x:\DWIN_SET\\{files}", but not "x:\DWIN_SET\\DWIN_SET\\{files}" in the Micro-SD card (X represents the disk symbol of your SD card), please refer to the below picture:
+3. After the file zip is extracted, there may be a "DWIN_SET" folder under the "DWIN_SET" folder. You should copy the last "DWIN_SET" folder to the Micro-SD card. In other words, it must be "x:\DWIN_SET\\{files}", but not "x:\DWIN_SET\\DWIN_SET\\{files}" in the Micro-SD card (X represents the disk symbol of your SD card), please refer to the below picture:    
 ![](pictures/SD1.jpg)  ![](pictures/SD2.jpg)     
 
 -----
