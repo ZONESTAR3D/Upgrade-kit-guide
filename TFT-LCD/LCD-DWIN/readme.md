@@ -56,7 +56,8 @@
 
 -----
 ## Update image data of DWIN LCD
-DWIN LCD is an independent HMI (Human Machine Interface) module. It has its own memory to store the image data of UI interface. When the new function of 3D printer update needs to rely on the UI interface in the LCD, you also need to update the image data stored in the DWIN LCD screen. This chapter describes how to update the image data of DWIN LCD.
+DWIN LCD is an independent HMI (Human Machine Interface) module, it has its own memory to store the image data of UI. When a 3D printer updates new functions, it may need to rely on upgrading the UI in the LCD.     
+This chapter describes how to update the image data of DWIN LCD.
 #### Step :one:: Prepard a Micro-SD card (Size: 1~8GB), and format to FAT32 format with 4069 bytes/cluster (allocation units size). 
 ![](pictures/Format.jpg)      
 
