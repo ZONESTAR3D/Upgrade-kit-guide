@@ -27,8 +27,6 @@
 ![](./connect.jpg)  
 ### :warning: Please check whether the version of the WiFi module and the version of the control board are paired correctly. If the control board is v2.0 but the WiFi module is v2.1 (without adapter), the printer cannot be powered on after the WiFi module is plugged in.
 
-- If your printer is Z9V5, please refer to [here](https://github.com/ZONESTAR3D/Z9/blob/main/Z9V5/Z9V5-MK2/5.%20FAQ/How%20to%20open%20the%20control%20box%20(Z9V5-MK2).jpg) to open the control box.   
-
 ## Work Mode
 The WiFi module can work in two modes, namely, Access Point (AP) mode or Client Station mode.
 - **Access Point (AP) mode:** The control equipment (laptop, PC, mobile phone etc.) link to 3d printer directly, ***when the WiFi module leave factory, it works in AP mode.***
