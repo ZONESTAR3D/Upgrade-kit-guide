@@ -28,18 +28,17 @@
 ### :warning: Please check whether the version of the WiFi module and the version of the control board are paired correctly. If the control board is v2.0 but the WiFi module is v2.1 (without adapter), the printer cannot be powered on after the WiFi module is plugged in.
 
 ## Work Mode
-The WiFi module can work in two modes, namely, Access Point (AP) mode or Client Station mode.
-- **Access Point (AP) mode:** The control equipment (laptop, PC, mobile phone etc.) link to 3d printer directly, ***when the WiFi module leave factory, it works in AP mode.***
-- **Client Station mode:** Both the control equipment and 3d printer link to router, transfer control command by router.   
-:star2: The control distance in AP mode is about 5 meters. In cilent mode, you can operate the machine within the coverage of the router.
+The WiFi module can work in two modes, namely, **Access Point (AP)** mode or **Client Station** mode.
+- **Access Point (AP) mode:** The control equipment (laptop, PC, mobile phone etc.) link to 3d printer directly. In Access Point mode, the access distance between the control equipment and 3d printer should be less than 5 meters. :star:**When the WiFi module leave factory, it works in this mode.** 
+- **Client Station mode:** Both the control equipment and 3d printer link to router, transfer control command by router. In Cilent Station mode, you can operate the machine within the coverage of the router.
 ![](./workmode.jpg)
 
 ## Connet to printer by AP Mode
 :warning: **You must use AP mode if you are connecting to the WiFi module for the first time.**  
-:warning: **The distance of WiFi control is less than 10 meters on AP Mode.**   
+:warning: **In AP mode, the distance between the printer and the control device should not exceed 5 meters.**   
 1. Turn on the WiFi on LCD MENU “Control>>Configre>>WiFi”, after WiFi working, it will shows a IP address on the bottom of LCD screen “192.168.0.1”
 ![](./AP1.jpg)
-2. Choose the WiFi hotspot **"ZONESTAR3D" or "ZONESTAR3DP"** on the PC or laptop (or any other device can receive the WiFi signal), connect it, :warning:the default password is ***12345678*** :warning:.  
+2. Find the WiFi hotspot of **"ZONESTAR3D" or "ZONESTAR3DP"** on the PC or laptop (or any other device can receive the WiFi signal) and connect to this hotspot, password is **12345678**.  
 ![](./AP2.jpg)
 3. Input IP address 192.168.0.1 in the web explorer and press "Enter" or "search", the web explorer will show the ESP3D console page.  
 ![](./AP3.jpg)  
