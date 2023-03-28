@@ -27,7 +27,7 @@
 
 -----
 # How to install, wiring and debug the 3d touch
-## Install the Bltouch to the print head of the 3d printer
+## :one: Install the Bltouch to the print head of the 3d printer
 Install the Bltouch module on the hotend housing, we make a print stl file, please print it and then install the Bltouch on the hotend.  
 ![](./BLtouch2.jpg)    
 :arrow_down:[Download stl file](./BLtouch_Bracket.zip)    
@@ -35,7 +35,7 @@ Install the Bltouch module on the hotend housing, we make a print stl file, plea
 Check the installation position of BLtouch, let its probe is lower than nozzle when it is deploy, and its probe is higher than nozzle when it is stow. 
 ![](./install.jpg)    
 
-## Wiring
+## :two: Wiring
 ### 1. Pin define of 3DTouch / BLTouch
 |  Bltouch wire color | 3D touch wire color | 3D touchh(V3.1) wire color |   Signal name              |
 |:-------------------:|:-------------------:|:--------------------------:|:--------------------------:|
@@ -55,7 +55,7 @@ Check the installation position of BLtouch, let its probe is lower than nozzle w
 ### Wiring for ZM3E2 control board
 ![](./wiringZM3E2.jpg)  
 
-## Verify installation and wiring
+## :three: Verify installation and wiring
 ### For LCD12864 screen
 1. Power on the printer, and watch the LED on the Bltouch, LED will light if wires is 
 connected well and Power on. Red LED will light if the probe is triggered.
@@ -73,7 +73,7 @@ connected well and Power on. Red LED will light if the probe is triggered.
 5. Operate the control panel, ***Control >>Bltouch>>Deploy***, the probe will move up;
 6. Operate the control panel,*** Control >>Bltouch>>Stow***, the probe will move down.
 
-## Measuring the flatness error data of the hot bed
+## :four: Measuring the flatness error data of the hot bed
 After installed the 3DTouch/BLTouch and completed the wiring, you need to do some steps to measure the flatness error data of the hot bed.
 ### 1. Level corners.
 If leveling nuts and springs are installed between your printing platform and the bed bracket, you need to manually level the four corners of the hot bed to a basically same height. Please refer to the instructions for the 3D printer for the specific process.
@@ -113,7 +113,7 @@ During the measurement process, you can check the measured data and determine wh
   - **For LCD-DWIN screen**, the measuring data will show on the LCD screen when probing.
   ![](./checkdata.jpg)  
 
-## Apply bed auto leveling feature
+## :five: Apply bed auto leveling feature
 Auto leveling feature will be disable automatically when the printer reset, you can turn it on manually or let it do automatically every time when printing from SD card.
 ### Active auto leveling feature by manually
 - **For LCD12864 screen**
@@ -129,7 +129,7 @@ It is recommended to add an automatic leveling measurement to the "start gcode" 
 To add a G29 command following G28 command in the "start gcode" of slicing software.   
   ![](./G29.jpg)  
 
-
+-----
 ## Appendix
 ### What is “Probe Z offset ”and “HOME Z offset”
 **“probe Z offset”:** it means the distance from the nozzle to the the sensing plane while the probe is triggered. 
