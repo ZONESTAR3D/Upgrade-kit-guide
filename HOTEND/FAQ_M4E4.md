@@ -1,14 +1,18 @@
 ### :globe_with_meridians: Choose Language (Translated by google)
 [![](../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=es)
-[![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=fr)
 [![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=pt)
+[![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=fr)
 [![](../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=de)
 [![](../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=it)
+[![](../lanpic/SW.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=sv)
 [![](../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=pl)
-[![](../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ru)
-[![](../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=el)
+[![](../lanpic/DK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=da)
+[![](../lanpic/CZ.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=cs)
+[![](../lanpic/HR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=hr)
+[![](../lanpic/RO.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ro)
+[![](../lanpic/SK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=sk)
 
+[![](../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ru)
 [![](../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ja)
 [![](../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ko)
 [![](../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=id)
@@ -17,15 +21,17 @@
 [![](../lanpic/IL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=iw)
 [![](../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=ar)
 [![](../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=tr)
+[![](../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=el)
+[![](../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/FAQ_M4E4.md?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
----
+-----
 ## FAQ for E4 and M4 hot end
 - [**What's different between E4 and M4 hotend?**](#whats-different-between-e4-and-m4-hotend)
 - [**Which type of hot end should I choose?**](#which-hot-end-should-i-choose-m4-or-e4)
 - [**How to switch between M4 and E4 Hotend?**](#how-to-switch-between-m4-hotend-and-e4-hotend)
 
-----
+-----
 ### What's different between E4 and M4 hotend?
 - **M4 hotend** has a mix color room, it can mix different color filament to another color. **E4 hotend** hasn't mix color room, Its printing color depends on the color of filament.  
 - **E4 hotend** is good at printing one color or multi color 3d object (up to 4 color).
@@ -40,12 +46,12 @@
 3. Support higher flow rate.
 ![](M4VSE4.jpg)
 
-----
+-----
 ### Which hot end should I choose, M4 or E4?
 - If you **do not need** to print gradient color 3d model, we suggest you choose **E4 hotend**, it can get better quality on printing single color and multi colors 3d prints.
 - If you want to print **gradient color** 3d model, or you want to **mix different color filaments to another color**, choose M4 hotend.
 
-----
+-----
 ### How to switch between M4 Hotend and E4 Hotend
 #### 1. Loosen the three screws on the hot end housing and remove the old hot end from the machine (x pulley). Then install the new hot end on the machine (x pulley) and lock the screws.
 ![](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/E4-4.jpg)
