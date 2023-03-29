@@ -73,5 +73,15 @@
 ![](./5.jpg)
 
 
+-----
+### How to solve the clogged issue
+If [**all four filaments are loaded correctly**](#how-to-load-and-unload-filament), usually the M4V6 hot end is not easy to be clogged.    
+#### There are 2 reasons may cause blockage:    
+- If the filaments are not loaded properly before printing, for example, one of the channels is empty or the filament is not loaded deep enough reached to the ***heating block***, the molten filaments will flow back into the empty channels and cause blockage.       
+:pill:In this case, you can heat the hot end and then insert the filament into the PTFE tube and push it manually (it is better to remove the nozzle first before inserting the filament).       
+- If the ***inner PTFE tubes*** are not inserted enough deep to reach the bottom of the hot end, the molten filaments will flow back into the ***isolation block***  and cause blockage.        
+:pill:In this case, you can heat the hot end and then insert the PTFE tube downward into the hot end. If the PTFE tube cannot be inserted, please refer to [**"How to replace of the inner PTFE guide"**](#how-to-replace-of-the-inner-ptfe-guide) to disamble the heating block and clean the ***isolation block***.
+
+
 
 
