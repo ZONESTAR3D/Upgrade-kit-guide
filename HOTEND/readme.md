@@ -79,8 +79,8 @@ For details, please refer to [**here**]().
 [:book:Details](./Single%20color%20Hotend/readme.md).
 ### :file_folder: [High Flow Hotend]()
 [:book:Details]().
-### :file_folder: [High Flow Hotend]()
-[:book:Details]().
+<!-- ### :file_folder: [High Flow Hotend]()
+[:book:Details](). -->
 
 ------
 ## :file_folder: [Slicing Guide for ZONESTAR 3D Printer](https://github.com/ZONESTAR3D/Slicing-Guide)
