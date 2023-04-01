@@ -29,6 +29,9 @@
 ### About Components of M4V6 hotend
 ![](./1.jpg) ![](./2.jpg)
 
+### Wire Connector Description
+![](./wire.jpg)
+
 ### Structure and Working principle
 ![](./3.jpg)
 ### How to load and unload filament
