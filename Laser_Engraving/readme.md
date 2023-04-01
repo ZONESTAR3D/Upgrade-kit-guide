@@ -1,4 +1,4 @@
-# ZONESTAR Laser Engine Installation and User Guide
+# Laser Engine Installation and Engraving Operation Guide
 ## :warning:ATTETION PLEASE
 ### :warning:DONOT turn on the power of the 3D printer and laser engine before installing the laser and completing the wiring, 
 ### :warning:DONOT turn on the laser power without wearing glasses.
@@ -9,18 +9,28 @@
 -----
 ## [Installation & Wiring](./Installation/readme.md)
 - :book: Refer to [**this guide**](./Installation/readme.md) to install the laser engine to the printer.
-- :arrow_down:[**Click here**](./Installation/lkbr_V2.zip) to download the bracket stl and gcode file if need.
+  - :arrow_down:[**Click here**](./Installation/lkbr_V2.zip) to download the bracket stl and gcode file if need.
+- :book: Connect the laser engine wire to the control board and laser engine.
 
 -----
 ## Prepare
-We suggest to put a wood board (thickness >=5mm) to the hotend and fix it by clips.
+### :one: Protect the hot bed
+Put a wood board (thickness >=5mm) to the bed and fix it by clips before engraving. 
+![](wood.jpg)
+### :two: Adjust the focal length of the laser engine
+Follow the steps below to adjust the focal length of the laser, to operate using the LCD menu:   
+1. Set the fan speed to 0. ***Prepare>>Temperature>>Fan: 0***
+2. Home the laser enging head. ***Prepare>>Auto Home>>Home All***
+3. Move the Z axis to 50mm. ***Prepare>>Move>>Move Z: 50***
+4. Move the laser engine above the carved object. ***Prepare>>Move>>Move X & Prepare>>Move>>Move Y***
+5. Turn on the power supply of the laser engine.
+6. Tune the fan speed slowly so that you can see the laser cursor clearly. ***Prepare>>Temperaure>>Fan: xx***
+7. Rotate the lens knob on the front end of the laser head to adjust the laser cursor size to the minimum.
+8. Set the fan speed to 0, and then turn off the laser power supply. ***Prepare>>Temperature>>Fan: 0***
 
-## Use Guide
-### LaserWeb 4 Use Guide
-#### 1. Download and install LaserWeb4
-Please click [:arrow_down:**here**](https://github.com/ZONESTAR3D/LaserWeb4-Binaries) to download LaserWeb4 application and install it to your PC, for description, 
-please refer the [**wiki page**](https://github.com/LaserWeb/LaserWeb4/wiki) of LaserWeb4. 
+-----
+## Operation Guide
+You can use LaserWeb or inkscape to genarate the gcode file and then doing engrave. 
+### :+1: [:book:LaserWeb Use Guide](./LaserWeb/readme.md)
+### [:book:inkscape Use Guide](./inkscape/readme.md)
 
-## TODO
-#### 2. Settings of LaserWeb 4 
-#### 3. Connect LaserWeb 4 to 3D Printer
