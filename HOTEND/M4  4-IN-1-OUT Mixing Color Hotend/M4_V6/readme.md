@@ -29,7 +29,7 @@
 ### About Components of M4V6 hotend
 ![](./1.jpg) ![](./2.jpg)
 
-### Wire Connector Description
+### Wire Connector Description of M4V6 Hotend assembly
 ![](./wire.jpg)
 
 ### Structure and Working principle
