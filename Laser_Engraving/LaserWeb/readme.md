@@ -1,5 +1,5 @@
 ## LaserWeb 4 User Guide
-[:movie_camera: video Tutorial]()
+**[:movie_camera: Video Tutorial](https://youtu.be/LmfofeiB5UU)**
 ### Step:one:: Download and install LaserWeb 4
 Click [:arrow_down:**here**](https://github.com/ZONESTAR3D/LaserWeb4-Binaries) to download LaserWeb4 software and install it to your PC, for description, please refer the [**wiki page**](https://github.com/LaserWeb/LaserWeb4/wiki) of LaserWeb4. 
 ### Step:two:: Settings of LaserWeb 4 
