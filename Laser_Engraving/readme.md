@@ -20,7 +20,11 @@ Put a wood board (thickness >= 5mm) or a ceramic tile to the bed to prevent it f
 ![](Z9wood.jpg)
 - For Z8, you can put a (300mmx300mm) wood board to the bracket of the hot bed.
 ![](Z8wood.jpg)
-### :two: Adjust the focal of the laser engine
+### :two: Turn on the laser engine feature
+:warning: If you can't find this MENU on your LCD screen, please upgrade the firmware of your 3d printer.
+1. Turn on 3d printer.
+2. Turn on "laser" setting on LCD MENU. "Control>>Configre>>Laser".
+### :three: Adjust the focal of the laser engine
 Follow the steps below to adjust the focal length of the laser, to operate using the LCD menu:   
 1. Set the fan speed to 0. ***Prepare>>Temperature>>Fan: 0***
 2. Home the laser enging head. ***Prepare>>Auto Home>>Home All***
