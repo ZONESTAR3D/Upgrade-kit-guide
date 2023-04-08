@@ -33,8 +33,8 @@
 Open the control box and install WiFi module.         
 [:movie_camera: :arrow_down: Download the video tutorial](./Install_WiFi_Z8P.mp4)
 #### For Z9V5
-Open control box and then install the WiFi module to the control board.     
-[:movie_camera::arrow_down:  Download the video tutorial of how to open the Z9V5Pro's control box](./Open_the_Control_Box_of_Z9V5.mp4)      
+Open control box and then install the WiFi module to the control board.       
 [:art: Picture of how to open the Z9V5Pro's control box](./How_to_open_the_control_box_Z9V5.jpg)            
-[:movie_camera: View video tutorial of how to install the WiFi module](./Install_WiFi_Z9V5.gif)    
+[:movie_camera: Open the Z9V5Pro's control box](./Open_the_Control_Box_of_Z9V5.gif)    
+[:movie_camera: Install the WiFi module](./Install_WiFi_Z9V5.gif)    
 
