@@ -26,49 +26,66 @@
 [![](../../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/M4_V6?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
 -----
-### About Components of M4V6 hotend
+## M4V6 hot end use guide
+
+-----
+### Components of M4V6 hot end
 ![](./1.jpg) ![](./2.jpg)
-
-### Wire Connector Description of M4V6 Hotend assembly
+### Wire of M4V6 hot end assembly
 ![](./wire.jpg)
-
-### Structure and Working principle
+### M4V6 hot end structure and working principle
 ![](./3.jpg)
-### How to load and unload filament
+### How to load and unload filaments to M4V6 hot end
+### :warning: ATTENTION PLEASE
+For M4V6 hotend, you need to load 4 filament to the hotend even you print one color 3d model, DONOT leave any channel empty before printing.
 - **Load filament to the hotend:**
-  - :warning: MUST load filaments to all 4 channels, DONOT leave any channel empty before printing.
-  - The front end of the used filament may become thicker, please cut it with diagonal pliers before loading to the hotend.
-  - While loading filaments, make sure the filaments has been inserted to the bottom of the hot end. You can use the "Filament" menu to load all filaments at the same time, for details, please download and watch the below video tutorial.   
-:arrow_down:[Load Filament Video Tutorial](./M4V6_load_filament.zip)
+  - Cut the front of the filament with diagonal pliers before loading it to the extruder and hot end.
+  - While loading filaments, make sure the filaments has been inserted to the bottom of the hot end. You can use the "Filament" menu to load all filaments at the same time, for details, please download and watch the [:movie_camera:video tutorial](https://youtu.be/-47yB95uIxI).
 - **Unload filament from the hotend:**
   - Heating the nozzle (200℃ for PLA / 230℃ for PETG/ABS).
   - Operature on the LCD menu or rotate the extruder gear to unload filament.
 
 -----
-### [:book: How to switch hotend between E4 hotend and M4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#how-to-switch-between-m4-hotend-and-e4-hotend)
 ### Steps to use M4V6 hotend
-#### Print a one color 3D model
+#### Print one color 3D model
 - **Prepare gcode file**. Slicing the 3d modle by using one color 3d printer settings, please refer to [**here**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer#4-slicing-one-color).   
 **Here is a test gcode file for your reference: [:arrow_down: download xyz_cube zip file](./xyz_cube.zip)** and unzip it on PC, and then copy the **xyz_cube.gcode** to SD card. Plug the SD card to the SD socket of machine.
 - **Load filaments**. Refer to [:point_up: **"How to load and unload filament"**](#load-and-unload-filament) to load all 4 color filaments to the extruders and hotend.     
-***:warning: For M4V6 hotend, you need to load 4 filament to the hotend even you print one color 3d model.*** 
 - **Print from SD card**. Move item to **Print** item on LCD screen and click the knob and choose the gcode file, click knob to start print.
 - **Fine tune nozzle height**. Wait the nozzle and hotbed heating, and when the printer starting to print the first layer, double click the knob of LCD screen to fine tune the distance from the nozzle to the bed, and then wait it to finish.
-
-#### Print a 4 color 3D model
+#### Print multi color 3D model
 - **Prepare gcode file**. Slicing the 3d modle by using M4 multi color 3d printer settings, please refer to [**here**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_M4.md).   
 **Here is a test gcode file for your reference: [:arrow_down: **download M4_4CTest zip file](./M4_4CTest.zip)** and unzip it on PC, and then copy the **M4_4CTest.gcode** to SD card. Plug the SD card to the SD socket of machine.
 - **Load filaments**. Refer to [:point_up: **"How to load and unload filament"**](#load-and-unload-filament) to load all 4 color filaments to the extruders and hotend.
 - **Print from SD card**. Move item to **Print** item on LCD screen and click the knob and choose the gcode file, click knob to start print.
-- **Check Preload**. Wait the nozzle and hotbed heating, and check if the printer can print out 4 colors lines on the side of the hotbed.   
-![](6.png)
-- **Fine tune nozzle height**. When the hotend moved to the center of the hotbed, double to click the knob of LCD screen to fine tune the distance from the nozzle to the bed. Wait until the printing is finished.
+- **Fine tune nozzle height**. Wait the nozzle and hotbed heating, and when the printer starting to print the first layer, double click the knob of LCD screen to fine tune the distance from the nozzle to the bed, and then wait it to finish.
 
 -----
-### [:book: Use M4V6 to achieve high-speed printing](./HighFlow/readme.md)
+### Achieve high-speed printing by using M4V6 hot end
+[:book: Use M4V6 to achieve high-speed printing](./HighFlow/readme.md)
 
 -----
-### How to replace of the inner PTFE guide
+### How to clean the blocked hotend
+If [**all four filaments are loaded correctly**](#how-to-load-and-unload-filament), usually the M4V6 hot end is not easy to be clogged.    
+### 1. Take down the nozzle from the hotend.
+### 2. load all 4 filaments to the hot end, and ensure that the filaments enter the bottom of the hot end.
+### 3. Heating the nozzle to over 200 degree and feed some filament from 
+Rotate the gear of the extruders to feed filaments, but you should rotate the gears of four extruders simultaneously (that is, do not rotate the gears of the same extruder more than one turn each time). 
+If you find that the filament is slipping on the gear of the extruder, you can:
+    - Increase the pressure of the extruder or 
+    - Take down the PTFE tube from the fittings of the hotend and push the filaments into the hotend by hand directly.
+### 4. Install the nozzle back to the hot end
+### 5. Extrude filaments one by one
+#### If the hot end cannot be cleaned by doing the above steps, or the hot end is still easily clogged after cleaning, you need to replace the nozzle or replace the "inner PTFE tubes"
+**[:book:How to replace the inner PTFE tubes](#how-to-replace-of-the-inner-ptfe-guide).**
+#### Why the hot end is blocked
+- If the filaments are not loaded properly before printing, for example, one of the channels is empty or the filament is not loaded deep enough reached to the ***heating block***, the molten filaments will flow back into the empty channels and cause blockage.       
+:pill:In this case, you can heat the hot end and then insert the filament into the PTFE tube and push it manually (it is better to remove the nozzle first before inserting the filament).       
+- If the ***inner PTFE tubes*** are not inserted enough deep to reach the bottom of the hot end, the molten filaments will flow back into the ***isolation block***  and cause blockage.        
+:pill:In this case, you can heat the hot end and then insert the PTFE tube downward into the hot end. If the PTFE tube cannot be inserted, please refer to [**"How to replace of the inner PTFE guide"**](#how-to-replace-of-the-inner-ptfe-guide) to disamble the heating block and clean the ***isolation block***.
+
+-----
+### How to replace of the inner PTFE tubes
 - Prepare 4 piece PTFE tube (ID=2mm/OD=4mm), length is about 100mm (Fig 1). To cut the PTFE pipe by a knife (paper cutter) and try to keep the front end flat.
 - Remove the screws which to fix the hot end on the top of the hot end housing (Fig 2).
 - Loosen the screws which to fix the heater and temperature sensor (Fig 3).
@@ -81,15 +98,8 @@
 - Push the PTFE guide to the bottom after installed the heating block.
 ![](./5.jpg)
 
-
 -----
-### How to solve the clogged issue
-If [**all four filaments are loaded correctly**](#how-to-load-and-unload-filament), usually the M4V6 hot end is not easy to be clogged.    
-#### There are 2 reasons may cause blockage:    
-- If the filaments are not loaded properly before printing, for example, one of the channels is empty or the filament is not loaded deep enough reached to the ***heating block***, the molten filaments will flow back into the empty channels and cause blockage.       
-:pill:In this case, you can heat the hot end and then insert the filament into the PTFE tube and push it manually (it is better to remove the nozzle first before inserting the filament).       
-- If the ***inner PTFE tubes*** are not inserted enough deep to reach the bottom of the hot end, the molten filaments will flow back into the ***isolation block***  and cause blockage.        
-:pill:In this case, you can heat the hot end and then insert the PTFE tube downward into the hot end. If the PTFE tube cannot be inserted, please refer to [**"How to replace of the inner PTFE guide"**](#how-to-replace-of-the-inner-ptfe-guide) to disamble the heating block and clean the ***isolation block***.
+### [:book: How to switch hotend between E4 hotend and M4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#how-to-switch-between-m4-hotend-and-e4-hotend)
 
 
 
