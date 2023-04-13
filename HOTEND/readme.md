@@ -85,8 +85,6 @@ For details, please refer to [**here**]().
 [:book:Details](./Single%20color%20Hotend/readme.md).
 ### :file_folder: [High Flow Hotend]()
 [:book:Details]().
-<!-- ### :file_folder: [High Flow Hotend]()
-[:book:Details](). -->
 
 ------
 ## :file_folder: [Slicing Guide for ZONESTAR 3D Printer](https://github.com/ZONESTAR3D/Slicing-Guide)
@@ -100,17 +98,11 @@ For details, please refer to [**here**]().
 #### High Flowrate hotend
 [**Buy (ZONESTAR Offical Store)**](https://bit.ly/3RF7ciR)    
 [**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275334841.html)
-<!-- #### Ultra High Flowrate hotend -->
-<!-- [**Buy (ZONESTAR Offical Store)**]() -->
-<!-- [**Buy (Aliexpress)**] -->
-
 ### :two: 2 Extruders Hotend (2-IN-1-OUT/2-IN-2-OUT)
 [**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001285955926.html)
-
 ### :three: 3 Extruders Hotend (3-IN-1-OUT/3-IN-2-OUT/3-IN-3-OUT)
 [**Buy (ZONESTAR Offical Store)**](https://bit.ly/3z37ZUo)   
 [**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275429959.html)
-
 ### :four: 4 Extruders Hotend (4-IN-1-OUT Mix Color Hotend  and 4-IN-1-OUT Non-mix Color Hotend)
 #### E4 (4-IN-1-OUT Non-mix Color) Hotend
 [**Buy (ZONESTAR Offical Store)**](https://bit.ly/39qDtKp)    
