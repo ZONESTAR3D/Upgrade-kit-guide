@@ -30,7 +30,7 @@
 ZONESTAR 4-IN-1-OUT **mix color** hot end (referred to as **M4 Hot end**) has 4 input channels and 1 nozzle, four filaments are mixed in the hot end and then extruded through a nozzle.Therefore, the M4 hot end not only allows the printer to print the original color of the filaments, but also allows for printing more colors by adjusting the filament mixing ratio.
 
 -----
-### 1. Specifications
+### 1.Specifications
 |            Item            |      Parameters            |            Item            |      Parameters            |
 |:--------------------------:|:--------------------------:|:--------------------------:|:--------------------------:|
 |    Rated Voltage           |      DC24V/60W Max         |     Nozzle Diameter        | Default 0.4mm<sup>1</sup>  |
@@ -43,15 +43,15 @@ ZONESTAR 4-IN-1-OUT **mix color** hot end (referred to as **M4 Hot end**) has 4 
 |    Net weight              |      220g                  |    Gross weight            |      350g                  |
 
 -----
-### 2. Components
+### 2.Components
 ![](./1.jpg) ![](./2.jpg)
 
 -----
-### 3. Wire and Terminals
+### 3.Wire and Terminals
 ![](./wire.jpg)
 
 -----
-### 4. Structure and working principle
+### 4.Structure
 ![](./3.jpg)
 
 -----
@@ -59,12 +59,12 @@ ZONESTAR 4-IN-1-OUT **mix color** hot end (referred to as **M4 Hot end**) has 4 
 ![](./size.jpg)
 
 -----
-### 6. Installation & wiring
+### 6.Installation & wiring
 The mounting position of M4 hot end conform to the "ZONESTAR hot end mounting standard", which can be installed on almost all ZONESTAR 3d printers, including P802, M8, D805S, Z8, Z9, Z10 etc. series of products.   
-#### :one: Installation
+#### 6.1 Installation
 Simply remove the 3 screws behind the hot end assembly and install the M4 hotend assembly on the X carrier of the machine.
 ![](./M4_installation.jpg)  
-#### :two: Wiring
+#### 6.2 Wiring
 ##### :loudspeaker: **Attention** 
 - **Please watch for to distinguish terminals 3 and 4**, because their terminals  color are the same, but the wires color are different.    
 If the wires of 3 and 4 are connected reversely, you can see the nozzle temperature displayed on the LCD screen will be much higher than the room temperature after you powered on the machine.
@@ -73,11 +73,11 @@ If the wires of 3 and 4 are connected reversely, you can see the nozzle temperat
 - **The cooling fan must be turned on** (when the temperature of the hot end is higher than 60°C), otherwise the hot end may be blocked or even damaged.  
  - By default, the **working voltage** of the fan and heater at the hot end is **DC 24V**. 
 #### Please following the define of terminals to connect the hotend to your control board.  
-- **Without extend cable**
+- **Without extend cable**     
 ![](./wiring1.jpg)  
-- **With extend cable**
+- **With extend cable**     
 ![](./wiring2.jpg)  
-#### :three: Set hot end type on LCD MENU: Control>>Configure>>Hotend Type
+#### 6.3 Set hot end type on LCD MENU: Control>>Configure>>Hotend Type: Mixing
 :warning: If your printer hasn't a 4.3" TFT-LCD screen, ignore this step.   
 :warning: If you can't see the menu on the LCD screen of your printer, please upgrade to the newest version. [:link: **Firmware Download Link**](https://github.com/ZONESTAR3D/Firmware)    
 ![](./hotendtype-nonmix.jpg)  

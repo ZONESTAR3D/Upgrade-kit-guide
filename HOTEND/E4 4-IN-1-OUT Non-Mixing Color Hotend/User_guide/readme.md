@@ -59,10 +59,10 @@ The E4 hot end assembly includes the following parts/accessories:
 ----
 ### 4. Installation & wiring
 The mounting position of E4 hot end conform to the "ZONESTAR hot end mounting standard" , which can be installed on almost all ZONESTAR 3d printers, including P802, M8, D805S, Z8, Z9, Z10 etc. series of products.   
-#### :one: Installation
+#### 4.1 Installation
 Simply remove the 3 screws behind the hot end assembly and install the E4 hotend assembly on the X carrier of the machine.
 ![](./E4-4.jpg)  
-#### :two: Wiring
+#### 4.2 Wiring
 ##### :loudspeaker: **Attention** 
 - **Please watch for to distinguish terminals 3 and 4**, because their terminals  color are the same, but the wires color are different.    
 If the wires of 3 and 4 are connected reversely, you can see the nozzle temperature displayed on the LCD screen will be much higher than the room temperature after you powered on the machine.
@@ -71,11 +71,11 @@ If the wires of 3 and 4 are connected reversely, you can see the nozzle temperat
 - **The cooling fan must be turned on** (when the temperature of the hot end is higher than 60°C), otherwise the hot end may be blocked or even damaged.  
  - By default, the **working voltage** of the fan and heater at the hot end is **DC 24V**. 
 #### Please following the define of terminals to connect the hotend to your control board.
-- **Without extend cable**
+- **Without extend cable**     
 ![](./wiring1.jpg)  
-- **With extend cable**
+- **With extend cable**     
 ![](./wiring2.jpg)  
-#### :three: Set hot end type on LCD MENU: Control>>Configure>>Hotend Type
+#### 4.3 Set hot end type on LCD MENU: Control>>Configure>>Hotend Type: Non-Mixing
 :warning: If your printer hasn't a 4.3" TFT-LCD screen, ignore this step.   
 :warning: If you can't see the menu on the LCD screen of your printer, please upgrade to the newest version. [:link: **Firmware Download Link**](https://github.com/ZONESTAR3D/Firmware)    
 ![](./hotendtype-nonmix.jpg)  
