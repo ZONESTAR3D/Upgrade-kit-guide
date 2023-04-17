@@ -56,9 +56,9 @@ The M4 hot end assembly may be similar in appearance, please observe the shape o
 
 -----
 ## M4V6
-- [:book: Introduction of the 6th M4 hotend](./M4_V6/readme.md)  
-- [:gift: **Buy a M4V6 Hotend assembly**](https://bit.ly/3QhWJtf)  
-- [:gift: **Buy a M4V6 Hotend assembly**](https://www.aliexpress.com/item/1005004547646195.html)   
+- **[:book: Introduction](./M4_V6/readme.md)**  
+- **[:gift: Buy a M4V6 Hotend assembly](https://bit.ly/3QhWJtf)**  
+- **[:gift: Buy a M4V6 Hotend assembly](https://www.aliexpress.com/item/1005004547646195.html)**   
 ### What's improved
 The M4V6 has reformed the structure of the hot end, which is completely different from the previous version. It uses an inclined feed channel and canceled the flow channel inside the heater. Advantages compared with the previous version M4 hot ends:
 1. Solved the leakage issue completely.
@@ -66,9 +66,8 @@ The M4V6 has reformed the structure of the hot end, which is completely differen
 
 -----
 ## M4V5
-- [:book: **Introduction**](./M4_V5/readme.md)   
-- [:gift: **Buy a M4V5 Hotend**](https://www.aliexpress.com/item/1005001581641783.html) 
-
+- **[:book: Introduction](./M4_V5/readme.md)**   
+- **[:gift: Buy a M4V5 Hotend](https://www.aliexpress.com/item/1005001581641783.html)**    
 <!-- ### Structure diagram -->
 <!-- ![](./M4_V5/M4V5.jpg) -->
 ### The different between **M4V5** with **M4V4**:  
@@ -79,30 +78,30 @@ Because M4V5 used different fittings which to fix the PTFE filament guides, its 
 
 -----
 ## M4V4
-- [:book: **Introduction**](./M4_V3_V4/readme.md)      
-- [:gift: **Buy a M4V4 Hotend**](https://www.aliexpress.com/item/1005002124027691.html)  
-- [:gift: **Buy a M4V4 Hotend assembly**](https://www.aliexpress.com/item/1005001581641783.html)   
+- **[:book: Introduction](./M4_V3_V4/readme.md)**      
+- **[:gift: ~~Buy a M4V4 Hotend~~](https://www.aliexpress.com/item/1005002124027691.html)**  
+- **[:gift: ~~Buy a M4V4 Hotend assembly~~](https://www.aliexpress.com/item/1005001581641783.html)**   
 <!-- ### Structure diagram -->
 <!-- ![](./M4_V3_V4/M4_V4.jpg) -->
 ### The different between  **M4V4** with **M4V3**:  
 1. Upgraded the insulation block material from [**PETF** to **PEEK**:art:](./M4_V3_V4/PEEK_Insulation_block.jpg), so M4-V4 can work at maxius temperature to 260℃.  
 2. Upgraded the nozzle to a [**Small store room nozzle**:art:](./M4_V3_V4/small_store_room_nozzle.jpg to improve the strings issue.         
 #### upgrading parts from M4V3 to M4V4
-- [:gift: **PEEK_Insulation_block**](https://www.aliexpress.com/item/1005002124027691.html)  
-- [:gift: **Small store room nozzle**](https://www.aliexpress.com/item/1005001447928770.html)
+- **[:gift: ~~PEEK_Insulation_block~~](https://www.aliexpress.com/item/1005002124027691.html)**  
+- **[:gift: Small store room nozzle](https://www.aliexpress.com/item/1005001447928770.html)**
 
 -----
 ## M4V3
-[:book: **Introduction**](./M4_V3_V4/readme.md)
+**[:book: Introduction](./M4_V3_V4/readme.md)**
 <!-- ### Structure diagram -->
 <!-- ![](./M4_V3_V4/M4_V3.jpg) -->
 
 -----
 ## Slicing guide for M4 hotend
-- **[:+1:PrusaSlicer](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer)**
-- **[Cura](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura)**
-[Test gcode files](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/M4)
+- **[:+1:PrusaSlicer](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer)**     
+- **[Cura](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura)**     
+<!-- - **[Test gcode files](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/M4)** -->
 
 -----
 ## Troubleshooings
-[[:book: **Troubleshooings for M4V3/M4V4/M4V5**](./troubleshooting.md)
+#### [:book: **Troubleshooings for M4V3/M4V4/M4V5**](./troubleshooting.md)
