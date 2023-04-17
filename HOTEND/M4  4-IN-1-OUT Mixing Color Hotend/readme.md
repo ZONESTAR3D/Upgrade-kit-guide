@@ -99,9 +99,9 @@ Because M4V5 used different fittings which to fix the PTFE filament guides, its 
 
 -----
 ## Slicing guide for M4 hotend
-### [Slicing by PrusaSlicer](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer)
-### [Slicing by Cura](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura)
-### [Test gcode files](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/M4)
+- **[:+1:PrusaSlicer](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer)**
+- **[Cura](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura)**
+[Test gcode files](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/M4)
 
 -----
 ## Troubleshooings
