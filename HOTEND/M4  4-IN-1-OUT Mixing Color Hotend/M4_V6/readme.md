@@ -72,8 +72,7 @@ If the wires of 3 and 4 are connected reversely, you can see the nozzle temperat
 #### :loudspeaker: **Please note**    
 - **The cooling fan must be turned on** (when the temperature of the hot end is higher than 60°C), otherwise the hot end may be blocked or even damaged.  
  - By default, the **working voltage** of the fan and heater at the hot end is **DC 24V**. 
-#### Please following the define of terminals to connect the hotend to your control board.
-- Wiring of Z8P (Extend cable is omitted in the below picture)     
+#### Please following the define of terminals to connect the hotend to your control board.  
 - **Without extend cable**
 ![](./wiring1.jpg)  
 - **With extend cable**
