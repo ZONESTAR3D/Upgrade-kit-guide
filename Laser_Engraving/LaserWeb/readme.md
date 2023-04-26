@@ -6,14 +6,14 @@ Click [:arrow_down:**here**](https://github.com/ZONESTAR3D/LaserWeb4-Binaries) t
 ![](./settings.jpg)
 #### Gcode
 >
-    Gcode start
+    Start G-code 
     G21           ; Set units to mm
     G90           ; Absolute positioning
     G28           ; Home all
     G1 Z30 F480   ; Move laser engine to 30mm height
     G1 F3000      ; set default movement speed
 
-    Gcode END
+    END G-code 
     M107            ; Switch tool off
     G28 X0 Y0       ; Home X Y
 

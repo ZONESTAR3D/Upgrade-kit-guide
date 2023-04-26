@@ -27,22 +27,33 @@
 
 
 -----
+## :warning:ATTENTION:warning:
+- **Read the [:book:E4 hot end user manual][E4Guide]to understand its working principle and precautions before using.**
+- **Pay attention to [:book:pre-loading filament][preload] before printing, incorrect operation may block the hot end.**
+- **Pay attention to the distance between the nozzle and the bed, too small distance may damaged the hot end and  the sticker.**
+- **The retraction length in the slicing setting should not exceed 10mm for E4 hot end.**
+- **Pay attention to distinguishing the wiring between the two fans if you reconnected the hot end cable.**
+ 
+-----
 ## 4-IN-1-OUT Non-Mix Color Hotend User Guide
-### :file_folder: [User guide and Slicing guide](./User_guide/)  
-- :book: [**User guide**](./User_guide/readme.md)    
-- :green_book: [**User guide pdf file**](./User_guide/E4%20Hotend%20user%20guide-V2.pdf)  
+### :book:User guide
+- **[:book:User guide](./User_guide/readme.md)**    
+- **[:green_book:User guide pdf file](./User_guide/E4%20Hotend%20user%20guide-V2.pdf)**  
 
-### :file_folder: [FAQ](./FAQ/) 
-- :book: [**Troubleshooting of E4 hotend**](./FAQ/readme.md)    
+### :mortar_board: Test gcode file
+- **[:beginner:Test gcode files](./example/readme.md)**    
+- **[:surfer:More test gcode files](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)**
 
-### :file_folder: [Fan Duck stl](./Fan_Duck_stl/) 
-- :floppy_disk: [**stl file of the fan duck**](./Fan_Duck_stl/fan_duck_e4_v1.zip)
+### [:hammer:Troubleshooting](./FAQ/readme.md)
 
-### :file_folder: [Example](./example/) 
-- :floppy_disk: [**Examples Gcode Files**](./example/readme.md)    
-- :floppy_disk: [**More Test Gcode files**](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/PrusaSlicer/test_gcode/E4)
+-----
+## Appendix
+### [Fan duct stl file](./Fan_Duck_stl/fan_duck_e4_v1.zip)
 
-### :gift: Sales link
+<!-- ### :gift: Sales link
 - [**ZONESTAR Offical Store**](https://bit.ly/39qDtKp)   
-- [**ZONESTAR Aliexpress Store**](https://www.aliexpress.com/item/1005002951777699.html)
+- [**ZONESTAR Aliexpress Store**](https://www.aliexpress.com/item/1005002951777699.html) -->
+-----
 
+[E4Guide]: https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide/readme.md
+[preload]: https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide#7-pre-load-filaments
