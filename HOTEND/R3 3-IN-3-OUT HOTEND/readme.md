@@ -19,22 +19,29 @@ The cartridge heater wires should be connected to the power supply port to hot e
 :warning: Please note that the working current of this heater is high (rated at approximately 2.5A), its wires should be securely connected to the terminals of the control board.   
 ![](wiring.jpg)
 
-## Slicing
-### About the offset of the nozzle on R3 hotend
+-----
+## The nozzles offset of the R3 (3-IN-3-OUT) hot end
 ![](./Slicing_guide_for_R3_hotend/R3_offset.jpg)
 
-#### Example 1: set the nozzle offset on Z9M3 3d printer with R3 hotend
-![](./Slicing_guide_for_R3_hotend/Z9R3_machine_setting1.jpg)
-![](./Slicing_guide_for_R3_hotend/Z9R3_machine_setting2.jpg)
-![](./Slicing_guide_for_R3_hotend/Z9R3_machine_setting3.jpg)
+-----
+## Slicing Settings
+### For PrusaSlicer
+#### Z8 3D printer + R3 hot end
+- **[:arrow_down: download PrusaSlicer config for Z8R3](./Slicing_guide_for_R3_hotend/PrusaSlicerConfig_Z8R3.zip).**
+![](./Slicing_guide_for_R3_hotend/Z8R3_1.jpg) ![](./Slicing_guide_for_R3_hotend/Z8R3_2.jpg) ![](./Slicing_guide_for_R3_hotend/Z8R3_3.jpg)
+#### Z9 3D printer + R3 hotend
+![](./Slicing_guide_for_R3_hotend/Z9R3_1.jpg) ![](./Slicing_guide_for_R3_hotend/Z9R3_2.jpg) ![](./Slicing_guide_for_R3_hotend/Z9R3_3.jpg)
+- **[:arrow_down: download PrusaSlicer config for Z9R3](./Slicing_guide_for_R3_hotend/PrusaSlicerConfig_Z9R3.zip).**
 
-#### Example 2: set the nozzle offset on Z8T 3D printer with R3 hotend
-![](./Slicing_guide_for_R3_hotend/Z8R3_machine_setting1.jpg)
-![](./Slicing_guide_for_R3_hotend/Z8R3_machine_setting2.jpg)
-![](./Slicing_guide_for_R3_hotend/Z8R3_machine_setting3.jpg)
+### For Cura Slicer
+#### Set the nozzle offset on Z9M3 3d printer with R3 hot end
+![](./Slicing_guide_for_R3_hotend/Z9R3_machine_setting1.jpg) ![](./Slicing_guide_for_R3_hotend/Z9R3_machine_setting2.jpg) ![](./Slicing_guide_for_R3_hotend/Z9R3_machine_setting3.jpg)
+#### Set the nozzle offset on Z8T 3D printer with R3 hot end
+![](./Slicing_guide_for_R3_hotend/Z8R3_machine_setting1.jpg) ![](./Slicing_guide_for_R3_hotend/Z8R3_machine_setting2.jpg) ![](./Slicing_guide_for_R3_hotend/Z8R3_machine_setting3.jpg)
 
 
-## Example
+
+
 
 
 
