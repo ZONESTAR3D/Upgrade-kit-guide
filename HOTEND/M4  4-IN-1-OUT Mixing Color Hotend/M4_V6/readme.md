@@ -29,6 +29,9 @@
 ## :book: M4V6 hot end use manual
 ZONESTAR 4-IN-1-OUT **mix color** hot end (referred to as **M4 Hot end**) has 4 input channels and 1 nozzle, four filaments are mixed in the hot end and then extruded through a nozzle.Therefore, the M4 hot end not only allows the printer to print the original color of the filaments, but also allows for printing more colors by adjusting the filament mixing ratio.
 
+### :loudspeaker: You need to load all the 4 filaments to the hotend whether printing one or multi color 3d prints, incorrect operationa may block the mix color hotend. If the hot end blockage caused by incorrect operation, it is not covered by the warranty. For how to load filaments, please refer to [this guide](#7-how-to-load-and-unload-filaments).
+### :loudspeaker: DONOT pull out the "inner PTFE tubes" (the 4 white tubes with black fittings) from the M4V6 hot end.
+
 -----
 ### 1.Specifications
 |            Item            |      Parameters            |            Item            |      Parameters            |
