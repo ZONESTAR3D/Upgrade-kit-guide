@@ -84,5 +84,5 @@ By upgrading the WiFi module, you can  control your 3d printer by wireless. It c
 [:book:**Use Guide**](./WiFi/WiFi_User_Guide.md)    
 [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002378551489.html)  
 
-### :file_folder: [Z9V5 500x500 upgrade kit](./Z9V5_UpgradeKit_500x500/)
-[:book:**View details**](./Z9V5_UpgradeKit_500x500/readme.md)
+### :file_folder: [Z9V5 500x500 upgrade kit](./Z9V5_500x500/)
+[:book:**View details**](./Z9V5_500x500/readme.md)
