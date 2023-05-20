@@ -86,5 +86,5 @@ By upgrading the WiFi module, you can  control your 3d printer by wireless. It c
 
 ### :file_folder: [Z9V5 500x500 upgrade kit](./Z9V5_500x500/)
 Upgrade the build volume of Z9V5 to 500x500x400mm.   
-[:book:**View details**](./Z9V5_500x500/readme.md)
+[:book:**View details**](./Z9V5_500x500/readme.md)     
 [:gift:**Sell Link**](https://www.zonestar3dshop.com/products/zonestar-z9v5-500x500mm-large-printing-size-upgrade-kit-parts)  
