@@ -39,15 +39,17 @@ Download and upload the firmware for upgraded to 500x500 to the control board.
 - **[For Z9V5Pro-MK1/MK2, use Z9V5ProMax](https://github.com/ZONESTAR3D/Firmware/blob/master/Z9/Z9V5/bin/Z9V5Pro/customized/)**
 
 -----
-## Installation
+## Installation and Wiring
 ### 1. Disassemble the machine into modules, such as the top assembly, bottom assembly, Controller assembly, Z-carrier assemblies, etc..
-### 2.Assemble the bottom assembly according to the image below and install the rubber foot pads to the bottom.
+### 2.Assemble the bottom profile frame according to the image below and install the rubber foot pads to the bottom profile.
 ![](./botass.jpg)
-### 3. Disassemble the X carrier and Y carriers from the original top assembly and install them on the Z9PX-X profile.    
+### 3. Replace the X axis profile.
 ![](./Xass.jpg)
-### 4. Assemble the new top profile frame according to the image below, please note that the installation of the screws are different from before. :warning: Do not tighten the screws too tightly at this step:warning:    
+### 4. Assemble the top profile frame according to the image below. 
+#### :warning: Note: The installation of the screws to fix the profiles are different from before. 
+#### :warning: Note: Do not tighten the screws too tightly at this step.  
 ![](./topframe.jpg)
-### 5. Disassemble the X & Y motor module and idlers from the original top assembly and install them to the frame of the new top assembly. Put the X axis assembly into the top assembly and tighten the screws to fix profiles.
+### 5. Disassemble the X & Y motor module and idlers from the profiles of the original top assembly and then install them to the frame of the new top assembly. Put the X axis assembly into the top assembly and tighten the screws to fix profiles.
 ![](./topass-1.jpg)    
 #### :warning:Note: The two screws (labeled ① in the above picture) only exists in the latest version Z9V5Pro frame.
 ### 6. Open the control box, install the relay board and wiring floowing to the wiring diagram below.
