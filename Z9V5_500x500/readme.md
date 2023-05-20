@@ -31,12 +31,12 @@
 -----
 ## Prepare
 ### 1. Print a hot end wires bracket
-Before upgrading to 500x500 kit, please click [:arrow_down:here](./br_hecable.zip) to download stl file (a bracket be used to mount hot end cable) and then slicing and print it out by your Z9V5Pro.
+Before upgrading the 500x500 kit, please click [**:arrow_down:here**](./br_hecable.zip) to download stl file (a bracket be used to mount hot end cable) and then slicing and print it out by your Z9V5Pro.     
 ![](./br_hecable.jpg)
 ### 2. Upgrade firmware for Z9V5Pro-Max
 Download and upload the firmware for upgraded to 500x500 to the control board.
-- [For Z9V5Pro-MK3/MK4/MK5, to use Z9V5ProMK4Max](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK4/customized)
-- [For Z9V5Pro-MK1/MK2, to use Z9V5ProMax](https://github.com/ZONESTAR3D/Firmware/blob/master/Z9/Z9V5/bin/Z9V5Pro/customized/)
+- **[For Z9V5Pro-MK3/MK4/MK5, to use Z9V5ProMK4Max](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK4/customized)**
+- **[For Z9V5Pro-MK1/MK2, to use Z9V5ProMax](https://github.com/ZONESTAR3D/Firmware/blob/master/Z9/Z9V5/bin/Z9V5Pro/customized/)**
 
 -----
 ## Installation
