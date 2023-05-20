@@ -35,8 +35,8 @@ Before upgrading the 500x500 kit, please click [**:arrow_down:here**](./br_hecab
 ![](./br_hecable.jpg)
 ### 2. Upgrade firmware for Z9V5Pro-Max
 Download and upload the firmware for upgraded to 500x500 to the control board.
-- **[For Z9V5Pro-MK3/MK4/MK5, to use Z9V5ProMK4Max](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK4/customized)**
-- **[For Z9V5Pro-MK1/MK2, to use Z9V5ProMax](https://github.com/ZONESTAR3D/Firmware/blob/master/Z9/Z9V5/bin/Z9V5Pro/customized/)**
+- **[For Z9V5Pro-MK3/MK4/MK5, use Z9V5ProMK4Max](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK4/customized)**
+- **[For Z9V5Pro-MK1/MK2, use Z9V5ProMax](https://github.com/ZONESTAR3D/Firmware/blob/master/Z9/Z9V5/bin/Z9V5Pro/customized/)**
 
 -----
 ## Installation
