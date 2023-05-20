@@ -78,9 +78,11 @@ TMC motor drive module used stealthChop2 ultra-quiet technology, it can After up
 [:book:**View details**](./TFT-LCD/readme.md)    
 [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002378065646.html)  
 
-
 ### :file_folder: [WiFi Module](./WiFi/)
 [:book:**View details**](./WiFi/)
 By upgrading the WiFi module, you can  control your 3d printer by wireless. It can work with ZM3E4 and ZM3E2 3D printer control board.   
 [:book:**Use Guide**](./WiFi/WiFi_User_Guide.md)    
 [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002378551489.html)  
+
+### :file_folder: [Z9V5 500x500 upgrade kit](./Z9V5_UpgradeKit_500x500/)
+[:book:**View details**](./Z9V5_UpgradeKit_500x500/readme.md)

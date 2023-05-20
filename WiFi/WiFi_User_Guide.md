@@ -82,6 +82,8 @@ You can improve the file uploading speed by modifying the baud rate of communica
 - **Step 2:** set the WiFi BaudRate on LCD menu.
 ![](./setWiFiBardRate_LCD.jpg)
 
+## WebUI User Guide
+The webUI of WiFi is base on ESP3D WebUI, for the detail user guide, please refer to [**ESP3D-WEBUI**](https://github.com/luc-github/ESP3D-WEBUI).
 
 -----
 ### :orange_book: About Wiring of WiFi Module
