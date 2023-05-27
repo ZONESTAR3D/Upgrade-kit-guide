@@ -80,5 +80,7 @@ Remove the screws shown on picture below to take down the front-top profile. **N
 ### 12 Reinstall the top-front profile back.
 ### 13 Install the X axis assembly to the sliders of Y carrier.
 ![](./10.jpg)
-### 14. Install belts
-### 15. Install the hot end back.
+:warning: Move the X-axis assembly to the end of the machine, align the left and right side Y carriers, and then tighten the screws that secure the Y-axis carriers.   
+![](./11.jpg)
+### 15. Reinstall the hot end.
+### 14. Install the new belts.
