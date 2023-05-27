@@ -48,6 +48,10 @@ Take down the idlers from the front-top profile and replace with the new idlers.
 ![](./2.jpg)
 >
     1. Screws (use the original one)     2. New idler wheels     3. New shim  4. Pole (use the orignal one)
+  :warning: **Note:**
+  - Do not tighten the screws too tightly.
+  - There may be differences in the elevation columns of different versions of machines.
+
 ### 4. Take down the front-top profile.
 Remove the screws shown on picture below to take down the front-top profile. **Note**the screw shown in Figure 3 only exists in the nearest Z9V5.  
 ![](./3.jpg)
@@ -63,9 +67,9 @@ Remove the screws shown on picture below to take down the front-top profile. **N
 ### 8. Install a linear rail to the X profile.
   **:warning:Note: When installing the linear rail, do not let the slider slide out of the rail.**    
 ![](./6.jpg)
-  - Fix 3 screws and square nuts to the linear guide rail.
+  - Install 3 pcs screws and 3 pcs square nuts to the linear guide rail.
   - Slide the linear guide rail from one side of the X profile, and place the square nut in the groove of the profile.
-  - Roughly align at the middle of the linear rail and the X profile (deviation of 1-2mm is not related), and then fix the screws.
+  - Roughly align at the middle of the linear rail and the X profile, and then fix the screws.
 ### 9. Install the new Y carriers (left and right) to the X profile.
 ![](./7.jpg)
   - Pay attention to differentiation left and right Y carrier, there is a plastic print on the right Y carrier.
