@@ -29,7 +29,7 @@
 # Z9V5 Linear Rail Upgrade Kit Installation Guide
 ### :warning: ATTENTION PLEASE :warning:
 Do not slide the slider out of the linear rail, otherwise the balls will slide out of the slider and damage the slider.     
-### [:clapper:Video Tutorial]()
+### [:clapper:Video Tutorial](https://youtu.be/YjfuKJFiPd4)
 
 -----
 ## Parts
