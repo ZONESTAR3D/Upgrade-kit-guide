@@ -49,6 +49,9 @@ Download and upload the firmware for upgraded to 500x500 to the control board.
 #### :warning: Note: The installation of the screws to fix the profiles are different from before. 
 #### :warning: Note: Do not tighten the screws too tightly at this step.  
 ![](./topframe.jpg)
+#### :warning: Note: There are 4 screws already installed on the Y profile, which are used to fix the Z-axis profile.
+![](./topframe-2.jpg)
+
 ### 5. Disassemble the X & Y motor module and idlers from the profiles of the original top assembly and then install them to the frame of the new top assembly. Put the X axis assembly into the top assembly and tighten the screws to fix profiles.
 ![](./topass-1.jpg)    
 #### :warning:Note: The two screws (labeled ① in the above picture) only exists in the latest version Z9V5Pro frame.
@@ -59,8 +62,11 @@ Download and upload the firmware for upgraded to 500x500 to the control board.
 - **Please pay attention to distinguishing between the L and N wires of AC power and the NO/NC pin of the relay board.**    
 ![](./relayboard.jpg)    
 ![](./heatbed_wiring.jpg)     
-### 7. Assemble the various components using the same method as Z9V5Pro. Of course, the hot bed bracket metal sheets and the hot bed need to be replace the new one.
-#### :warning:Note: Install the LCD screen to the bottom-side profile of machine.
+### 7. Assemble all the components together, steps are basically the same as assembling a standard Z9V5Pro.
+#### :warning: Note 1: Please refer to the picture below to fix Z axis profiles with top assembly.
+![](./screw.jpg)  
+#### :warning: Note 2: The hot bed bracket metal sheets and the hot bed need to be replace the new one.
+#### :warning: Note 3: Install the LCD screen to the bottom-side profile of machine.
 ![](./bedass.jpg)  
 ### 8. Install belts and add extened wire to X/Y/Z ENDSTOPs and hot end, replace the PTFE tubes of extruders. 
 ### 9. Install the bracket for mounting hot end cable to the top profile. 
