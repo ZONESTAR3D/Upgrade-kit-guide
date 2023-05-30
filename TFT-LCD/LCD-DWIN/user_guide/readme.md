@@ -162,6 +162,7 @@ Control
   |
   |--Configre---------|--Auto Retract               Set Auto Retraction parameters                                              
   |                   |--Runout Sensor              Turn ON/OFF filament run out detection feature                              
+  |                   |--Auto Unload                Auto unload filament when printing is abort (only work on Non-mix color hotend)
   |                   |--PowerLoss Recovery         Turn ON/OFF Power lost Recovery feature                                     
   |                   |--Auto Shutdown              Turn ON/OFF idel auto shut down feature                                     
   |                   |--WiFi                       Turn ON/OFF WiFi feature                                                    
@@ -202,6 +203,7 @@ Control
 |                  |Current V-TOOL     |Set current(working) V-TOOL                                                        |  
 | Configre         |Auto Retract       |Set Auto Retraction parameters                                                     |  
 |                  |Runout Sensor      |Turn ON/OFF filament run out detection feature                                     |  
+|                  |Auto Unload        |Auto unload filament when printing is abort (only works on Non-mix color hot end)  |  
 |                  |PowerLoss Recovery |Turn ON/OFF Power lost Recovery feature                                            |  
 |                  |Auto Shutdown      |Turn ON/OFF idel auto shut down feature                                            |  
 |                  |WiFi               |Turn ON/OFF WiFi feature                                                           |  
