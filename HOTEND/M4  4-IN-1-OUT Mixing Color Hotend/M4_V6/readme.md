@@ -126,25 +126,34 @@ For M4V6 hotend, you need to load 4 filament to the hotend even you print one co
 ### :page_with_curl: Appendix I: Achieve high-speed printing by using M4V6 hot end
 [:book: Use M4V6 to achieve high-speed printing](./HighFlow/readme.md)
 
+-----
 ### :page_with_curl: Appendix II: How to clean the blocked M4V6 hotend
-If [**all four filaments are loaded correctly**](#how-to-load-and-unload-filament), usually the M4V6 hot end is not easy to be clogged.    
-#### 1. Take down the nozzle from the hotend.
-#### 2. load all 4 filaments to the hot end, and ensure that the filaments enter the bottom of the hot end.
-#### 3. Heating the nozzle to over 200 degree and feed some filament from 
-Rotate the gear of the extruders to feed filaments, but you should rotate the gears of four extruders simultaneously (that is, do not rotate the gears of the same extruder more than one turn each time). 
-If you find that the filament is slipping on the gear of the extruder, you can:
-    - Increase the pressure of the extruder or 
-    - Take down the PTFE tube from the fittings of the hotend and push the filaments into the hotend by hand directly.
-#### 4. Install the nozzle back to the hot end
-#### 5. Extrude filaments one by one
-##### If the hot end cannot be cleaned by doing the above steps, or the hot end is still easily clogged after cleaning, you need to replace the nozzle or replace the "inner PTFE tubes"
-**[:book:How to replace the inner PTFE tubes](#how-to-replace-of-the-inner-ptfe-guide).**
-##### Why the hot end is blocked
+**[:clapper:Video tutorial](https://github.com/ZONESTAR3D/Z8P/assets/29502731/72312727-5ce5-4a35-8f2a-49f9145557ac).**
+#### Step 1: Heating the nozzle to 260 degree. 
+- ***Prepare>>Filament>>Preheat nozzle: 260***, wait the nozzle reached 260 degree.
+#### Step 2: Load all 4 filaments to the hot end (Watch the PTFE tubes in hot end and ensure the filaments has already entered the hot end).
+#### Step 3: Extruder all filaments at the same time, until you can see the filament is flowed out from the nozzle.
+- ***Prepare>>Filament>>extruder: all***
+- ***Prepare>>Filament>>slowly load***, you may need to do a few times, until all 4 filaments have flowed out from the nozzle.
+#### Step 4: Extrude 4 filaments one by one
+- ***Prepare>>Filament>>extruder: 1***
+- ***Prepare>>Filament>>extruder: slowly load***, until you see the filament of extruder #1 is flowing out from the nozzle.
+- ***Prepare>>Filament>>extruder: 2***
+- ***Prepare>>Filament>>extruder: slowly load***, until you see the filament of extruder #2 is flowing out from the nozzle.
+- ***Prepare>>Filament>>extruder: 3***
+- ***Prepare>>Filament>>extruder: slowly load***, until you see the filament of extruder #3 is flowing out from the nozzle.
+- ***Prepare>>Filament>>extruder: 4***
+- ***Prepare>>Filament>>extruder: slowly load***, until you see the filament of extruder #3 is flowing out from the nozzle.
+
+#### If the hot end cannot be cleaned by doing the above steps, or the hot end is still easily clogged after cleaning, you need to replace the nozzle or replace the "inner PTFE tubes"， please refer to [:point_down:Appendix III](#📃-appendix-iii-how-to-replace-of-the-inner-ptfe-tubes).
+
+#### Why the hot end is clogged
 - If the filaments are not loaded properly before printing, for example, one of the channels is empty or the filament is not loaded deep enough reached to the ***heating block***, the molten filaments will flow back into the empty channels and cause blockage.       
 :pill:In this case, you can heat the hot end and then insert the filament into the PTFE tube and push it manually (it is better to remove the nozzle first before inserting the filament).       
 - If the ***inner PTFE tubes*** are not inserted enough deep to reach the bottom of the hot end, the molten filaments will flow back into the ***isolation block***  and cause blockage.        
-:pill:In this case, you can heat the hot end and then insert the PTFE tube downward into the hot end. If the PTFE tube cannot be inserted, please refer to [**"How to replace of the inner PTFE guide"**](#how-to-replace-of-the-inner-ptfe-guide) to disamble the heating block and clean the ***isolation block***.
+:pill:In this case, you can heat the hot end and then insert the PTFE tube downward into the hot end. If the PTFE tube cannot be inserted, please refer to[:point_down:Appendix III](#📃-appendix-iii-how-to-replace-of-the-inner-ptfe-tubes) to disamble the heating block and clean the ***isolation block***.
 
+-----
 ### :page_with_curl: Appendix III: How to replace of the inner PTFE tubes
 - Prepare 4 piece PTFE tube (ID=2mm/OD=4mm), length is about 100mm (Fig 1). To cut the PTFE pipe by a knife (paper cutter) and try to keep the front end flat.
 - Remove the screws which to fix the hot end on the top of the hot end housing (Fig 2).
