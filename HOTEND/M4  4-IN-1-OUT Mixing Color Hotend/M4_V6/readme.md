@@ -147,11 +147,12 @@ For M4V6 hotend, you need to load 4 filament to the hotend even you print one co
 
 #### If the hot end cannot be cleaned by doing the above steps, or the hot end is still easily clogged after cleaning, you need to replace the nozzle or replace the "inner PTFE tubes"， please refer to [:point_down:Appendix III](#📃-appendix-iii-how-to-replace-of-the-inner-ptfe-tubes).
 
-#### Why the hot end is clogged
-- If the filaments are not loaded properly before printing, for example, one of the channels is empty or the filament is not loaded deep enough reached to the ***heating block***, the molten filaments will flow back into the empty channels and cause blockage.       
-:pill:In this case, you can heat the hot end and then insert the filament into the PTFE tube and push it manually (it is better to remove the nozzle first before inserting the filament).       
-- If the ***inner PTFE tubes*** are not inserted enough deep to reach the bottom of the hot end, the molten filaments will flow back into the ***isolation block***  and cause blockage.        
-:pill:In this case, you can heat the hot end and then insert the PTFE tube downward into the hot end. If the PTFE tube cannot be inserted, please refer to[:point_down:Appendix III](#📃-appendix-iii-how-to-replace-of-the-inner-ptfe-tubes) to disamble the heating block and clean the ***isolation block***.
+#### :pushpin: Common causes and solutions for hot end blockage
+**:bug:Reason:** The filaments are not loaded properly, e.g. one of the channels is empty**, the molten filaments will go back into the empty channels and block the empty channel.      
+**:pill:Solution:** Refer to [:point_up: How to clean the blocked M4V6 hotend](#📃-appendix-ii-how-to-clean-the-blocked-m4v6-hotend) to clean the hot end.     
+
+**:bug:Reason:** The *inner PTFE tubes* are not inserted enough deep into the hot end, the molten filaments will got into the *isolation block* and block the hot end.     
+**:pill:Solution:** Refer to[:point_down:Appendix III](#📃-appendix-iii-how-to-replace-of-the-inner-ptfe-tubes) to disassemble the hot end, and then clean the *isolation block* first, and then assemble the hotend again.
 
 -----
 ### :page_with_curl: Appendix III: How to replace of the inner PTFE tubes
