@@ -170,7 +170,3 @@ For M4V6 hotend, you need to load 4 filament to the hotend even you print one co
 
 -----
 ### [:book: How to switch hotend between E4 hotend and M4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#how-to-switch-between-m4-hotend-and-e4-hotend)
-
-
-
-
