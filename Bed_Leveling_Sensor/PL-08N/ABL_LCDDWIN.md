@@ -94,7 +94,7 @@ ATTENTION: After do these 2 steps, the printer will apply the hotbed auto leveli
 You can also add a G29 command following the G28 commant to the “start gcode” of slicing software, it will execute "bed auto leveling" in the star of printing.   
 ![](slicer.jpg)
 
-### :warning: ATTETION PLEASE
+### :warning: ATTENTION PLEASE
 If the following conditions occur, the parameters of the hot bed leveling table may change, you need to repeat all steps starting from **level Corners** to get the bed auto leveling data again.     
 1. Adjust the screws at the bottom of the hot bed.
 2. The print head was reinstalled causing the nozzle height to change.
