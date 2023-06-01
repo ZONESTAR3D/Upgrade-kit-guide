@@ -6,7 +6,8 @@
 [![](../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=it)
 [![](../../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=pl)
 [![](../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=ru)
-[![](../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=el)
+[![](../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=el)        
+
 [![](../../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=ja)
 [![](../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=ko)
 [![](../../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=id)
