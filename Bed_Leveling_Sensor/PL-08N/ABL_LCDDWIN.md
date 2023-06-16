@@ -74,8 +74,9 @@ After completing the above steps, we have a reliable sensor to measure the hotbe
 After measure done, the state of Auto leveling on Leveling menu will change from Unactived to Actived.
 ![](./5.jpg) 
 #### :warning: Note:   
-1. The measurement result should be between -1.0 to 1.0 mm. If it exceeds, it is recommended that you try to fine tune the printer or improve the flatness of the hotbed, because it may affect the printing quality.
-2. If it is found that there is a large deviation in data arrangement between the Left/Right sides or the Front/Back sides, please adjust the bottom screw of the hotbed (when the data is + turn down the hotbed, when the data is - turn up the hotbed)
+1. The above image shows measuring 16 points total, but the number of measurement points may be different according to the machine varies.
+2. The measurement result should be between -1.0 to 1.0 mm. If it exceeds, it is recommended that you try to fine tune the printer or improve the flatness of the hotbed, because it may affect the printing quality.
+3. If it is found that there is a large deviation in data arrangement between the Left/Right sides or the Front/Back sides, please adjust the bottom screw of the hotbed (when the data is + turn down the hotbed, when the data is - turn up the hotbed)
 
 ### Verification     
 Now you can try to print a test file to verfiy the bed auto leveling result. Steps as below:   
