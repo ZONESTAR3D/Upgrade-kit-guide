@@ -1,19 +1,27 @@
 # Laser Engine Installation and Engraving Operation Guide
-## :warning:ATTETION PLEASE
+
+## :warning:ATTENTION PLEASE
+
 ### :warning:DONOT turn on the power of the 3D printer and laser engine before installing the laser and completing the wiring, 
+
 ### :warning:DONOT turn on the laser power without wearing glasses.
+
 ### :warning:DONOT use the laser without personnel monitoring.
+
 ### :warning:DONOT use the laser without a fire extinguisher nearby.
+
 ### :warning:It is recommended to equipe an exhaust fan because it may generate smoke and dust when engraving.
 
 -----
 ## [Installation & Wiring](./Installation/readme.md)
+
 - :book: Refer to [**this guide**](./Installation/readme.md) to install the laser engine to the printer.
   - :arrow_down:[**Click here**](./Installation/lkbr_V2.zip) to download the bracket stl and gcode file if need.
 - :book: Connect the laser engine wire to the control board and laser engine.
 
 -----
 ## Prepare
+
 ### :one: Protect the hot bed
 Put a wood board (thickness >= 5mm) or a ceramic tile to the bed to prevent it from being damaged by laser light. 
 - For Z9V5Pro, you can remove the hotbed and put a (300mmx300mm) wood board to the bracket of the hot bed.
