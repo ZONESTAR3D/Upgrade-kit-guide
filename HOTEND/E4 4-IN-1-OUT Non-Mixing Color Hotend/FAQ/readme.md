@@ -28,13 +28,13 @@
 -----
 ## Troubleshooting of E4 hotend
 After made more than 1000 print tests, we summarized the possible problems at the E4 hotend, especially the causes of filament(s) clogged(blockage) and their solutions for your reference.    
-- If you don't know the working principle of E4 (4-IN-1-OUT Non mix color) hot end, we suggest you read this document ([**Some things must to know about E4 hotend**](#📖-some-things-must-to-know-about-e4-hotend)) first.
-- The reason why the E4 hot end cannot be used for printing may not come from the hot end itself. Therefore, before making a judgment, it is best to refer to [**this guide**](#💡-test-whether-the-hot-end-can-work-normally) to simply test whether the E4 hot end can work normally.
-- If your E4 hot end can basically complete printing, but there are defects on the printed part, please refer to [**this section**](#🐛-the-printing-can-be-completed-normally-but-there-are-defects-on-the-printed-objects).
-- If your E4 hot end often has serious blockage, please refer to [**this section**](#🐛-e4-hot-end-is-often-seriously-blocked-and-completely-unable-to-print).
+- If you don't know the working principle of E4 (4-IN-1-OUT Non mix color) hot end, we suggest you read this document ([**:point_down:E4 hotend work principle**](#some-things-must-to-know-about-e4-hotend)) first.
+- The reason why the E4 hot end cannot be used for printing may not come from the hot end itself. Therefore, before making a judgment, it is best to refer to [**:point_down:Test whether the hot end can work normally**](#test-whether-the-hot-end-can-work-normally) to simply test whether the E4 hot end can work normally.
+- If your E4 hot end can basically complete printing, but there are defects on the printed part, please refer to [**:point_down:Print defect issue**](#the-printing-can-be-completed-normally-but-there-are-defects-on-the-printed-objects).
+- If your E4 hot end often has serious blockage, please refer to [**:point_down:serious clogged issue**](#e4-hot-end-is-often-seriously-blocked-and-completely-unable-to-print).
 
 -----
-### :book: Some things must to know about E4 hotend
+### Some things must to know about E4 hotend
 #### :one: [Woking principle of E4 hotend][1]
 If you are not clear about the working principle of E4, please click [**here**][1] to view it, to understand how E4 works will help you to find understand the problem and the reason what caused.
 #### :two: Brief of E4 hotend structure 
@@ -59,7 +59,7 @@ E4 hotend can be applied to a wide range of filaments such as ABS, PLA, PLA+, PE
 In order to improve the tenacity, fluidity and appearance of the filament, the filament manufacturers will add some additives to the filament, it may cause the filament has these “unapproachable” characteristics to E4 hotend, so we suggest you do the below steps to check before using a new filament: **Heating the nozzle >> manually load the filament into the hotend >> purge a little filament(50mm or so) >>pull it out from the hotend slowly>> check the size  and strings length at the end of filament.**
 
 -----
-### :bulb: Test whether the hot end can work normally
+### Test whether the hot end can work normally
 :movie_camera:[**Download Video toturial**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/621f4c4c-c821-4602-b997-dc060fadedc2).
 #### 1. Heat the hot end (nozzle) to 200 ℃.
 #### 2. Load filaments into each channel of the hot end one by one, and watch whether the filament can flow out from the nozzle. 
@@ -69,7 +69,7 @@ In order to improve the tenacity, fluidity and appearance of the filament, the f
 - **Use a faster speed (>10mm/s) when pulling out the filaments.**
 
 -----
-### :bug: The printing can be completed normally, but there are defects on the printed objects
+### The printing can be completed normally, but there are defects on the printed objects
 You may also encounter such a problem: Mostly, printing can be performed normally, but there are obvious defects when printing to certain layers, and the abnormal Kaka noise of the extruder is occasionally heard during printing.   
 ##### :pill: Solution  <span id="A7"></span>
 This issue is usually caused by failure to load and unload filament when switching extruder, please following the below steps to check:
@@ -80,7 +80,7 @@ This issue is usually caused by failure to load and unload filament when switchi
 - [**Replace a new hotend.**](https://bit.ly/39qDtKp)
 
 -----
-### :bug: E4 hot end is often seriously blocked and completely unable to print 
+### E4 hot end is often seriously blocked and completely unable to print 
 If you find a serious blockage issue in the hotend, such as the filament can not be pulled out from the hotend, the filament is twisted and deformed in the funnel collector of the hotend, please follow the following steps to check:    
 :exclamation:**NOTE:exclamation: If your machine is equipped with filament run out sensors, it is recommended to bypass them first and let the filaments load to the extruders directly, please refer to [:point_right: here](./E4FAQ-4.jpg)** 
 
