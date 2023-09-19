@@ -26,6 +26,8 @@
 [![](../../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/User_guide?_x_tr_sl=en&_x_tr_tl=ru)
 
 ----
+## [:blue_book: E4 Hotend User Guide PDF](./E4_User_Guide.pdf)
+----
 ## :book: E4 Hotend user manual
 ZONESTAR 4-IN-1-OUT **Non mix color** hot end (referred to as **E4 Hot end**) has 4 input channels and 1 nozzle, when switching color, the previous color filament need to be unloaded (pulled out) from the hot end, and then load the next color filament.
 
