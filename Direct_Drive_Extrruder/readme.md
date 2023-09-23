@@ -41,6 +41,8 @@ Lossen the four screws to open the upper control box and then you can find the w
 ## 5. :point_right: [Print parts stl file](./stl/readme.md)  [:arrow_down:](./stl/stl.zip)
 
 ## 6. Correct X&Y offset
-The hot bed center moves after replacing the extruder, you can set it on LCD screen if you care about it, please upload the newest firmware to your printer. Firmware Download link:    
+The hot bed center moves after replacing the extruder, you can set it on LCD screen if you care about it, please upload the newest firmware to your printer. About how to set the home offset, please refer to [:arrow_right:this guide](https://github.com/ZONESTAR3D/Document-and-User-Guide/blob/master/common/set_offset.md).   
+Firmware Download link:    
 - [**Z9V5**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin)  
 - [**Z8P**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z8/Z8P/ZM3E4)  
+
