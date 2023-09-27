@@ -73,10 +73,12 @@ In order to improve the tenacity, fluidity and appearance of the filament, the f
 You may also encounter such a problem: Mostly, printing can be performed normally, but there are obvious defects when printing to certain layers, and the abnormal Kaka noise of the extruder is occasionally heard during printing.   
 ##### :pill: Solution  <span id="A7"></span>
 This issue is usually caused by failure to load and unload filament when switching extruder, please following the below steps to check:
-- [:point_up: **Check the extruder pressure**](#Q3)
+- [:point_up: **Check the extruder pressure**](#HOW1)
 - **Check or replace filament**[:point_up: 1](#Q5) [:point_up: 2](#Q6) [:point_up: 3](#choosefilament). 
 - [**Add pull and push length by modifind the slicing settings**](#A5).
 - [**Reinstall the heat part of the hotend**](#HOW2)
+- **Check the PTFE guides which connected to the extruder and hotend.** After a period of use, the PTFE tube may deform (especially the part connecting the fittings), which greatly increases the resistance of the filament to move inside the PTFE tubes.
+- **:+1: Upgrade to dual gear extruders.** The double gear extruder can greatly increase the force of pushing and pulling the fine wire, reducing the possibility of blockage caused by not smoothly removing the fine wire from the hot end.   
 - [**Replace a new hotend.**](https://bit.ly/39qDtKp)
 
 -----
