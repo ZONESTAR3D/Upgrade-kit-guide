@@ -1,4 +1,4 @@
-### :globe_with_meridians: Choose Language (Translated by google)
+<!-- ### :globe_with_meridians: Choose Language (Translated by google)
 [![](../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=es)
 [![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=fr)
@@ -23,15 +23,13 @@
 [![](../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=tr)
 [![](../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=el)
 [![](../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=zh-CN)
+[![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing?_x_tr_sl=en&_x_tr_tl=zh-CN) -->
 
------
+
 # [Automatic Repeat Printing Module][selllink] User Manual
 ## :warning::bangbang:ATTENTION:bangbang:
 #### 1. Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice][7]
 #### 2. Remove the M84 command from the "End G-code" of "machine setting" of slicing software.
-#### 3. It is recommended to purchase one 4-IN-1-OUT Non-mixing color hotend if you haven't it,  its printing quality is better than mixing color hotend when printing one color 3d prints. [Click Here to buy](https://www.aliexpress.com/item/1005002951777699.html)
-
 
 ## Contents
 * [**1. Brief introduction**][1]  
@@ -48,7 +46,7 @@
 
 ## 1. Brief introduction   [return to contents>>][0]
 Sometimes we hope to use the 3D printer to make some plastic parts in small quantities (dozens or hundreds). In this case, we need a device to automatically remove the 3D printed object on the hot bed and print this part repeatedly, so that the 3D printer can realize unattended automatic repeated production.  [**Automatic Repeat Printing Module**][selllink] is an upgrade kit for Z9 to meet this requirement.     
-**The premise that the [Automatic Repeat Printing Module][selllink] can work normally is that the printed 3D printed object can be easily separated from the printing platform after the printing platform is cooled.** According to our test, if we were used the glass printing platform and properly set the printing height of the first layer, the printed object (made by ABS, PLA+ or PETG filament etc.) can be easily separated from the glass printing platform after the glass is cooled to below 25℃.    
+**The premise that the [Automatic Repeat Printing Module][selllink] can work normally is that the printed 3D printed object can be easily separated from the printing platform after the printing platform is cooled.** According to our test, if we were used the [PEI spring printing][PEIselllink] platform and properly set the printing height of the first layer, the printed object (made by ABS, PLA+ or PETG filament etc.) can be easily separated from the platform after the heat bed is cooled to below 25℃.    
 The **[Automatic Repeat Printing Module][selllink]** is composed of **Arm Drivers, lead screw fixing blocks, lead screws and Pushing-arm**. It is installed between the hot bed and the hot end. 
 The working process is that finished one print first, then cooling the printing platform, and then push the printed object out of the printing platform with the Pushing-arm, and then print the next one repeatedly.  
 ![](./pic/principle.gif)
@@ -111,12 +109,7 @@ Download firmware bin file and upload to your 3d printer.
 
 ## 7. Important Notice   [return to contents>>][0]
 * Before using Automatic Repeat Printing feature, please confirm that the printed object is easy to be removed from the printing platform while the hotbed is cooled. It is recommended that you print and confirm this before using Automatic Repeat Printing. 
-* The following methods will help to remove the printed object from the printing platform:
-	* Put the smooth surface of the glass upward, if the print does not attach well to the platform, you can try the following solution:
-		* Set the hot bed temperature to 70 degrees (PLA, PLA +), or 85 degrees (PETG)
-		* Set the height of the first floor to 0.4mm and the printing speed to 10mm / s
-	* Do not use "Brim" or "Raft" on "Build Plate Adhesion" settings when slicing.
-* Please note that the glass printing platfome may be pushed out of the hot bed  while removed the printed object. It is suggested that you put foam under the machine to prevent the glass is damaged because of falling down. You may also consider using adhesive to paste glass on the hot bed substrate to instead of fixed by clips.
+
 
 ## 8. Workflow of Automatic Repeat Printing   [return to contents>>][0]
 A complete workflow of repeated printing is:   
@@ -232,6 +225,7 @@ If you want to print another gcode file after finished, you can add an M183 comm
 [10]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#10-example-gcode-files---return-to-contents 
 [11]:https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Auto_Repeat_Printing#11-advanced-feature----return-to-contents
 [selllink]:https://www.aliexpress.com/item/1005003767078457.html
+[PEIselllink]: https://www.aliexpress.com/item/1005004651715035.html
 
 
 
