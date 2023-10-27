@@ -1,4 +1,4 @@
-### :globe_with_meridians: Choose Language (Translated by google)
+<!-- ### :globe_with_meridians: Choose Language (Translated by google)
 [![](../../../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=es)
 [![](../../../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../../../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=fr)
@@ -23,9 +23,8 @@
 [![](../../../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=tr)
 [![](../../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=el)
 [![](../../../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=ru)
+[![](../../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/FAQ?_x_tr_sl=en&_x_tr_tl=ru) -->
 
------
 ## Troubleshooting of E4 hotend
 After made more than 1000 print tests, we summarized the possible problems at the E4 hotend, especially the causes of filament(s) clogged(blockage) and their solutions for your reference.    
 - If you don't know the working principle of E4 (4-IN-1-OUT Non mix color) hot end, we suggest you read this document ([**:point_down:E4 hotend work principle**](#some-things-must-to-know-about-e4-hotend)) first.
@@ -47,8 +46,10 @@ There are two versions of the E4 hotend we are sold (E4_V2 and E4_V3), they are 
 :warning: If you need to replace the parts/accessories of the E4 hotend, please distinguish the version which you have.
 #### Parts description:
 >
-    1. Fitting (Pneumatic Connector)      2. Heat sink        3. Funnel collector (E4V2)          4. Heat Break (throat)
+    1. Fitting (PC4 Tracheal Joint)       2. Heat sink        3. Funnel collector (E4V2)          4. Heat Break (throat)
     5. Inner PTFE tube (E4V2)             6. Heating block    7. Nozzle   8. Copper tube(E4V3)    9. Funnel collector (E4V3)
+:warning:We have updated the size of the heating aluminum block, and the new heating aluminum block is symmetrical to the left and right, so it will not block the air outlet of the extruder fan. Additionally, screws have been added to fix the thermistor.
+![](./HeatingBlock.jpg)
 
 #### :three: Choose appropriate filament <span id="choosefilament"></span>
 E4 hotend can be applied to a wide range of filaments such as ABS, PLA, PLA+, PETG, etc. But as you know, while switching extruder, a filament will be unload from the hotend and then re-load anthoer filament. Therefore, the following characteristics of filament may be not good to E4 hotend:
