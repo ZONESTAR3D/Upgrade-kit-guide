@@ -48,7 +48,8 @@ There are two versions of the E4 hotend we are sold (E4_V2 and E4_V3), they are 
 >
     1. Fitting (PC4 Tracheal Joint)       2. Heat sink        3. Funnel collector (E4V2)          4. Heat Break (throat)
     5. Inner PTFE tube (E4V2)             6. Heating block    7. Nozzle   8. Copper tube(E4V3)    9. Funnel collector (E4V3)
-:warning:We have updated the size of the heating aluminum block, and the new heating aluminum block is symmetrical to the left and right, so it will not block the air outlet of the extruder fan. Additionally, screws have been added to fix the thermistor.
+:clipboard: We have updated the size of the heating aluminum block, and the new heating aluminum block is symmetrical to the left and right, so it will not block the air outlet of the extruder fan. Additionally, screws have been added to fix the thermistor.     
+:clipboard: We launched a V3H heating kit, it is suitable for printing high-temperature filaments such as PC, PET, PA, etc..     
 ![](./HeatingBlock.jpg)
 
 #### :three: Choose appropriate filament <span id="choosefilament"></span>
