@@ -1,4 +1,4 @@
-### :globe_with_meridians: Choose Language (Translated by google)
+<!-- ### :globe_with_meridians: Choose Language (Translated by google)
 [![](../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=es)
 [![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=fr)
@@ -23,9 +23,9 @@
 [![](../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=tr)
 [![](../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=el)
 [![](../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=zh-CN)
+[![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND?_x_tr_sl=en&_x_tr_tl=zh-CN) -->
 
------
+
 # Hotend
 The hotend is the component of a 3D printer that melts the filament for extrusion. Generally, the hot end consists of the following parts:
 
@@ -41,7 +41,7 @@ The hotend is the component of a 3D printer that melts the filament for extrusio
 ![](hotend.jpg)  
 
 ------
-## 4 Extruders Hotend
+## 4 Input Channels Hotend
 ### :file_folder: [E4 (4-IN-1-OUT Non-Mix Color) Hotend](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/)
 **E4 hotend** is a 4-IN-1-OUT non-mix color hotend, it has four input channels and one nozzle. One of the four filaments can be loaded into the heating block and extruded through the nozzle. When a new filament loaded in, it needs to unload the previous filament first.  
 For details, please refer to [**here**](./E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/readme.md).  
@@ -56,7 +56,7 @@ For details, please refer to [**here**](./M4%20%204-IN-1-OUT%20Mixing%20Color%20
 - [**How to switch between M4 Hotend and E4 Hotend?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-which-type-of-hot-end-should-i-choose-m4-or-e4)
 
 ------
-## 3 Extruders Hotend
+## 3 Input Channels Hotend
 ### :file_folder: [M3 (3-IN-1-OUT Mix color) Hotend](./M3%20%203-IN-1-OUT%20Mixing%20Color%20Hotend/)
 **M3** hot end is a 3-IN-1-OUT mix color hotend, it has three input channels and one nozzle. Three filaments are mixed in the mixing chamber in the heating block and extruded through the nozzle.  
 We have mass produced four versions of M3 hot end. For details, please refer to the documents in the "**M3 3-IN-1-OUT mixing color Hotend**" directory.  
@@ -70,17 +70,18 @@ Simply put, it is a combination of an M2 hot end and a single color hot end. It 
 For details, please refer to [**here**](./R3%203-IN-3-OUT%20HOTEND/readme.md).  
 
 ------
-## 2 Extruders Hotend
+## 2 Input Channels Hotend
 ### :file_folder: [M2 (2-IN-1-OUT Mix color) Hotend](./M2%202_IN-1-OUT%20Mixing%20Color%20Hotend/)
 **M2** hot end is a 2-IN-1-OUT mix color hotend, it has two input channels and one nozzle. Two filaments are mixed in the heating block and extruded through the nozzle.   
 For details, please refer to [**here**](./M2%202_IN-1-OUT%20Mixing%20Color%20Hotend/readme.md).  
 
-### :file_folder: [R2S (2-IN-2-OUT Non-Mix color) Hotend]()
-**R2S** hot end is a 2-IN-2-OUT hotend, it has two input channels and 2 nozzles. Two filaments can be loaded into the heating block and extruded through the nozzle.   
-For details, please refer to [**here**](). 
+### :file_folder: [R2S (2-IN-2-OUT Non-Mix color) Hotend](./R2%202-IN-2-OUT%20HOTEND/)
+**R2** hot end is a 2-IN-2-OUT hotend, it has two input channels and 2 nozzles. Two filaments can be loaded into the heating block and extruded through the nozzle.   
+**R2S** is similar to **R2** hot end, but the two nozzles of R2S share the same heater and temperature sensor, so the temperatures of the two channels of R2S hot end cannot be set separately.     
+For details, please refer to [**here**](./R2%202-IN-2-OUT%20HOTEND/). 
 
 ------
-## One Extruder /One Color Hotend
+## One Color Hotend
 ### :file_folder: [Single color Hotend](./Single%20color%20Hotend/)
 [:book:Details](./Single%20color%20Hotend/readme.md).
 ### :file_folder: [High Flow Hotend]()
