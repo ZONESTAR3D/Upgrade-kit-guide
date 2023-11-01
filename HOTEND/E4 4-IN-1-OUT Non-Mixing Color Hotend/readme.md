@@ -36,7 +36,7 @@
  
 -----
 ## 4-IN-1-OUT Non-Mix Color Hotend User Guide
-### Woking principle
+### [Woking principle][E4WokingPrinciple]
 4-IN-1-OUT Non-Mix Color hot end is composed of heat-sink, funnel collector, heating block, nozzle, etc.. During printing, only one filament is  loaded into the E4 hot end. While switching to another color filament, the extruder should pull the previous color filament out of the E4 hot end and then load another filament into the E4 hot end. The following image (from left to right) briefly demonstrates this process, and you can also refer to [:clapper:this animation](./User_guide/E4_principle.gif) to understand the working principle of the E4 hot end.
 ![](./User_guide/E4-5.jpg)   
 
