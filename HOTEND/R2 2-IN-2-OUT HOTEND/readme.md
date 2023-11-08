@@ -7,7 +7,7 @@
 ----
 ## Slicing settings
 You can import ZONESTAR 3D Printer Profiles into Cura, then add a "Z5 with R2S Hotend" machine and refer to its settings.
-For details, please refer to : 
+For details, please refer to ["Cura Slicer Guide"](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura) and ["Z5 with R2S hotend setting reference"](https://github.com/ZONESTAR3D/Slicing-Guide/tree/master/cura/R2S_Hotend).
 
 ----
 ## Solution to the problem of the hot end being unable to heat to over 240 degree
