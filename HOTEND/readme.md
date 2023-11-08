@@ -75,7 +75,7 @@ For details, please refer to [**here**](./R3%203-IN-3-OUT%20HOTEND/readme.md).
 **M2** hot end is a 2-IN-1-OUT mix color hotend, it has two input channels and one nozzle. Two filaments are mixed in the heating block and extruded through the nozzle.   
 For details, please refer to [**here**](./M2%202_IN-1-OUT%20Mixing%20Color%20Hotend/readme.md).  
 
-### :file_folder: [R2S (2-IN-2-OUT Non-Mix color) Hotend](./R2%202-IN-2-OUT%20HOTEND/)
+### :file_folder: [R2 (2-IN-2-OUT Non-Mix color) Hotend](./R2%202-IN-2-OUT%20HOTEND/)
 **R2** hot end is a 2-IN-2-OUT hotend, it has two input channels and 2 nozzles. Two filaments can be loaded into the heating block and extruded through the nozzle.   
 **R2S** is similar to **R2** hot end, but the two nozzles of R2S share the same heater and temperature sensor, so the temperatures of the two channels of R2S hot end cannot be set separately.     
 For details, please refer to [**here**](./R2%202-IN-2-OUT%20HOTEND/). 
