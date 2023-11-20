@@ -48,6 +48,7 @@ Download and upload the firmware for upgraded to 500x500 to the control board.
 #### 3.1 Replace the X axis profile.
 ![](./Xass.jpg)
 #### 3.2 Replacing the metal bracket of the Z-axis carriers.
+:warning:Note: This component was newly added to products sold after November 2023, and earlier products sold did not have this accessory.
 ![](./Zcarrier.jpg)
 ### 4. Assemble the top profile frame according to the picture below. 
 #### :warning: Note: The installation of the screws to fix the profiles are different from before. 
