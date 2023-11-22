@@ -40,15 +40,22 @@ Hot bed tilt / uneven surface is a common problem of 3D printer, however, the fi
 - **BLtouch(3DTouch)** is a "famous" bed auto leveling sensor for 3D Printers, it integrates a simple servo motor and an electromagnetic sensor into a very small volume. It can be used for all types of heat beds with high accuracy. The disadvantage is that the wiring and use are a little complex. [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001464420529.html)   
 - **ZL-Sensor** is a special photoelectric sensor made by ZONESTAR, it can probing almost all meterial hotbed, also it is easier to wiring such as PL-08N. [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002865311470.html)  
 
-## :file_folder: [Direct Drive Extruder](./Direct_Drive_Extrruder/)
-[:book:**View details**](./Direct_Drive_Extrruder/)    
+## :file_folder: [Direct Drive Extruder](./Direct_Drive_Extruder/)
+[:book:**View details**](./Direct_Drive_Extruder/)    
 By using the direct drive extruder, the printer can print flexible filament (e.g. TPU filament) and get better printing quality.   
-[:book:**Use Guide**](./Direct_Drive_Extrruder/readme.md)   
+[:book:**Use Guide**](./Direct_Drive_Extruder/readme.md)   
 [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002847644867.html) 
+
+## :file_folder: [Dual Gear Extruder](./Dual_Gear_Extruder/) 
+The double gear extruder increases the force of filament feeding, which can effectively reduce the probability of printing defects and failures caused by filament slipping on the extruder.     
+[:book:**View details**](./Dual_Gear_Extrude/)   
+[:gift:**Full Metal Dual Gear Extruder**](https://www.aliexpress.com/item/1005005868564130.html) 
+[:gift:**Dual Gear Extruder**](https://www.aliexpress.com/item/1005003473360998.html) 
+[:gift:**4PCS/LOT Dual Gear Extruder**](https://www.aliexpress.com/item/1005006240027747.html) 
 
 ## :file_folder: [Filament Run Out Sensor (FROD)](./FROD/)
 [:book:**View details**](./FROD/)
-Fialment run out sensor use a switch to check for the presence of filament in the feeder. If the filament spool runs out, the 3d printer will pause print and wait  you to replace a new spool.   
+Filament run out sensor use a switch to check for the presence of filament in the feeder. If the filament spool runs out, the 3d printer will pause print and wait  you to replace a new spool.   
 [**View details**](https://www.aliexpress.com/item/4001309957376.html)  
 
 ## :file_folder: [HOTENDs](./HOTEND/)
