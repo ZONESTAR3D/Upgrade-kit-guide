@@ -44,7 +44,7 @@ The M4V6 has reformed the structure of the hot end, which is completely differen
 ### The different between **M4V5** with **M4V4**:  
 1. Removed the inner PTEF pipes, Reduce the probability of clogged because the internal PTEF pipe be damaged.   
 2. Upgraded the fittings, easier to load filament and replace the filament guide. 
-### :warning: ATTETION PLEASE
+### :warning: ATTENTION PLEASE
 Because M4V5 used different fittings which to fix the PTFE filament guides, its size is bigger than M4V3 and M4V4, so M4V5 can't be installed to the older housing.   
 
 -----
