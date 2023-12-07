@@ -61,11 +61,11 @@ Filament run out sensor use a switch to check for the presence of filament in th
 ## :file_folder: [HOTENDs](./HOTEND/)
 [:book:**View details**](./HOTEND/readme.md)  
 ZONESTAR has been promoting the development of color FDM 3D printing technology, we have introduced different types of hot ends to meet the needs of multi-color printing.  
-- **R3 3-IN-3-OUT HOTEND**[:book:**Use Guide**](./HOTEND/R3%203-IN-3-OUT%20HOTEND/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
-- **M2P1 3-IN-2-OUT Mix Color Hotend**[:book:**Use Guide**](./HOTEND/M2P1%20%203-IN-2-OUT%20Mixing%20Color%20Hotend/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
-- **M3 3-IN-1-OUT Mix Color Hotend**[:book:**Use Guide**](./HOTEND/M3%20%203-IN-1-OUT%20Mixing%20Color%20Hotend/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
-- **M4 4-IN-1-OUT Mix Color Hotend**[:book:**Use Guide**](./HOTEND/M4%20%204-IN-1-OUT%20Mixing%20Color%20Hotend/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002124027691.html)  
-- **E4 4-IN-1-OUT Non-Mix Color Hotend**[:book:**Use Guide**](./HOTEND/E4%204-IN-1-OUT%20Non-Mixing%20Color%20Hotend/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002951777699.html)  
+- **R3 (3-IN-3-OUT) Hotend**[:book:**Use Guide**](./HOTEND/R3/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
+- **M2P1 (3-IN-2-OUT Mix Color) Hotend**[:book:**Use Guide**](./HOTEND/M2P1/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
+- **M3 (3-IN-1-OUT Mix Color) Hotend**[:book:**Use Guide**](./HOTEND/M3/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
+- **M4 (4-IN-1-OUT Mix Color) Hotend**[:book:**Use Guide**](./HOTEND/M4/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002124027691.html)  
+- **E4 (4-IN-1-OUT Non-Mix Color) Hotend**[:book:**Use Guide**](./HOTEND/E4/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002951777699.html)  
 
 ## :file_folder: [Laser Engraving](./Laser_Engraving/)
 [:book:**View details**](./Laser_Engraving/)
