@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "name": "VisualExtr#5",
+    "inherits": "fdmextruder",
+    "metadata": {
+        "machine": "ZONESTAR Extruder",
+        "position": "7"
+    },
+
+    "overrides": {
+        "extruder_nr": { "default_value": 7, "maximum_value": "7" },
+        "machine_nozzle_offset_x": { "default_value": 0 },
+        "machine_nozzle_offset_y": { "default_value": 0 },
+        "machine_nozzle_size": { "default_value": 0.4 },
+        "material_diameter": { "default_value": 1.75 },
+        "machine_extruder_start_code": { "default_value": ";Mixed Extruder #5 start code\n;NOTE:modify the mix ratio if need\nM163 S3 P0\nM163 S2 P0\nM163 S1 P10\nM163 S0 P90\nM164 S7\nT7\n"},
+        "machine_extruder_end_code": { "default_value": ";Mixed Extruder end code\n"}
+    }
+}
