@@ -1,4 +1,2 @@
-## ATTENTION PLEASE
-The content of this chapter has been relocated to this link: :point_right: https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4/M4_V6
-
-
+## ATTENTION
+**The content has been relocated to :link: https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/M4/M4V6**.
