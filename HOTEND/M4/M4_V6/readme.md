@@ -3,7 +3,7 @@ ZONESTAR 4-IN-1-OUT **mix color** hot end (referred to as **M4 Hot end**) has 4 
 
 -----
 ## :warning: ATTENTION PLEASE 
-## Before using the M4V6 hot end, please be sure to read [:book:Precautions for using M4V6](./M4V6_Precaution.md).
+## Before using the M4V6 hot end, please read [:book:Precautions for using M4V6](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/M4/M4_V6/M4V6_Precaution.md) carefully.
 ### :loudspeaker: Must load 4 filaments onto the M4V6 hotend simultaneously, incorrect operationa may block the mix color hotend. If the hot end blockage caused by incorrect operation, it is not covered by the warranty. For how to load filaments, please refer to [this guide](#7-how-to-load-and-unload-filaments).
 ### :loudspeaker: DON'T pull the "inner PTFE tubes" out of the M4V6 hotend.
 
