@@ -1,5 +1,5 @@
 
-## Choose language
+## <a id="choose-language">:globe_with_meridians: Choose language </a>
 [![](./M4V6_FAQ/lanpic/EN.png)](#english)
 [![](./M4V6_FAQ/lanpic/ES.png)](#spanish)
 [![](./M4V6_FAQ/lanpic/PT.png)](#portuguese)
