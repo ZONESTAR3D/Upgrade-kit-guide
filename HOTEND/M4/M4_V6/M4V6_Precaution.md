@@ -14,7 +14,7 @@
 -----
 ###### English
 # Precautions for using M4V6 [:arrow_heading_up:](#choose-language)
-## :warning: Cautions :bangbang:
+## Cautions :bangbang: 
 The M4V6 belongs to a ***Bowden extruder***. ***Bowden extruder*** refers to an extruder structure that separates **extruder** (filament feeder device) and the **"hot end"** (filament melting device). This structure can effectively reduce the weight of the print head, which is commonly used in multi-color 3D printers.  
 ![](./M4V6_FAQ/FAQ1.jpg)     
 
@@ -42,7 +42,7 @@ The M4V6 hot end uses four white PTFE tubes inserted into the heating block of t
 -----
 ###### Spanish
 # Precauciones para usar M4V6 [:arrow_heading_up:](#choose-language)
-## :warning: Precauciones :bangbang:
+## Precauciones :bangbang: 
 El hot end M4V6 pertenece a una ***extrusora Bowden***. ***Extrusora Bowden*** se refiere a una estructura de extrusora que separa la **extrusora** (dispositivo alimentador de filamentos) y el **"extremo caliente"** (dispositivo de fusión de filamentos). Esta estructura puede reducir efectivamente el peso del cabezal de impresión, que se usa comúnmente en impresoras 3D multicolores.
 ![](./M4V6_FAQ/FAQ1.jpg)     
 
@@ -70,7 +70,7 @@ El hot end M4V6 utiliza 4 tubos de PTFE blancos insertados en el bloque calefact
 -----
 ###### Portuguese
 # Precauções para usar M4V6 [:arrow_heading_up:](#choose-language)
-## :warning: Cuidados :bangbang:
+## Cuidados :bangbang: 
 A M4V6 pertence a uma ***extrusora Bowden***. ***Extrusora Bowden*** refere-se a uma estrutura de extrusora que separa a **extrusora** (dispositivo alimentador de filamento) e a **"extremidade quente"** (dispositivo de fusão de filamento). Essa estrutura pode efetivamente reduzir o peso da cabeça de impressão, que é comumente usada em impressoras 3D multicoloridas.
 ![](./M4V6_FAQ/FAQ1.jpg)     
 
@@ -98,7 +98,7 @@ O hot end M4V6 usa quatro tubos de PTFE brancos inseridos no bloco de aqueciment
 -----
 ###### French
 # Précautions d'utilisation de M4V6 [:arrow_heading_up:](#choose-language)
-## :warning: Précautions :bangbang:
+## Précautions :bangbang: 
 Le M4V6 appartient à une ***extrudeuse Bowden***. ***L'extrudeuse Bowden*** fait référence à une structure d'extrudeuse qui sépare l'**extrudeuse** (dispositif d'alimentation en filament) et la **« extrémité chaude »** (dispositif de fusion de filament). Cette structure peut réduire efficacement le poids de la tête d'impression, couramment utilisée dans les imprimantes 3D multicolores.
 ![](./M4V6_FAQ/FAQ1.jpg)     
 
@@ -126,7 +126,7 @@ Le hot end M4V6 utilise quatre tubes PTFE blancs insérés dans le bloc chauffan
 -----
 ###### German
 # Vorsichtsmaßnahmen für die Verwendung von M4V6 [:arrow_heading_up:](#choose-language)
-## :warning: Vorsichtsmaßnahmen :bangbang:
+## Vorsichtsmaßnahmen :bangbang:
 Der M4V6 gehört zu einem ***Bowden-Extruder***. ***Bowden-Extruder*** bezieht sich auf eine Extruderstruktur, die den **Extruder** (Filamentzuführgerät) und das **„heiße Ende“** (Filamentschmelzgerät) trennt. Durch diese Struktur kann das Gewicht des Druckkopfs, der häufig in Mehrfarben-3D-Druckern verwendet wird, effektiv reduziert werden.
 ![](./M4V6_FAQ/FAQ1.jpg)     
 
@@ -152,9 +152,37 @@ Das M4V6-Hot-End verwendet vier weiße PTFE-Röhren, die in den Heizblock des Ho
 ![](./M4V6_FAQ/FAQ4.jpg)
 
 -----
+###### Italian
+# Precauzioni per l'utilizzo di M4V6 [:arrow_heading_up:](#choose-language)
+## Avvertenze :bangbang:
+L'M4V6 appartiene ad un ***estrusore Bowden***. ***Estrusore Bowden*** si riferisce a una struttura dell'estrusore che separa l'**estrusore** (dispositivo di alimentazione del filamento) e l'**"hot end"** (dispositivo di fusione del filamento). Questa struttura può ridurre efficacemente il peso della testina di stampa, comunemente utilizzata nelle stampanti 3D multicolori.    
+![](./M4V6_FAQ/FAQ1.jpg)     
+
+        A. Filamento    B. Estrusore (alimentatore di filamento)    C. Tubo di alimentazione    D. Connettore del tubo in PTFE
+        E. Tubo interno in PTFE     F. Hotend M4V6  G. Ugello
+
+### :warning: È necessario collegare gli estrusori all'hotend M4V6 utilizzando un tubo.
+È necessario utilizzare tubi per collegare l'estrusore ai connettori sull'hot end M4V6, in modo che i filamenti possano essere spinti nell'hot end.
+I tubi richiedono l'uso di materiali più duri e l'interno deve essere molto liscio. Attualmente vengono comunemente utilizzati i **tubi in PTFE**. Non utilizzare tubi in gomma o PVC.      
+![](./M4V6_FAQ/FAQ2.jpg)
+
+### :warning: NON estrarre i "tubi interni in PTFE" dall'hotend M4V6.
+L'hotend M4V6 utilizza quattro tubi in PTFE bianchi inseriti nel blocco riscaldante dell'hotend, chiamati **"tubi interni in PTFE"**, in modo che i filamenti possano essere guidati nel blocco riscaldante per la fusione.
+1. Non estrarre i **"tubi interni in PTFE"** dall'hotend M4V6, altrimenti fili sottili entreranno nell'isolatore caldo e bloccheranno l'hotend.
+2. Assicurarsi che i **"tubi interni in PTFE"** siano stati inseriti nella parte inferiore dell'hot end, altrimenti potrebbe verificarsi un **problema di blocco dell'hot end** (molto filamento che entra nell'isolamento termico bloccherà l'hot end) o **"problema delle corde"** (alcuni filamenti fusi nell'isolamento termico ridurranno l'efficacia della retrazione).
+3. Non è consigliabile utilizzare tubi in PTFE colorati come **"tubo interno in PTFE"** perché le loro prestazioni di resistenza alla temperatura sono scarse.     
+##### :pushpin: Se desideri comprendere meglio l'hotend M4V6, fai riferimento alla seguente immagine:
+- [:art: Struttura dell'assemblaggio Hotend M4V6](2.jpg)  
+- [:art: Struttura dell'hotend M4V6](1.jpg)
+![](./M4V6_FAQ/FAQ3.jpg)
+
+### :warning: È necessario caricare 4 filamenti sull'hotend M4V6 contemporaneamente.
+![](./M4V6_FAQ/FAQ4.jpg)
+
+-----
 ###### Japanese
 # M4V6使用上の注意 [:arrow_heading_up:](#choose-language)
-## :warning: 注意事項 :bangbang:
+## 注意事項 :bangbang:
 M4V6 は ***Bowden 押出機*** に属します。 ***ボーデン押出機*** は、**押出機** (フィラメント供給装置) と **「ホットエンド」** (フィラメント溶融装置) を分離する押出機の構造を指します。 この構造により、多色 3D プリンタで一般的に使用されるプリントヘッドの重量を効果的に軽減できます。    
 ![](./M4V6_FAQ/FAQ1.jpg)     
 
@@ -183,7 +211,7 @@ M4V6 ホットエンドは、**「インナー PTFE チューブ」** と呼ば�
 -----
 ###### Korea
 # M4V6 사용 시 주의사항 [:arrow_heading_up:](#choose-language)
-## :warning: 주의사항 :bangbang:
+## 주의사항 :bangbang:
 M4V6은 ***Bowden 압출기***에 속합니다. ***보우덴 압출기***는 **압출기**(필라멘트 공급 장치)와 **"핫 엔드"**(필라멘트 용해 장치)를 분리한 압출기 구조를 말합니다. 이러한 구조는 멀티 컬러 3D 프린터에 일반적으로 사용되는 프린트 헤드의 무게를 효과적으로 줄일 수 있습니다.
 ![](./M4V6_FAQ/FAQ1.jpg)     
 
@@ -211,7 +239,7 @@ M4V6 핫 엔드는 핫 엔드의 가열 블록에 삽입된 4개의 흰색 PTFE 
 -----
 ###### Russian
 # Меры предосторожности при использовании M4V6 [:arrow_heading_up:](#choose-language)
-## :warning: Предостережения :bangbang:
+## Предостережения :bangbang:
 M4V6 принадлежит ***экструдеру Боудена***. ***Экструдером Боудена*** называется конструкция экструдера, в которой разделены **экструдер** (устройство подачи нити) и **"горячий конец"** (устройство плавления нити). Эта структура может эффективно снизить вес печатающей головки, которая обычно используется в многоцветных 3D-принтерах.
 ![](./M4V6_FAQ/FAQ1.jpg)     
 
@@ -239,7 +267,7 @@ M4V6 принадлежит ***экструдеру Боудена***. ***Экс
 -----
 ###### Arabic
 # احتياطات استخدام M4V6 [:arrow_heading_up:](#choose-language)
-## :warning: يحذر :bangbang:
+## يحذر :bangbang:
 ينتمي M4V6 إلى ***Bowden extruder***. ***يشير جهاز بثق Bowden*** إلى بنية الطارد التي تفصل **الطارد** (جهاز تغذية الفتيل) و**"الطرف الساخن"** (جهاز ذوبان الفتيل). هذا الهيكل يمكن أن يقلل بشكل فعال من وزن رأس الطباعة، والذي يستخدم بشكل شائع في الطابعات ثلاثية الأبعاد متعددة الألوان. 
 ![](./M4V6_FAQ/FAQ1.jpg)     
 
@@ -267,32 +295,4 @@ M4V6 принадлежит ***экструдеру Боудена***. ***Экс
 ![](./M4V6_FAQ/FAQ3.jpg)
 
 ### :warning: يجب تحميل 4 خيوط على M4V6 hotend في وقت واحد.
-![](./M4V6_FAQ/FAQ4.jpg)
-
------
-###### Italian
-# Precauzioni per l'utilizzo di M4V6 [:arrow_heading_up:](#choose-language)
-## :warning: Avvertenze :bangbang:
-L'M4V6 appartiene ad un ***estrusore Bowden***. ***Estrusore Bowden*** si riferisce a una struttura dell'estrusore che separa l'**estrusore** (dispositivo di alimentazione del filamento) e l'**"hot end"** (dispositivo di fusione del filamento). Questa struttura può ridurre efficacemente il peso della testina di stampa, comunemente utilizzata nelle stampanti 3D multicolori.    
-![](./M4V6_FAQ/FAQ1.jpg)     
-
-        A. Filamento    B. Estrusore (alimentatore di filamento)    C. Tubo di alimentazione    D. Connettore del tubo in PTFE
-        E. Tubo interno in PTFE     F. Hotend M4V6  G. Ugello
-
-### :warning: È necessario collegare gli estrusori all'hotend M4V6 utilizzando un tubo.
-È necessario utilizzare tubi per collegare l'estrusore ai connettori sull'hot end M4V6, in modo che i filamenti possano essere spinti nell'hot end.
-I tubi richiedono l'uso di materiali più duri e l'interno deve essere molto liscio. Attualmente vengono comunemente utilizzati i **tubi in PTFE**. Non utilizzare tubi in gomma o PVC.      
-![](./M4V6_FAQ/FAQ2.jpg)
-
-### :warning: NON estrarre i "tubi interni in PTFE" dall'hotend M4V6.
-L'hotend M4V6 utilizza quattro tubi in PTFE bianchi inseriti nel blocco riscaldante dell'hotend, chiamati **"tubi interni in PTFE"**, in modo che i filamenti possano essere guidati nel blocco riscaldante per la fusione.
-1. Non estrarre i **"tubi interni in PTFE"** dall'hotend M4V6, altrimenti fili sottili entreranno nell'isolatore caldo e bloccheranno l'hotend.
-2. Assicurarsi che i **"tubi interni in PTFE"** siano stati inseriti nella parte inferiore dell'hot end, altrimenti potrebbe verificarsi un **problema di blocco dell'hot end** (molto filamento che entra nell'isolamento termico bloccherà l'hot end) o **"problema delle corde"** (alcuni filamenti fusi nell'isolamento termico ridurranno l'efficacia della retrazione).
-3. Non è consigliabile utilizzare tubi in PTFE colorati come **"tubo interno in PTFE"** perché le loro prestazioni di resistenza alla temperatura sono scarse.     
-##### :pushpin: Se desideri comprendere meglio l'hotend M4V6, fai riferimento alla seguente immagine:
-- [:art: Struttura dell'assemblaggio Hotend M4V6](2.jpg)  
-- [:art: Struttura dell'hotend M4V6](1.jpg)
-![](./M4V6_FAQ/FAQ3.jpg)
-
-### :warning: È necessario caricare 4 filamenti sull'hotend M4V6 contemporaneamente.
 ![](./M4V6_FAQ/FAQ4.jpg)
