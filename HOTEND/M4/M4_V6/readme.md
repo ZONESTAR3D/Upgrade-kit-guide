@@ -96,51 +96,16 @@ For M4V6 hotend, you need to load 4 filament to the hotend even you print one co
 - **[Multi Color Slicing](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_M4.md)**
 
 -----
-### :page_with_curl: Appendix I: Achieve high-speed printing by using M4V6 hot end
-[:book: Use M4V6 to achieve high-speed printing](./HighFlow/readme.md)
+### :paperclip: Appendix I: Achieve speedy printing by using M4V6 hot end
+When printing a single color 3d model, M4V6 can support higher flow rates. About the details, please refer to [:book: this guide](./HighFlow/readme.md).
 
 -----
-### :page_with_curl: Appendix II: How to clean the blocked M4V6 hotend
-**[:clapper:Video tutorial](https://github.com/ZONESTAR3D/Z8P/assets/29502731/72312727-5ce5-4a35-8f2a-49f9145557ac).**
-#### Step 1: Heating the nozzle to 260 degree. 
-- ***Prepare>>Filament>>Preheat nozzle: 260***, wait the nozzle reached 260 degree.
-#### Step 2: Load all 4 filaments to the hot end (Watch the PTFE tubes in hot end and ensure the filaments has already entered the hot end).
-#### Step 3: Extruder all filaments at the same time, until you can see the filament is flowed out from the nozzle.
-- ***Prepare>>Filament>>extruder: all***
-- ***Prepare>>Filament>>slowly load***, you may need to do a few times, until all 4 filaments have flowed out from the nozzle.
-#### Step 4: Extrude 4 filaments one by one
-- ***Prepare>>Filament>>extruder: 1***
-- ***Prepare>>Filament>>extruder: slowly load***, until you see the filament of extruder #1 is flowing out from the nozzle.
-- ***Prepare>>Filament>>extruder: 2***
-- ***Prepare>>Filament>>extruder: slowly load***, until you see the filament of extruder #2 is flowing out from the nozzle.
-- ***Prepare>>Filament>>extruder: 3***
-- ***Prepare>>Filament>>extruder: slowly load***, until you see the filament of extruder #3 is flowing out from the nozzle.
-- ***Prepare>>Filament>>extruder: 4***
-- ***Prepare>>Filament>>extruder: slowly load***, until you see the filament of extruder #3 is flowing out from the nozzle.
-
-#### If the hot end cannot be cleaned by doing the above steps, or the hot end is still easily clogged after cleaning, you need to replace the nozzle or replace the "inner PTFE tubes"， please refer to [:point_down:Appendix III](#📃-appendix-iii-how-to-replace-of-the-inner-ptfe-tubes).
-
-#### :pushpin: Common causes and solutions for hot end blockage
-**:bug:Reason:** The filaments are not loaded properly, e.g. one of the channels is empty**, the molten filaments will go back into the empty channels and block the empty channel.      
-**:pill:Solution:** Refer to [:point_up: How to clean the blocked M4V6 hotend](#📃-appendix-ii-how-to-clean-the-blocked-m4v6-hotend) to clean the hot end.     
-
-**:bug:Reason:** The *inner PTFE tubes* are not inserted enough deep into the hot end, the molten filaments will got into the *isolation block* and block the hot end.     
-**:pill:Solution:** Refer to[:point_down:Appendix III](#📃-appendix-iii-how-to-replace-of-the-inner-ptfe-tubes) to disassemble the hot end, and then clean the *isolation block* first, and then assemble the hotend again.
+### :paperclip: Appendix II: How to clean the blocked M4V6 hotend
+About how to clean the blocked M4V6 hotend, please refer to [:book: this guide](./cleanM4V6.md).
 
 -----
-### :page_with_curl: Appendix III: How to replace of the inner PTFE tubes
--**[:clapper:Video tutorial](https://youtu.be/S-vUdI5z-nM)**
-- Prepare 4 piece PTFE tube (ID=2mm/OD=4mm), length is about 100mm (Fig 1). To cut the PTFE pipe by a knife (paper cutter) and try to keep the front end flat.
-- Remove the screws which to fix the hot end on the top of the hot end housing (Fig 2).
-- Loosen the screws which to fix the heater and temperature sensor (Fig 3).
-- Remove the heater and temperature sensor from the hot end (Fig 4).
-- Remove the hot end from the housing (Fig 5).
-- Remove the 2 screws to fix the heating block (Fig 6).
-- Pull out the heating block (Fig 7).
-- Press the “RED ring” of the fitting and pull out the PTFE tube (Fig 8).
-- Insert the new PTFE tube and install the heating block back in reverse order.
-- Push the PTFE guide to the bottom after installed the heating block.
-![](./5.jpg)
+### :paperclip: Appendix III: How to replace of the inner PTFE tubes
+About how to replace the inner PTFE tubes of the M4V6 hotend, please refer to [:book: this guide](./ReplaceM4V6InnerPTFE.md).
 
 -----
 ### [:book: How to switch hotend between E4 hotend and M4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#how-to-switch-between-m4-hotend-and-e4-hotend)
