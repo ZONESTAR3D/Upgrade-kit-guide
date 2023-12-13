@@ -1,5 +1,5 @@
 ## How to clean the clogged M4V6 hot end
-#### **[:clapper:Video tutorial](https://github.com/ZONESTAR3D/Z8P/assets/29502731/72312727-5ce5-4a35-8f2a-49f9145557ac).**
+#### **[:clapper: Video tutorial](https://github.com/ZONESTAR3D/Z8P/assets/29502731/72312727-5ce5-4a35-8f2a-49f9145557ac).**
 #### Step 1: Heating the nozzle to 260 degree. 
 - ***Prepare>>Filament>>Preheat nozzle: 260***, wait the nozzle reached 260 degree.
 #### Step 2: Load all 4 filaments to the hot end (Watch the PTFE tubes in hot end and ensure the filaments has already entered the hot end).
@@ -17,8 +17,8 @@
 - ***Prepare>>Filament>>extruder: slowly load***, until you see the filament of extruder #3 is flowing out from the nozzle.
 
 #### If the hot end cannot be cleaned by doing the above steps, or the hot end is still easily clogged after cleaning, you need to replace the nozzle or replace the "inner PTFE tubes"
-- **[:movie_camera:How to replace a nozzle](https://youtu.be/L5VRyEbsJvM).**      
-- **[:book:How to replace the inner PTFE tubes](./ReplaceM4V6InnerPTFE.md).**
+- **[:clapper: How to replace a nozzle](https://youtu.be/L5VRyEbsJvM).**      
+- **[:book: How to replace the inner PTFE tubes](./ReplaceM4V6InnerPTFE.md).**
 
 -----
 ### Why the hotend is clogged?

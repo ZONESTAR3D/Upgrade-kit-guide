@@ -98,12 +98,8 @@ For M4V6 hotend, you need to load 4 filament to the hotend even you print one co
 -----
 ### :paperclip: Appendix I: Achieve speedy printing by using M4V6 hot end
 When printing a single color 3d model, M4V6 can support higher flow rates. About the details, please refer to [:book: this guide](./HighFlow/readme.md).
-
------
 ### :paperclip: Appendix II: How to clean the blocked M4V6 hotend
 About how to clean the blocked M4V6 hotend, please refer to [:book: this guide](./cleanM4V6.md).
-
------
 ### :paperclip: Appendix III: How to replace of the inner PTFE tubes
 About how to replace the inner PTFE tubes of the M4V6 hotend, please refer to [:book: this guide](./ReplaceM4V6InnerPTFE.md).
 
