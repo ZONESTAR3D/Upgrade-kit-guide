@@ -22,7 +22,7 @@ ZONESTAR 4-IN-1-OUT **mix color** hot end (referred to as **M4 Hot end**) has 4 
 
 -----
 ### 2.Components
-![](./1.jpg) ![](./2.jpg)
+![](./2.jpg) ![](./1.jpg)
 
 -----
 ### 3.Wire and Terminals
