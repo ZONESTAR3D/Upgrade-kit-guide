@@ -56,11 +56,13 @@
 #### 1. Loosen the three screws on the hot end housing and remove the old hot end from the machine (x pulley). Then install the new hot end on the machine (x pulley) and lock the screws.
 ![](./E4/User_guide/E4-4.jpg)
 #### 2. Connect the wires of the new hot end to the machine.
-![](./E4/User_guide/E4_wiring.jpg)
+![](./E4/User_guide/wiring1.jpg) ![](./E4/User_guide/wiring2.jpg)
 #### 3. Set the hot end type on the LCD menu: *Control>>Configure>>Hotend Type*
 ![](./E4/User_guide/hotendtype-mix.jpg)![](./E4/User_guide/hotendtype-nonmix.jpg)
-#### :warning: NOTE 1: If you can't find the "hotend type" menu on LCD screen, please upload the newest firmware to your printer 
+##### :pushpin: The hot end wiring terminals of the Z9V5 are hidden in the upper box of the machine. You can remove the rubber ring and then wiring the hot end.
+![](./Z9V5HotendWire.jpg)
+#### :warning: NOTE 1: If you can't find the "hotend type" menu on LCD screen, please upload the newest firmware to your printer. 
 :point_right: Firmware for [**[Z9V5]**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin)  [**[Z8P]**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z8/Z8P)  [**[Z9M4]**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9M4)
-#### :warning: NOTE 2: The mix color Hotend and non-mix color hotend must use different slice settings, please pay attention to distinguish. Using the wrong slice setting may cause the hotend to be blocked.
+#### :warning: NOTE 2: The mix color Hotend and non-mix color hotend must use different slice settings, please pay attention to distinguish. Using the wrong slice setting may block the hotend.
 
 
