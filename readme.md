@@ -48,7 +48,7 @@ By using the direct drive extruder, the printer can print flexible filament (e.g
 
 ## :file_folder: [Dual Gear Extruder](./Dual_Gear_Extruder/) 
 The double gear extruder increases the force of filament feeding, which can effectively reduce the probability of printing defects and failures caused by filament slipping on the extruder.     
-[:book:**View details**](./Dual_Gear_Extrude/)   
+[:book:**View details**](./Dual_Gear_Extruder/)   
 [:gift:**Full Metal Dual Gear Extruder**](https://www.aliexpress.com/item/1005005868564130.html) 
 [:gift:**Dual Gear Extruder**](https://www.aliexpress.com/item/1005003473360998.html) 
 [:gift:**4PCS/LOT Dual Gear Extruder**](https://www.aliexpress.com/item/1005006240027747.html) 
