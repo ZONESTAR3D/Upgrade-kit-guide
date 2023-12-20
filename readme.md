@@ -29,29 +29,29 @@
 # ZONESTAR 3D printer upgrade kits / parts 
 ## :file_folder: [Automatic Repeat Printing Module](./Auto_Repeat_Printing/) 
 By upgrading this module to make your 3D printer capable of continuous automatic mass production, only for Z9 series 3d printers.   
-[:book:**Use Guide**](./Auto_Repeat_Printing/readme.md)    
-[:gift:**Sell Link**](https://www.aliexpress.com/item/1005003767078457.html) 
+[:book: **Use Guide**](./Auto_Repeat_Printing/readme.md)    
+[:gift: **Sell Link**](https://www.aliexpress.com/item/1005003767078457.html) 
 
 ## :file_folder: [Bed Leveling Sensor](./Bed_Leveling_Sensor/)
-[:book:**View details**](./Bed_Leveling_Sensor/)
+[:book: **View details**](./Bed_Leveling_Sensor/)
 Hot bed tilt / uneven surface is a common problem of 3D printer, however, the first layer is very important for the successfully print. The main solution to slove this problem is to use a ***bed leveling sensor*** to measure the distance between the nozzle with the hot bed, to generate a ***"hot bed height table"***, and save it in the memory of the 3D printer. While printing, automatically adjust the height of the nozzle to compensate the uneven hot bed. For more information on this issue, please refer to [**Marlin documents - Automatic Bed Leveling**](https://marlinfw.org/docs/features/auto_bed_leveling.html)    
 **There are several types of bed leveling sensor:**      
-- **PL-08N** is a proximity sensor, it can probing metal hotbed. If your hot bed surface is metal, such as aluminum plate + hot bed adhesive tape, aluminum plate + magnetic hot bed paste, elastic rigid hot bed, etc., you can use this sensor.[:gift:**Sell Link**](https://www.aliexpress.com/item/4000596309710.html)      
-- **BLtouch(3DTouch)** is a "famous" bed auto leveling sensor for 3D Printers, it integrates a simple servo motor and an electromagnetic sensor into a very small volume. It can be used for all types of heat beds with high accuracy. The disadvantage is that the wiring and use are a little complex. [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001464420529.html)   
-- **ZL-Sensor** is a special photoelectric sensor made by ZONESTAR, it can probing almost all meterial hotbed, also it is easier to wiring such as PL-08N. [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002865311470.html)  
+- **PL-08N** is a proximity sensor, it can probing metal hotbed. If your hot bed surface is metal, such as aluminum plate + hot bed adhesive tape, aluminum plate + magnetic hot bed paste, elastic rigid hot bed, etc., you can use this sensor.[:gift: **Sell Link**](https://www.aliexpress.com/item/4000596309710.html)      
+- **BLtouch(3DTouch)** is a "famous" bed auto leveling sensor for 3D Printers, it integrates a simple servo motor and an electromagnetic sensor into a very small volume. It can be used for all types of heat beds with high accuracy. The disadvantage is that the wiring and use are a little complex. [:gift: **Sell Link**](https://www.aliexpress.com/item/1005001464420529.html)   
+- **ZL-Sensor** is a special photoelectric sensor made by ZONESTAR, it can probing almost all meterial hotbed, also it is easier to wiring such as PL-08N. [:gift: **Sell Link**](https://www.aliexpress.com/item/1005002865311470.html)  
 
 ## :file_folder: [Direct Drive Extruder](./Direct_Drive_Extruder/)
-[:book:**View details**](./Direct_Drive_Extruder/)    
+[:book: **View details**](./Direct_Drive_Extruder/)    
 By using the direct drive extruder, the printer can print flexible filament (e.g. TPU filament) and get better printing quality.   
-[:book:**Use Guide**](./Direct_Drive_Extruder/readme.md)   
-[:gift:**Sell Link**](https://www.aliexpress.com/item/1005002847644867.html) 
+[:book: **Use Guide**](./Direct_Drive_Extruder/readme.md)   
+[:gift: **Sell Link**](https://www.aliexpress.com/item/1005002847644867.html) 
 
 ## :file_folder: [Dual Gear Extruder](./Dual_Gear_Extruder/) 
 The double gear extruder increases the force of filament feeding, which can effectively reduce the probability of printing defects and failures caused by filament slipping on the extruder.     
-[:book:**View details**](./Dual_Gear_Extruder/)   
-[:gift:**Full Metal Dual Gear Extruder**](https://www.aliexpress.com/item/1005005868564130.html) 
-[:gift:**Dual Gear Extruder**](https://www.aliexpress.com/item/1005003473360998.html) 
-[:gift:**4PCS/LOT Dual Gear Extruder**](https://www.aliexpress.com/item/1005006240027747.html) 
+[:book: **View details**](./Dual_Gear_Extruder/)   
+[:gift: **Full Metal Dual Gear Extruder**](https://www.aliexpress.com/item/1005005868564130.html) 
+[:gift: **Dual Gear Extruder**](https://www.aliexpress.com/item/1005003473360998.html) 
+[:gift: **4PCS/LOT Dual Gear Extruder**](https://www.aliexpress.com/item/1005006240027747.html) 
 
 ## :file_folder: [Filament Run Out Sensor (FROD)](./FROD/)
 [:book:**View details**](./FROD/)
@@ -59,42 +59,42 @@ Filament run out sensor use a switch to check for the presence of filament in th
 [**View details**](https://www.aliexpress.com/item/4001309957376.html)  
 
 ## :file_folder: [HOTENDs](./HOTEND/)
-[:book:**View details**](./HOTEND/readme.md)  
+[:book: **View details**](./HOTEND/readme.md)  
 ZONESTAR has been promoting the development of color FDM 3D printing technology, we have introduced different types of hot ends to meet the needs of multi-color printing.  
-- **R3 (3-IN-3-OUT) Hotend**[:book:**Use Guide**](./HOTEND/R3/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
-- **M2P1 (3-IN-2-OUT Mix Color) Hotend**[:book:**Use Guide**](./HOTEND/M2P1/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
-- **M3 (3-IN-1-OUT Mix Color) Hotend**[:book:**Use Guide**](./HOTEND/M3/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
-- **M4 (4-IN-1-OUT Mix Color) Hotend**[:book:**Use Guide**](./HOTEND/M4/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002124027691.html)  
-- **E4 (4-IN-1-OUT Non-Mix Color) Hotend**[:book:**Use Guide**](./HOTEND/E4/) [:gift:**Sell Link**](https://www.aliexpress.com/item/1005002951777699.html)  
+- **R3 (3-IN-3-OUT) Hotend**[:book: **Use Guide**](./HOTEND/R3/) [:gift: **Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
+- **M2P1 (3-IN-2-OUT Mix Color) Hotend**[:book: **Use Guide**](./HOTEND/M2P1/) [:gift: **Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
+- **M3 (3-IN-1-OUT Mix Color) Hotend**[:book: **Use Guide**](./HOTEND/M3/) [:gift: **Sell Link**](https://www.aliexpress.com/item/1005001275429959.html)  
+- **M4 (4-IN-1-OUT Mix Color) Hotend**[:book: **Use Guide**](./HOTEND/M4/) [:gift: **Sell Link**](https://www.aliexpress.com/item/1005002124027691.html)  
+- **E4 (4-IN-1-OUT Non-Mix Color) Hotend**[:book: **Use Guide**](./HOTEND/E4/) [:gift: **Sell Link**](https://www.aliexpress.com/item/1005002951777699.html)  
 
 ## :file_folder: [Laser Engraving](./Laser_Engraving/)
-[:book:**View details**](./Laser_Engraving/)
+[:book: **View details**](./Laser_Engraving/)
 By add a laser engrave engine , you can turn your 3D printer into a simple laser engraving machine.   
-[:book:**Use Guide**](./Laser_Engraving/)   
-[:gift:**Sell Link**](https://www.aliexpress.com/item/4001309902136.html)
+[:book: **Use Guide**](./Laser_Engraving/)   
+[:gift: **Sell Link**](https://www.aliexpress.com/item/4001309902136.html)
 
 ## :file_folder: [Motor Drive Module](./Motor_Driver/)
-[:book:**View details**](./Motor_Driver/)
+[:book: **View details**](./Motor_Driver/)
 TMC motor drive module used stealthChop2 ultra-quiet technology, it can After upgrading it, the noise of 3D printer stepper motor operation can be significantly reduced.   
-[:book:**Use Guide**](./Motor_Driver/How_to_install_Motor_Driver_Module.pdf)  
-[:gift:**TMC2208**](https://www.aliexpress.com/item/4000596369015.html) [:gift:**TMC2209**](https://www.aliexpress.com/item/1005001664336751.html) [:gift:**TMC2225**](https://www.aliexpress.com/item/1005003270721219.html)   
+[:book: **Use Guide**](./Motor_Driver/How_to_install_Motor_Driver_Module.pdf)  
+[:gift: **TMC2208**](https://www.aliexpress.com/item/4000596369015.html) [:gift: **TMC2209**](https://www.aliexpress.com/item/1005001664336751.html) [:gift:**TMC2225**](https://www.aliexpress.com/item/1005003270721219.html)   
 
 ## :file_folder: [TFT-LCD](./TFT-LCD)
-[:book:**View details**](./TFT-LCD/readme.md)    
-[:gift:**Sell Link**](https://www.aliexpress.com/item/1005002378065646.html)  
+[:book: **View details**](./TFT-LCD/readme.md)    
+[:gift: **Sell Link**](https://www.aliexpress.com/item/1005002378065646.html)  
 
 ## :file_folder: [WiFi Module](./WiFi/)
 By upgrading the WiFi module, you can  control your 3d printer by wireless. It can work with ZM3E4 and ZM3E2 3D printer control board.   
 <!-- [:book:**View details**](./WiFi/)     -->
-[:book:**Use Guide**](./WiFi/WiFi_User_Guide.md)    
-[:gift:**Sell Link**](https://www.aliexpress.com/item/1005002378551489.html)  
+[:book: **Use Guide**](./WiFi/WiFi_User_Guide.md)    
+[:gift: **Sell Link**](https://www.aliexpress.com/item/1005002378551489.html)  
 
 ## :file_folder: [Z9V5 500x500 upgrade kit](./Z9V5_500x500/)
 Upgrade the build volume of Z9V5 to 500x500x400mm.   
-[:book:**View details**](./Z9V5_500x500/readme.md)     
-[:gift:**Sell Link**](https://www.zonestar3dshop.com/products/zonestar-z9v5-500x500mm-large-printing-size-upgrade-kit-parts)  
+[:book: **View details**](./Z9V5_500x500/readme.md)     
+[:gift :**Sell Link**](https://www.zonestar3dshop.com/products/zonestar-z9v5-500x500mm-large-printing-size-upgrade-kit-parts)  
 
 ## :file_folder: [Z9V5 linear rail upgrade kit](./Z9V5_LinearRail/)
 Upgrade Z9V5 to linear rail.   
-[:book:**View details**](./Z9V5_LinearRail/readme.md)     
-[:gift:**Sell Link - Offical Store**](https://www.aliexpress.com/item/1005005599988527.html)  [:gift:**Sell Link - Aliexpress**](https://www.zonestar3dshop.com/products/new-arrival-z9v5pro-3d-printer-linear-rail-upgrade-kit-for-zonestar-z9v5pro-mgn9h-slider-3d-printer-parts)  
+[:book: **View details**](./Z9V5_LinearRail/readme.md)     
+[:gift: **Sell Link - Offical Store**](https://www.aliexpress.com/item/1005005599988527.html)  [:gift: **Sell Link - Aliexpress**](https://www.zonestar3dshop.com/products/new-arrival-z9v5pro-3d-printer-linear-rail-upgrade-kit-for-zonestar-z9v5pro-mgn9h-slider-3d-printer-parts)  
