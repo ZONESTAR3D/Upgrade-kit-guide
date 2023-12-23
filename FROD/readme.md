@@ -6,6 +6,7 @@
 - **"IN" Connector:** Connect to  the control board or the previous FROD.
 - **"OUT" Connector:** Connect to the next FROD. Let it suspend if there is not the next one.   
 :bulb:  The filament must be inserted in the direction indicated by the arrow.
+
 ### 2. Wiring
 #### Wiring diagram of FROD
 ![](./FRODwiring.jpg)    
@@ -30,6 +31,9 @@ If there is not enough filaments left in the filament roll to complete the curre
 ![](./FROD_NoFilament.png)      
 3. If you need to use the Filament run out detect function, you should insert filaments on all 4 sensors. If you do not actually use 4 filaments when printing, please cut a little filament and insert it into the FROD of the unused extruders.   
 ![](./FROD_dummy.png)     
+
+### 4. Installation guide
+- **[:clapper: Install filament run out sensor on Z8P 3D Printer](https://youtu.be/mLexZ0az_Ps)**
 
 -----
 ## Case Stl File of FROD
