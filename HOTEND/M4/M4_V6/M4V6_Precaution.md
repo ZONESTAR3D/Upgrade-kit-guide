@@ -1,15 +1,15 @@
 
 ## <a id="choose-language">:globe_with_meridians: Choose language </a>
-[![](./M4V6_FAQ/lanpic/EN.png)](#english)
-[![](./M4V6_FAQ/lanpic/ES.png)](#spanish)
-[![](./M4V6_FAQ/lanpic/PT.png)](#portuguese)
-[![](./M4V6_FAQ/lanpic/FR.png)](#french)
-[![](./M4V6_FAQ/lanpic/DE.png)](#german)
-[![](./M4V6_FAQ/lanpic/IT.png)](#italian)
-[![](./M4V6_FAQ/lanpic/JP.png)](#japanese)
-[![](./M4V6_FAQ/lanpic/KR.png)](#korea)
-[![](./M4V6_FAQ/lanpic/RU.png)](#russian)
-[![](./M4V6_FAQ/lanpic/SA.png)](#arabic)
+[![](./lanpic/EN.png)](#english)
+[![](./lanpic/ES.png)](#spanish)
+[![](./lanpic/PT.png)](#portuguese)
+[![](./lanpic/FR.png)](#french)
+[![](./lanpic/DE.png)](#german)
+[![](./lanpic/IT.png)](#italian)
+[![](./lanpic/JP.png)](#japanese)
+[![](./lanpic/KR.png)](#korea)
+[![](./lanpic/RU.png)](#russian)
+[![](./lanpic/SA.png)](#arabic)
 
 -----
 ###### English

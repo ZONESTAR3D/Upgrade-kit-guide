@@ -104,10 +104,12 @@ We recommend using PrusaSlicer for slicing. For installation and usage tutorials
 For more tutorials on using other slicing software, please refer to: https://github.com/ZONESTAR3D/Slicing-Guide
 
 ### 10. Troubleshootings
-- [**How to clean the blocked M4V6 hotend**](./cleanM4V6.md)      
-The M4 hot end may be blocked due to improper operation, nozzle blockage, and other reasons. Please refer to [**:book:this manual**](./cleanM4V6.md) to clean the hot end.
-- [**How to replace of the inner PTFE tubes**](./ReplaceM4V6InnerPTFE.md)      
-After prolonged use on the hot end or due to improper operation, the **inner PTFE tubes** of M4V6 may need to be replaced. Please refer to [ **:book:this manual**](./ReplaceM4V6InnerPTFE.md) for instructions.
+- [**How to clean the blocked M4V6 hotend**](./M4V6_FAQ/cleanM4V6.md)      
+The M4 hot end may be blocked due to improper operation, nozzle blockage, and other reasons. Please refer to [**:book:this manual**](./M4V6_FAQ/cleanM4V6.md) to clean the hot end.
+- [**How to replace of the inner PTFE tubes**](./M4V6_FAQ/ReplaceM4V6InnerPTFE.md)      
+After prolonged use on the hot end or due to improper operation, the **inner PTFE tubes** of M4V6 may need to be replaced. Please refer to [ **:book:this manual**](./M4V6_FAQ/ReplaceM4V6InnerPTFE.md) to operate.
+- [**How to solve the stringing issue of M4V6**](./stringsissue.md)      
+If you find a **stringing issue** (:link:[wiki](https://www.matterhackers.com/articles/3d-printer-troubleshooting-guide#Issue9)) when printed by M4V6 hotend, please refer to [ **:book:this manual**](./stringsIssue.md) to solve.
 
 -----
 ### :paperclip: Appendix I: Achieve speedy printing by using M4V6 hot end
