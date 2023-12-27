@@ -1,5 +1,5 @@
 ## How to solve the stringing issue of M4V6
-**Stringing issue**([:link:wiki page](https://www.matterhackers.com/articles/3d-printer-troubleshooting-guide#Issue9)) is a common issue , especially for a FDM 3D printers that use **bowden type extruder** ([:link:wiki page](https://en.wikipedia.org/wiki/3D_printer_extruder)).     
+**Stringing issue**([:link:wiki](https://www.matterhackers.com/articles/3d-printer-troubleshooting-guide#Issue9)) is a common issue , especially for a FDM 3D printers that use **bowden type extruder** ([:link:wiki](https://en.wikipedia.org/wiki/3D_printer_extruder)).     
 **Retraction** is an effective way to improve the string issues of FDM 3D printers. **Retraction** refers to when the printer move from one position to another position without extrusion, the extruder pulls the filament back, which can form a negative pressure inside the hot end, suck the filament inside the hot end to reduce the filament outflow from the nozzle.     
 Due to the presence of a **mixing room**, the mixing color hot end is theoretically more prone to producing string issues than a one color hot end. By optimizing the design of thermal fracture, the M4V6 hot end effectively reduces the thermal creep effect of the filament to ensure the effectiveness of retraction. This makes M4V6 very effective in solving the common problem of string issues in mixing color hot end. Our tests have shown that, with reasonable settings of retraction length and speed, the M4V6 can achieve almost the same printing quality as a one color hot end.
 
@@ -38,5 +38,5 @@ Some hardware reasons may also cause string issues, please refer to the instruct
 - **:beetle: Reason: Inner PTFE tubes is deteriorated.**     
   If there is a clogged problem in the inner PTFE tube (such as inner diameter be thinner), it will reduce the retration effectiveness, which can also lead to string issue. 
 - **:wrench: Solution: replace the deteriorated inner PTFE tube.**     
-  Firstly, try to use another channel of the hot end to print the test file and check if the problem can be fixed / improved. If yes, please replace the PTFE tube (refer to [this guide](./ReplaceM4V6InnerPTFE.md)).
+  Firstly, try to use another channel of the hot end to print the test file and check if the problem can be fixed / improved. If yes, please replace the PTFE tube (refer to [:book:this guide](./ReplaceM4V6InnerPTFE.md)).
 
