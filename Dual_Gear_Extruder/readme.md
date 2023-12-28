@@ -23,4 +23,5 @@ BMG is available in both left hand and right hand.
 # Manual for Upgraded Dual Gear Extruder 
 ## [:book: P802Q Upgraded Dual Gear Extruder Manual](./P802Q.md)
 ## [:book: Z9V5Pro Upgraded Dual Gear Extruder Manual](./Z9V5.md)
+## [:book: Z8P Upgraded Dual Gear Extruder Manual](./Z8P.md)
 
