@@ -1,4 +1,4 @@
-## !!ATTENTION PLEASE!!
+## !ATTENTION PLEASE!
 - **Power off the control board before replacing/plugin the drive module.**
 - **Pay attention to the direction when plugin, incorrect direction may burn the drivers and control board.**
 - **Usually we have already set the motor drive current before shipping out, please don't tune the potentiometer if you are not sure how to adjust it.**
