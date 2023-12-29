@@ -58,8 +58,8 @@
   
 ### Catch Probe Z offset
 **[:movie_camera: Catch Probe Z offset](./video/CatchOffset.gif)**    
-**"Probe Z Offset"** indicates that when the sensor sensed the hot bed, the distance between the nozzle and the Z axis absolute zero point.      
-If the sensor is installed correctly, the nozzle is always above the hot bed when the sensor sensed the hot bed, so **Probe Z Offset** is always a negative value. Since the sensing distance of each PL-08N sensor is different, and the actual installation height of PL-08N is also different, the **Probe Z Offset** of each machine is different too.     
+**"Probe Z Offset"** indicates the distance from the nozzle to the hot bed when the sensor sensed the hot bed.      
+If the sensor is installed correctly, the nozzle is always above the hot bed when the sensor sensed the hot bed, so **Probe Z Offset** is always a negative value. Because the sensing distance of each PL-08N sensor is different, and the actual installation height of PL-08N is also different, so the **Probe Z Offset** of each machine is different too.     
 You need to do ***Catch Z offset*** to get the **Probe Z Offset** before doing bed auto leveling. Steps as below: 
 1. Do ***Montion>> Bed Leveling>> Auto HOME(Fig1).***
 2. Do ***Montion>> Bed Leveling>> Catch Z Offset(Fig2).***
