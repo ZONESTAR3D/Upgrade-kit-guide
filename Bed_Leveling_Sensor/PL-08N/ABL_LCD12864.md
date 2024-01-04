@@ -1,32 +1,3 @@
-### :globe_with_meridians: Choose Language (Translated by google)
-[![](../../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=es)
-[![](../../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=fr)
-[![](../../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=de)
-[![](../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=it)
-[![](../../lanpic/SW.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=sv)
-[![](../../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=pl)
-[![](../../lanpic/DK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=da)
-[![](../../lanpic/CZ.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=cs)
-[![](../../lanpic/HR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=hr)
-[![](../../lanpic/RO.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=ro)
-[![](../../lanpic/SK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=sk)
-
-[![](../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=ru)
-[![](../../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=ja)
-[![](../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=ko)
-[![](../../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=id)
-[![](../../lanpic/TH.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=th)
-[![](../../lanpic/VN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=vi)
-[![](../../lanpic/IL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=iw)
-[![](../../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=ar)
-[![](../../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=tr)
-[![](../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=el)
-[![](../../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCD12864.md?_x_tr_sl=en&_x_tr_tl=zh-CN)
-
-
------
 ## Bed Auto Leveling Feature Use and Debug Guide for PL-08N bed leveling sensor
 ### Wiring
 1. Connect the PL-08N to the Z+(ZRIBV6) or Z1+(ZM3E4) connector on the control board.   
@@ -40,11 +11,10 @@
 ![](./install.jpg)   
 :warning: The sensing distance of PL-08N to aluminum plate is about 3 ~ 5mm, and to stainless steel is 5 ~ 8mm. If you use a PEI stainless steel hot bed film, please raise the installation position to 4 ~ 6mm from the bottom of the nozzle.
 
-----
-**[:arrow_down:Download Video Tutorial]()**    
+---- 
 ### Level Corners
-**[:movie_camera: Auto Home](./video/AutoHome.gif)**    
-**[:movie_camera: Level Corners](./video/Level_conrers.gif)**   
+**[:clapper: Auto Home](./video/AutoHome.gif)**    
+**[:clapper: Level Corners](./video/Level_conrers.gif)**   
 :loudspeaker: The automatic bed leveling function is used to correct the relative offset of different positions on the hot bed at the Z-axis height, not the absolute value. Before executing Bed Auto Leveling, you must perform **Level Corners** to make the machine obtain a correct absolute value of the starting point of Z axis (it is so called **Z axis absolute zero point** of the machine). Steps as below:    
 1. Make sure the hotbed and nozzle are cool, clean the filament on the nozzle.
 2. Turn on the 3d printer.
@@ -57,7 +27,7 @@
 ![](level_corners.jpg)      
   
 ### Catch Probe Z offset
-**[:movie_camera: Catch Probe Z offset](./video/CatchOffset.gif)**    
+**[:clapper: Catch Probe Z offset](./video/CatchOffset.gif)**    
 **"Probe Z Offset"** indicates the distance from the nozzle to the hot bed when the sensor sensed the hot bed.      
 If the sensor is installed correctly, the nozzle is always above the hot bed when the sensor sensed the hot bed, so **Probe Z Offset** is always a negative value. Because the sensing distance of each PL-08N sensor is different, and the actual installation height of PL-08N is also different, so the **Probe Z Offset** of each machine is different too.     
 You need to do ***Catch Z offset*** to get the **Probe Z Offset** before doing bed auto leveling. Steps as below: 
@@ -68,7 +38,7 @@ You need to do ***Catch Z offset*** to get the **Probe Z Offset** before doing b
 :warning: The Probe Z offset value of your machine may be different from the above picture.      
 
 ### Level Bed
-**[:movie_camera: Level Bed](./video/bed_level.gif)**    
+**[:clapper: Level Bed](./video/bed_level.gif)**    
 After completing the above steps, we have a reliable sensor to measure the hotbed surface and already set all its parameters. Now we need the machine to make a comprehensive measurement of the surface of the hot bed, so as to get a data sheet of the hot bed height on the surface.   
 Do the below steps: 
 1. Do ***Montion>> Bed Leveling>> Auto HOME(Fig1)***
@@ -78,7 +48,7 @@ Do the below steps:
 ![](./level_bed.jpg)     
 
 ### Verification
-**[:movie_camera: Verification](./video/Printing_test.gif)**       
+**[:clapper: Verification](./video/Printing_test.gif)**       
 Now you can try to print a test file to verfiy the bed auto leveling result. Steps as below:   
 1. Copy **[level_test_310.gcode :arrow_down:](./level_test_310.zip)** to SD card and print it from SD card.
 2. When printing started, double click (click twice in one second) the knob to open Probe Z offset menu (fig1).

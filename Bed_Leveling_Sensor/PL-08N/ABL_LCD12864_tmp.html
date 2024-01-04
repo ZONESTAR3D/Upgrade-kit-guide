@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ABL_LCD12864.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h2 id="bed-auto-leveling-feature-use-and-debug-guide-for-pl-08n-bed-leveling-sensor">Bed Auto Leveling Feature Use and Debug Guide for PL-08N bed leveling sensor</h2>
+<h3 id="wiring">Wiring</h3>
+<ol>
+<li>Connect the PL-08N to the Z+(ZRIBV6) or Z1+(ZM3E4) connector on the control board.</li>
+<li>Power on the 3d printer (or control board).</li>
+<li>The LED of PL-08N should light up When it is closed to the hot bed, the LED should turn off when it is far away from the hotbed.
+<img src="file:///f:/我的坚果云/Release Document/ZONESTAR Upgrade Kit/Bed_Leveling_Sensor/PL-08N/wiring.jpg" alt=""></li>
+</ol>
+<h3 id="install">Install</h3>
+<ol>
+<li>Move HOTEND to the middle of hot bed and adjust height of HOTEND or print platform, let the nozzle almost touched hot bed.</li>
+<li>Install the Proximity sensor on the HOTEND. The bottom of the sensor should be approximately 2-4 mm above the nozzle.
+<img src="file:///f:/我的坚果云/Release Document/ZONESTAR Upgrade Kit/Bed_Leveling_Sensor/PL-08N/install.jpg" alt=""><br>
+<img class="emoji" alt="warning" src="data:image/png;base64,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" /> The sensing distance of PL-08N to aluminum plate is about 3 ~ 5mm, and to stainless steel is 5 ~ 8mm. If you use a PEI stainless steel hot bed film, please raise the installation position to 4 ~ 6mm from the bottom of the nozzle.</li>
+</ol>
+<hr>
+<h3 id="level-corners">Level Corners</h3>
+<p><strong><a href="./video/AutoHome.gif"><img class="emoji" alt="clapper" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAQJ0lEQVR4Xu1aCYxVVZr+zluXWqAKKaqKKhEYBWlsDAoKAyWNiqLdCio6E9clGo04GsfEcdIxGs3YMTJJu0EyY2bMTCeCS1qEUWhaQFkaEJSGYSkWC2p99V6tb6m33Xvmy593c/NSeYssyqBfcXLuu/e+c+/3n////v+ch9Ja46cMB85L/GyAnw0wbty4qsmTJy+59NJLP5g6deoU5IEL5wkaGxury8vL/zYQCPymurp6/rx58yZ6PB60tLSgra1tN4AD55UBOKvlhmHM8/l8C0eNGnUjCU8YO3Ys6uvrpdXV1cE0TWzfvh0ffvjhPAC/+39tAKVUJYBZbL+pqKi4dsmSJZNra2sxevRokDhqampAQ2DkyJHgdWnJZBKDg4PYunXrHOTBOZsGSdgH4Bq2G9gWsk2GDTzxxBN48cUXkclk4Pf7QdeH2+2GDYgHfP3113j33XexYcOGS44dO3bknPUAzmYZZ2xmf3//zQAWsF2GAlixYgVeeukl8Hv5Fd7hAPVAPKSsrOxXAI6cM1lAKeWaNGnStYzlVxm/+xYsWBBdvHjxFwD+UcgXAeNfvKAIxDOqqqpAQbzxR02DJOyZOHHinGnTpv3L3Llzd915553pm266acODDz74T48++ujUhx56CC+//DKeeeYZlIqVK1diy5YtsAEJiUgkgq6uLjQ3N+Pw4cNob28HDbb4BzfA5ZdfPueyyy57sampafftt9+euOWWW7669957n3/88cevfOSRR/DAAw/gjjvuwMKFCzFr1ixR72XLloEpDaWCBkQ8HsfAwIAQ3rVrFzZv3ozVq1fjvffew/Lly/HJJ590BIPBPyhOwlkTQQ7uAHAFqNJs17LNvv/++3H11VejsrLSUmmJSeZrMCbh9XrB7w0j9dlnn4HegVJx991349Zbb8W+fftw/PhxMPd3MfdvYAZYm0qlNkaj0eBZyQIkfRWA69h+nSWfI8NXXHEFPv/8cyFLQQLjUAiXgkWLFoEzhxIRnDBhwkZ6wdpEIrGBhLswHKdvgDFjxkzjDN7MGFvAuJpbQgiJG953330oERLDWmscOHAAM2bMQDqdxnAgxLaJbQ3bF+TQhtJRehpk+pjO2buWRcWvWVnNZLz6KGRSfFCsEA6HUQxPPfWUxDnVOK+ac9YQi8XAFIi+vj7ph4aGcN1110k4ED1sm9nWsv2JhFtROko3AElOYVFxM2f5eh43UbS8DQ0NIkrMt7jgggskpfAaRowYIXFXBELm2WefxTvvvGMVJ0KYXgTGqFzv7u4GRQqMW7S2tuLkyZO9oVBoC699CuDPJPwdzhIkBFhBvUS1fp7NzdwMkgbdXYSLREXEsqIlsWyByo6PP/4YpWD9+vWiCazGxHM6OzuFcLZFOzo6GMMDn3Hm1zGFHccPBFc27oa4qHDfc889oJgIaboseE4I54HM6po1a0ClRTEw14PpDydOnMB33303yFnfTndfTW/4gnpyCD8SxAOUUpMBHGS84YYbbhClLhWvvfYannvuORTBENuXDJ11DLG19IJmnBuwswBJx2fPnu1nEQGXK7828n5LtETA6K6gVoBxCxuIse1kW51V6b/iHIULNr7atm3bgo8++gh33XVXzoqKRK2lpVRcJC2EGcciYswMGX7eDCo02xoS/l8Mw7lvgA1sCx577DHcdtttsrTs6emRdMTZFvIUKqmt9+/fH2Mcf0Ol/pT68eejR4/uRlGc+wZYx/YaZ1Tq61deeUXKSiq09CSNvXv3goJ1lLX3xTgvYGuApQMJAF4Q8+fPl5x85MiwJfRufudKnCdwIRctbJNAcBtJtpdYAEk4OJ1OKVPZj+X6fQm9oIzaoEDwnNyzY8cO0YsCkNQ6ffp0EdISIPdzcSPhVwKkfCaGvQdLavD9nVrr3oMHD35cqBSWLLBq1Sopfqwczy/KMbWgljl8FRccFlmpGw4dOgSKKIrAWvpKJVgE8h5Mm3j11VdLJs99BhmbRHN2hmhweUd6dAxAYQOwdJXURhHMGYiEpdEQ0jNDyMyzUsT111+PIpAS+u2335aMwhkpttKUpfP7778v64PikG0yeQYnZ9jWGM9h06ZNIKf2QiEgVn/hhRdAyPq9BMjG4549e1AMb731lhjh++D1119HKXj66acltPKBkyZizoWdLmgAlsNiBMvt2QpuOhJYunRpKb/USHotOq49toQh0y1KAbfT8o7NsSSd0+vEcwsagJuUONLcDI/XW0zQxEW5yBHxKwaGldQTTKOALhL7bpdsnjz55JMoBQ8/9DDvd+PY0aPIkKBSapgBqAuS1RgK+Q3AWVLffvMNesI9CAT8MA0TUHlilIP6fX7ZwysCEcl0Ko0333gDKfZQ8i8v/IEy7NzxF1kml4KGxgaO/SZi8SGoPO+aGIrjEIs4hoLKa4CMgrF5xxaonU4DDn5g2lPstaFByLFBozic2d4BOMu9mFgzGTwkFMT7oKGV1NEw2DgD+NcVbyKVTkGgeR0C6/6c4xRd9RcTJuGa+fOw//hhuJ1u8UaOA+tGjivp16GAFf/173TxFFQe11Js2pRrTtPQRl4D+AJeNDBWq2qq4aYL+rw+1v79kg7T6QwidOFRVdUI94VRUVYuhGPxuLiskDCzMag0pNcK2pRsgQx7LSTlJvawPxNm9oQJjYHBASy65TYoKAQ/jaF2VA28bg96+vs4TgYeFzNPeSWi8SjSRhokVTCqFCDeHGWV2x/syR8Cfn8A9eMbUdNYh6YZs9X4+kbV1t2pR1aOUEOJpA73hoUsrYkqFknJTAo7v92tQ729cPO8qbPE+TA5NrOfIT3P2T0UqZqAodlbBpHegK+vF3OamqCUxgc71mM68/vf3bjIYdKI7cEujKiswN80jsc/v/E7M9wbEr0AVEELGAy9cJsb8YECGgClSMQDNwWwsqISvbGI7qbVa6pHaWfAhWrG8p+2b8L8q+aqYE9Yx4ZiGNdwoRqMR7XT5QC0giHEASEr5HLI258NISsuzAPQZGIoQ7vgjLpQOaJCOPnKA2gLdWHjrq26emSVeFpnXwiJZErBCXh8PnqrC4WhIOHqdotA5jWAvFjGgIt3H245prs54xkjg77+XqSoBwG/F+Prx6nPt200x9c1qiRjtSMU1H5fAHEaQ0PBNDV7m7jtCVmKBpv1Z3sJpEGCFRm+g2lk5Bx4PUPt+HLPNk1tAKDkHrfLTaO74XI6ZcyCUDIp2fF1XgPIwIZpgPZCe3enPNzQtHhPSMgYPQaOnmghT6AzFJKgVcpBMVKASfIy40KTPHIMINcA9nZI5DSez14HaEQ2eWNLvBj3XpL2WCwkdBxQMkYJkPuUjFXYA2Rgw8jQsm4hTyZwKiWzp0jUoVwkBvZmrjtnyfPlbYI8b8IOBcswtgGQYxBY45kGjLSIphhCs5naJiKGh5JxUAp/hRw9ymsAA1pcL0NlRVrBkAcbOTFsz6xpkbHj3bTvs5tlhOHNJg7LSELYNAx5tgaksElnMlnCEPLfGwpiVHlnjbwGkHo5Fk8wDUUoGC4YjEUDuYRllnMNYc+cNNsb7BAY5vp22mODXLON2DvYjyg1BVDoj/TB43RZM8+mTs0AGUPSZiqdzG+AaRdPwe033oq5TEHl5WWSOwXyXMXOlJmwzyHPS9lFjZJLyhrGcl9bjJR9LQspmOouqAWBL1askhoAGqcM5XRKCbzlq6/APc/8BugMd2Nv8wFkvA6mQjfV1wCUA6aZgbZJyZ/MmiUukmYc8jl71r5XrstMs7cKIG2LmWUUK8az9yRoBAWQvBunC4dyIplI4vCBAzjRcTK/AbpCQew++FecjHTDy/xKIBKNwOv1Qcpip0Ne1OlyMVySQiSZTAn5ZJq9UlZswzSEjYSIKZnIgKF5nT3p5tQIhPTI6oXAMtSZgWhLpKsXoc72vAaQZbDP4yURB+ZdOQvTp/xShVmWTqhv4HrCia7ebt3R1YUxo0YrUtQ9vX2Y/otfquOtJ7DsP5ebfhpNa9sDcsUOEIJsVm9RtL+Tm5HOHJToGQJJDLo8+Q1gysxJGYe+gQG0tLeil/XzURZFl1w4Xp3oaBdF3t98UHPWUT+mFuu3bmRFGIfb6ZLvWmRyiUJ62GnQmuFcD4BdrJxJKCEnwlxkU9SUHAwXyXxzcB927N2jWQnKuXUKWgoPWbBAUhUUwOpMVmX0HDk3vMhBzjkiN+/bfNnbonqmYWSLOjLMZwC7AiNhEQ63yyWlJqCzeVQBlgDyPElIwaQh37Hc3iZspzjbA2z947HO4/IaZxraFM9mK+QBZGAYphQfLqXEGPaL5yxuhhHNqeRg5Xj2VgjkZBDLUDb5sw2dDU+zUCWYprsnkgnEo3E43IoGyK4PtE3UdmkD0IrErJkW94cBBWUZKqv6FknJBpBe7lVZo599kEuWG8WwwH4A43hURRXqa2rg9rglbqwVmfxJTW0RzhUzk80+n+1tZc+514KI0rB4l3vEZa3tLHUGNMHMpBE03BgK9uU3wMSGcVgwqwlXzZwBf6BclFPgUCXY+BSgVJ6XNeF2O63/NCXhk0wlZdMlk87IOkEpwOf1iwAXebgs5qKxOHbu2ok1iQIasPvAPrTF+7By6/8gnTaQ4EOdTkd2LW3KOYsp1+MAtCxJDW3IixiGhtfjgY9N49QxEBnAP/z9wyCw7L//DWNH16K+thbHW1tQN7oGFWUVijULWlpP6mg8Js8uYmdJ0f1dYQRbChRC2jRkJRiLRHHRhRehtqZWdYW6wD048eRx3AxJp5NCvqWjFXwJnUokMGLkSNXX36erq6pUsDuk24Kd8Hu9p2wEbr+JEBOsR/owZ/pM3Lf4LhUIBNRANKLbO9rVgmt+haW/fVZ3hYMo8wVK2BM0ZHNHm/k1QOLN5XAixZuvmTlHja2rwyXjJyqHUmp84zgpjg4da9YXsjJ0Ol2IxKOK22UYXT1a/eXbnXrqJVOwcu0f8ft3l+tyfwCnCqZfUW0CAZ8foVA3tny9Hd3hsI5EY7qnP6xDfWFFQ8Hn8sHJdy4IEWYl3Mix0IYIJL7KXB6s27xBN9SPxX+s/IMuLyuTH0oYSzJAMNStK8srkEolUMGeW2OIx4cQ8PvZx1AWCEgKPZ26PZNVa3of2oJdOPLHD0Q/WYFKWDa3HNc0jnhjKc+STRajyH4AYDhganB2EertwcmuDrj5MCNbRJiih0peoJ3XACUuBcVzil9VWmbP4/aKip9G0SK7UtaxmzHupijnZiz73qKwt+OFY14DZFKmI5OS39EV06Cu9JeVnKbtElaL+54OlLZ/31f2vqA1/vcdTQbh0l6Rm3AsYID01ng0erGnzO+gfxlOutuPAHH/GNOWdWwwxE4D4sHJeMJBbhwvvS2vAeKDkSedLudiaIzwlwecVDooWND4gSC/5B5pPgw57h2AYyiF7w97p0kbBoaicUT7Bgfi/ZGlBf+3uFKqLDCi7Pfcc2/iHoBJJzDxAyOVzuCi+kYQkm49btdpCCocFECHkUl/GR+IPUW+sWEG+CnDgZ82fjbA/wHW2g77xRyVtAAAAABJRU5ErkJggg==" /> Auto Home</a></strong><br>
+<strong><a href="./video/Level_conrers.gif"><img class="emoji" alt="clapper" src="data:image/png;base64,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" /> Level Corners</a></strong><br>
+<img class="emoji" alt="loudspeaker" src="data:image/png;base64,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" /> The automatic bed leveling function is used to correct the relative offset of different positions on the hot bed at the Z-axis height, not the absolute value. Before executing Bed Auto Leveling, you must perform <strong>Level Corners</strong> to make the machine obtain a correct absolute value of the starting point of Z axis (it is so called <strong>Z axis absolute zero point</strong> of the machine). Steps as below:</p>
+<ol>
+<li>Make sure the hotbed and nozzle are cool, clean the filament on the nozzle.</li>
+<li>Turn on the 3d printer.</li>
+<li>See <em><strong>Montion&gt;&gt; Bed Leveling&gt;&gt; Bed Leveling: OFF</strong></em>, if it is <strong>ON</strong>, set to <strong>OFF</strong>.</li>
+<li>Do <em><strong>Montion&gt;&gt; Bed Leveling&gt;&gt; Auto HOME</strong></em> on LCD screen.</li>
+<li>Do <em><strong>Montion&gt;&gt; Bed Leveling&gt;&gt; Level Corners(Fig3)</strong></em> on LCD screen.</li>
+<li>Adjust the screws under the hotend, let the nozzle almost to touch the hot bed(Fig4).</li>
+<li>Following the wizard shown on LCD screen to adjust all the screws in the 4 corners of bed.</li>
+<li>Perform at least 2 cycles to confirm that the screws at the bottom of the hot bed have been adjusted.
+<img src="file:///f:/我的坚果云/Release Document/ZONESTAR Upgrade Kit/Bed_Leveling_Sensor/PL-08N/level_corners.jpg" alt=""></li>
+</ol>
+<h3 id="catch-probe-z-offset">Catch Probe Z offset</h3>
+<p><strong><a href="./video/CatchOffset.gif"><img class="emoji" alt="clapper" src="data:image/png;base64,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" /> Catch Probe Z offset</a></strong><br>
+<strong>&quot;Probe Z Offset&quot;</strong> indicates the distance from the nozzle to the hot bed when the sensor sensed the hot bed.<br>
+If the sensor is installed correctly, the nozzle is always above the hot bed when the sensor sensed the hot bed, so <strong>Probe Z Offset</strong> is always a negative value. Because the sensing distance of each PL-08N sensor is different, and the actual installation height of PL-08N is also different, so the <strong>Probe Z Offset</strong> of each machine is different too.<br>
+You need to do <em><strong>Catch Z offset</strong></em> to get the <strong>Probe Z Offset</strong> before doing bed auto leveling. Steps as below:</p>
+<ol>
+<li>Do <em><strong>Montion&gt;&gt; Bed Leveling&gt;&gt; Auto HOME(Fig1).</strong></em></li>
+<li>Do <em><strong>Montion&gt;&gt; Bed Leveling&gt;&gt; Catch Z Offset(Fig2).</strong></em></li>
+<li>Wait the catching done, and then check the Z Probe offset on menu <em><strong>Montion&gt;&gt; Bed Leveling&gt;&gt; Probe Z Offset(Fig3).</strong></em>
+<img src="file:///f:/我的坚果云/Release Document/ZONESTAR Upgrade Kit/Bed_Leveling_Sensor/PL-08N/catch_z_offset.jpg" alt=""><br>
+<img class="emoji" alt="warning" src="data:image/png;base64,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" /> The Probe Z offset value of your machine may be different from the above picture.</li>
+</ol>
+<h3 id="level-bed">Level Bed</h3>
+<p><strong><a href="./video/bed_level.gif"><img class="emoji" alt="clapper" src="data:image/png;base64,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" /> Level Bed</a></strong><br>
+After completing the above steps, we have a reliable sensor to measure the hotbed surface and already set all its parameters. Now we need the machine to make a comprehensive measurement of the surface of the hot bed, so as to get a data sheet of the hot bed height on the surface.<br>
+Do the below steps:</p>
+<ol>
+<li>Do <em><strong>Montion&gt;&gt; Bed Leveling&gt;&gt; Auto HOME(Fig1)</strong></em></li>
+<li>Do <em><strong>Montion&gt;&gt; Bed Leveling&gt;&gt; Level Bed(Fig2)</strong></em></li>
+<li>Wait for the end of the measure(Fig3).</li>
+<li>Do <em><strong>Montion&gt;&gt; Bed Leveling&gt;&gt; Auto HOME(Fig1)</strong></em> the auto leveling will change from &quot;off&quot; to &quot;on&quot;. It indicates that the automatic leveling feature is working(Fig4).
+<img src="file:///f:/我的坚果云/Release Document/ZONESTAR Upgrade Kit/Bed_Leveling_Sensor/PL-08N/level_bed.jpg" alt=""></li>
+</ol>
+<h3 id="verification">Verification</h3>
+<p><strong><a href="./video/Printing_test.gif"><img class="emoji" alt="clapper" src="data:image/png;base64,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" /> Verification</a></strong><br>
+Now you can try to print a test file to verfiy the bed auto leveling result. Steps as below:</p>
+<ol>
+<li>Copy <strong><a href="./level_test_310.zip">level_test_310.gcode <img class="emoji" alt="arrow_down" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAALhUlEQVR42u2b+28U1xXHz+zDXvwAgw1mMQ6YR1FFRCgUBGlCFZpUSG1EowaJBNQ0aZXQVokaobZqpf4BldL0pygpokmQklYtqUUTnBBKSMFgx05tjMFgY2MMfmDj3Q2297079/Z+78zaa3tfM7u2g5pdHdas597z+Z65c+65d8YW+j9/Wb4KwFcByPilbNj57KZNj/3k11t2HfjbtsdfrN2++6WGB3/wcsNDc2TwDQawgAlsYARrTgOwaedzT2z//i/Oly1Z1uBcseYPFavX7l1WteahZVVf2+qsWr21fOWaOTH4BgNYwAQ2MIIVzFkH4P7v/LR8664XjpVWVFY7V63bvnT1Klvp8kqav7SCFi5bTuUrllNF1UqqXD03Bt9gAAuYwAZGsIIZ7NBgKgAPPPLM+gVFxZ+Ur1y7u/y+lVTiXEqFi8po9apKevzhDfT87m308p4d9JundtBv932bfrd/dg0+4RsMYAET2MAIVjCDHRqgxVAA7t/xbGVRyaL3F1dWrS+rcNK8khJyli+m/Y9+gw4+uY12f2sdff2+Miqcl0dhxskbitJoYHYNPuEbDGABE9jACFYwgx0aoAWaMg2AUlRcdKjMed+qhc4lZCsopnVVy+ilJ7bQlnVO6h4ao9OtfXTyYh/VXh2kho471NgprGuWTfiEbzCABUxgAyNYwQx2aIAWaEqUHKcF4JuPvbC3ZLFz14IlZZTnKKS1leX03Hc3kDcYpY+be6m1x02esRBFo4xInAFFdGkR/1hn2eATvsEAFjCBDYxgBTPYoQFaoAnaUgZg8+bn7Y7C4oPFZaXkKCyi+cVF9OTD62jA46f6q0PkD0fJZrEIxwpxLn0TY+kNxxJXDBnPsG8w4FgwgQ2MYAUz2KEBWjRNxQehMWkA1FK+pWDBos0F84tJsefRg+uXU1Tl1Hx9mBSLIp0waDFgeIXFGRrxh+luhoZj0YYM+kILMIIVzGCHBmiBJmiDxqQBsFnzHylYUEx2h4NKigtolbOELvW4tKEmwsxFyI2aKszlDVGHy0/tw375mcpix6CNasIf14ccmFsFOzRACzRBm9WStzNpAOx2x0Z7fr6IoJWWLiymUXEmRgMR+TsmOjVjgVCENq5YRK/s20yv7t9Mf9yX2nAMjkUbtDXrF68xwY7R5BRaoAna8vLmPZB8BNjsFTa7XUTJSkUOO7lGAjKSZiFgQLFYFOM1umjDKTvfYIeGwnmaJmiDxqQBUBSrw2K1kMVqFRGzkE9kU1Bwxk0bYxNnxMhLisjCL5fZkcgvNCiKpgnaoDH5NIgTpVjlZySqCggmM2z2ZjwAaJML39AALfHaUgQAc5CW58MIgDyDLGszG4Bc+IYGaBmfJ6TGZAGQw12Rn1FVlVlY5dmaajoAaJu1f6EBWuK1pQjAxNhhqp7EsjWm5RDDAWB62yz9M13LpOsiWQDEYBVvdaKhPoSyM0Ym9OtVZq786wER2hilCACP+5SHs9zYVKcZBSCH/rX3ZI1JFkO4VrQiW0teqKzUrIzJT2biEmB62yyNa1q0RQnTNCYNAGP6JaIlj9gcnq2ZyIH6FJYD/3IUMG1McU1j6lmAawMmGlFzdA3yLKZBnpMcAC1SFeepZwEeC714+UUdHolqI0FVszNm4hJgOfALdmiAltiwSpMDJs5WUKyr0RD/vVeTINihAVpio4pSzQLEVW0pybVqcMQXEFVUVL9+zJmKRKSauARUrrU16RfMYIcGaFG4vjPD1dQjgPQ1tSIiGIkwco/4Jy1LVX2Nn6nF5mFziyFm3F/cMhzs0KAwbS9DS4A89Z6gTBZyVwrLSS4XEp6xAN31BigUjoxPj5Nr/XRmdjGUut+pDPgEI1jBDHZo4IquKcGlOK0OmFpKKvrAQES/GAuKzoNiiRnRVotwGImST1xjPvH7ROYVFlZVwwFAG2+SPqUJn/DNmLbaAxPYwAhWMCs0vZROWQfIS1Xf7eTjdbNmsc7CwumoPySurSC5RgP0WccQvXeynf55poveO9c9zWrOXKeOvhHDAUAbtE3Up/QlfMI3GMACJrCNn7TYTmFMuL57qqZcDLHUC4vY9QMHmGZC4iz8/HsbqeG1H9O5V/fT+Veenmb1rz1Dv/rhFsMBQBu0TdQnfMEnfIMBLMqUmSypBsbTTYMT0wWnVMEQW2ii9dnWG+QJBmlxaSEtXpTASouoqCDPcADQBm0T91kofcK3zRKfMxJYbGUzXpGmCUBsQySTqQZ7bv5QmP78QSMNeryzdk8fvuATvsGQ2bQ4oS15Jahn7InojY+DpG+72GfzjPnpcM3nIhGFZ1w8kh18wSd887TvqaODpSuE4m/psLSbbug032al7gE3vX2iWdbfM/XC/H7kRJP0BZ88o43BqXrUNHVArB0Z241x5Nmosb2Xqs9emrEAVJ+5LH3Al6GdIUq4GZRsQwRVOJOlo6HSU5jDbqUPGzrobEt3zsWjz48a2ilf+CCDbFIL6UtiSrsnGNsc1XNGhsblhivJO7d/PXWBrvQM5kw8+kKf8o6wSbaJm4g8TSVILG760CJnxEReEpVZlA5/0ECD7tEcZPxR2Rf6RN9GeWI7nZqmdDtCU697MrcTaxOkbpGl3/hXPfkCIdPifQExxYo+0Bf6NLUzTNPrl7T7AeOjgOnjzYQ5RJa+3j9Mb9U0mFoNwj/advUNy77McnA2WVPqQoipk+bL7G5PcZqXZ6fPrtyio6cvGA7A0dMt1HDlpuwjW474+gYaU+4J0tRiKEvDlFVTd5U+be7MWPx/mrvoeF2byPi2nLJooyLlJaAlDIpbPWl3KMybgpwgsve7Jz6ntu7b6TN+9yC9I461iTu68gZ5lv7jtfDxcng2nxXG1Cju9eNBpkPH6ui2K/nSGL87dOy8OFaVbYjPOF2CxVDcLg7nxqfBZGazKeQe9dLr1WcTzgz47vXqWrG+98pjc+U3XstEQZDs3iAXm0c5vOamGqq4rj4XHX6/btKaAT//RXyHjI9jZpKBp8oBjEcjcupjMzfkHPliZrh8g/5+qmn8u3980kT14jv8buZWUtod5yiLhJMGIBIK3mHRiNhd1fbauGruKa2UT3AxrBlsdLy2lWovdNK5li75M74jlnt/XL8xIzVBWyjoTh6AoP9KNCIeT8Nmo3zPzDBEQW8TWzlv19TTW8fr5LM7+G4mfGmZQAQgEiFoC4eCbUkDEPJ6z4eCPnGg2P6WZ9/Yg4oZG9cer8XMALPqT57OiC8MOhX3B8UustAW8o6eTxqAnp5Lzd6R4bawXwQhGhI5QZ2xZCTLY0XbYWUzmPSgAVqgCdqgMfk0GAh4va6BN/1jHgqLW0q4Zri+K6TcY0b61AcN0AJN0AaNqQqhQNfFuhrPUG+tb+QuBf0BseWsjj/wmJtH5mbB9O0zsEMDtEATtEFjqgAEYbevtfz+7p1bfTIIPh+pUf2W2GyUZlkXnvo9RcEMdmiAFmiK6UsVACj0uAZ7bg90t/zM3X+jd8ztEsNnTEyRAfG4WUQ+usa49hDll8tUyQZGsIIZ7NDQ29lyAJqgbWopmGgtMIbKtL/z8rWeK/U/unPz6qd3h/ppzOOhgOg0JJJJJBwU00pYDLEviQkWMIENjGAFM9ihYbD7MpaiPl1bRouhIZQFrr6ugYtnqg/0dTS9OHjz2kXPQB+NDA3TqMtNo26RVNxfkNczMrcmGMACJrCBEaxgBjs0QIuuKeO/GsNTEbGGdP1i7cnmf7+799bV+qd7r134U39n20eDN9qbb/dcax3qaRfWOUfW3goGsIAJbGAEK5hj9Z2uJWr07waxZOvVh46spnvaGpvaGz98o/Xs0V82nXrnqf9+fGRP4wnYm3NkR/aAASxgAhsY4xb9Pl1DyOxfjiJq/XoEg3TvvII6c3+yM290QwTFwy09mi49mQTippW5toDO5NIZb+nMaV//AystMIdLob3CAAAAAElFTkSuQmCC" /></a></strong> to SD card and print it from SD card.</li>
+<li>When printing started, double click (click twice in one second) the knob to open Probe Z offset menu (fig1).</li>
+<li>Rotate the knob and watch the nozzle, let the nozzle is higher than the hotbed about 0.3mm (fig2).</li>
+<li>Do on the MENU&gt;&gt;Configuration&gt;&gt;Store settings (fig3)
+<img src="file:///f:/我的坚果云/Release Document/ZONESTAR Upgrade Kit/Bed_Leveling_Sensor/PL-08N/print_test.jpg" alt=""></li>
+</ol>
+<h3 id="apply-bed-auto-leveling">Apply bed auto leveling</h3>
+<h4 id="one-auto-leveling-feature-will-be-disable-automatically-when-the-printer-reset-you-can-turn-it-on-manually"><img class="emoji" alt="one" src="data:image/png;base64,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" /> Auto leveling feature will be disable automatically when the printer reset, you can turn it on manually:</h4>
+<ol>
+<li>Do <strong>Motion&gt;&gt; Bed Leveling&gt;&gt; Level Bed &gt;&gt;Auto Home</strong></li>
+<li>Do <strong>Motion&gt;&gt; Bed Leveling&gt;&gt; Level Bed &gt;&gt;bed leveling: OFF Change to ON</strong>
+ATTENTION: After do these 2 steps, the printer will apply the hotbed auto leveling correction by using the stored parameters in the last time.</li>
+</ol>
+<h4 id="two-you-can-also-add-command-to-the-%22start-gcode%22-of-slicer-let-the-printer-do-bed-auto-leveling-when-printing-from-sd-card"><img class="emoji" alt="two" src="data:image/png;base64,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" /> You can also add command to the &quot;Start Gcode&quot; of slicer, let the printer do bed auto leveling when printing from SD card.</h4>
+<p>You can also add a G29 command following the G28 commant to the “start gcode” of slicing software, it will execute &quot;bed auto leveling&quot; in the star of printing.<br>
+<img src="file:///f:/我的坚果云/Release Document/ZONESTAR Upgrade Kit/Bed_Leveling_Sensor/PL-08N/slicer.jpg" alt=""></p>
+<h3 id="warning-attention-please"><img class="emoji" alt="warning" src="data:image/png;base64,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" /> ATTENTION PLEASE</h3>
+<p>If the following conditions occur, the parameters of the hot bed leveling table may change, you need to repeat all steps starting from <strong>level Corners</strong> to get the bed auto leveling data again.</p>
+<ol>
+<li>Adjust the screws at the bottom of the hot bed.</li>
+<li>The print head was reinstalled causing the nozzle height to change.</li>
+<li>The installation position of the sensor has changed.</li>
+<li>Replace a hotend sticker.</li>
+<li>Reset the NVRAM of the control board.</li>
+<li>Other.</li>
+</ol>
+
+</body>
+</html>

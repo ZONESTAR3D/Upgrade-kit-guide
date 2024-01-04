@@ -1,31 +1,3 @@
-### :globe_with_meridians: Choose Language (Translated by google)
-[![](../../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=es)
-[![](../../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=fr)
-[![](../../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=de)
-[![](../../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=it)
-[![](../../lanpic/SW.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=sv)
-[![](../../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=pl)
-[![](../../lanpic/DK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=da)
-[![](../../lanpic/CZ.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=cs)
-[![](../../lanpic/HR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=hr)
-[![](../../lanpic/RO.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=ro)
-[![](../../lanpic/SK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=sk)
-
-[![](../../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=ru)
-[![](../../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=ja)
-[![](../../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=ko)
-[![](../../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=id)
-[![](../../lanpic/TH.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=th)
-[![](../../lanpic/VN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=vi)
-[![](../../lanpic/IL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=iw)
-[![](../../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=ar)
-[![](../../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=tr)
-[![](../../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=el)
-[![](../../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide/tree/main/Bed_Leveling_Sensor/PL-08N/ABL_LCDDWIN.md?_x_tr_sl=en&_x_tr_tl=zh-CN)
-
------
 ## Bed Auto Leveling Feature Use and Debug Guide for PL-08N bed leveling sensor
 ### Wiring
 1. Connect the PL-08N to the Z+(ZRIBV6) or Z1+(ZM3E4) connector on the control board.   
@@ -40,7 +12,7 @@
 :warning: The sensing distance of PL-08N to aluminum plate is about 3 ~ 5mm, and to stainless steel is 5 ~ 8mm. If you use a PEI stainless steel hot bed film, please raise the installation position to 4 ~ 6mm from the bottom of the nozzle.
 
 ----
-**[:clapper: Video Tutorial](https://youtu.be/Zoyl6PybsUk)**    
+**[:clapper: Video Tutorial](https://youtu.be/R3RfGnxx8hY)**    
 ### Level Corners
 :loudspeaker: The automatic bed leveling function is used to correct the relative offset of different positions on the hot bed at the Z-axis height, not the absolute value. Before executing Bed Auto Leveling, you must perform **Level Corners** to make the machine obtain a correct absolute value of the starting point of Z axis (it is so called **Z axis absolute zero point** of the machine). Steps as below:    
 1. Make sure the hotbed and nozzle are cool, clean the filament on the nozzle.
