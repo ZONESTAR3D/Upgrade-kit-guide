@@ -106,6 +106,7 @@ To add a G29 command following G28 command in the "start gcode" of slicing softw
 ### What is “Probe Z offset ”and “HOME Z offset”
 **“probe Z offset”:** it means the distance from the nozzle to the the sensing plane while the probe is triggered. 
 **“Catch Z Offset”** function will get an average of **“probe Z offset”** automatically. We MUST manual level the bed before doing **“Catch Z Offset”**, otherwise the printer can’t get **“probe Z offset”** correctly.
+
 ### How to correct “Probe Z offset ” and “HOME Z offset”
 For various reasons, the settings of **“home Z offset”** and **“probe Z offset”** may not be accurate, so you can manually adjust them to be more accurate.
 1. When doing **bed leveling > > auto leveling**:
@@ -113,5 +114,9 @@ For various reasons, the settings of **“home Z offset”** and **“probe Z of
 - if most of the obtained data showed in the table are shifted to the Negative, you can increase the **“probe Z offset”** and do **"auto leveling/level bed"** again.
 PS: Ignore the datas at the 4 corners, it will be optimized in the firmware.
 2. If you find that the nozzle is too close/far away from the printing plane when printing the first layer, you can incease / decrease **home Z offset** then print it again.
+
+<!-- ### How to set “Probe offset”  -->
+
+
 
 

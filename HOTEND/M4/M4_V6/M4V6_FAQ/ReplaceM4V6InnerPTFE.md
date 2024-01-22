@@ -1,5 +1,5 @@
 ## How to replace the inner PTFE tubes of the M4V6 hotend
-#### **[:clapper:Video tutorial](https://youtu.be/4DvrlT7PzZo)**
+#### **[:clapper:Video tutorial](https://youtu.be/S-vUdI5z-nM)**
 #### Operation steps
 - Prepare 4 piece PTFE tube (ID=2mm/OD=4mm), length is about 100mm (Fig 1). To cut the PTFE pipe by a knife (paper cutter) and try to keep the front end flat.
 - Remove the screws which to fix the hot end on the top of the hot end housing (Fig 2).
