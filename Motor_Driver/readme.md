@@ -11,7 +11,7 @@ You may need to change the stepper motor working direction after replaced the mo
 ![](3.jpg)
 
 ### How to adjust drive current
-If you want to adjust the current of the motor driver module, please measure the voltage (Vref) on the potentiometer with a multimeter.
+If you want to adjust the current of the motor driver module, please measure the voltage (Vref) on the potentiometer with a multimeter.     
 **:loudspeaker: NOTE**
 - **Diconnected the motor wire and then supply power to the control board.**
 - **For A4988 drive module, you can supply power to the control board from USB, but for TMC drive module, it must supply power to the control board from DC terminal.**
