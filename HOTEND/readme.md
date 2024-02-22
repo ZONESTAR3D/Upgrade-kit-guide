@@ -1,16 +1,15 @@
 # Hotend
-The hotend is the component of a 3D printer that melts the filament for extrusion. Generally, the hot end consists of the following parts:
-### Terminology
+The hotend is the component of a extruder of the FDM 3D printer that melts the filament. Generally, a hot end consists of the following parts:
 1. **Nozzle**: To melt filament and flow out，the size of its outlet determines the layer thickness can be built. It is usually made of materials with high thermal conductivity and high hardness, such as copper, carbon steel.  
-2. **Heating block**: It is a device used to fix the heater and nozzle together. It is usually made of materials with high thermal conductivity, such as aluminum and copper. In some designs, the nozzle and heating block may be integrated.
-3. **Heat break**: It is a device used to isolate the heater from the printer, usually made of high temperature resistant but low thermal conductivity materials, such as stainless steel, PEEK, PEI, etc..  
-4. **Heat sink**: In order to fix the hot end to the printer and keep the filaments cool in front of the hot end to conduct extrusion pressure, the heat break usually needs to be connected to the heat sink, and then install the heat sink to the 3d printer.    
+2. **Heating block**: It is a device to fix the heater and nozzle together. It is usually made of materials with high thermal conductivity, such as aluminum and copper. In some designs, the nozzle and heating block may be integrated.
+3. **Heat break**: It is a device used to isolate the heater from the printer, usually made of high temperature resistant but low thermal conductivity materials, such as stainless steel, PEEK, titanium, etc..  
+4. **Heat sink**: In order to fix the hot end and keep the filaments cool in front of the hot end to conduct extrusion pressure, the heat break usually needs to be connected to a heat sink, and then install the heat sink to the 3d printer.    
 5. **Cooling fan**: Speed up the heat dissipation efficiency of the heat sink, and there are also designs using water cooling methods.  
-6. **Extrusion fan**: It be used to cool the colloid flowed out from the nozzle so that the filaments can be formed and fixed ASAP.  
+6. **Extruder fan**: It be used to cool the colloid flowed out from the nozzle so that the filaments can be formed and fixed ASAP.  
 7. **Heater**: It be used to heat the nozzle, usually using a 40W~60W cartridge heater.
-8. **temperature sensor**: The 100K NTC thermistor is usually used to measure the temperature of the hot end.
-> **Referance document:**[***Hot End Design Theory***](https://reprap.org/wiki/Hot_End_Design_Theory)  
-![](hotend.jpg)  
+8. **Temperature sensor**: For measuring the temperature of the hot block (nozzle).
+![](hotend.jpg)      
+:link: **Referance document @ Reprap: [Hot End Design Theory](https://reprap.org/wiki/Hot_End_Design_Theory)**      
 
 ------
 ## 4 Channels Hotend
@@ -59,32 +58,25 @@ For details, please refer to [**here**](./R2/).
 ### :file_folder: [High Flow Hotend]()
 [:book:Details]().
 
-------
+<!-- ------
 ## :file_folder: [Slicing Guide for ZONESTAR 3D Printer](https://github.com/ZONESTAR3D/Slicing-Guide)
-[:book:Details](https://github.com/ZONESTAR3D/Slicing-Guide)
+[:book:Details](https://github.com/ZONESTAR3D/Slicing-Guide) -->
 
 ------
 ## :gift: How to buy
-### :one: One color Hotend 
-#### Normal Flowrate hotend
-[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275334841.html)
-#### High Flowrate hotend
-[**Buy (ZONESTAR Offical Store)**](https://bit.ly/3RF7ciR)    
-[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275334841.html)
-### :two: 2 Extruders Hotend (2-IN-1-OUT/2-IN-2-OUT)
-[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001285955926.html)
-### :three: 3 Extruders Hotend (3-IN-1-OUT/3-IN-2-OUT/3-IN-3-OUT)
-[**Buy (ZONESTAR Offical Store)**](https://bit.ly/3z37ZUo)   
-[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275429959.html)
-### :four: 4 Extruders Hotend (4-IN-1-OUT Mix Color Hotend  and 4-IN-1-OUT Non-mix Color Hotend)
-#### E4 (4-IN-1-OUT Non-mix Color) Hotend
-[**Buy (ZONESTAR Offical Store)**](https://bit.ly/39qDtKp)    
-[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005002951777699.html)
-#### M4V6 (Newest Version 4-IN-1-OUTmix Color) Hotend
-[**Buy (ZONESTAR Offical Store)**](https://bit.ly/3QhWJtf)   
-[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005004547646195.html)
-#### M4V4 & M4V5 (Older Version 4-IN-1-OUTmix Color) Hotend
-[**Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001581641783.html)
+- **One color Hotend**   
+  - **General Flowrate one color hotend** [**:gift: Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275334841.html)
+  - **High Flowrate one color hotend** [**:gift: Buy (Official Store)**](https://bit.ly/3RF7ciR) [**:gift: Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275334841.html)
+- **2 Channels Hotend (2-IN-1-OUT/2-IN-2-OUT)**
+[**:gift: Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001285955926.html)
+- **3 Channels Hotend (3-IN-1-OUT/3-IN-2-OUT/3-IN-3-OUT)** [**:gift: Buy (Official Store)**](https://bit.ly/3z37ZUo)   [**:gift: Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001275429959.html) 
+- **4 Channels Hotend (M4 Hotend and E4 Hotend)**
+  - **E4 (4-IN-1-OUT Non-mix Color) Hotend**
+  [**:gift: Buy (Official Store)**](https://bit.ly/39qDtKp) [**:gift: Buy (Aliexpress)**](https://www.aliexpress.com/item/1005002951777699.html)
+  - **M4V6 Hotend**
+  [**:gift: Buy (Official Store)**](https://bit.ly/3QhWJtf)  [**:gift: Buy (Aliexpress)**](https://www.aliexpress.com/item/1005004547646195.html)
+  - **M4V4 & M4V5 (Older Version 4-IN-1-OUTmix Color) Hotend**
+  [**:gift: Buy (Aliexpress)**](https://www.aliexpress.com/item/1005001581641783.html)
 
 
 
