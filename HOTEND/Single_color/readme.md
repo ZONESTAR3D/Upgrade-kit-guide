@@ -17,10 +17,10 @@ A high flow fast printing high temperature single color hotend assembly, it can 
 - [sales link ](https://www.aliexpress.com/item/1005001274803204.html)
 ![](PHS_HF.jpg)
 
-## Fan duck stl files
-#### [:arrow_down: Fan duck for PHS_Z6](/fanstl/FAN_PHS_Z6.stl)
+## Fan duct stl files
+#### [:arrow_down: Fan duct for PHS_Z6](/fanstl/FAN_PHS_Z6.stl)
 ![PHS_Z6](fanstl/FAN_PHS_Z6.jpg)
-#### [:arrow_down: Fan duck for PHS_12V and PHS_24V](/fanstl/FAN_PHS.stl)
+#### [:arrow_down: Fan duct for PHS_12V and PHS_24V](/fanstl/FAN_PHS.stl)
 ![PHS_12V](fanstl/FAN_PHS.jpg)
-#### [:arrow_down: Fan duck for PHS_HF](/fanstl/FAN_PHS_HF.stl)
+#### [:arrow_down: Fan duct for PHS_HF](/fanstl/FAN_PHS_HF.stl)
 ![PHS_HF](fanstl/FAN_PHS_HF.jpg)
