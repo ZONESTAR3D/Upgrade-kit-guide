@@ -53,10 +53,8 @@ For details, please refer to [**here**](./R2/).
 
 ------
 ## One Color Hotend
-### :file_folder: [Single color Hotend](./Single_color/)
-[:book:Details](./Single_color/readme.md).
-### :file_folder: [High Flow Hotend](./Single_color/)
-[:book:Details](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/Single_color#high-flow-fast-printing-single-color-hotend-sku-phs_hf).
+- **[:book: Instructions for Single color Hotend](./Single_color/readme.md).**
+- **[:book: Instructions for High Flow Single color Hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/HOTEND/Single_color#high-flow-fast-printing-single-color-hotend-sku-phs_hf).**
 
 <!-- ------
 ## :file_folder: [Slicing Guide for ZONESTAR 3D Printer](https://github.com/ZONESTAR3D/Slicing-Guide)
