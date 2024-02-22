@@ -1,31 +1,3 @@
-### :globe_with_meridians: Choose Language (Translated by google)
-[![](../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=es)
-[![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=fr)
-[![](../lanpic/DE.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=de)
-[![](../lanpic/IT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=it)
-[![](../lanpic/SW.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=sv)
-[![](../lanpic/PL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=pl)
-[![](../lanpic/DK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=da)
-[![](../lanpic/CZ.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=cs)
-[![](../lanpic/HR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=hr)
-[![](../lanpic/RO.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=ro)
-[![](../lanpic/SK.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=sk)
-
-[![](../lanpic/RU.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=ru)
-[![](../lanpic/JP.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=ja)
-[![](../lanpic/KR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=ko)
-[![](../lanpic/ID.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=id)
-[![](../lanpic/TH.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=th)
-[![](../lanpic/VN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=vi)
-[![](../lanpic/IL.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=iw)
-[![](../lanpic/SA.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=ar)
-[![](../lanpic/TR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=tr)
-[![](../lanpic/GR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=el)
-[![](../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=pt)
-[![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=zh-CN)
-
------
 # Hotend
 The hotend is the component of a 3D printer that melts the filament for extrusion. Generally, the hot end consists of the following parts:
 ### Terminology
@@ -41,7 +13,7 @@ The hotend is the component of a 3D printer that melts the filament for extrusio
 ![](hotend.jpg)  
 
 ------
-## 4 Input Channels Hotend
+## 4 Channels Hotend
 ### :file_folder: [E4 (4-IN-1-OUT Non-Mix Color) Hotend](./E4/)
 **E4 hotend** is a 4-IN-1-OUT non-mix color hotend, it has four input channels and one nozzle. One of the four filaments can be loaded into the heating block and extruded through the nozzle. When a new filament loaded in, it needs to unload the previous filament first.  
 For details, please refer to [**here**](./E4/readme.md).  
@@ -56,7 +28,7 @@ For details, please refer to [**here**](./M4/readme.md).
 - [**How to switch between M4 Hotend and E4 Hotend?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-which-type-of-hot-end-should-i-choose-m4-or-e4)
 
 ------
-## 3 Input Channels Hotend
+## 3 Channels Hotend
 ### :file_folder: [M3 (3-IN-1-OUT Mix color) Hotend](./M3/)
 **M3** hot end is a 3-IN-1-OUT mix color hotend, it has three input channels and one nozzle. Three filaments are mixed in the mixing chamber in the heating block and extruded through the nozzle.  
 We have mass produced four versions of M3 hot end. For details, please refer to the documents in the "**M3 3-IN-1-OUT mixing color Hotend**" directory.  
@@ -70,7 +42,7 @@ Simply put, it is a combination of an M2 hot end and a single color hot end. It 
 For details, please refer to [**here**](./R3/readme.md).  
 
 ------
-## 2 Input Channels Hotend
+## 2 Channels Hotend
 ### :file_folder: [M2 (2-IN-1-OUT Mix color) Hotend](./M2/)
 **M2** hot end is a 2-IN-1-OUT mix color hotend, it has two input channels and one nozzle. Two filaments are mixed in the heating block and extruded through the nozzle.   
 For details, please refer to [**here**](./M2/readme.md).  
