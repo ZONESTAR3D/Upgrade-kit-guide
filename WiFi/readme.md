@@ -1,4 +1,4 @@
-### :globe_with_meridians: Choose Language (Translated by google)
+<!-- ### :globe_with_meridians: Choose Language (Translated by google)
 [![](../lanpic/ES.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=es)
 [![](../lanpic/PT.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../lanpic/FR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=fr)
@@ -25,7 +25,7 @@
 [![](../lanpic/BR.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=pt)
 [![](../lanpic/CN.png)](https://github-com.translate.goog/ZONESTAR3D/Upgrade-kit-guide?_x_tr_sl=en&_x_tr_tl=zh-CN)
 
-------
+------ -->
 ### By upgrading the WiFi module, you can control your 3d printer by wireless. It can work with ZONESTAR Z9V5, Z9M4, Z8P 3D Printer or the others 3d printer used ZONESTAR ZM3E4 and ZM3E2 32-bits 3D printer control board.
 [**:gift: Buy it from ZONESTAR Online Shop**](https://bit.ly/3rB7mx1)
 [**:gift: Buy it from Aliexpress Offical Shop**](https://bit.ly/3i7aX4o)
