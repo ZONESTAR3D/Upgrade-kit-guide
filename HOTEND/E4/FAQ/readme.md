@@ -100,8 +100,8 @@ When switching the extruder, the end of the pulled out filament may become sligh
 
 -----
 ## Setup and maintenance manual
-### How to replace the fitting of the E4 Hotend
-[:clapper: **Video tutorial**](https://youtu.be/LAQNazdMeu8)    
+### :hammer: How to replace the fitting of the E4 Hotend
+[:clapper: **Video tutorial**](https://youtu.be/LAQNazdMeu8)    [:gift: **Fittings sale link**](https://www.aliexpress.com/item/3256801261619202.html)     
 ![](./20.jpg)
 
 ### :key: How to adjust the extruder pressure to a proper value  <span id="HOW1"></span>
