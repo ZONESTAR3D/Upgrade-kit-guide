@@ -33,17 +33,18 @@
 - **LED:** Filament detection indicator light, it will light up when the filament is inserted.
 - **"IN" Connector:** Connect to  the control board or the previous FROD.
 - **"OUT" Connector:** Connect to the next FROD. Let it suspend if there is not the next one.   
-:bulb:  The filament must be inserted in the direction indicated by the arrow.
+:bulb:  The filament must be inserted in the direction indicated by the arrow.     
 
 ### 2. Wiring
-#### Wiring diagram of FROD
+#### Wiring Diagram of FROD
 ![](./FRODwiring.jpg)    
 :warning: **Please pay attention to distinguishing between IN and OUT connectors of the FROD, as incorrect connections may cause the machine to fail to start up or even burn the control board.**    
-:warning: **The "Filament Run Out Sensors" (there are 4 pieces for Z9V5Pro) are series connected , it means any one "filament run out" is detected, the printer will pause printing.**    
+:warning: **The "Filament Run Out Sensors" (there are 4 pieces for Z9V5Pro / Z8PM4Pro) were series connected, if any one "filament run out" was detected, the printer will pause printing.**    
+
 #### Wiring FROD to the machine
-Connect the FROD to the corresponding port on the motherboard of the machine. For the motherboard port allocation diagram (wiring diagram), please refer to the installation and wiring manual of the machine.
-- **:point_right:[Z8P Wiring Diagram](https://github.com/ZONESTAR3D/Z8P/blob/main/Z8P-MK2/1-Installation_Guide/Z8PM4-MK2_Wiring_Diagram.jpg)**.     
-- **:point_right:[Z9V5 Wiring Diagram](https://github.com/ZONESTAR3D/Z9/blob/main/Z9V5/Z9V5-MK4/1.Installation_and_User_Guide/Wiring/Z9V5Pro_Wiring_Diagram.jpg)**.    
+Connect the FROD to the corresponding port on the motherboard of the machine. For the motherboard port allocation diagram (wiring diagram), please refer to the installation and wiring manual of the machine. **:point_right:[Z8P Wiring Diagram](https://github.com/ZONESTAR3D/Z8P/blob/main/Z8P-MK2/1-Installation_Guide/Z8PM4-MK2_Wiring_Diagram.jpg)**. **:point_right:[Z9V5 Wiring Diagram](https://github.com/ZONESTAR3D/Z9/blob/main/Z9V5/Z9V5-MK4/1.Installation_and_User_Guide/Wiring/Z9V5Pro_Wiring_Diagram.jpg)**.    
+
+
 ![](./FRODwiring2.jpg)
 
 ### 3. User Guide of FROD
