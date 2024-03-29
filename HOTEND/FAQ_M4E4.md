@@ -61,7 +61,8 @@
 
 -----
 ## How to load/unload filaments correctly
-### Steps to load filaments into the M4V6 hotend:
+### For M4 Hotend
+#### Steps to load filaments into the M4V6 hotend:
 ##### [:clapper: Video turorial](https://youtu.be/-47yB95uIxI)
 When loading the filaments into the M4 hotend, regardless of how many extruders you need to use during printing, ***all four filaments must be loaded into the hotend***, and it is important to  ***ensure that all filaments are loaded into the bottom of the hotend*** before starting printing.     
 :warning: ***Whether printing in monochrome or multi-color, you need to fit all four filaments into the M4V6 hotend.***     
@@ -71,12 +72,12 @@ When loading the filaments into the M4 hotend, regardless of how many extruders 
 :warning: ***Don't feed filaments to the hotend when any channel of the hotend are empty.***     
 :warning: ***Ensure that the filaments for each channel reach the bottom of the hotend before feeding the filament.***     
 
-### Steps to unload filament from the M4V6 hotend:
+#### Steps to unload filament from the M4V6 hotend:
 1. Heating the nozzle (200℃ for PLA / 230℃ for PETG/ABS). ***Menu: Prepare>>Filament>>Preheat: 200/230***
 2. Feed filaments at least 10mm on all 4 channels simultaneously. ***Menu: Prepare>>Filament>>Extruer: All; Prepare>>Filament>>Slowly Load***
 3. Unload filaments from the hotend. ***Menu: Prepare>>Filament>>Slowly unload***    
-
-### How to load filaments into the E4 hotend correctly?
+  
+### For E4 Hotend
 #### <a id = "preload">Steps to load filaments into the E4 hotend:</a>
 ##### [:clapper: Video turorial](https://youtu.be/FyHrAMytlT8)
 If you understand the working principle of the E4 hotend, you should already know that when printing multi-color, the machine first needs to unload the previously loaded filament from the hotend and then load the next filament. However, usually ***the machine does not have the ability to recognize the distance between the front end of the filament and the nozzle before starting printing***. Therefore, we need to set up a process called <u>***"pre-load filaments"***</u>, which aims to allow the machine to move the fine threads to a suitable position known to the machine before printing the object.      
