@@ -22,9 +22,12 @@ For details, please refer to [**here**](./E4/readme.md).
 For details, please refer to [**here**](./M4/readme.md). 
 
 ### :file_folder: [FAQ for E4 and M4 Hotend](./FAQ_M4E4.md)
-- [**What's different between E4 and M4 hotend?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-advantages-and-disadvantages-of-e4-and-m4-hot-end)
-- [**Which type of hot end should I choose?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-which-type-of-hot-end-should-i-choose-m4-or-e4)
-- [**How to switch between M4 Hotend and E4 Hotend?**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#pushpin-which-type-of-hot-end-should-i-choose-m4-or-e4)
+- [**What's the different between E4 and M4 hotend?**](./FAQ_M4E4.md)
+- [**Which type of hotend should I choose?**](./FAQ_M4E4.md)
+- [**How to load filaments into the hotend correctly?**](./FAQ_M4E4.md)
+- [**What is the difference in slicing settings between M4 and E4 hotends**](./FAQ_M4E4.md)
+- [**How to switch between M4 and E4 hotend?**](./FAQ_M4E4.md)
+
 
 ------
 ## 3 Channels Hotend

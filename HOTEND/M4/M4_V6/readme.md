@@ -114,4 +114,4 @@ If there is any problems while using the M4V6 hot end, please refer to [**:book:
 ### :paperclip: Appendix I: Achieve speedy printing by using M4V6 hot end
 When printing a single color 3d model, M4V6 can support higher flow rates. About the details, please refer to [:book: this guide](./HighFlow/readme.md).
 
-### :paperclip: Appendix II: [How to switch hotend between E4 hotend and M4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md#how-to-switch-between-m4-hotend-and-e4-hotend)
+### :paperclip: Appendix II: [How to switch hotend between E4 hotend and M4 hotend](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/FAQ_M4E4.md)
