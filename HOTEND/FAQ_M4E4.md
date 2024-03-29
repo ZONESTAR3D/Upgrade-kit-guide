@@ -92,7 +92,7 @@ If you understand the working principle of the E4 hotend, you should already kno
 ## <a id = "slicing">What is the difference in slicing settings between M4 and E4 hotend:</a>
 :pushpin: These settings have been set in the profiles of the PrusaSlicer software we provide. You only need to choose the correct **printer preset** according to your machine and hotend type.
 ### Slice settings for multi-color printing    
-When multi-color printing, the slicing settings for the E4 hotend and M4 hotend mainly differ as follows:
+For printing multi-color, the slicing settings for the E4 hotend and M4 hotend mainly differ as follows:
 - **start gcode**
   - **For the E4 hotend**, it requires "pre-load filaments" before starting printing([**Know Why**](#preload)), for details, please refer to [**start gcode of the E4 hotend**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#start-g-code).     
   - **For the M4 hotend**, When printing no more than 4 colors, there is no need to make special changes to the start gcode. But **if you need to print more than 4 colors** (mixing different colored filaments into multiple colors), you can set the color mixing ratio in the start gcode. For details, please refer to [**How to print more than 4 colors by using M4 hot end**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_M4.md#how-to-print-more-than-4-colors-using-m4-hot-end).
@@ -103,6 +103,9 @@ When multi-color printing, the slicing settings for the E4 hotend and M4 hotend 
 :pushpin: The slicing software that supports multiple extruder printers has an **"Wipe Tower(Prime Tower)"** option. Because when the printer switches from one extruder to another, it often needs to first clean the fine threads of the previous color in the hot end. After turning on the erase tower option, the slicing software can generate an "additional" print in the gcode file to clean up any remaining filaments in the hot end.
   - **For the E4 hotend**, the required volume of the wire tower is relatively small.
   - **For the M4 hotend**, the required volume of the wire tower is relatively big.
+- **Tool change G-code**
+  - **For the E4 hotend**, when switching the extruder, it is necessary to pull out the previous color filament from the hotend and then load the next color filament to the hotend. Therefore, Tool Change Gcode needs to be set to achieve this operation. For deltails, please refer to [**Tool change G-code for E4 hotend**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#tool-change-g-code).
+  - **For the M4 hotend**, it doesn't need **Tool change G-code**.
 
 -----
 ## How to switch between M4 hotend and E4 hotend
