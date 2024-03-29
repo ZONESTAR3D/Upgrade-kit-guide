@@ -94,7 +94,7 @@ If you understand the working principle of the E4 hotend, you should already kno
 ### Slice settings for multi-color printing    
 When multi-color printing, the slicing settings for the E4 hotend and M4 hotend mainly differ as follows:
 - **start gcode**
-  - **For the E4 hotend**, E4 requires "pre-load filaments" before starting printing([**Know Why**](#preload)), for details, please refer to [**start gcode of the E4 hotend**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#start-g-code).     
+  - **For the E4 hotend**, it requires "pre-load filaments" before starting printing([**Know Why**](#preload)), for details, please refer to [**start gcode of the E4 hotend**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/Custom_Gcode.md#start-g-code).     
   - **For the M4 hotend**, When printing no more than 4 colors, there is no need to make special changes to the start gcode. But **if you need to print more than 4 colors** (mixing different colored filaments into multiple colors), you can set the color mixing ratio in the start gcode. For details, please refer to [**How to print more than 4 colors by using M4 hot end**](https://github.com/ZONESTAR3D/Slicing-Guide/blob/master/PrusaSlicer/PrusaSlicerGuide_M4.md#how-to-print-more-than-4-colors-using-m4-hot-end).
 - **Retraction settings of the Extruders**
   - **For the E4 hotend**, the recommended **Retraction length** is 6 ~ 8mm (must be less than 10mm).
