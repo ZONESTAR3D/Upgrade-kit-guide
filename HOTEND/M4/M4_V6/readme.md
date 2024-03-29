@@ -24,6 +24,8 @@ ZONESTAR 4-IN-1-OUT mix color hot end has 4 input channels and 1 nozzle, four fi
 -----
 ### Working principle
 **:warning: Before using the M4V6, we strongly recommend you read [:book: Introduction of Color Mixing Extruder](https://github.com/ZONESTAR3D/Document-and-User-Guide/tree/master/Mixing_Color) to have a rough understanding of the working principles of mixing color extruder.**
+###### 
+[](https://github.com/ZONESTAR3D/Document-and-User-Guide/assets/29502731/2b9f4d75-b6fd-486f-aaa7-7a1163383316)
 
 ### Specifications
 |            Item            |      Parameters            |            Item            |      Parameters            |
