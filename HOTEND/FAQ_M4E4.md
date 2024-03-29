@@ -28,9 +28,9 @@
 ----- -->
 # FAQ for E4 and M4 hotend
 - [**What's the different between E4 and M4 hotend?**](#whats-different-between-e4-and-m4-hotend)
-- [**Which type of hotend should I choose?**](#which-hot-end-should-i-choose-m4-or-e4)
-- [**How to load filaments into the hotend correctly?**](#how-to-load-filaments-into-the-hotend-correctly)
-- [**What is the difference in slicing settings between M4 and E4 hotends**](#what-is-the-difference-in-slicing-settings-between-m4-and-e4-hot-ends)
+- [**Which type of hotend should I choose?**](#which-hotend-should-i-choose-m4-or-e4)
+- [**How to load filaments into the hotend correctly?**](#how-to-loadunload-filaments-correctly)
+- [**What is the difference in slicing settings between M4 and E4 hotends**](#slicing)
 - [**How to switch between M4 and E4 hotend?**](#how-to-switch-between-m4-hotend-and-e4-hotend)
 
 
@@ -89,7 +89,7 @@ If you understand the working principle of the E4 hotend, you should already kno
 3. Unload filament from the hotend. ***Menu: Prepare>>Filament>>Slowly unload***
 
 -----
-## What is the difference in slicing settings between M4 and E4 hotend
+## <a id = "slicing">What is the difference in slicing settings between M4 and E4 hotend:</a>
 :pushpin: These settings have been set in the profiles of the PrusaSlicer software we provide. You only need to choose the correct **printer preset** according to your machine and hotend type.
 ### Slice settings for multi-color printing    
 When multi-color printing, the slicing settings for the E4 hotend and M4 hotend mainly differ as follows:
