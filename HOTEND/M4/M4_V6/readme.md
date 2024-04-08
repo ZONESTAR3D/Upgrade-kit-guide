@@ -80,7 +80,7 @@ If the wires of 3 and 4 are connected reversely, you can see the nozzle temperat
 #### :warning: ATTENTION PLEASE! You need load 4 filament to the hot end even you print one color 3d model, DONOT leave any channel empty before printing.
 #### :warning: ATTENTION PLEASE! "Quickly Load" menu only can be used when loading the filament from extruder to hot end, once the filament entered the hot end, use "Slowly Load" menu but not "Quickly Load".
 - **Load filament to the hotend:**     
-[:clapper:video tutorial](https://youtu.be/-47yB95uIxI).
+[![](https://img.youtube.com/vi/-47yB95uIxI/0.jpg)](https://www.youtube.com/watch?v=-47yB95uIxI)
   - Cut the front of the filament with diagonal pliers before loading it to the extruder and hot end.
   - Load 4 filaments to all extruders one by one.
   - Rotate the gear of extruders to load filament one by one, do not rotate each extruder more than 2 turns at a time, until all the filaments enter to the inner PTFE tube of hot end, extrdue more 4 ~ 5 turn for each extruder and then stop.      
