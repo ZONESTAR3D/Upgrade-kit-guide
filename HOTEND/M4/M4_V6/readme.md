@@ -18,8 +18,10 @@ ZONESTAR 4-IN-1-OUT mix color hot end has 4 input channels and 1 nozzle, four fi
 -----
 ## :warning: ATTENTION PLEASE 
 ### :loudspeaker: Before using the M4V6 hot end, please read [:book:Precautions for using M4V6](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/M4/M4_V6/M4V6_Precaution.md) carefully.
-### :loudspeaker: Must load 4 filaments onto the M4V6 hotend simultaneously, incorrect operationa may block the mix color hotend. If the hot end blockage caused by incorrect operation, it is not covered by the warranty. For how to load filaments, please refer to [this guide](#7-how-to-load-and-unload-filaments).
-### :loudspeaker: DON'T pull the "inner PTFE tubes" out of the M4V6 hotend.
+### :loudspeaker: Must load 4 filaments onto the M4V6 hotend simultaneously, incorrect operationa may block the mix color hotend. If the hot end blockage caused by incorrect operation, it is not covered by the warranty. 
+### :loudspeaker: DON'T pull the "inner PTFE tubes" out of the M4V6 hotend. 
+### :loudspeaker: DON'T pull the "inner PTFE tubes" out of the M4V6 hotend. 
+### :loudspeaker: Once the filaments has already entered the M4V6 hotend, DONOT use "Quickly Load" menu to load filaments.
 
 -----
 ### Working principle
@@ -77,6 +79,7 @@ If the wires of 3 and 4 are connected reversely, you can see the nozzle temperat
 
 ### Load/Unload filaments
 #### :warning: ATTENTION PLEASE! You need load 4 filament to the hot end even you print one color 3d model, DONOT leave any channel empty before printing.
+#### :warning: ATTENTION PLEASE! "Quickly Load" menu only can be used when loading the filament from extruder to hot end, once the filament entered the hot end, use "Slowly Load" menu but not "Quickly Load".
 - **Load filament to the hotend:**     
 [:clapper:video tutorial](https://youtu.be/-47yB95uIxI).
   - Cut the front of the filament with diagonal pliers before loading it to the extruder and hot end.
