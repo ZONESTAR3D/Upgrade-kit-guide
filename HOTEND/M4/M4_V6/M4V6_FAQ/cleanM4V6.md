@@ -22,15 +22,15 @@
 -----
 ### Why is the hotend clogged?
 There are some reasons that may cause the hotend to be blocked, please check the list one by one to ensure that you have noticed these matters.
-#### Failure to load fillments as required before printing
+#### Incorrect steps/methods for loading filament
 :pushpin: When loading the filament to the hotend, please ensure that the filaments enter the bottom of the hot end.    
 :pushpin: You need to load all the 4 filaments to the hot end whether printing one or multi color 3d prints.    
 For how to load filaments, please refer to [:book: this guide](https://github.com/ZONESTAR3D/Z8P/blob/main/Z8P-MK2/2-Operation_Guide/readme.md#load-filaments) or the [:clapper: video tutorial](https://youtu.be/-47yB95uIxI).
 #### Nozzle is defective
 The nozzle may also be partially clogged. If you find the filament flowed out from the nozzle is thinner than normal, the nozzle may be partially clogged, please replace a new nozzle directly.  
-#### The nozzle are too close to the print platform when printing the first layer.
+#### The nozzle is too close to the print platform
 If the nozzle is too close to the hot bed when printing the first layer, the filament may not be ejected. If this is maintained for a long time, it may cause the filament in the hot end to be over-compressed and cause blockage (often blocked at the entrance of hotend). When printing the first layer, pay attention to the distance between the nozzle and the hot bed. If necessary, open the "BabyStep" menu to adjust the nozzle height.
-#### Incorrect "Switch Retraction Distance" settings when slicing
+#### Incorrect "switch retraction distance" setting in the slice settings
 For 4-IN-1-OUT mix color hotend, the **"Extruder switching retraction length"** MUST be set to 0. For example, set **“Nozzle Switch Retraction Distance”** to 0 in Cura Slicer and set **"Retraction when tool is disable"** in PrusaSlicer.  
 ![](./a1.jpg) ![](./a2.jpg)
 
