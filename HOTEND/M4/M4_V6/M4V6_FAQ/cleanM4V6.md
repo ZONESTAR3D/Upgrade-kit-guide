@@ -20,7 +20,7 @@
 #### :pushpin: If the filaments cannot be inserted into the "inner PTFE tubes" at the M4V6 hot end, please refer to this guide ([:book: How to replace the inner PTFE tubes](./ReplaceM4V6InnerPTFE.md)) to replace the blocked inner PTFE tubes.
 
 -----
-### Why the hotend is clogged?
+### Why is the hotend clogged?
 There are some reasons that may cause the hotend to be blocked, please check the list one by one to ensure that you have noticed these matters.
 #### Failure to load fillments as required before printing
 :pushpin: When loading the filament to the hotend, please ensure that the filaments enter the bottom of the hot end.    
