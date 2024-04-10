@@ -65,7 +65,7 @@ The webUI of WiFi is base on ESP3D WebUI, for the detail user guide, please refe
 - **For ZM3E4 V2.1 or newer board**: its WiFi connector are compatible with the ESP8266_01S WiFi module , you can plug the ESP8266_01S to the connector directly.    
 - **For ZM3E4 V1/V2.0 board**: their WiFi connector are **not compatible** with the ESP8266_01S WiFi module, so we added a adapter board to the WiFi module, so you can purchase [**:gift:the ESP8266 WiFi module with adapter board**](https://www.aliexpress.com/item/1005002378551489.html) from our store.    
 If you have a EPS8266_01S WiFi module without adapter, you can connect it to the ZM3E4V1/ZM3E4V2 with 6 PIN DuPont Wire (as below picture) to connect EPS8266_01S WiFi module with ZM3E4V1/ZM3E4V2.     
-![](./DuPont_Wire.jpg)
+![](./pic/DuPont_Wire.jpg)
 #### Pin define of ESP8266-S01 
 ![](./pic/ESP8266-S01.png) ![](./pic/pin_ESP8266-S01.jpg)
 #### WiFi connector Pin define of the ZM3E4V1
