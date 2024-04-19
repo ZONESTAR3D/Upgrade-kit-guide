@@ -36,7 +36,7 @@ In order to improve the tenacity, fluidity and appearance of the filament, the f
 
 -----
 ### Test whether the hot end can work normally
-:movie_camera:[**Download Video toturial**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/621f4c4c-c821-4602-b997-dc060fadedc2).
+![](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/621f4c4c-c821-4602-b997-dc060fadedc2)
 #### 1. Heat the hot end (nozzle) to 200 ℃.
 #### 2. Load filaments into each channel of the hot end one by one, and watch whether the filament can flow out from the nozzle. 
 :warning: **Please note:**  
@@ -74,7 +74,8 @@ If the nozzle is too closed to the print plate (hotbed), the filament can't be e
 #### :three: Can the extruder push and pull the filaments well? <span id="Q3"></span> 
 If the extruder cann't push or pull the filament well, it may cause the filament stady in the hotend and block a new filament to enter, 
 ##### :pill: Solution <span id="A3"></span> 
-please check and adjust the pressure of the extruder, refer to [:point_right: **here**](#HOW1)
+1. Check and adjust the pressure of the extruder, refer to [:point_right: **here**](#HOW1).
+2. **Upgrade to Dual Gear Extruders, it can effectively solve the problem of fine threads slipping, refer to [:point_right: here](https://github.com/ZONESTAR3D/Upgrade-kit-guide/tree/main/Dual_Gear_Extruder#manual-for-upgraded-dual-gear-extruder)**.
 
 #### :four: Are the slicing settings correct? <span id="Q4"></span> 
 If the hotend work well when printing the test gcode file which provided by us, but it is easily blocked when printing gcode file by your own sliced, please check the slicing settings, especially the following parameters:
@@ -101,15 +102,19 @@ When switching the extruder, the end of the pulled out filament may become sligh
 -----
 ## Setup and maintenance manual
 ### :hammer: How to replace the fitting of the E4 Hotend
-[:clapper: **Video tutorial**](https://youtu.be/LAQNazdMeu8)    [:gift: **Fittings sale link**](https://www.aliexpress.com/item/3256801261619202.html)     
-![](./20.jpg)
+[![](https://img.youtube.com/vi/LAQNazdMeu8/0.jpg)](https://www.youtube.com/watch?v=LAQNazdMeu8)     
+[:gift: **Fittings sale link**](https://www.aliexpress.com/item/3256801261619202.html)     
 
-### :key: How to adjust the extruder pressure to a proper value  <span id="HOW1"></span>
+
+### :hammer: How to adjust the extruder pressure to a proper value  <span id="HOW1"></span>
 1. Load the filaments to the extruders but don't load in to the hotend, that is to say, do not connect the PTFE guide to the hotend, as shown in [:point_right: **this Fig**](./E4FAQ-5.jpg).
-2. Try to hold the filament with your thumb and forefinger and then rotate the gear of extruder by hand, refer to this [:movie_camera: **video tutorial**](./pressure_test.gif), if you can't hold the filament by your fingers, the pressure of the extruder is sufficient. If not, refer to this [:movie_camera: **video tutorial**](./pressure_adjust.gif) to adjust the extruder pressure. 
+2. Try to hold the filament with your thumb and forefinger and then rotate the gear of extruder by hand.
+![video tutorial](./pressure_test.gif)
+if you can't hold the filament by your fingers, the pressure of the extruder is sufficient. If not, adjust the extruder pressure. 
+![video tutorial](./pressure_adjust.gif)
 :warning: **Please note that the pressure should be adjusted appropriately, but not the bigger the better**. Because the same position of the filament may be pushed back and forth by the gear during printing, which may cause the filament to be scratched. The scratched filament cannot be transmitted to the nozzle during printing, and even the filament cannot enter the hotend normally.
 
-### [:key: How to disassemble the E4 hotend <span id="HOW2"></span>](./How_to_disassemble_E4_hotend/readme.md)
+### [:hammer: How to disassemble the E4 hotend <span id="HOW2"></span>](./How_to_disassemble_E4_hotend/readme.md)
 If the filament is clogged inside the hotend and cannot be pulled out and pushed in, you need to disassemble the hotend and clean it, steps as follows:
 :warning: Wait for the hotend to cool down before operation.:warning:   
 ![](E4-8.jpg) 
@@ -118,7 +123,7 @@ If the filament is clogged inside the hotend and cannot be pulled out and pushed
 3. Loosen the 2 screws fixing the hotend.
 4. Pull the hotend out of the heats-sink.
 
-### :key: How to replace the inner PTFE pipe (for E4V2 only) <span id="HOW3"></span>
+### :hammer: How to replace the inner PTFE pipe (for E4V2 only) <span id="HOW3"></span>
 If the blockage is easy to occur, it is recommended that you replace the built-in PTFE pipe too, steps as follows:
 ![](E4-9.jpg) 
 1. Remove the scews which fixed the temperature sensor and heater and take down the temperature sensor and heater.
