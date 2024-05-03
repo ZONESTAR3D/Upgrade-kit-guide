@@ -29,6 +29,7 @@
 
 -----
 ## <a id="A1">What's different between E4 and M4 hotend?</a>
+![](./M4V6vsE4.jpg)   
 - **M4 hotend** can mix different colored filaments to produce new colored filaments. **E4 hotend** does not have this ability.  
 - **E4 hotend** is good at printing one color or multi color 3d object (up to 4 color).
 - **M4 hotend** is good at printing gradient color 3d object, it can print more than 4 colos 3d object too (by mixing the filaments).
