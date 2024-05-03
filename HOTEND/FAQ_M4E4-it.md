@@ -29,6 +29,7 @@
 
 -----
 ## <a id="A1">Cosa c'è di diverso tra l'hotend E4 e M4?</a>
+![](./M4V6vsE4.jpg)   
 - **Hotend M4** può mescolare diversi filamenti colorati per produrre nuovi filamenti colorati. **Hotend E4** non ha questa capacità.
 - **Hotend E4** è ottimo per stampare oggetti 3D monocolore o multicolori (fino a 4 colori).
 - **M4 hotend** è ottimo per stampare oggetti 3D a colori sfumati, può anche stampare più di 4 oggetti 3D a colori (mescolando i filamenti).
