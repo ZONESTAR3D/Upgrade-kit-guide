@@ -1,19 +1,19 @@
 ## M4V6 Hotend Troubleshooting
-- [**How to clean the blocked M4V6 hotend**](./cleanM4V6.md)      
+### :question:How to clean the blocked M4V6 hotend
 The M4 hot end may be blocked due to improper operation, nozzle blockage, and other reasons. Please refer to [**:book:this manual**](./cleanM4V6.md) to clean the hot end.
 
-- [**How to replace of the inner PTFE tubes**](./ReplaceM4V6InnerPTFE.md)      
+### :question: How to replace of the inner PTFE tubes   
 After prolonged use on the hot end or due to improper operation, the **inner PTFE tubes** of M4V6 may need to be replaced. Please refer to [ **:book:this manual**](./ReplaceM4V6InnerPTFE.md) to operate.
 
-- [**How to solve the stringing issue of M4V6**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/M4/M4_V6/M4V6_FAQ/stringsIssue.md)      
+### :question: How to solve the stringing issue of M4V6
 If you find a **stringing issue** ([:link:wiki](https://www.matterhackers.com/articles/3d-printer-troubleshooting-guide#Issue9)) when printed by M4V6 hotend, please refer to [ **:book:this manual**](https://github.com/ZONESTAR3D/Upgrade-kit-guide/blob/main/HOTEND/M4/M4_V6/M4V6_FAQ/stringsIssue.md) to solve.
 
-- **How to replace the fitting of M4V6**      
+### :question: How to replace the fitting of M4V6      
 For the older version M4V6 hot end, the fitting was glued on the heat-sink with super glue. If it falls off, please refer to **"How to replace the inner PTFE tubes"** to remove the **inner PTFE tubes** first, and then glue the fitting to the heat-sink again. 
 #### 
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/be6471ec-a0fe-4af0-bfbf-f6ef05c2e623)
 
-- **How to install the fittings back which dropped off from the heat sink**      
+### :question: How to install the fittings back which dropped off from the heat sink     
 For the newer version M4V6 hot end, the fitting was fixed on the heat-sink with a small screw. If it falls off, please refer to **"How to replace the inner PTFE tubes"** to remove the **inner PTFE tubes** first, and then fixed the screw again or glue the fitting to the heat-sink with super glue. 
 #### 
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/d7009e4e-5f8a-4267-ae60-d3ad024448bb)
