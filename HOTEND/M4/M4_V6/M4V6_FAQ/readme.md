@@ -15,8 +15,7 @@ For the older version M4V6 hot end, the fitting was glued on the heat-sink with 
 
 ### :question: How to install the fittings back which dropped off from the heat sink     
 For the newer version M4V6 hot end, the fitting was fixed on the heat-sink with a small screw. If it falls off, please refer to **"How to replace the inner PTFE tubes"** to remove the **inner PTFE tubes** first, and then fixed the screw again or glue the fitting to the heat-sink with super glue. 
-#### 
+#### [:clapper: Video turorial - HD ](https://www.youtube.com/watch?v=ksc36CwoRJw)
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/d7009e4e-5f8a-4267-ae60-d3ad024448bb)
-#### 
-[![](https://img.youtube.com/vi/ksc36CwoRJw/0.jpg)](https://www.youtube.com/watch?v=ksc36CwoRJw)
+
 
