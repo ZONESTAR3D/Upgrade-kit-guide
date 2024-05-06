@@ -15,8 +15,7 @@
 <!-- [![](../lanpic/SA.png)](#AR) -->
 
 ----
-![](../lanpic/EN.png)
-## <a id="EN">M4V6 Hotend Troubleshooting </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
+## ![](../lanpic/EN.png) <a id="EN">M4V6 Hotend Troubleshooting </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
 ### :question: How to clean the blocked M4V6 hotend
 The M4 hot end may be blocked due to improper operation, nozzle blockage, and other reasons. Please refer to [**:book:this manual**](./cleanM4V6.md) to clean the hot end.
 
@@ -38,8 +37,7 @@ For the newer version M4V6 hot end, the fitting was fixed on the heat-sink with 
 
 
 ----
-![](../lanpic/EN.png)
-## <a id="ES">Solución de problemas del hotend M4V6 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
+## ![](../lanpic/ES.png) <a id="ES">Solución de problemas del hotend M4V6 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
 ### :question: Cómo limpiar el hotend M4V6 bloqueado
 El hot end M4 puede bloquearse debido a un funcionamiento inadecuado, bloqueo de la boquilla y otros motivos. Consulte [**:libro:este manual**](./cleanM4V6.md) para limpiar el extremo caliente.
 
@@ -60,8 +58,7 @@ Para la versión más nueva del hot end M4V6, el accesorio se fijó en el disipa
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/d7009e4e-5f8a-4267-ae60-d3ad024448bb)
 
 ----
-![](../lanpic/PT.png)
-## <a id="PT">Solução de problemas do Hotend M4V6</a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
+## ![](../lanpic/PT.png) <a id="PT">Solução de problemas do Hotend M4V6</a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
 ### :question:Como limpar o hotend M4V6 bloqueado
 O hot end M4 pode estar bloqueado devido a operação inadequada, bloqueio do bico e outros motivos. Consulte [**:book:este manual**](./cleanM4V6.md) para limpar o hot end.
 
@@ -82,8 +79,7 @@ Para a versão mais recente do hot end M4V6, o encaixe foi fixado no dissipador 
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/d7009e4e-5f8a-4267-ae60-d3ad024448bb)
 
 ----
-![](../lanpic/FR.png)
-## <a id="FR">Dépannage du Hotend M4V6 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
+## ![](../lanpic/FR.png) <a id="FR">Dépannage du Hotend M4V6 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
 ### :question:Comment nettoyer le hotend M4V6 bloqué
 L'extrémité chaude M4 peut être bloquée en raison d'un fonctionnement incorrect, d'un blocage de la buse et d'autres raisons. Veuillez vous référer à [**:book:this manual**](./cleanM4V6.md) pour nettoyer la partie chaude.
 
@@ -104,8 +100,7 @@ Pour la nouvelle version M4V6 hot end, le raccord a été fixé sur le dissipate
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/d7009e4e-5f8a-4267-ae60-d3ad024448bb)
 
 ----
-![](../lanpic/DE.png)
-## <a id="DE">M4V6 Hotend-Fehlerbehebung </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
+## ![](../lanpic/DE.png) <a id="DE">M4V6 Hotend-Fehlerbehebung </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
 ### :question: So reinigen Sie das blockierte M4V6-Hotend
 Das heiße Ende des M4 kann aufgrund unsachgemäßer Bedienung, verstopfter Düsen oder aus anderen Gründen blockiert sein. Bitte lesen Sie [**:book:dieses Handbuch**](./cleanM4V6.md), um das heiße Ende zu reinigen.
 
@@ -126,8 +121,7 @@ Bei der neueren Version des M4V6-Hot-Ends wurde das Fitting mit einer kleinen Sc
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/d7009e4e-5f8a-4267-ae60-d3ad024448bb)
 
 ----
-![](../lanpic/IT.png)
-## <a id="IT">Risoluzione dei problemi dell'hotend M4V6 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
+## ![](../lanpic/IT.png) <a id="IT">Risoluzione dei problemi dell'hotend M4V6 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
 ### :question: Come pulire l'hotend M4V6 bloccato
 L'hotend M4 potrebbe essere bloccato a causa di un funzionamento improprio, del blocco degli ugelli e di altri motivi. Fare riferimento a [**:book:questo manuale**](./cleanM4V6.md) per pulire l'hot-end.
 
@@ -148,8 +142,7 @@ Per la versione più recente dell'hot end M4V6, il raccordo è stato fissato al 
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/d7009e4e-5f8a-4267-ae60-d3ad024448bb)
 
 ----
-![](../lanpic/RU.png)
-## <a id="RU">Устранение неполадок Hotend M4V6 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
+## ![](../lanpic/RU.png) <a id="RU">Устранение неполадок Hotend M4V6 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
 ### :question: Как почистить заблокированный хотэнд M4V6
 Горячий конец M4 может быть заблокирован из-за неправильной эксплуатации, закупорки сопла и других причин. Пожалуйста, обратитесь к [**:книге:данному руководству**](./cleanM4V6.md), чтобы очистить горячий конец.
 
@@ -170,8 +163,7 @@ Per la versione più recente dell'hot end M4V6, il raccordo è stato fissato al 
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/d7009e4e-5f8a-4267-ae60-d3ad024448bb)
 
 ----
-![](../lanpic/JP.png)
-## <a id="JP">M4V6 ホットエンドのトラブルシューティング </a> [:arrow_Heading_up:](#CHOOSE_LANGUAGE)
+## ![](../lanpic/JP.png) <a id="JP">M4V6 ホットエンドのトラブルシューティング </a> [:arrow_Heading_up:](#CHOOSE_LANGUAGE)
 ### :question: ブロックされた M4V6 ホットエンドをクリーンアップする方法
 M4 ホットエンドは、不適切な操作やノズルの詰まりなどの理由でブロックされる可能性があります。 ホットエンドのクリーニングについては、[**:本:このマニュアル**](./cleanM4V6.md) を参照してください。
 
@@ -192,8 +184,7 @@ M4V6 ホットエンドで印刷するときに **文字列の問題** ([:link:w
 [](https://github.com/ZONESTAR3D/Upgrade-kit-guide/assets/29502731/d7009e4e-5f8a-4267-ae60-d3ad024448bb)
 
 ----
-![](../lanpic/KR.png)
-## <a id="KR">M4V6 핫엔드 문제 해결 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
+## ![](../lanpic/KR.png) <a id="KR">M4V6 핫엔드 문제 해결 </a> [:arrow_heading_up:](#CHOOSE_LANGUAGE)
 ### :question: 차단된 M4V6 핫엔드를 청소하는 방법
 부적절한 작동, 노즐 막힘 및 기타 이유로 인해 M4 핫 엔드가 막힐 수 있습니다. 핫엔드 청소는 [**:책:본 설명서**](./cleanM4V6.md)를 참조하세요.
 
