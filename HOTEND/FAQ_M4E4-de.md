@@ -55,21 +55,25 @@
 
 -----
 ## <a id="A3">So laden/entladen Sie Filamente richtig</a>
+M4-Hot-End und E4-Hot-End haben unterschiedliche Anforderungen an das Laden des Filaments.
+- **Anforderungen an die Menge zum Laden von Filamenten:**
+   - Das M4-Hot-End erfordert das gleichzeitige Laden von vier Filamenten, unabhängig davon, ob einfarbig oder mehrfarbig gedruckt wird.
+   - Das E4-Hot-End kann die Anzahl der zu ladenden Filamente entsprechend den gedruckten Farben wählen.
+- **Anforderungen an die Position zum Laden von Filamenten:**
+   - Für das M4-Hot-End muss das Filament an der Unterseite des Hot-Ends installiert werden.
+   - Für das E4-Hot-End muss das Filament über der Trichtermündung des Hot-Ends installiert werden (wodurch der PTFE-Schlauch um etwa 20 mm verlängert wird).
 ### Für M4 Hotend
-#### Schritte zum Laden von Filamenten in das M4V6-Hotend:
+#### Schritte zum Laden von Filamenten in das M4-Hotend:
 ##### [![](https://img.youtube.com/vi/-47yB95uIxI/0.jpg)](https://www.youtube.com/watch?v=-47yB95uIxI)
-Beim Laden der Filamente in das M4-Hotend müssen, unabhängig davon, wie viele Extruder Sie beim Drucken verwenden müssen, ***alle vier Filamente in das Hotend geladen werden***, und es ist wichtig, ***sicherzustellen, dass alle Filamente vorhanden sind in die Unterseite des Hotends*** geladen werden, bevor mit dem Drucken begonnen wird.
-:warning: ***Egal, ob Sie monochrom oder mehrfarbig drucken, Sie müssen alle vier Filamente in das M4V6-Hotend passen.***
+Beim Laden der Filamente in das M4-Hotend müssen, unabhängig davon, wie viele Extruder Sie beim Drucken verwenden müssen, ***alle vier Filamente in das Hotend geladen werden***, und es ist wichtig, ***sicherzustellen, dass alle Filamente vorhanden sind in die Unterseite des Hotends*** eingelegt werden, bevor mit dem Drucken begonnen wird.    
+:warning: ***Egal, ob Sie einfarbig oder mehrfarbig drucken, Sie müssen alle vier Filamente in das M4V6-Hotend laden.***
 1. Schneiden Sie die Vorderseite des Filaments mit einer Diagonalzange ab, bevor Sie es in den Extruder und das Hotend laden.
-2. Laden Sie nacheinander 4 Filamente in alle Extruder.
-3. Drehen Sie das Zahnrad des Extruders, um das Filament einzeln zu laden. Drehen Sie jeden Extruder nicht mehr als zwei Umdrehungen auf einmal, bis alle Filamente in das innere PTFE-Rohr des Hotends gelangen. Extrudieren Sie weitere 4 bis 5 Umdrehungen für jeden Extruder und dann aufhören.
-:warning: ***Führen Sie dem Hotend keine Filamente zu, wenn einer der Kanäle des Hotends leer ist.***
-:warning: ***Stellen Sie sicher, dass die Filamente für jeden Kanal die Unterseite des Hotends erreichen, bevor Sie das Filament zuführen.***
+2. Laden Sie nacheinander 4 Filamente in alle Extruder und drehen Sie dann das Zahnrad des Extruders, bis das Filament in das innere PTFE-Rohr des Hotends gelangt. Drehen Sie weitere 4 bis 5 Umdrehungen und stoppen Sie dann.
 
-#### Schritte zum Entladen des Filaments vom M4V6-Hotend:
-1. Erhitzen der Düse (200℃ für PLA / 230℃ für PETG/ABS). ***Menu: Prepare>>Filament>>Preheat: 200/230***
-2. Führen Sie Filamente mindestens 10 mm gleichzeitig auf allen 4 Kanälen zu. ***Menu: Prepare>>Filament>>Extruder: All; Prepare>>Filament>>Slowly Load***  
-3. Entladen Sie die Filamente vom Hotend. ***Menu: Prepare>>Filament>>Slowly unload***    
+#### Schritte zum Entladen des Filaments aus dem M4-Hotend:
+1. Erhitzen Sie die Düse (200℃ für PLA / 230℃ für PETG/ABS) und warten Sie, bis die Temperatur erreicht ist. ***Menu: Prepare>>Filament>>Preheat: 200/230***.
+2. Führen Sie Filamente mindestens 10 mm gleichzeitig auf allen 4 Kanälen zu. ***Menu: Prepare>>Filament>>Extruder: All; Prepare>>Filament>>Slowly Load***;
+3. Filamente aus dem Hotend entladen ***Menu: Prepare>>Filament>>Slowly unload***.
   
 ### Für E4 Hotend
 #### <a id = "PRELOAD_FILAMENT">Schritte zum Laden von Filamenten in das E4-Hotend:</a>
@@ -78,7 +82,7 @@ Wenn Sie das Funktionsprinzip des E4-Hotends verstehen, sollten Sie bereits wiss
 :warning: ***Nur die Filamente am Extruder, die in der Gcode-Datei verwendet werden müssen, müssen in das E4-Hotend geladen werden.***
 
 ### Schritte zum Entladen des Filaments aus dem E4-Hotend:
-1. Erhitzen der Düse (200℃ für PLA / 230℃ für PETG/ABS). ***Menu: Prepare>>Filament>>Preheat: 200/230***
+1. Erhitzen Sie die Düse (200℃ für PLA / 230℃ für PETG/ABS) und warten Sie, bis die Temperatur erreicht ist. ***Menu: Prepare>>Filament>>Preheat: 200/230***
 2. Führen Sie dem verwendeten Extruder mindestens 10 mm Filament zu. ***Menu: Prepare>>Filament>>Extruder: 1/2/3/4; Prepare>>Filament>>Slowly Load***   
 3. Entladen Sie das Filament vom Hotend. ***Menu: Prepare>>Filament>>Slowly unload***    
 

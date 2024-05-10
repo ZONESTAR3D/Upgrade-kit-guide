@@ -55,21 +55,25 @@
 
 -----
 ## <a id="A3"> Comment charger/décharger correctement les filaments</a>
+L'extrémité chaude M4 et l'extrémité chaude E4 ont des exigences différentes pour le chargement du filament.
+- **Exigences de quantité pour le chargement des filaments :**
+   - L'extrémité chaude M4 nécessite le chargement de quatre filaments en même temps, qu'il s'agisse d'une impression monochrome ou multicolore ;
+   - Le hot end E4 peut choisir le nombre de filaments à charger en fonction des couleurs imprimées.
+- **Exigences de position pour le chargement des filaments :**
+   - Le hot end M4 nécessite que le filament soit installé au bas du hot end ;
+   - Le hot end E4 nécessite que le filament soit installé au-dessus de l'embouchure de l'entonnoir du hot end (en prolongeant le tube PTFE d'environ 20 mm).
 ### Pour M4 Hotend
-#### Étapes pour charger les filaments dans le hotend M4V6 :
+#### Étapes pour charger les filaments dans le hotend M4 :
 ##### [![](https://img.youtube.com/vi/-47yB95uIxI/0.jpg)](https://www.youtube.com/watch?v=-47yB95uIxI)
-Lors du chargement des filaments dans le hotend M4, quel que soit le nombre d'extrudeuses que vous devez utiliser pendant l'impression, ***les quatre filaments doivent être chargés dans le hotend***, et il est important de ***s'assurer que tous les filaments sont chargé au bas du hotend*** avant de commencer l'impression.
-:warning: ***Que vous imprimiez en monochrome ou en multicolore, vous devez insérer les quatre filaments dans le hotend M4V6.***
+Lors du chargement des filaments dans le hotend M4, quel que soit le nombre d'extrudeuses que vous devez utiliser pendant l'impression, ***les quatre filaments doivent être chargés dans le hotend***, et il est important de ***s'assurer que tous les filaments sont chargé au bas du hotend*** avant de commencer l'impression.    
+:warning: ***Que vous imprimiez en monochrome ou en multicolore, vous devez charger les quatre filaments dans le hotend M4V6.***
 1. Coupez l'avant du filament avec une pince diagonale avant de le charger dans l'extrudeuse et la hotend.
-2. Chargez 4 filaments dans toutes les extrudeuses, un par un.
-3. Faites tourner l'engrenage des extrudeuses pour charger les filaments un par un, ne faites pas tourner chaque extrudeuse plus de 2 tours à la fois, jusqu'à ce que tous les filaments entrent dans le tube PTFE intérieur de la hotend, extrayez plus de 4 à 5 tours pour chaque extrudeuse. puis arrête.
-:warning: ***N'alimentez pas le hotend en filaments lorsque l'un des canaux du hotend est vide.***
-:warning: ***Assurez-vous que les filaments de chaque canal atteignent le bas de la hotend avant d'alimenter le filament.***
+2. Chargez 4 filaments dans toutes les extrudeuses un par un, puis faites tourner l'engrenage des extrudeuses jusqu'à ce que le filament entre dans le tube PTFE intérieur du hotend, faites tourner encore 4 à 5 tours, puis arrêtez-vous.
 
-#### Étapes pour décharger le filament du hotend M4V6 :
-1. Chauffer la buse (200℃ pour PLA / 230℃ pour PETG/ABS). ***Menu: Préparer>>Filament>>Préchauffer : 200/230***
-2. Alimentez les filaments sur au moins 10 mm sur les 4 canaux simultanément. ***Menu: Préparer>>Filament>>Extruseur: Tous ; Préparer>>Filament>>Charger lentement***
-3. Déchargez les filaments de la hotend. ***Menu : Préparer>>Filament>>Décharger lentement***
+#### Étapes pour décharger le filament du hotend M4 :
+1. Chauffez la buse (200℃ pour PLA / 230℃ pour PETG/ABS) et attendez que la température atteigne. ***Menu: Prepare>>Filament>>Preheat: 200/230***.
+2. Alimentez les filaments sur au moins 10 mm sur les 4 canaux simultanément ***Menu: Prepare>>Filament>>Extruder: All; Prepare>>Filament>>Slowly Load***.
+3. Déchargez les filaments du hotend ***Menu: Prepare>>Filament>>Slowly unload***.
   
 ### Pour E4 Hotend
 #### <a id = "PRELOAD_FILAMENT">Étapes pour charger les filaments dans la hotend E4:</a>
@@ -78,9 +82,9 @@ Si vous comprenez le principe de fonctionnement du hotend E4, sachez déjà que 
 :warning: ***Seuls les filaments de l'extrudeuse qui doivent être utilisés dans le fichier gcode doivent être chargés dans le hotend E4.***
 
 ### Étapes pour décharger le filament du hotend E4:
-1. Chauffer la buse (200℃ pour PLA / 230℃ pour PETG/ABS). ***Menu: Préparer>>Filament>>Préchauffer: 200/230***
-2. Alimentez le filament sur au moins 10 mm sur l'extrudeuse utilisée. ***Menu: Préparer>>Filament>>Extruseur: 1/2/3/4 ; Préparer>>Filament>>Charger lentement***
-3. Déchargez le filament de la hotend. ***Menu: Préparer>>Filament>>Décharger lentement***
+1. Chauffer la buse (200℃ pour PLA / 230℃ pour PETG/ABS) et attendez que la température atteigne. ***Menu: Prepare>>Filament>>Preheat: 200/230***
+2. Alimentez le filament sur au moins 10 mm sur l'extrudeuse utilisée. ***Menu: Prepare>>Filament>>Extruder: 1/2/3/4; Prepare>>Filament>>Slowly Load***
+3. Déchargez le filament de la hotend. ***Menu: Prepare>>Filament>>Slowly unload***
 
 -----
 ## <a id = "A4">Quelle est la différence dans les paramètres de découpage entre les hotend M4 et E4:</a>

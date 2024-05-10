@@ -55,22 +55,26 @@
 
 -----
 ## <a id="A3"> How to load/unload filaments correctly</a>
+M4 hot end and E4 hot end have different requirements for loading filament. 
+- **Requirements of quantity for loading filaments:**
+  - The M4 hot end requires four filaments to be loaded at the same time, regardless of whether printing single color or multi-color; 
+  - The E4 hot end can choose the number of filaments to load according to the colors printed.   
+- **Requirements of position for loading filaments:**
+  - The M4 hot end requires the filament to be installed at the bottom of the hot end; 
+  - The E4 hot end requires the filament to be installed above the funnel mouth of the hot end (extending the PTFE tube by about 20mm).
 ### For M4 Hotend
-#### Steps to load filaments into the M4V6 hotend:
+#### Steps to load filaments into the M4 hotend:
 ##### [![](https://img.youtube.com/vi/-47yB95uIxI/0.jpg)](https://www.youtube.com/watch?v=-47yB95uIxI)
 When loading the filaments into the M4 hotend, regardless of how many extruders you need to use during printing, ***all four filaments must be loaded into the hotend***, and it is important to  ***ensure that all filaments are loaded into the bottom of the hotend*** before starting printing.     
-:warning: ***Whether printing in monochrome or multi-color, you need to fit all four filaments into the M4V6 hotend.***     
+:warning: ***Whether printing in single color or multi-color, you need to load all four filaments into the M4V6 hotend.***     
 1. Cut the front of the filament with diagonal pliers before loading it to the extruder and hotend.
-2. Load 4 filaments to all extruders one by one.
-3. Rotate the gear of the extruders to load filament one by one, do not rotate each extruder more than 2 turns at a time, until all the filaments enter to the inner PTFE tube of hotend, extrdue more 4 ~ 5 turn for each extruder and then stop.     
-:warning: ***Don't feed filaments to the hotend when any channel of the hotend are empty.***     
-:warning: ***Ensure that the filaments for each channel reach the bottom of the hotend before feeding the filament.***     
+2. Load 4 filaments to all extruders one by one and then rotate the gear of the extruders until the filament enter to the inner PTFE tube of hotend, rotate more 4 ~ 5 turn and then stop.     
 
-#### Steps to unload filament from the M4V6 hotend:
-1. Heating the nozzle (200℃ for PLA / 230℃ for PETG/ABS). ***Menu: Prepare>>Filament>>Preheat: 200/230***
+#### Steps to unload filament from the M4 hotend:
+1. Heating the nozzle (200℃ for PLA / 230℃ for PETG/ABS) and wait for the temperature to reach. ***Menu: Prepare>>Filament>>Preheat: 200/230***
 2. Feed filaments at least 10mm on all 4 channels simultaneously. ***Menu: Prepare>>Filament>>Extruder: All; Prepare>>Filament>>Slowly Load***
 3. Unload filaments from the hotend. ***Menu: Prepare>>Filament>>Slowly unload***    
-  
+
 ### For E4 Hotend
 #### <a id = "PRELOAD_FILAMENT">Steps to load filaments into the E4 hotend:</a>
 ##### [![](https://img.youtube.com/vi/FyHrAMytlT8/0.jpg)](https://www.youtube.com/watch?v=FyHrAMytlT8)

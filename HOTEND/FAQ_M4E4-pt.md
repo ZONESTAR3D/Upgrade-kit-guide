@@ -55,21 +55,25 @@
 
 -----
 ## <a id="A3"> Como carregar/descarregar filamentos corretamente</a>
+O hot end M4 e o hot end E4 têm requisitos diferentes para carregar o filamento.
+- **Requisitos de quantidade para carregamento de filamentos:**
+   - O hot end M4 requer o carregamento de quatro filamentos ao mesmo tempo, independentemente de imprimir em uma cor ou multicolor;
+   - O hot end E4 pode escolher a quantidade de filamentos a carregar de acordo com as cores impressas.
+- **Requisitos de posição para carregamento de filamentos:**
+   - O hot end M4 exige que o filamento seja instalado na parte inferior do hot end;
+   - O hot end E4 requer que o filamento seja instalado acima da boca do funil do hot end (estendendo o tubo de PTFE em cerca de 20 mm).
 ### Para Hotend M4
-#### Etapas para carregar filamentos no hotend M4V6:
+#### Etapas para carregar filamentos no hotend M4:
 ##### [![](https://img.youtube.com/vi/-47yB95uIxI/0.jpg)](https://www.youtube.com/watch?v=-47yB95uIxI)
-Ao carregar os filamentos no hotend M4, independentemente de quantas extrusoras você precisa usar durante a impressão, ***todos os quatro filamentos devem ser carregados no hotend***, e é importante ***garantir que todos os filamentos estejam carregado na parte inferior do hotend*** antes de iniciar a impressão.
-:warning: ***Seja imprimindo monocromático ou multicolorido, você precisa encaixar todos os quatro filamentos no hotend M4V6.***
-1. Corte a frente do filamento com um alicate diagonal antes de carregá-lo na extrusora e no hotend.
-2. Carregue 4 filamentos em todas as extrusoras, um por um.
-3. Gire a engrenagem das extrusoras para carregar o filamento um por um, não gire cada extrusora mais de 2 voltas por vez, até que todos os filamentos entrem no tubo interno de PTFE do hotend, extrude mais 4 ~ 5 voltas para cada extrusora e então pare.
-:warning: ***Não alimente filamentos no hotend quando qualquer canal do hotend estiver vazio.***
-:warning: ***Certifique-se de que os filamentos de cada canal cheguem à parte inferior do hotend antes de alimentar o filamento.***
+Ao carregar os filamentos no hotend M4, independentemente de quantas extrusoras você precisa usar durante a impressão, ***todos os quatro filamentos devem ser carregados no hotend***, e é importante ***garantir que todos os filamentos estejam carregado na parte inferior do hotend*** antes de iniciar a impressão.    
+:warning: ***Seja imprimindo em uma única cor ou em várias cores, você precisa carregar todos os quatro filamentos no hotend M4V6.***
+1. Corte a frente do filamento com um alicate diagonal antes de carregá-lo na extrusora e no hotend.    
+2. Carregue 4 filamentos em todas as extrusoras, um por um, e depois gire a engrenagem das extrusoras até que o filamento entre no tubo interno de PTFE do hotend, gire mais 4 ~ 5 voltas e depois pare.
 
-#### Etapas para descarregar o filamento do hotend M4V6:
-1. Aquecimento do bico (200°C para PLA / 230°C para PETG/ABS). ***Menu: Preparar>>Filamento>>Pré-aquecer: 200/230***
-2. Alimente os filamentos pelo menos 10 mm em todos os 4 canais simultaneamente. ***Menu: Preparar>>Filamento>>Extrusora: Todos; Preparar>>Filamento>>Carregar Lentamente***
-3. Descarregue os filamentos do hotend. ***Menu: Preparar>>Filamento>>Descarregar lentamente***
+#### Passos para descarregar o filamento do hotend M4:
+1. Aqueça o bico (200°C para PLA / 230°C para PETG/ABS) e aguarde a temperatura atingir ***Menu: Prepare>>Filament>>Preheat: 200/230***.
+2. Alimente os filamentos pelo menos 10 mm em todos os 4 canais simultaneamente ***Menu: Prepare>>Filament>>Extruder: All; Prepare>>Filament>>Slowly Load***.
+3. Descarregue os filamentos do hotend ***Menu: Prepare>>Filament>>Slowly unload***.
   
 ### Para Hotend E4
 #### <a id = "PRELOAD_FILAMENT">Etapas para carregar filamentos no hotend E4:</a>

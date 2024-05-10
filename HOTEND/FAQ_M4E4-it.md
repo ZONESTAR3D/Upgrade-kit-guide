@@ -55,21 +55,25 @@
 
 -----
 ## <a id="A3"> Come caricare/scaricare correttamente i filamenti</a>
+L'hotend M4 e l'hotend E4 hanno requisiti diversi per il caricamento del filamento.
+- **Requisiti di quantità per caricare i filamenti:**
+   - L'hot end M4 richiede il caricamento di quattro filamenti contemporaneamente, indipendentemente dal fatto che si stampi monocolore o multicolore;
+   - L'hot end E4 può scegliere il numero di filamenti da caricare in base ai colori stampati.
+- **Requisiti di posizione per il caricamento dei filamenti:**
+   - L'hot end M4 richiede che il filamento sia installato nella parte inferiore dell'hot end;
+   - L'hot end E4 richiede che il filamento sia installato sopra la bocca dell'imbuto dell'hot end (estendendo il tubo PTFE di circa 20 mm).
 ### Per l'hotend M4
-#### Passaggi per caricare i filamenti nell'hotend M4V6:
+#### Passaggi per caricare i filamenti nell'hotend M4:
 ##### [![](https://img.youtube.com/vi/-47yB95uIxI/0.jpg)](https://www.youtube.com/watch?v=-47yB95uIxI)
 Quando si caricano i filamenti nell'hotend M4, indipendentemente dal numero di estrusori necessari durante la stampa, ***tutti e quattro i filamenti devono essere caricati nell'hotend*** ed è importante ***assicurarsi che tutti i filamenti siano caricato nella parte inferiore dell'hotend*** prima di iniziare la stampa.
-:warning: ***Che si stampi in monocromia o multicolore, è necessario inserire tutti e quattro i filamenti nell'hotend M4V6.***
+:warning: ***Che si stampi in monocolore o multicolore, è necessario caricare tutti e quattro i filamenti nell'hotend M4V6.***
 1. Taglia la parte anteriore del filamento con una pinza diagonale prima di caricarlo nell'estrusore e nell'hotend.
-2. Caricare 4 filamenti su tutti gli estrusori uno per uno.
-3. Ruotare l'ingranaggio degli estrusori per caricare i filamenti uno per uno, non ruotare ciascun estrusore più di 2 giri alla volta, finché tutti i filamenti non entrano nel tubo interno in PTFE dell'hotend, estrudere altri 4 ~ 5 giri per ciascun estrusore e poi fermati.
-:warning: ***Non alimentare filamenti nell'hotend quando qualsiasi canale dell'hotend è vuoto.***
-:warning: ***Assicurarsi che i filamenti per ciascun canale raggiungano il fondo dell'hotend prima di alimentare il filamento.***
+2. Caricare 4 filamenti su tutti gli estrusori uno per uno, quindi ruotare l'ingranaggio degli estrusori finché il filamento non entra nel tubo interno in PTFE dell'hotend, ruotare di altri 4 ~ 5 giri e poi fermarsi.
 
-#### Passaggi per scaricare il filamento dall'hotend M4V6:
-1. Riscaldamento dell'ugello (200℃ per PLA/230℃ per PETG/ABS). ***Menu: Prepare>>Filament>>Preheat: 200/230***
-2. Alimentare i filamenti per almeno 10 mm su tutti e 4 i canali contemporaneamente. ***Menu: Prepare>>Filament>>Extruder: All; Prepare>>Filament>>Slowly Load***
-3. Scaricare i filamenti dall'hotend. ***Menu: Prepare>>Filament>>Slowly unload***
+#### Passaggi per scaricare il filamento dall'hotend M4:
+1. Riscaldare l'ugello (200℃ per PLA / 230℃ per PETG/ABS) e attendere che venga raggiunta la temperatura. ***Menu: Prepare>>Filament>>Preheat: 200/230***
+2. Alimentare i filamenti per almeno 10 mm su tutti e 4 i canali contemporaneamente ***Menu: Prepare>>Filament>>Extruder: All; Prepare>>Filament>>Slowly Load***
+3. Scaricare i filamenti dall'hotend ***Menu: Prepare>>Filament>>Slowly unload***.
   
 ### Per l'hotend E4
 #### <a id = "PRELOAD_FILAMENT">Passaggi per caricare i filamenti nell'hotend E4:</a>
@@ -78,7 +82,7 @@ Se comprendi il principio di funzionamento dell'hotend E4, dovresti già sapere 
 :warning: ***Solo i filamenti sull'estrusore che devono essere utilizzati nel file gcode devono essere caricati nell'hotend E4.***
 
 ### Passaggi per scaricare il filamento dall'hotend E4:
-1. Riscaldamento dell'ugello (200℃ per PLA/230℃ per PETG/ABS). ***Menu: Prepare>>Filament>>Preheat: 200/230***
+1. Riscaldamento dell'ugello (200℃ per PLA/230℃ per PETG/ABS) e attendere che venga raggiunta la temperatura. ***Menu: Prepare>>Filament>>Preheat: 200/230***
 2. Alimentare il filamento per almeno 10 mm sull'estrusore usato. ***Menu: Prepare>>Filament>>Extruder: 1/2/3/4; Prepare>>Filament>>Slowly Load***
 3. Scarica il filamento dall'hotend. ***Menu: Prepare>>Filament>>Slowly unload***
 
