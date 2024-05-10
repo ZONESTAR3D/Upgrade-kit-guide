@@ -20,15 +20,15 @@
 
 ----
 # FAQ for E4 and M4 hotend
-- [**What's the different between E4 and M4 hotend?**](#A1)
-- [**Which type of hotend should I choose?**](#A2)
-- [**How to load filaments into the hotend correctly?**](#A3)
-- [**What is the difference in slicing settings between M4 and E4 hotends**](#A4)
-- [**How to switch between M4 and E4 hotend?**](#A5)
+- [**What's the different between E4 and M4 hotend?**](#a1)
+- [**Which type of hotend should I choose?**](#a2)
+- [**How to load filaments into the hotend correctly?**](#a3)
+- [**What is the difference in slicing settings between M4 and E4 hotends**](#a4)
+- [**How to switch between M4 and E4 hotend?**](#a5)
 
 
 -----
-## <a id="A1">What's different between E4 and M4 hotend?</a>
+## <a id="a1">What's different between E4 and M4 hotend?</a>
 ![](./M4V6vsE4.jpg)   
 - **M4 hotend** can mix different colored filaments to produce new colored filaments. **E4 hotend** does not have this ability.  
 - **E4 hotend** is good at printing one color or multi color 3d object (up to 4 color).
@@ -49,12 +49,12 @@
 ![](M4VSE4.jpg)
 
 -----
-## <a id="A2"> Which hotend should I choose, M4 or E4?</a>
+## <a id="a2"> Which hotend should I choose, M4 or E4?</a>
 - If you **do not need** to print gradient color 3d model, we suggest you choose **E4 hotend**, it can get better quality on printing single color and multi colors 3d prints.
 - If you want to print **gradient color** 3d model, or you want to **mix different color filaments to another color**, choose M4 hotend.
 
 -----
-## <a id="A3"> How to load/unload filaments correctly</a>
+## <a id="a3"> How to load/unload filaments correctly</a>
 M4 hot end and E4 hot end have different requirements for loading filament. 
 - **Requirements of quantity for loading filaments:**
   - The M4 hot end requires four filaments to be loaded at the same time, regardless of whether printing single color or multi-color; 
@@ -87,7 +87,7 @@ If you understand the working principle of the E4 hotend, you should already kno
 3. Unload filament from the hotend. ***Menu: Prepare>>Filament>>Slowly unload***
 
 -----
-## <a id = "A4">What is the difference in slicing settings between M4 and E4 hotend:</a>
+## <a id = "a4">What is the difference in slicing settings between M4 and E4 hotend:</a>
 :pushpin: These settings have been set in the profiles of the PrusaSlicer software we provide. You only need to choose the correct **printer preset** according to your machine and hotend type.
 ### Slice settings for multi-color printing    
 For printing multi-color, the slicing settings for the E4 hotend and M4 hotend mainly differ as follows:
@@ -106,7 +106,7 @@ For printing multi-color, the slicing settings for the E4 hotend and M4 hotend m
   - **For the M4 hotend**, it doesn't need **Tool change G-code**.
 
 -----
-## <a id="A5"> How to switch between M4 hotend and E4 hotend</a>
+## <a id="a5"> How to switch between M4 hotend and E4 hotend</a>
 ### 1. Loosen the three screws on the hotend housing and remove the old hotend from the machine (x pulley). Then install the new hotend on the machine (x pulley) and lock the screws.
 ![](./E4/User_guide/E4-4.jpg)
 ### 2. Connect the wires of the new hotend to the machine.
