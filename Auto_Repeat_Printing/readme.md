@@ -27,7 +27,7 @@
 
 
 # [Automatic Repeat Printing Module][selllink] User Manual
-## :warning::bangbang:ATTENTION:bangbang:
+## :warning: ATTENTION PLEASE :warning: 
 #### 1. Before using Automatic Repeat Printing feature, please confirm that the prints is easy to be removed from the printing platform while the hotbed is cooled. For details, please refer to [Important Notice][7]
 #### 2. Remove the M84 command from the "End G-code" of "machine setting" of slicing software.
 
@@ -79,9 +79,11 @@ The working process is that finished one print first, then cooling the printing 
 
 ## 5. Upgrade firmware   [return to contents>>][0]
 Download firmware bin file and upload to your 3d printer.
-[**Z9M4** firmware with **repeat print feature**](firmware/Z9M4)  
-[**Z9V5-MK1 & Z9V5-MK2** firmware with **repeat print feature**](firmware/Z9V5-MK1(MK2))   
-[**Z9V5-MK3** firmware with **repeat print feature**](firmware/Z9V5-MK3)   
+- [**Z9V5-MK6**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK6/customized)   
+- [**Z9V5-MK4 & Z9V5-MK5**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK4/customized) 
+- [**Z9V5-MK3**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK3/customized)   
+- [**Z9V5-MK1 & Z9V5-MK2**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK6/customized)   
+- [**Z9M4**](https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9M4/ZM3E4/Firmware/Special)  
 
 >**How to upload firmware**  
 > 1. Download the zip file and unzip it, you will get a "firmware.bin" file.  
