@@ -4,13 +4,14 @@
 
 ----
 ### :globe_with_meridians: Choose Language
+[![](../lanpic/EN.png)](#en)
 [![](../lanpic/ES.png)](#es)
 [![](../lanpic/PT.png)](#pt)
 [![](../lanpic/FR.png)](#fr)
 [![](../lanpic/DE.png)](#de)
 [![](../lanpic/IT.png)](#it)
 [![](../lanpic/RU.png)](#ru)
-[![](../lanpic/JP.png)](#ja)
+[![](../lanpic/JP.png)](#jp)
 [![](../lanpic/KR.png)](#kr)
 <!-- [![](../lanpic/SW.png)](#sv) -->
 <!-- [![](../lanpic/PL.png)](#pl) -->
@@ -621,7 +622,7 @@ Scaricare e caricare il firmware per l'aggiornamento a 500x500 sulla scheda di c
 ### 9. ホットエンド ケーブルを取り付けるためのブラケットを上部プロファイルに取り付けます。
 
 ----
-# <a id="en">Z9V5Pro 500x500 업그레이드 키트 설치 및 배선 가이드</a>
+# <a id="kr">Z9V5Pro 500x500 업그레이드 키트 설치 및 배선 가이드</a>
 
 ## 부속
 |유형|사양|사용 용도|수량|
