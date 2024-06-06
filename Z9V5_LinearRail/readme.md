@@ -1,4 +1,4 @@
-### :globe_with_meridians: Choose Language
+### <a id="choose-language">:globe_with_meridians: Choose language </a>
 [![](../lanpic/EN.png)](#en)
 [![](../lanpic/ES.png)](#es)
 [![](../lanpic/PT.png)](#pt)
@@ -90,7 +90,7 @@ Remove the screws shown on picture below to take down the front-top profile. **N
 ### 15. Install the new belts.
 
 ----
-# <a id="es">Guía de instalación del kit de actualización de riel lineal Z9V5</a>
+# <a id="es">Guía de instalación del kit de actualización de riel lineal Z9V5</a> [:arrow_heading_up:](#choose-language)
 ### :warning: ATENCIÓN POR FAVOR :warning:
 No deslice el control deslizante fuera del riel lineal, de lo contrario las bolas se deslizarán fuera del control deslizante y dañarán el control deslizante.
 ### Vídeotutorial
@@ -154,7 +154,7 @@ Retire los tornillos que se muestran en la imagen a continuación para desmontar
 ### 15. Instale las correas nuevas.
 
 ----
-# <a id="pt">Guia de instalação do kit de atualização de trilho linear Z9V5</a>
+# <a id="pt">Guia de instalação do kit de atualização de trilho linear Z9V5</a> [:arrow_heading_up:](#choose-language)
 ### :warning: ATENÇÃO POR FAVOR :warning:
 Não deslize o controle deslizante para fora do trilho linear, caso contrário as esferas deslizarão para fora do controle deslizante e danificarão o controle deslizante.
 ### Vídeo tutorial
@@ -218,7 +218,7 @@ Remova os parafusos mostrados na imagem abaixo para retirar o perfil frontal sup
 ### 15. Instale as novas correias.
 
 ----
-# <a id="fr">Guide d'installation du kit de mise à niveau du rail linéaire Z9V5</a>
+# <a id="fr">Guide d'installation du kit de mise à niveau du rail linéaire Z9V5</a> [:arrow_heading_up:](#choose-language)
 ### :warning: ATTENTION S'IL VOUS PLAÎT :warning:
 Ne faites pas glisser le curseur hors du rail linéaire, sinon les billes glisseraient hors du curseur et endommageraient le curseur.
 ### Didacticiel vidéo
@@ -287,7 +287,7 @@ Retirez les vis indiquées sur l'image ci-dessous pour démonter le profil avant
 ### 15. Installez les nouvelles courroies.
 
 ----
-# <a id="de">Installationsanleitung für das Upgrade-Kit für die Z9V5-Linearschiene</a>
+# <a id="de">Installationsanleitung für das Upgrade-Kit für die Z9V5-Linearschiene</a> [:arrow_heading_up:](#choose-language)
 ### :warning: ACHTUNG BITTE :warning:
 Schieben Sie den Schieber nicht aus der Linearschiene heraus, da sonst die Kugeln aus dem Schieber herausrutschen und den Schieber beschädigen.
 ### Video-Tutorial
@@ -355,7 +355,7 @@ Entfernen Sie die auf dem Bild unten gezeigten Schrauben, um das vordere obere P
 ### 15. Bauen Sie die neuen Riemen ein.
 
 ----
-# <a id="it">Guida all'installazione del kit di aggiornamento della guida lineare Z9V5</a>
+# <a id="it">Guida all'installazione del kit di aggiornamento della guida lineare Z9V5</a> [:arrow_heading_up:](#choose-language)
 ### :warning: ATTENZIONE PER FAVORE :warning:
 Non far scorrere il cursore fuori dalla guida lineare, altrimenti le sfere scivoleranno fuori dal cursore e danneggeranno il cursore.
 ### Videotutorial
@@ -419,7 +419,7 @@ Rimuovere le viti mostrate nella figura sotto per smontare il profilo superiore 
 ### 15. Installare le nuove cinghie.
 
 ----
-# <a id="ru">Руководство по установке комплекта обновления линейной направляющей Z9V5</a>
+# <a id="ru">Руководство по установке комплекта обновления линейной направляющей Z9V5</a> [:arrow_heading_up:](#choose-language)
 ### :warning: ВНИМАНИЕ :warning:
 Не выдвигайте ползунок из линейной направляющей, иначе шарики выскользнут из ползунка и повредят его.
 ### Видеоурок
@@ -483,7 +483,7 @@ Rimuovere le viti mostrate nella figura sotto per smontare il profilo superiore 
 ### 15. Установите новые ремни.
 
 ----
-# <a id="jp">Z9V5 リニア レール アップグレード キット インストール ガイド</a>
+# <a id="jp">Z9V5 リニア レール アップグレード キット インストール ガイド</a>  [:arrow_heading_up:](#choose-language)
 ### :warning: ご注意ください :warning:
 スライダーをリニア レールからスライドさせないでください。そうしないと、ボールがスライダーからスライドし、スライダーが損傷します。
 ### ビデオ チュートリアル
@@ -547,7 +547,7 @@ Rimuovere le viti mostrate nella figura sotto per smontare il profilo superiore 
 ### 15. 新しいベルトを取り付けます。
 
 ----
-# <a id="kr">Z9V5 선형 레일 업그레이드 키트 설치 안내서</a>
+# <a id="kr">Z9V5 선형 레일 업그레이드 키트 설치 안내서</a> [:arrow_heading_up:](#choose-language)
 ### :warning: 주의하세요 :warning:
 슬라이더를 선형 레일 밖으로 밀어내지 마십시오. 그렇지 않으면 볼이 슬라이더 밖으로 미끄러져 나와 슬라이더가 손상될 수 있습니다.
 ### 비디오 튜토리얼

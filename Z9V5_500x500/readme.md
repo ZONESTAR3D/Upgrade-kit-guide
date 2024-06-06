@@ -3,7 +3,7 @@
 [MK6_FW]: https://github.com/ZONESTAR3D/Firmware/tree/master/Z9/Z9V5/bin/Z9V5Pro-MK6/customized
 
 ----
-### :globe_with_meridians: Choose Language
+### <a id="choose-language">:globe_with_meridians: Choose language </a>
 [![](../lanpic/EN.png)](#en)
 [![](../lanpic/ES.png)](#es)
 [![](../lanpic/PT.png)](#pt)
@@ -105,7 +105,7 @@ Download and upload the firmware for upgraded to 500x500 to the control board.
 ### 9. Install the bracket for mounting hot end cable to the top profile. 
 
 ----
-# <a id="es">Guía de instalación y cableado del kit de actualización Z9V5Pro 500x500</a>
+# <a id="es">Guía de instalación y cableado del kit de actualización Z9V5Pro 500x500</a> [:arrow_heading_up:](#choose-language)
 
 ## Partes
 |Tipo|Especificaciones|Usar para|CANTIDAD|
@@ -179,7 +179,7 @@ Descargue y cargue el firmware para actualizar a 500x500 en el tablero de contro
 ### 9. Instale el soporte para montar el cable del extremo caliente en el perfil superior.
 
 ----
-# <a id="pt">Guia de instalação e fiação do kit de atualização Z9V5Pro 500x500</a>
+# <a id="pt">Guia de instalação e fiação do kit de atualização Z9V5Pro 500x500</a> [:arrow_heading_up:](#choose-language)
 
 ## Peças
 |Tipo|Especificações|Use para|QTY|
@@ -253,7 +253,7 @@ Baixe e carregue o firmware atualizado para 500x500 para a placa de controle.
 ### 9. Instale o suporte para montagem do cabo hot end no perfil superior.
 
 ----
-# <a id="fr">Guide d'installation et de câblage du kit de mise à niveau Z9V5Pro 500x500</a>
+# <a id="fr">Guide d'installation et de câblage du kit de mise à niveau Z9V5Pro 500x500</a> [:arrow_heading_up:](#choose-language)
 
 ## Les pièces
 |Type|Spécifications|Utiliser pour|QTÉ|
@@ -327,7 +327,7 @@ Téléchargez et téléchargez le firmware pour la mise à niveau vers 500x500 s
 ### 9. Installez le support pour monter le câble d'extrémité chaude sur le profil supérieur.
 
 ----
-# <a id="de">Installations- und Verdrahtungsanleitung für das Upgrade-Kit Z9V5Pro 500x500</a>
+# <a id="de">Installations- und Verdrahtungsanleitung für das Upgrade-Kit Z9V5Pro 500x500</a> [:arrow_heading_up:](#choose-language)
 
 ## Teile
 |Typ|Spezifikationen|Verwenden für|MENGE|
@@ -401,7 +401,7 @@ Laden Sie die Firmware für die Aktualisierung auf 500x500 herunter und laden Si
 ### 9. Installieren Sie die Halterung zur Befestigung des heißen Endkabels am oberen Profil.
 
 ----
-# <a id="it">Guida all'installazione e al cablaggio del kit di aggiornamento Z9V5Pro 500x500</a>
+# <a id="it">Guida all'installazione e al cablaggio del kit di aggiornamento Z9V5Pro 500x500</a> [:arrow_heading_up:](#choose-language)
 
 ## Parti
 |Tipo|Specifiche|Utilizzare per|QTÀ|
@@ -475,7 +475,7 @@ Scaricare e caricare il firmware per l'aggiornamento a 500x500 sulla scheda di c
 ### 9. Installare la staffa per montare il cavo dell'hotend sul profilo superiore.
 
 ----
-# <a id="ru">Руководство по установке и подключению комплекта обновления Z9V5Pro 500x500</a>
+# <a id="ru">Руководство по установке и подключению комплекта обновления Z9V5Pro 500x500</a> [:arrow_heading_up:](#choose-language)
 
 ## Детали
 |Тип|Характеристики|Использовать для|КОЛИЧЕСТВО|
@@ -549,7 +549,7 @@ Scaricare e caricare il firmware per l'aggiornamento a 500x500 sulla scheda di c
 ### 9. Установите кронштейн для крепления кабеля горячего конца к верхнему профилю.
 
 ----
-# <a id="jp">Z9V5Pro 500x500 アップグレード キットのインストールと配線ガイド</a>
+# <a id="jp">Z9V5Pro 500x500 アップグレード キットのインストールと配線ガイド</a> [:arrow_heading_up:](#choose-language)
 
 ## 部品
 |タイプ|仕様|使用先|数量|
@@ -622,7 +622,7 @@ Scaricare e caricare il firmware per l'aggiornamento a 500x500 sulla scheda di c
 ### 9. ホットエンド ケーブルを取り付けるためのブラケットを上部プロファイルに取り付けます。
 
 ----
-# <a id="kr">Z9V5Pro 500x500 업그레이드 키트 설치 및 배선 가이드</a>
+# <a id="kr">Z9V5Pro 500x500 업그레이드 키트 설치 및 배선 가이드</a> [:arrow_heading_up:](#choose-language)
 
 ## 부속
 |유형|사양|사용 용도|수량|
