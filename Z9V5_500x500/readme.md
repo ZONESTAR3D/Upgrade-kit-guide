@@ -9,6 +9,9 @@
 [![](../lanpic/FR.png)](#fr)
 [![](../lanpic/DE.png)](#de)
 [![](../lanpic/IT.png)](#it)
+[![](../lanpic/RU.png)](#ru)
+[![](../lanpic/JP.png)](#ja)
+[![](../lanpic/KR.png)](#kr)
 <!-- [![](../lanpic/SW.png)](#sv) -->
 <!-- [![](../lanpic/PL.png)](#pl) -->
 <!-- [![](../lanpic/DK.png)](#da) -->
@@ -16,9 +19,6 @@
 <!-- [![](../lanpic/HR.png)](#hr) -->
 <!-- [![](../lanpic/RO.png)](#ro) -->
 <!-- [![](../lanpic/SK.png)](#sk) -->
-[![](../lanpic/RU.png)](#ru)
-[![](../lanpic/JP.png)](#ja)
-[![](../lanpic/KR.png)](#kr)
 <!-- [![](../lanpic/ID.png)](#id) -->
 <!-- [![](../lanpic/TH.png)](#th) -->
 <!-- [![](../lanpic/VN.png)](#vi) -->
