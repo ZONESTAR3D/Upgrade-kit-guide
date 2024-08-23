@@ -32,18 +32,18 @@ Check the installation position of BLtouch, let its probe is lower than nozzle w
 1. Power on the printer, and watch the LED on the Bltouch, LED will light if wires is 
 connected well and Power on. Red LED will light if the probe is triggered.
 2. Operate the control panel, ***Configuration>>Bltouch>>Reset***.
-3. Operate the control panel, ***Configuration >>Bltouch>>Self-test***, Probe will deploy and stow automatically, you can check if the installation height.
-4. Operate the control panel, ***Configuration >>Bltouch>>Reset***.
-5. Operate the control panel, ***Configuration >>Bltouch>>Deploy***, the probe will move up.
-6. Operate the control panel, ***Configuration >>Bltouch>>Stow***, the probe will move down.
+3. Operate the control panel, ***Configuration>>Bltouch>>Self-test***, Probe will deploy and stow automatically, you can check if the installation height.
+4. Operate the control panel, ***Configuration>>Bltouch>>Reset***.
+5. Operate the control panel, ***Configuration>>Bltouch>>Deploy***, the probe will move up.
+6. Operate the control panel, ***Configuration>>Bltouch>>Stow***, the probe will move down.
 ### For LCD-DWIN screen
 1. Power on the printer, and watch the LED on the Bltouch, LED will light if wires is 
 connected well and Power on. Red LED will light if the probe is triggered.
-2. Operate the control panel, ***Control >>Bltouch>>Reset***.
-3. Operate the control panel, ***Control >>Bltouch>>Self-test***, Bltouch will deploy and stow automatically, you can check if the installation height.
-4. Operate the control panel, ***Control >>Bltouch>>Reset***.
-5. Operate the control panel, ***Control >>Bltouch>>Deploy***, the probe will move up;
-6. Operate the control panel,*** Control >>Bltouch>>Stow***, the probe will move down.
+2. Operate the control panel, ***Control>>Bltouch>>Reset***.
+3. Operate the control panel, ***Control>>Bltouch>>Self-test***, Bltouch will deploy and stow automatically, you can check if the installation height.
+4. Operate the control panel, ***Control>>Bltouch>>Reset***.
+5. Operate the control panel, ***Control>>Bltouch>>Deploy***, the probe will move up;
+6. Operate the control panel, ***Control>>Bltouch>>Stow***, the probe will move down.
 
 ## :four: Measuring the flatness error data of the hot bed
 After installed the 3DTouch/BLTouch and completed the wiring, you need to do some steps to measure the flatness error data of the hot bed.
