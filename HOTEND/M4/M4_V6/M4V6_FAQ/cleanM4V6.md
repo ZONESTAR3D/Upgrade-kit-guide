@@ -91,7 +91,7 @@ Para el hotend de mezcla de colores 4-IN-1-OUT, la **"Longitud de retracción de
 ### :envelope: Si no puede encontrar una solución para resolver su problema después de leer las preguntas frecuentes, comuníquese con nuestro equipo de soporte técnico por [:e-mail:](support@zonestar3d.com) .
 
 ----
-## <a id="pt">Como limpar o hot end M4V6 entupido</a>
+## <a id="pt">Como limpar o hot end M4V6 entupido</a> [:arrow_heading_up:](#choose-language)
 - **Passo 1: Aquecer o bico a 260 graus.**
  *Prepare>>Filament>>Pré-aqueça o bico: 260*, aguarde que o bico atinja os 260 graus.
 - **Passo 2: Carregue todos os 4 filamentos na extremidade quente.**
@@ -129,7 +129,7 @@ Para o hotend de cores misturadas 4-IN-1-OUT, o **"Extrusor switching retraction
 ### :envelope: Se não encontrar uma solução para resolver o seu problema após ler as FAQ, por favor contacte a nossa equipa de suporte técnico através de [:e-mail:](support@zonestar3d.com).
 
 ----
-## <a id="fr">Comment nettoyer la tête chauffante M4V6 obstruée</a>
+## <a id="fr">Comment nettoyer la tête chauffante M4V6 obstruée</a> [:arrow_heading_up:](#choose-language)
 - **Étape 1 : Chauffer la buse à 260 degrés.**
 *Préparer>>Filament>>Préchauffer la buse : 260*, attendre que la buse atteigne 260 degrés.
 - **Étape 2 : Charger les 4 filaments dans la tête chauffante.**
@@ -167,7 +167,7 @@ Pour le hotend de couleur mixte 4-IN-1-OUT, la **« Longueur de rétraction de c
 ### :envelope: Si vous ne trouvez pas de solution pour résoudre votre problème après avoir lu la FAQ, veuillez contacter notre équipe d'assistance technique par [:e-mail:](support@zonestar3d.com) .
 
 ----
-## <a id="de">So reinigen Sie das verstopfte M4V6-Hot-End</a>
+## <a id="de">So reinigen Sie das verstopfte M4V6-Hot-End</a> [:arrow_heading_up:](#choose-language)
 - **Schritt 1: Erhitzen Sie die Düse auf 260 Grad.**
 *Vorbereiten>>Filament>>Düse vorheizen: 260*, warten Sie, bis die Düse 260 Grad erreicht hat.
 - **Schritt 2: Laden Sie alle 4 Filamente in das Hot-End.**
@@ -205,7 +205,7 @@ Für 4-IN-1-OUT-Mischfarb-Hotends MUSS die **„Extruder-Schalterrückzugslänge
 ### :envelope: Wenn Sie nach dem Lesen der FAQ keine Lösung für Ihr Problem finden, wenden Sie sich bitte per [:e-mail:](support@zonestar3d.com) an unser technisches Supportteam.
 
 ----
-## <a id="it">Come pulire l'hot end M4V6 intasato</a>
+## <a id="it">Come pulire l'hot end M4V6 intasato</a> [:arrow_heading_up:](#choose-language)
 - **Passaggio 1: Riscaldare l'ugello a 260 gradi.**
 *Preparare>>Filamento>>Preriscaldare l'ugello: 260*, attendere che l'ugello raggiunga i 260 gradi.
 - **Passaggio 2: Caricare tutti e 4 i filamenti nell'hot end.**
@@ -241,7 +241,7 @@ Per l'hotend a colori misti 4-IN-1-OUT, **"Lunghezza di retrazione dell'interrut
 ### :envelope: Se non riesci a trovare una soluzione per risolvere il tuo problema dopo aver letto le FAQ, contatta il nostro team di supporto tecnico tramite [:e-mail:](support@zonestar3d.com).
 
 ----
-## <a id="ru">Как очистить засоренный горячий конец M4V6</a>
+## <a id="ru">Как очистить засоренный горячий конец M4V6</a> [:arrow_heading_up:](#choose-language)
 - **Шаг 1: Нагрев сопла до 260 градусов.**
 *Подготовка>>Нить>>Предварительный нагрев сопла: 260*, подождите, пока сопло достигнет 260 градусов.
 - **Шаг 2: Загрузите все 4 нити в горячий конец.**
@@ -279,7 +279,7 @@ Per l'hotend a colori misti 4-IN-1-OUT, **"Lunghezza di retrazione dell'interrut
 ### :envelope: Если вы не можете найти решение для своей проблемы после прочтения FAQ, свяжитесь с нашей службой технической поддержки по [:e-mail:](support@zonestar3d.com) .
 
 ----
-## <a id="jp">詰まった M4V6 ホットエンドのクリーニング方法</a>
+## <a id="jp">詰まった M4V6 ホットエンドのクリーニング方法</a> [:arrow_heading_up:](#choose-language)
 - **ステップ 1: ノズルを 260 度に加熱します。**
 *準備>>フィラメント>>ノズルを予熱: 260*、ノズルが 260 度に達するまで待ちます。
 - **ステップ 2: 4 つのフィラメントすべてをホットエンドにロードします。**
@@ -317,7 +317,7 @@ Per l'hotend a colori misti 4-IN-1-OUT, **"Lunghezza di retrazione dell'interrut
 ### :envelope: FAQ を読んでも問題の解決策が見つからない場合は、[:e-mail:](support@zonestar3d.com) でテクニカルサポートチームにお問い合わせください。
 
 ----
-## <a id="kr">막힌 M4V6 핫엔드 청소 방법</a>
+## <a id="kr">막힌 M4V6 핫엔드 청소 방법</a> [:arrow_heading_up:](#choose-language)
 - **1단계: 노즐을 260도로 가열합니다.**
 *준비>>필라멘트>>노즐 예열: 260*, 노즐이 260도에 도달할 때까지 기다립니다.
 - **2단계: 모든 4개 필라멘트를 핫엔드에 로드합니다.**
@@ -355,7 +355,7 @@ Per l'hotend a colori misti 4-IN-1-OUT, **"Lunghezza di retrazione dell'interrut
 ### :envelope: FAQ를 읽은 후에도 문제를 해결할 수 있는 해결책을 찾을 수 없는 경우 [:e-mail:](support@zonestar3d.com)로 기술 지원 팀에 문의하세요.
 
 ----
-## <a id="ar">كيفية تنظيف الطرف الساخن المسدود لـ M4V6</a>
+## <a id="ar">كيفية تنظيف الطرف الساخن المسدود لـ M4V6</a> [:arrow_heading_up:](#choose-language)
 - **الخطوة 1: تسخين الفوهة إلى 260 درجة.**
 *التحضير>>الخيوط>>قم بتسخين الفوهة مسبقًا: 260 درجة*، انتظر حتى تصل الفوهة إلى 260 درجة.
 - **الخطوة 2: قم بتحميل جميع الخيوط الأربعة إلى الطرف الساخن.**
