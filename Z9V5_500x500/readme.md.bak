@@ -95,7 +95,6 @@ Download and upload the firmware for upgraded to 500x500 to the control board.
 - **Please pay attention to distinguishing between the L and N wires of AC power and the NO/NC pin of the relay board.**    
 ###### ![](./relayboard.jpg)    
 ###### ![](./heatbed_wiring.jpg)     
-###### ![](./heatbed_wiring_2.jpg)     
 ### 7. Assemble all the components together, steps are basically the same as assembling a standard Z9V5Pro.
 #### :warning: Note 1: Please refer to the picture below to fix Z axis profiles with top assembly.
 ###### ![](./screw.jpg)  
@@ -170,7 +169,6 @@ Descargue y cargue el firmware para actualizar a 500x500 en el tablero de contro
 - **Preste atención a distinguir entre los cables L y N de alimentación de CA y el pin NO/NC del tablero de relés.**
 ###### ![](./relayboard.jpg)
 ###### ![](./heatbed_wiring.jpg)
-###### ![](./heatbed_wiring_2.jpg)     
 ### 7. Ensamble todos los componentes, los pasos son básicamente los mismos que para ensamblar un Z9V5Pro estándar.
 #### :warning: Nota 1: Consulte la imagen siguiente para fijar los perfiles del eje Z con el conjunto superior.
 ###### ![](./screw.jpg)
@@ -245,7 +243,6 @@ Baixe e carregue o firmware atualizado para 500x500 para a placa de controle.
 - **Por favor, preste atenção à distinção entre os fios L e N da alimentação CA e o pino NO/NC da placa de relé.**
 ###### ![](./relayboard.jpg)
 ###### ![](./heatbed_wiring.jpg)
-###### ![](./heatbed_wiring_2.jpg)     
 ### 7. Monte todos os componentes juntos, as etapas são basicamente as mesmas da montagem de um Z9V5Pro padrão.
 #### :warning: Nota 1: Consulte a imagem abaixo para fixar os perfis do eixo Z com montagem superior.
 ###### ![](./screw.jpg)
@@ -320,7 +317,6 @@ Téléchargez et téléchargez le firmware pour la mise à niveau vers 500x500 s
 - **Veuillez faire attention à la distinction entre les fils L et N de l'alimentation secteur et la broche NO/NC de la carte relais.**
 ###### ![](./relayboard.jpg)
 ###### ![](./heatbed_wiring.jpg)
-###### ![](./heatbed_wiring_2.jpg)     
 ### 7. Assemblez tous les composants ensemble, les étapes sont fondamentalement les mêmes que pour l'assemblage d'un Z9V5Pro standard.
 #### :warning: Remarque 1: Veuillez vous référer à l'image ci-dessous pour fixer les profils de l'axe Z avec l'assemblage supérieur.
 ###### ![](./screw.jpg)
@@ -395,7 +391,6 @@ Laden Sie die Firmware für die Aktualisierung auf 500x500 herunter und laden Si
 - **Achten Sie bitte darauf, zwischen den L- und N-Drähten der Wechselstromversorgung und dem NO/NC-Pin der Relaisplatine zu unterscheiden.**
 ###### ![](./relayboard.jpg)
 ###### ![](./heatbed_wiring.jpg)
-###### ![](./heatbed_wiring_2.jpg)     
 ### 7. Setzen Sie alle Komponenten zusammen. Die Schritte sind grundsätzlich dieselben wie beim Zusammenbau eines Standard-Z9V5Pro.
 #### :warning: Hinweis 1: Bitte beachten Sie das Bild unten, um Z-Achsenprofile mit der oberen Baugruppe zu befestigen.
 ###### ![](./screw.jpg)
@@ -470,7 +465,6 @@ Scaricare e caricare il firmware per l'aggiornamento a 500x500 sulla scheda di c
 - **Prestare attenzione a distinguere tra i fili L e N dell'alimentazione CA e il pin NO/NC della scheda relè.**
 ###### ![](./relayboard.jpg)
 ###### ![](./heatbed_wiring.jpg)
-###### ![](./heatbed_wiring_2.jpg)     
 ### 7. Assemblare tutti i componenti insieme, i passaggi sono sostanzialmente gli stessi dell'assemblaggio di uno Z9V5Pro standard.
 #### :warning: Nota 1: fare riferimento all'immagine seguente per fissare i profili dell'asse Z con il gruppo superiore.
 ###### ![](./screw.jpg)
@@ -545,7 +539,6 @@ Scaricare e caricare il firmware per l'aggiornamento a 500x500 sulla scheda di c
 - **Обратите внимание на различие между проводами L и N питания переменного тока и контактом NO/NC на релейной плате.**
 ###### ![](./relayboard.jpg)
 ###### ![](./heatbed_wiring.jpg)
-###### ![](./heatbed_wiring_2.jpg)     
 ### 7. Соберите все компоненты вместе, действия в основном такие же, как и при сборке стандартного Z9V5Pro.
 #### :warning: Примечание 1. См. рисунок ниже, чтобы закрепить профили оси Z с помощью верхней сборки.
 ###### ![](./screw.jpg)
@@ -619,7 +612,6 @@ Scaricare e caricare il firmware per l'aggiornamento a 500x500 sulla scheda di c
 - **AC電源のL線とN線、およびリレーボードのNO/NCピンを区別するように注意してください。**
 ###### ![](./relayboard.jpg)
 ###### ![](./heatbed_wiring.jpg)
-###### ![](./heatbed_wiring_2.jpg)     
 ### 7. すべてのコンポーネントを組み立てます。手順は基本的に標準のZ9V5Proの組み立てと同じです。
 #### :warning: 注1: 上部アセンブリでZ軸プロファイルを固定するには、下の図を参照してください。
 ###### ![](./screw.jpg)
@@ -694,7 +686,6 @@ Scaricare e caricare il firmware per l'aggiornamento a 500x500 sulla scheda di c
 - **AC 전원의 L선과 N선과 릴레이 보드의 NO/NC 핀을 구분하는 데 주의하세요.**
 ###### ![](./relayboard.jpg)
 ###### ![](./heatbed_wiring.jpg)
-###### ![](./heatbed_wiring_2.jpg)     
 ### 7. 모든 구성 요소를 함께 조립합니다. 단계는 기본적으로 표준 Z9V5Pro를 조립하는 것과 동일합니다.
 #### :warning: 참고 1: 상단 어셈블리로 Z축 프로파일을 수정하려면 아래 그림을 참조하십시오.
 ###### ![](./screw.jpg)
